@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>초파리 연구실 · 캐릭터 표정 라이브러리</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f2ee; --panel:#ffffff; --fg:#1d1b20; --mute:#77727b; --line:#e2ded8;
+  --accent:oklch(0.62 0.15 30); --accent-soft:oklch(0.95 0.03 30);
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:"IBM Plex Sans KR",system-ui,sans-serif;font-size:15px;line-height:1.5}
+a{color:inherit}
+header.top{padding:40px 32px 20px;max-width:1360px;margin:0 auto}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--mute);text-transform:uppercase}
+h1{font-size:34px;line-height:1.15;margin:8px 0 10px;font-weight:700;letter-spacing:-.01em}
+.lede{color:var(--mute);max-width:720px;margin:0;text-wrap:pretty}
+.stats{display:flex;gap:28px;margin-top:18px;font-family:var(--mono);font-size:13px;color:var(--mute)}
+.stats b{color:var(--fg);font-size:18px;display:block;font-weight:600}
+
+nav.bar{position:sticky;top:0;z-index:5;background:color-mix(in oklab,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav .in{max-width:1360px;margin:0 auto;padding:12px 32px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.chip{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--panel);padding:6px 14px 6px 6px;border-radius:999px;font:inherit;font-weight:500;cursor:pointer;color:var(--fg)}
+.chip img{width:30px;height:30px;border-radius:50%;object-fit:cover;image-rendering:pixelated;background:#eee}
+.chip.on{background:var(--fg);color:#fff;border-color:var(--fg)}
+.spacer{flex:1}
+.filters{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+.filters button{border:0;background:none;font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;cursor:pointer;color:var(--mute)}
+.filters button.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+
+main{max-width:1360px;margin:0 auto;padding:8px 32px 80px}
+.charhead{display:grid;grid-template-columns:160px 1fr auto;gap:24px;align-items:center;padding:28px 0 8px}
+.charhead img{width:160px;height:160px;object-fit:contain;image-rendering:pixelated;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+.charhead h2{margin:0 0 4px;font-size:26px}
+.charhead .alias{color:var(--mute);font-size:14px}
+.charhead p{margin:8px 0 0;max-width:640px;color:var(--fg);text-wrap:pretty}
+.links{display:flex;flex-direction:column;gap:6px;font-family:var(--mono);font-size:12px}
+.links a{color:var(--mute);text-decoration:none;border:1px solid var(--line);background:var(--panel);padding:6px 10px;border-radius:6px}
+.links a:hover{color:var(--fg)}
+
+h3{font-size:13px;font-family:var(--mono);color:var(--mute);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:32px 0 12px;display:flex;gap:10px;align-items:center}
+h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s,box-shadow .15s;text-align:left;padding:0;font:inherit;color:inherit}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card img{width:100%;aspect-ratio:1;object-fit:contain;display:block;image-rendering:pixelated;background:#f8f7f5}
+.card .cap{padding:9px 11px;display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+.card .ko{font-weight:500}
+.card .id{font-family:var(--mono);font-size:11px;color:var(--mute)}
+.badge{font-family:var(--mono);font-size:10px;color:var(--accent);background:var(--accent-soft);padding:1px 6px;border-radius:4px;margin-left:4px}
+
+dialog{border:0;border-radius:14px;padding:0;max-width:980px;width:calc(100% - 40px);max-height:calc(100vh - 40px);box-shadow:0 30px 80px rgba(0,0,0,.3)}
+dialog::backdrop{background:rgba(20,18,22,.55)}
+.dlg{display:grid;grid-template-columns:380px 1fr;min-height:0}
+.dlg .pic{background:#f8f7f5;display:flex;align-items:center;justify-content:center;padding:20px;border-right:1px solid var(--line)}
+.dlg .pic img{width:100%;image-rendering:pixelated}
+.dlg .info{padding:24px 26px;overflow:auto;max-height:calc(100vh - 40px)}
+.dlg h4{margin:0;font-size:22px}
+.dlg .meta{font-family:var(--mono);font-size:12px;color:var(--mute);margin:4px 0 16px}
+.dlg dl{display:grid;grid-template-columns:96px 1fr;gap:6px 14px;margin:0 0 16px;font-size:14px}
+.dlg dt{color:var(--mute)}
+.dlg dd{margin:0}
+.dlg .lbl{font-family:var(--mono);font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.06em;margin:16px 0 6px;display:flex;justify-content:space-between;align-items:center}
+.dlg pre{margin:0;background:#1d1b20;color:#eae6ee;font-family:var(--mono);font-size:12px;line-height:1.55;padding:12px 14px;border-radius:8px;white-space:pre-wrap;word-break:break-word}
+.copy{border:1px solid var(--line);background:var(--panel);font:inherit;font-size:11px;padding:3px 9px;border-radius:5px;cursor:pointer}
+.close{position:absolute;top:12px;right:12px;border:0;background:rgba(255,255,255,.9);width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer}
+.nav2{display:flex;gap:8px;margin-top:18px}
+.nav2 button{flex:1;border:1px solid var(--line);background:var(--panel);font:inherit;padding:8px;border-radius:8px;cursor:pointer}
+footer{max-width:1360px;margin:0 auto;padding:0 32px 40px;color:var(--mute);font-size:13px}
+@media (max-width:760px){
+  .charhead{grid-template-columns:96px 1fr}.charhead img{width:96px;height:96px}.links{grid-column:1/-1;flex-direction:row;flex-wrap:wrap}
+  .dlg{grid-template-columns:1fr}.dlg .pic{border-right:0;border-bottom:1px solid var(--line)}
+  header.top,nav .in,main{padding-left:18px;padding-right:18px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="eyebrow">Fruit Fly Lab · Expression Library v1.1</div>
+  <h1>초파리 연구실 캐릭터 표정 라이브러리</h1>
+  <p class="lede">캐릭터 4명 × 공통 표정 24종. 모든 이미지는 같은 ID(E01~E24)의 명세 MD와 1:1로 연결되며, 명세에는 바로 쓸 수 있는 생성 프롬프트가 들어 있습니다. 카드를 누르면 명세와 프롬프트를 볼 수 있습니다.</p>
+  <div class="stats"><div><b>4</b>캐릭터</div><div><b>24</b>표정 / 캐릭터</div><div><b>96</b>이미지 · 명세</div></div>
+</header>
+
+<nav class="bar"><div class="in">
+  <div id="chars" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+  <div class="spacer"></div>
+  <div class="filters" id="filters"></div>
+</div></nav>
+
+<main id="main"></main>
+
+<footer>표정 ID 체계·연결 규칙은 <a href="specs/README.md">specs/README.md</a>, 저장소 안내는 <a href="README.md">README.md</a>를 참고하세요.</footer>
+
+<dialog id="dlg"><button class="close" onclick="dlg.close()" aria-label="닫기">×</button><div class="dlg" id="dlgBody"></div></dialog>
+
+<script>
+const CHARS = {
+  haru:{name:'하루',alias:'예명 세나 · 조수',desc:'실제로 일을 다 하는 연구원. 꼼꼼한 실험과 기록, 점수 기록 담당. 분홍+남색 투톤 장발, 정수리 번 2개, 라벤더 후드 + 흰 랩코트.'},
+  doctor:{name:'박사',alias:'Professor · 해설·심판·사회자',desc:'자신만만한 치비 과학자. 이론과 큰소리로 판단한다. 숯색 뾰족 머리 + 흰 줄, 굵은 눈썹, 청록 안경, 흰 가운 + 검은 조끼. 시그니처는 보라 불꽃.'},
+  money_robo:{name:'MONEY-ROBO',alias:'머니로보 · 라이벌 B "확신"',desc:'돈과 숫자를 사랑하는 떠다니는 로봇. "데이터가 그렇게 말하고 있어요!" 표정은 검은 스크린의 금빛 픽셀로만 표현.'},
+  fruitfly:{name:'초파리',alias:'초파리 연구원 · 라이벌 A "의심"',desc:'작지만 날카로운 연구원. 호기심과 생물학적 직관으로 판단한다. "정말 그럴까?" 빨간 겹눈, 남색 헬멧과 케이블, 흰 가운.'}
+};
+const CAT = {all:'전체',basic:'기본 감정',assistant:'업무',subtle:'미묘한 감정',comic:'코믹 과장'};
+const cache = {};
+let cur = localStorage.getItem('lib_char') || 'haru';
+let filt = localStorage.getItem('lib_filter') || 'all';
+let list = [], idx = 0;
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function load(k){
+  if(!cache[k]) cache[k] = await (await fetch(`specs/${k}/expressions.json`)).json();
+  return cache[k];
+}
+
+function drawNav(){
+  $('#chars').innerHTML = Object.entries(CHARS).map(([k,c]) =>
+    `<button class="chip ${k===cur?'on':''}" data-k="${k}"><img src="images/${k}/E13_neutral.png" alt="">${c.name}</button>`).join('');
+  $('#chars').querySelectorAll('button').forEach(b => b.onclick = () => { cur=b.dataset.k; localStorage.setItem('lib_char',cur); render(); });
+  $('#filters').innerHTML = Object.entries(CAT).map(([k,v]) => `<button class="${k===filt?'on':''}" data-k="${k}">${v}</button>`).join('');
+  $('#filters').querySelectorAll('button').forEach(b => b.onclick = () => { filt=b.dataset.k; localStorage.setItem('lib_filter',filt); render(); });
+}
+
+async function render(){
+  drawNav();
+  const data = await load(cur);
+  const c = CHARS[cur];
+  list = data.filter(d => filt==='all' || d.category===filt);
+  const groups = {};
+  list.forEach(d => (groups[d.category] = groups[d.category] || []).push(d));
+  let html = `<section class="charhead" data-screen-label="${c.name}">
+    <img src="images/${cur}/E13_neutral.png" alt="${esc(c.name)}">
+    <div><h2>${esc(c.name)}</h2><div class="alias">${esc(c.alias)}</div><p>${esc(c.desc)}</p></div>
+    <div class="links">
+      <a href="specs/${cur}/00_character_core.md">00_character_core.md</a>
+      <a href="specs/${cur}/README.md">README.md (표정 목록)</a>
+      <a href="specs/${cur}/expressions.json">expressions.json</a>
+    </div></section>`;
+  for(const k of ['basic','assistant','subtle','comic']){
+    if(!groups[k]) continue;
+    html += `<h3>${CAT[k]}</h3><div class="grid">` + groups[k].map(d => {
+      const i = list.indexOf(d);
+      return `<button class="card" data-i="${i}"><img loading="lazy" src="${d.image}" alt="${esc(d.ko)}">
+        <div class="cap"><span class="ko">${esc(d.ko)}</span><span class="id">${d.id}${d.original_match?'<span class="badge">원본</span>':''}</span></div></button>`;
+    }).join('') + `</div>`;
+  }
+  $('#main').innerHTML = html;
+  $('#main').querySelectorAll('.card').forEach(b => b.onclick = () => openDlg(+b.dataset.i));
+}
+
+function openDlg(i){
+  idx = (i + list.length) % list.length;
+  const d = list[idx];
+  const lines = (d.lines || [d.line_haru, d.line_sena]).filter(Boolean);
+  $('#dlgBody').innerHTML = `
+    <div class="pic"><img src="${d.image}" alt="${esc(d.ko)}"></div>
+    <div class="info">
+      <h4>${esc(d.ko)} <span style="color:var(--mute);font-weight:400;font-size:16px">${esc(d.en)}</span></h4>
+      <div class="meta">${CHARS[cur].name} · ${d.id} · ${esc(d.category_ko)}</div>
+      <dl>
+        <dt>이미지</dt><dd><a href="${d.image}">${d.image}</a></dd>
+        <dt>명세</dt><dd><a href="${d.spec}">${d.spec}</a></dd>
+        <dt>원본 대응</dt><dd>${esc(d.original_match || '신규 표정')}</dd>
+        ${lines.length ? `<dt>대사 예시</dt><dd>${lines.map(l=>'“'+esc(l)+'”').join('<br>')}</dd>` : ''}
+      </dl>
+      <div class="lbl">생성 프롬프트 (EN)<button class="copy" data-t="p">복사</button></div>
+      <pre id="pP">${esc(d.prompt_en)}</pre>
+      ${d.negative_en ? `<div class="lbl">네거티브 프롬프트<button class="copy" data-t="n">복사</button></div><pre id="pN">${esc(d.negative_en)}</pre>` : ''}
+      <div class="nav2"><button id="prev">← 이전</button><button id="next">다음 →</button></div>
+    </div>`;
+  $('#dlgBody').querySelectorAll('.copy').forEach(b => b.onclick = () => {
+    navigator.clipboard.writeText(b.dataset.t==='p' ? d.prompt_en : d.negative_en);
+    b.textContent = '복사됨'; setTimeout(()=>b.textContent='복사', 1200);
+  });
+  $('#prev').onclick = () => openDlg(idx-1);
+  $('#next').onclick = () => openDlg(idx+1);
+  if(!dlg.open) dlg.showModal();
+}
+const dlg = $('#dlg');
+document.addEventListener('keydown', e => {
+  if(!dlg.open) return;
+  if(e.key==='ArrowRight') openDlg(idx+1);
+  if(e.key==='ArrowLeft') openDlg(idx-1);
+});
+dlg.addEventListener('click', e => { if(e.target===dlg) dlg.close(); });
+render();
+</script>
+</body>
+</html>

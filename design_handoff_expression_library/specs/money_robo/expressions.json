@@ -1,0 +1,410 @@
+[
+ {
+  "id": "E01",
+  "slug": "joy",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "기쁨",
+  "en": "Joy",
+  "spec": "specs/money_robo/expressions/E01_joy.md",
+  "image": "images/money_robo/E01_joy.png",
+  "original_match": "원본 1행 2열 \"부드러운 미소\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, happy face, golden pixel eyes shaped as smiling ^ ^ arcs, wide curved golden smile on the black screen, cyan core glowing brightly, floating slightly higher, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "기분 최고예요!",
+   "수익률이 웃고 있어요!"
+  ]
+ },
+ {
+  "id": "E02",
+  "slug": "sadness",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "슬픔",
+  "en": "Sadness",
+  "spec": "specs/money_robo/expressions/E02_sadness.md",
+  "image": "images/money_robo/E02_sadness.png",
+  "original_match": "원본 2행 1열 \"울음\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, sad crying face, round golden pixel eyes with light blue pixel tear streams running down, small frowning golden mouth, dimmed cyan core, arms drooping, floating lower, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "예측이… 빗나갔어요…",
+   "데이터가 저를 배신했어요…"
+  ]
+ },
+ {
+  "id": "E03",
+  "slug": "anger",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "분노",
+  "en": "Anger",
+  "spec": "specs/money_robo/expressions/E03_anger.md",
+  "image": "images/money_robo/E03_anger.png",
+  "original_match": "원본 3행 3열 \"분노\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, angry face, sharp angled golden pixel eyes, open angular golden mouth, glowing red alarm light around the edge of the black screen, red impact lines on both sides, leaning forward, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "그 예측은 틀렸다고요!",
+   "데이터를 무시하지 마세요!"
+  ]
+ },
+ {
+  "id": "E04",
+  "slug": "surprise",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "놀람",
+  "en": "Surprise",
+  "spec": "specs/money_robo/expressions/E04_surprise.md",
+  "image": "images/money_robo/E04_surprise.png",
+  "original_match": "원본 2행 2열 \"경악\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, surprised face, large round golden pixel eyes, tiny round golden o mouth, body leaning back slightly, arms spread, single exclamation mark, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "어라? 이건 계산에 없었어요!",
+   "변동성이 갑자기?!"
+  ]
+ },
+ {
+  "id": "E05",
+  "slug": "fear",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "두려움",
+  "en": "Fear",
+  "spec": "specs/money_robo/expressions/E05_fear.md",
+  "image": "images/money_robo/E05_fear.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, scared face, small shaking golden pixel circle eyes, trembling wavy golden mouth, glitch noise lines across the black screen, flickering cyan core, cowering with arms over the head, trembling lines, falling red arrow, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "폭락 신호 감지! 무서워요!",
+   "불확실성 밴드가 너무 넓어요…"
+  ]
+ },
+ {
+  "id": "E06",
+  "slug": "disgust",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "혐오",
+  "en": "Disgust",
+  "spec": "specs/money_robo/expressions/E06_disgust.md",
+  "image": "images/money_robo/E06_disgust.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, disgusted face, one squinting golden pixel eye, crooked wavy golden mouth, body twisting away, stubby arm held out to block, small green wavy lines, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "\"모르겠다\"는 대답은 싫어요.",
+   "이 데이터는 노이즈투성이네요."
+  ]
+ },
+ {
+  "id": "E07",
+  "slug": "explaining",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "설명",
+  "en": "Explaining",
+  "spec": "specs/money_robo/expressions/E07_explaining.md",
+  "image": "images/money_robo/E07_explaining.png",
+  "original_match": "턴어라운드 하단 \"홀로그램 차트\" 포즈",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, explaining face, round golden pixel eyes, small open golden talking mouth, one stubby arm extended projecting a green holographic rising bar chart beside it, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "데이터가 그렇게 말하고 있어요!",
+   "이 그래프를 보세요!"
+  ]
+ },
+ {
+  "id": "E08",
+  "slug": "guiding",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "안내",
+  "en": "Guiding",
+  "spec": "specs/money_robo/expressions/E08_guiding.md",
+  "image": "images/money_robo/E08_guiding.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, friendly guiding face, soft golden ^ ^ eyes, closed golden smile, tilting toward the side, stubby arm pointing to the side, small golden arrow icon, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "이쪽이 정답 루트예요!",
+   "다음 단계로 안내할게요."
+  ]
+ },
+ {
+  "id": "E09",
+  "slug": "thinking",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "생각",
+  "en": "Thinking",
+  "spec": "specs/money_robo/expressions/E09_thinking.md",
+  "image": "images/money_robo/E09_thinking.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, thinking face, golden loading spinner dots in place of eyes, small golden dot mouth, head tilted, stubby arm at chin, tiny pixel gears and numbers floating above, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "계산 중… 계산 중…",
+   "변수를 분석하고 있어요."
+  ]
+ },
+ {
+  "id": "E10",
+  "slug": "confirming",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "확인",
+  "en": "Confirming",
+  "spec": "specs/money_robo/expressions/E10_confirming.md",
+  "image": "images/money_robo/E10_confirming.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, confirming face, winking golden pixel eyes, confident golden smile, stubby arm raised in triumph, golden check mark effect, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "계산 완료! 정확해요!",
+   "딱 떨어지는 숫자, 최고예요!"
+  ]
+ },
+ {
+  "id": "E11",
+  "slug": "apologizing",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "사과",
+  "en": "Apologizing",
+  "spec": "specs/money_robo/expressions/E11_apologizing.md",
+  "image": "images/money_robo/E11_apologizing.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, apologetic face, slanted worried golden line eyes, small wavy golden mouth, one light blue pixel sweat drop on the screen, dimmed cyan core, bowing forward, arms together in front, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "과적합이었어요… 죄송해요.",
+   "다시 학습할게요!"
+  ]
+ },
+ {
+  "id": "E12",
+  "slug": "cheering",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "응원",
+  "en": "Cheering",
+  "spec": "specs/money_robo/expressions/E12_cheering.md",
+  "image": "images/money_robo/E12_cheering.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, cheering face, golden pixel eyes with white highlights, wide open golden smile, max brightness cyan core, both stubby arms raised high, green rising arrow and sparkles, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "상승장 가즈아… 아니, 파이팅이에요!",
+   "목표 수익률까지 힘내요!"
+  ]
+ },
+ {
+  "id": "E13",
+  "slug": "neutral",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "기본(중립)",
+  "en": "Neutral",
+  "spec": "specs/money_robo/expressions/E13_neutral.md",
+  "image": "images/money_robo/E13_neutral.png",
+  "original_match": "원본 1행 1열 \"무표정\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, neutral default face, two solid round golden pixel eyes and a curved golden smile, cyan core at normal brightness, facing forward, arms at sides, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "안녕하세요, Money-Robo예요!",
+   "Making Smart Choice!"
+  ]
+ },
+ {
+  "id": "E14",
+  "slug": "sheepish",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "머쓱함",
+  "en": "Sheepish",
+  "spec": "specs/money_robo/expressions/E14_sheepish.md",
+  "image": "images/money_robo/E14_sheepish.png",
+  "original_match": "원본 3행 2열 \"부끄럼\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, shy sheepish face, round golden pixel eyes, small golden frown-smile, pink pixel blush on both sides of the screen, head tilted, stubby arm scratching the back of the head, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "칭찬받으니 회로가 따뜻해져요…",
+   "헤헤, 작은 오차였어요."
+  ]
+ },
+ {
+  "id": "E15",
+  "slug": "flustered",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "당황",
+  "en": "Flustered",
+  "spec": "specs/money_robo/expressions/E15_flustered.md",
+  "image": "images/money_robo/E15_flustered.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, flustered face, mild golden swirl eyes, wavy golden mouth, several light blue pixel sweat drops on the screen, wobbling, arms flailing, small steam puffs, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "에, 에러! 아니 에러 아니에요!",
+   "입력값이 너무 많아요!"
+  ]
+ },
+ {
+  "id": "E16",
+  "slug": "proud",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "뿌듯함",
+  "en": "Proud",
+  "spec": "specs/money_robo/expressions/E16_proud.md",
+  "image": "images/money_robo/E16_proud.png",
+  "original_match": "원본 2행 3열 \"능글\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, smug proud face, half-lidded golden pixel eyes, sly lopsided golden smile, leaning back slightly, arms on hips, a shining gold coin with sparkles at the upper right, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "후후, 데이터는 거짓말을 안 해요.",
+   "제 예측, 또 맞았죠?"
+  ]
+ },
+ {
+  "id": "E17",
+  "slug": "sleepy",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "졸림",
+  "en": "Sleepy",
+  "spec": "specs/money_robo/expressions/E17_sleepy.md",
+  "image": "images/money_robo/E17_sleepy.png",
+  "original_match": "원본 3행 1열 \"졸음\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, sleepy face, closed flat golden line eyes, tiny golden o mouth, a big light blue sleep bubble at the left side of the screen, cyan core dimming, tilting and sinking lower, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "절전 모드… 진입…",
+   "새벽 3시 시장은… 졸려요…"
+  ]
+ },
+ {
+  "id": "E18",
+  "slug": "sulking",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "삐짐",
+  "en": "Sulking",
+  "spec": "specs/money_robo/expressions/E18_sulking.md",
+  "image": "images/money_robo/E18_sulking.png",
+  "original_match": "원본 1행 3열 \"짜증\"",
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, annoyed sulking face, half-closed flat golden eyes, short flat golden line mouth, body turned slightly away, stubby arms crossed in front, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "흥, 초파리 편만 들고.",
+   "데이터 공유 안 할 거예요."
+  ]
+ },
+ {
+  "id": "E19",
+  "slug": "sparkle_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "반짝눈(감동·기대)",
+  "en": "Sparkling Eyes",
+  "spec": "specs/money_robo/expressions/E19_sparkle_eyes.md",
+  "image": "images/money_robo/E19_sparkle_eyes.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, comic money eyes, two shining gold coins with a B symbol in place of the eyes on the black screen, wide open awed golden mouth, leaning forward, arms together, gold coins and sparkles flying around, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "이, 이것은… 대박 수익이에요!!",
+   "금화다아아!"
+  ]
+ },
+ {
+  "id": "E20",
+  "slug": "sweat_drop",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "식은땀",
+  "en": "Big Sweat Drop",
+  "spec": "specs/money_robo/expressions/E20_sweat_drop.md",
+  "image": "images/money_robo/E20_sweat_drop.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, comic awkward face, tiny golden dot eyes, flat golden line mouth, one big light blue pixel sweat drop at the side of the screen, frozen, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "…그 질문은 데이터에 없어요.",
+   "…처리 중… 아니에요."
+  ]
+ },
+ {
+  "id": "E21",
+  "slug": "waterfall_tears",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "울먹(폭포 눈물)",
+  "en": "Waterfall Tears",
+  "spec": "specs/money_robo/expressions/E21_waterfall_tears.md",
+  "image": "images/money_robo/E21_waterfall_tears.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, comic crying face, golden eyes squeezed shut as > <, wide wavy golden crying mouth, waterfall streams of light blue pixel tears gushing from the screen, arms raised, gold coins falling to the ground, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "내 금화가아아…!",
+   "손절… 해야 했어요…!"
+  ]
+ },
+ {
+  "id": "E22",
+  "slug": "puffed_angry",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "뿔남",
+  "en": "Comic Anger",
+  "spec": "specs/money_robo/expressions/E22_puffed_angry.md",
+  "image": "images/money_robo/E22_puffed_angry.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, comic cute anger, golden > < eyes, gritted golden mouth, red pixel puff cheeks on the screen and red glow at the edge, steam puffing from the antenna knob, arms flapping, anime anger mark, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "초파리 씨, 또 의심하는 거예요?!",
+   "숫자는 틀리지 않는다고요!!"
+  ]
+ },
+ {
+  "id": "E23",
+  "slug": "blank_dot_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "멍(점 눈)",
+  "en": "Blank Dot Eyes",
+  "spec": "specs/money_robo/expressions/E23_blank_dot_eyes.md",
+  "image": "images/money_robo/E23_blank_dot_eyes.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, comic blank face, tiny golden dot eyes and dot mouth, cyan core turned off and gray, completely still, three dots above head, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "…….",
+   "…해당 개념이 데이터베이스에 없어요."
+  ]
+ },
+ {
+  "id": "E24",
+  "slug": "shock",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "충격",
+  "en": "Shock",
+  "spec": "specs/money_robo/expressions/E24_shock.md",
+  "image": "images/money_robo/E24_shock.png",
+  "original_match": null,
+  "prompt_en": "MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, comic shock, golden X X eyes, huge open golden mouth, crack lines on the black screen, core flashing warning yellow and red, sparks from the antenna, frozen leaning back, arms raised, red falling chart and lightning behind, full body centered, facing viewer, same framing as the reference 3x3 expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat white background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, human face, realistic eyes, legs, fingers, hands with fingers, different head shape, colored body, screen face in any color other than black, extra limbs, readable text on the screen",
+  "lines": [
+   "시, 시스템 쇼크!! 폭락이에요!!",
+   "과적합… 들켰다…!"
+  ]
+ }
+]
