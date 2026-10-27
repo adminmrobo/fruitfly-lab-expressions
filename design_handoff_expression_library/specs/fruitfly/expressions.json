@@ -1,0 +1,410 @@
+[
+ {
+  "id": "E01",
+  "slug": "joy",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "기쁨",
+  "en": "Joy",
+  "spec": "specs/fruitfly/expressions/E01_joy.md",
+  "image": "images/fruitfly/E01_joy.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, joyful expression, lower eyelid curves over the red compound eyes making them smile, wide open happy mouth, cables bouncing upward, wings spread with fast flutter, hopping up, front legs raised, small sparkles, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "정말이었어! 가설이 맞았어!",
+   "윙윙~ 신난다!"
+  ]
+ },
+ {
+  "id": "E02",
+  "slug": "sadness",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "슬픔",
+  "en": "Sadness",
+  "spec": "specs/fruitfly/expressions/E02_sadness.md",
+  "image": "images/fruitfly/E02_sadness.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, sad expression, drooping eyelids slanting over the top of the red compound eyes, light blue tears welling at the bottom, small downturned mouth, cables drooping down, wings folded, hunched posture, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "내 관찰이 틀렸나 봐…",
+   "오늘은 Money-Robo가 이겼네…"
+  ]
+ },
+ {
+  "id": "E03",
+  "slug": "anger",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "분노",
+  "en": "Anger",
+  "spec": "specs/fruitfly/expressions/E03_anger.md",
+  "image": "images/fruitfly/E03_anger.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, serious angry expression, sharp V-shaped eyelids cutting over the red compound eyes, gritted mouth, cables bristling, wings spread wide, leaning forward, front legs clenched into fists, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "그건 상관이지 인과가 아니야!",
+   "데이터를 조작하지 마!"
+  ]
+ },
+ {
+  "id": "E04",
+  "slug": "surprise",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "놀람",
+  "en": "Surprise",
+  "spec": "specs/fruitfly/expressions/E04_surprise.md",
+  "image": "images/fruitfly/E04_surprise.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, surprised expression, red compound eyes with enlarged white highlights and tiny black pupils, small round O mouth, cables springing up, wings frozen, leaning back, front legs spread, exclamation mark, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "엥?! 이게 뭐야?",
+   "이상치 발견!"
+  ]
+ },
+ {
+  "id": "E05",
+  "slug": "fear",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "두려움",
+  "en": "Fear",
+  "spec": "specs/fruitfly/expressions/E05_fear.md",
+  "image": "images/fruitfly/E05_fear.png",
+  "original_match": "원본 2행 1열 \"비명\"",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, screaming frightened expression, trembling red compound eyes, wide open screaming mouth, both front legs pressed to the sides of the face, cables quivering, wings pressed close, light blue sweat drops flying off both sides, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "으아아! 파리채다!",
+   "이 그래프 무서워!"
+  ]
+ },
+ {
+  "id": "E06",
+  "slug": "disgust",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "혐오",
+  "en": "Disgust",
+  "spec": "specs/fruitfly/expressions/E06_disgust.md",
+  "image": "images/fruitfly/E06_disgust.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, disgusted expression, half-lidded eyelids over the red compound eyes looking away, tongue out, cables tangled, wings half folded, leaning back, front leg covering mouth, green wavy lines, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "우웩, 과적합 냄새가 나.",
+   "이건 너무 수상한데."
+  ]
+ },
+ {
+  "id": "E07",
+  "slug": "explaining",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "설명",
+  "en": "Explaining",
+  "spec": "specs/fruitfly/expressions/E07_explaining.md",
+  "image": "images/fruitfly/E07_explaining.png",
+  "original_match": "키아트 \"돋보기\" 포즈",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, confident explaining expression, bright highlights on the red compound eyes with one eyelid slightly lowered, confident talking smile, holding up a small magnifying glass with one front leg, lens glinting, wings open, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "정말 그럴까? 자세히 보자.",
+   "여기 숨은 원인이 있어!"
+  ]
+ },
+ {
+  "id": "E08",
+  "slug": "guiding",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "안내",
+  "en": "Guiding",
+  "spec": "specs/fruitfly/expressions/E08_guiding.md",
+  "image": "images/fruitfly/E08_guiding.png",
+  "original_match": "원본 2행 2열 \"지시\"",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, guiding expression, determined eyelids over the red compound eyes, closed mouth, body turned, one front leg pointing firmly to the side, cables flowing in that direction, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "저쪽을 봐!",
+   "다음 단서는 여기야."
+  ]
+ },
+ {
+  "id": "E09",
+  "slug": "thinking",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "생각",
+  "en": "Thinking",
+  "spec": "specs/fruitfly/expressions/E09_thinking.md",
+  "image": "images/fruitfly/E09_thinking.png",
+  "original_match": "원본 1행 2열 \"타이핑\"",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, focused thinking expression, half-lidded concentrating eyelids over the red compound eyes, lips pursed to one side, leaning over a black keyboard typing with front legs, small question mark above, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "흠… 정말 그럴까?",
+   "변수 하나만 더 확인해 볼게."
+  ]
+ },
+ {
+  "id": "E10",
+  "slug": "confirming",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "확인",
+  "en": "Confirming",
+  "spec": "specs/fruitfly/expressions/E10_confirming.md",
+  "image": "images/fruitfly/E10_confirming.png",
+  "original_match": "원본 1행 3열 \"클립보드\"",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, confirming expression, one eyelid lowered in a wink over the red compound eye, confident smile, holding a brown clipboard, checking it off with the other front leg, check mark effect, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "확인 완료. 이상 없음!",
+   "기록해 뒀어."
+  ]
+ },
+ {
+  "id": "E11",
+  "slug": "apologizing",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "사과",
+  "en": "Apologizing",
+  "spec": "specs/fruitfly/expressions/E11_apologizing.md",
+  "image": "images/fruitfly/E11_apologizing.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, apologetic expression, worried slanted eyelids over the red compound eyes, small wavy mouth, cables drooping forward, wings folded, bowing, rubbing the two front legs together pleadingly, small sweat drop, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "미안, 내가 너무 신중했나 봐.",
+   "결정이 늦어서 미안해."
+  ]
+ },
+ {
+  "id": "E12",
+  "slug": "cheering",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "응원",
+  "en": "Cheering",
+  "spec": "specs/fruitfly/expressions/E12_cheering.md",
+  "image": "images/fruitfly/E12_cheering.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, cheering expression, big white highlights on the red compound eyes, wide open cheering mouth, cables thrust upward, fast wing beats with motion blur, leaning forward, one front leg raised high, sparkles, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "끝까지 확인해 보자!",
+   "할 수 있어! 윙윙!"
+  ]
+ },
+ {
+  "id": "E13",
+  "slug": "neutral",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "기본(중립)",
+  "en": "Neutral",
+  "spec": "specs/fruitfly/expressions/E13_neutral.md",
+  "image": "images/fruitfly/E13_neutral.png",
+  "original_match": "원본 2행 3열 \"커피\"",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, neutral calm expression, plain glossy red compound eyes, relaxed closed mouth, standing relaxed facing viewer, holding a white coffee mug with one front leg, other front leg on hip, cables hanging naturally, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "안녕, 나는 초파리 연구원이야.",
+   "정말 그럴까? 확인해 보자."
+  ]
+ },
+ {
+  "id": "E14",
+  "slug": "sheepish",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "머쓱함",
+  "en": "Sheepish",
+  "spec": "specs/fruitfly/expressions/E14_sheepish.md",
+  "image": "images/fruitfly/E14_sheepish.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, sheepish expression, smiling lower eyelids over the red compound eyes glancing aside, awkward grin, pink blush, head tilted, front leg scratching the helmet, small sweat drop, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "헤헤, 또 너무 의심했나?",
+   "칭찬받으니 날개가 간지러워."
+  ]
+ },
+ {
+  "id": "E15",
+  "slug": "flustered",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "당황",
+  "en": "Flustered",
+  "spec": "specs/fruitfly/expressions/E15_flustered.md",
+  "image": "images/fruitfly/E15_flustered.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, flustered expression, wobbling swirl highlights on the red compound eyes, wavy mouth, cables tangling, wings flapping erratically, wobbling, front legs waving in panic, sweat drops, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "어, 어디서부터 확인하지?!",
+   "잠깐, 결정을 너무 빨리 하지 마!"
+  ]
+ },
+ {
+  "id": "E16",
+  "slug": "proud",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "뿌듯함",
+  "en": "Proud",
+  "spec": "specs/fruitfly/expressions/E16_proud.md",
+  "image": "images/fruitfly/E16_proud.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, smug proud expression, satisfied half-lowered eyelids over the red compound eyes, confident lopsided smirk, wings spread wide showing off, chest puffed, front legs crossed triumphantly, sparkles, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "거봐, 내가 의심한 게 맞았지?",
+   "이번 판은 내가 이겼어."
+  ]
+ },
+ {
+  "id": "E17",
+  "slug": "sleepy",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "졸림",
+  "en": "Sleepy",
+  "spec": "specs/fruitfly/expressions/E17_sleepy.md",
+  "image": "images/fruitfly/E17_sleepy.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, sleepy expression, heavy eyelids covering the top half of the red compound eyes, yawning mouth, cables drooping, wings folded, head nodding while holding a coffee mug, Zzz floating, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "새벽 3시 시장은… 졸려…",
+   "커피가… 안 들어…"
+  ]
+ },
+ {
+  "id": "E18",
+  "slug": "sulking",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "삐짐",
+  "en": "Sulking",
+  "spec": "specs/fruitfly/expressions/E18_sulking.md",
+  "image": "images/fruitfly/E18_sulking.png",
+  "original_match": "원본 1행 1열 \"팔짱\"",
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, grumpy sulking expression, flat eyelids over the red compound eyes giving a side glare, pouting displeased mouth, front legs crossed over the chest, body turned slightly away, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "흥, 또 숫자만 믿는구나.",
+   "…정말 그럴까?"
+  ]
+ },
+ {
+  "id": "E19",
+  "slug": "sparkle_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "반짝눈(감동·기대)",
+  "en": "Sparkling Eyes",
+  "spec": "specs/fruitfly/expressions/E19_sparkle_eyes.md",
+  "image": "images/fruitfly/E19_sparkle_eyes.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, comic sparkling eyes, many white star-shaped highlights on the red compound eyes, mouth open in awe, fast wing flutter, leaning forward, front legs clasped, sparkles and small fruit icons around, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "우와아, 완벽한 이상치다!!",
+   "잘 익은 바나나다!"
+  ]
+ },
+ {
+  "id": "E20",
+  "slug": "sweat_drop",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "식은땀",
+  "en": "Big Sweat Drop",
+  "spec": "specs/fruitfly/expressions/E20_sweat_drop.md",
+  "image": "images/fruitfly/E20_sweat_drop.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, comic awkward expression, tiny dot white highlights on the red compound eyes, flat mouth, frozen still, one big anime sweat drop beside the helmet, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "…그건 좀.",
+   "…그 예측, 근거가 뭐야?"
+  ]
+ },
+ {
+  "id": "E21",
+  "slug": "waterfall_tears",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "울먹(폭포 눈물)",
+  "en": "Waterfall Tears",
+  "spec": "specs/fruitfly/expressions/E21_waterfall_tears.md",
+  "image": "images/fruitfly/E21_waterfall_tears.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, comic crying, eyelids squeezed shut over the red compound eyes, wide wavy crying mouth, waterfall cartoon tears streaming from both eyes, cables limp and trembling, head tilted back, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "으앙, 내 실험 데이터!",
+   "흐엥, 바나나가 냉장고에…!"
+  ]
+ },
+ {
+  "id": "E22",
+  "slug": "puffed_angry",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "뿔남",
+  "en": "Comic Anger",
+  "spec": "specs/fruitfly/expressions/E22_puffed_angry.md",
+  "image": "images/fruitfly/E22_puffed_angry.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, comic cute anger, > < shaped eyelids over the red compound eyes, puffed cheeks, cables bristling, steam puffing from the helmet, wings buzzing fast, front legs pumping down, anime anger mark, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "Money-Robo! 또 과신이야?!",
+   "앵앵! 화났어!"
+  ]
+ },
+ {
+  "id": "E23",
+  "slug": "blank_dot_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "멍(점 눈)",
+  "en": "Blank Dot Eyes",
+  "spec": "specs/fruitfly/expressions/E23_blank_dot_eyes.md",
+  "image": "images/fruitfly/E23_blank_dot_eyes.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, comic blank expression, tiny dot highlights on the red compound eyes, tiny dot mouth, cables frozen straight, wings motionless, three dots above head, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "…….",
+   "…윙?"
+  ]
+ },
+ {
+  "id": "E24",
+  "slug": "shock",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "충격",
+  "en": "Shock",
+  "spec": "specs/fruitfly/expressions/E24_shock.md",
+  "image": "images/fruitfly/E24_shock.png",
+  "original_match": null,
+  "prompt_en": "the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, comic shock, blank white circles in the center of the red compound eyes, jaw dropped wide, cables shooting out in all directions, wings frozen, body stiff leaning back, legs splayed, lightning and vertical gloom lines, full body sprite centered, facing viewer, same framing as the reference sprite sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat medium gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, cute big anime pupils replacing compound eyes, green eyes, missing helmet, missing cables, no lab coat, realistic insect macro photo, gross hairy bug, extra wings, more than six legs, human body",
+  "lines": [
+   "뭐?! 그 예측이 맞았다고?!",
+   "말도 안 돼!!"
+  ]
+ }
+]

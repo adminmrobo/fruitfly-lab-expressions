@@ -1,0 +1,410 @@
+[
+ {
+  "id": "E01",
+  "slug": "joy",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "기쁨",
+  "en": "Joy",
+  "spec": "specs/haru/expressions/E01_joy.md",
+  "image": "images/haru/E01_joy.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, bright joyful smile, eyes curved into happy crescents, eyebrows softly raised, mouth open wide in a cheerful smile, light blush, head tilted slightly, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "잘됐어요! 저도 기뻐요.",
+   "오늘 방송도 최고였어요!"
+  ]
+ },
+ {
+  "id": "E02",
+  "slug": "sadness",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "슬픔",
+  "en": "Sadness",
+  "spec": "specs/haru/expressions/E02_sadness.md",
+  "image": "images/haru/E02_sadness.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, quiet sadness, inner eyebrows raised, half-lidded blue eyes looking down with tears welling but not falling, small closed mouth turned down, head lowered slightly, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "그건… 정말 속상했겠어요.",
+   "오늘은 조금 아쉬운 날이네요…"
+  ]
+ },
+ {
+  "id": "E03",
+  "slug": "anger",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "분노",
+  "en": "Anger",
+  "spec": "specs/haru/expressions/E03_anger.md",
+  "image": "images/haru/E03_anger.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, serious anger, eyebrows angled sharply down, narrowed blue eyes staring straight ahead, mouth pressed into a tight line, chin tucked, arms crossed, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "그건 안 돼요. 분명히 말씀드릴게요.",
+   "그런 말은 그냥 넘기기 어려워요."
+  ]
+ },
+ {
+  "id": "E04",
+  "slug": "surprise",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "놀람",
+  "en": "Surprise",
+  "spec": "specs/haru/expressions/E04_surprise.md",
+  "image": "images/haru/E04_surprise.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, surprised expression, eyebrows raised high, wide open blue eyes with small pupils, small round O mouth, head pulled back slightly, single exclamation mark, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "어? 정말요?",
+   "헉, 이건 예상 못 했어요!"
+  ]
+ },
+ {
+  "id": "E05",
+  "slug": "fear",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "두려움",
+  "en": "Fear",
+  "spec": "specs/haru/expressions/E05_fear.md",
+  "image": "images/haru/E05_fear.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, frightened expression, eyebrows raised and drawn together, wide trembling blue eyes glancing sideways, lips parted and tense, pale, shoulders hunched, hands near the mouth, trembling lines, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "저, 저기… 이거 괜찮은 거 맞죠?",
+   "으앗, 무서운 건 약하다구요…"
+  ]
+ },
+ {
+  "id": "E06",
+  "slug": "disgust",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "혐오",
+  "en": "Disgust",
+  "spec": "specs/haru/expressions/E06_disgust.md",
+  "image": "images/haru/E06_disgust.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, mild cute disgust, scrunched brows, narrowed eyes looking away, one corner of the mouth pulled down, lower lip pushed out, head turned away, palm raised to block, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "으… 그건 좀 사양할게요.",
+   "우웩, 그건 진짜 패스!"
+  ]
+ },
+ {
+  "id": "E07",
+  "slug": "explaining",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "설명",
+  "en": "Explaining",
+  "spec": "specs/haru/expressions/E07_explaining.md",
+  "image": "images/haru/E07_explaining.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, calm explaining expression, one eyebrow slightly raised, clear blue eyes looking at the viewer, mouth slightly open mid-speech with a gentle smile, index finger raised, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "먼저 이 부분부터 설명드릴게요.",
+   "자, 여기서 포인트는요!"
+  ]
+ },
+ {
+  "id": "E08",
+  "slug": "guiding",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "안내",
+  "en": "Guiding",
+  "spec": "specs/haru/expressions/E08_guiding.md",
+  "image": "images/haru/E08_guiding.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, friendly guiding expression, soft raised eyebrows, warm smiling eyes, closed-mouth smile, head tilted toward the side, open palm gesturing to the side, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "이쪽을 봐 주세요.",
+   "다음은 바로 여기예요~"
+  ]
+ },
+ {
+  "id": "E09",
+  "slug": "thinking",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "생각",
+  "en": "Thinking",
+  "spec": "specs/haru/expressions/E09_thinking.md",
+  "image": "images/haru/E09_thinking.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, thoughtful expression, one eyebrow raised the other lowered, eyes looking up diagonally, small mouth pushed to one side, head tilted, index finger on chin, small question mark, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "음… 잠깐만 정리해 볼게요.",
+   "흐음, 이건 좀 고민되는데요?"
+  ]
+ },
+ {
+  "id": "E10",
+  "slug": "confirming",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "확인",
+  "en": "Confirming",
+  "spec": "specs/haru/expressions/E10_confirming.md",
+  "image": "images/haru/E10_confirming.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, confident confirming expression, playful wink, confident smile, slight nod, thumbs up, one small sparkle, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "네, 확인했어요!",
+   "오케이, 완벽해요!"
+  ]
+ },
+ {
+  "id": "E11",
+  "slug": "apologizing",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "사과",
+  "en": "Apologizing",
+  "spec": "specs/haru/expressions/E11_apologizing.md",
+  "image": "images/haru/E11_apologizing.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, sincere apologetic expression, worried slanted eyebrows, eyes lowered, small mouth with downturned corners, head bowed, hands clasped in front, small sweat drop, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "죄송해요, 제가 놓쳤어요.",
+   "미안해요! 다음엔 더 잘할게요."
+  ]
+ },
+ {
+  "id": "E12",
+  "slug": "cheering",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "응원",
+  "en": "Cheering",
+  "spec": "specs/haru/expressions/E12_cheering.md",
+  "image": "images/haru/E12_cheering.png",
+  "original_match": "원본 1행 1열 \"결의 (주먹)\"",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, determined cheering expression, eyebrows set firmly, focused determined blue eyes looking straight ahead, mouth set firmly, one fist raised at shoulder height, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "할 수 있어요! 제가 옆에 있을게요.",
+   "다들 화이팅! 끝까지 가 봐요!"
+  ]
+ },
+ {
+  "id": "E13",
+  "slug": "neutral",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "기본(중립)",
+  "en": "Neutral",
+  "spec": "specs/haru/expressions/E13_neutral.md",
+  "image": "images/haru/E13_neutral.png",
+  "original_match": "캐릭터 시트 오른쪽 위 바스트업 얼굴",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, neutral default expression, relaxed eyebrows, calm open blue eyes looking at the viewer, closed mouth with a very faint smile, facing forward, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "안녕하세요, 하루예요.",
+   "안녕하세요, 세나입니다!"
+  ]
+ },
+ {
+  "id": "E14",
+  "slug": "sheepish",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "머쓱함",
+  "en": "Sheepish",
+  "spec": "specs/haru/expressions/E14_sheepish.md",
+  "image": "images/haru/E14_sheepish.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, sheepish embarrassed smile, slightly worried eyebrows, eyes glancing away while smiling, awkward grin, noticeable blush, scratching cheek with one finger, small sweat drop, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "에헤헤… 그런가요?",
+   "아하하, 들켜 버렸네요."
+  ]
+ },
+ {
+  "id": "E15",
+  "slug": "flustered",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "당황",
+  "en": "Flustered",
+  "spec": "specs/haru/expressions/E15_flustered.md",
+  "image": "images/haru/E15_flustered.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, flustered expression, raised wavering eyebrows, wide shaky eyes, wavy mouth, face flushed red, hands waving in front, small sweat drops, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "네? 아, 아니 그게요…!",
+   "잠, 잠깐만요! 그건 아니고요!"
+  ]
+ },
+ {
+  "id": "E16",
+  "slug": "proud",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "뿌듯함",
+  "en": "Proud",
+  "spec": "specs/haru/expressions/E16_proud.md",
+  "image": "images/haru/E16_proud.png",
+  "original_match": "원본 2행 3열 \"능글\"",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, smug proud expression, confident eyebrows, half-lidded knowing eyes, closed-mouth satisfied smirk, light blush, chin lifted slightly, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "후후, 이번엔 꽤 잘한 것 같아요.",
+   "어때요? 제법이죠?"
+  ]
+ },
+ {
+  "id": "E17",
+  "slug": "sleepy",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "졸림",
+  "en": "Sleepy",
+  "spec": "specs/haru/expressions/E17_sleepy.md",
+  "image": "images/haru/E17_sleepy.png",
+  "original_match": "원본 2행 1열 \"졸림\"",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, sleepy expression, relaxed low eyebrows, half-closed heavy eyes, small open mouth, head tilted, a big anime snot bubble from the nose with two small bubbles, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "후암… 조금 졸리네요.",
+   "으음… 5분만 더…"
+  ]
+ },
+ {
+  "id": "E18",
+  "slug": "sulking",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "삐짐",
+  "en": "Sulking",
+  "spec": "specs/haru/expressions/E18_sulking.md",
+  "image": "images/haru/E18_sulking.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, cute sulking pout, slightly lowered inner eyebrows, narrowed eyes glancing sideways, lips pushed out in a pout, blushing cheeks, head turned away, arms crossed, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "…흥, 몰라요.",
+   "치, 저 빼고 다 했단 말이에요?"
+  ]
+ },
+ {
+  "id": "E19",
+  "slug": "sparkle_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "반짝눈(감동·기대)",
+  "en": "Sparkling Eyes",
+  "spec": "specs/haru/expressions/E19_sparkle_eyes.md",
+  "image": "images/haru/E19_sparkle_eyes.png",
+  "original_match": "원본 1행 3열 \"환희\"",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, comic sparkling eyes, big four-pointed star highlights inside the blue eyes, eyebrows raised high, mouth wide open in a delighted smile, rosy cheeks, golden sparkles on both sides, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "우와… 이거 진짜 제 거예요?",
+   "대박! 너무 예쁘잖아요!"
+  ]
+ },
+ {
+  "id": "E20",
+  "slug": "sweat_drop",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "식은땀",
+  "en": "Big Sweat Drop",
+  "spec": "specs/haru/expressions/E20_sweat_drop.md",
+  "image": "images/haru/E20_sweat_drop.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, comic awkward expression, droopy eyebrows, small blank eyes, flat awkward mouth, one large anime sweat drop on the side of the head, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "아… 네… 그렇군요.",
+   "어… 그건 좀…"
+  ]
+ },
+ {
+  "id": "E21",
+  "slug": "waterfall_tears",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "울먹(폭포 눈물)",
+  "en": "Waterfall Tears",
+  "spec": "specs/haru/expressions/E21_waterfall_tears.md",
+  "image": "images/haru/E21_waterfall_tears.png",
+  "original_match": "원본 2행 2열 \"울음\"",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, comic crying, strongly slanted eyebrows, eyes squeezed shut, wide open crying mouth, thick streams of cartoon tears flowing down from both eyes, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "으아앙, 다 날아갔어요…!",
+   "흐엥, 이건 너무하잖아요~!"
+  ]
+ },
+ {
+  "id": "E22",
+  "slug": "puffed_angry",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "뿔남",
+  "en": "Comic Anger",
+  "spec": "specs/haru/expressions/E22_puffed_angry.md",
+  "image": "images/haru/E22_puffed_angry.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, comic cute anger, V-shaped eyebrows, eyes squeezed shut as > < shapes, cheeks puffed out, red blush, fists pumping down, anime anger vein mark and steam puffs, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "진짜! 그러지 말라니까요!",
+   "으으, 저 화났거든요?!"
+  ]
+ },
+ {
+  "id": "E23",
+  "slug": "blank_dot_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "멍(점 눈)",
+  "en": "Blank Dot Eyes",
+  "spec": "specs/haru/expressions/E23_blank_dot_eyes.md",
+  "image": "images/haru/E23_blank_dot_eyes.png",
+  "original_match": null,
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, comic blank expression, eyes reduced to tiny dots, flat eyebrows, tiny flat mouth, deadpan, three dots floating above the head, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "…네?",
+   "…방금 뭐라고요?"
+  ]
+ },
+ {
+  "id": "E24",
+  "slug": "shock",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "충격",
+  "en": "Shock",
+  "spec": "specs/haru/expressions/E24_shock.md",
+  "image": "images/haru/E24_shock.png",
+  "original_match": "원본 1행 2열 \"공포\"",
+  "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, comic shock, eyebrows shot up, eyes turned into blank white circles with tiny pupils, wide trembling open mouth, upper face shaded blue with dread, large sweat drop, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands",
+  "lines": [
+   "에엑?! 그게 진짜예요?!",
+   "말도 안 돼!!"
+  ]
+ }
+]

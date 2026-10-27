@@ -1,0 +1,410 @@
+[
+ {
+  "id": "E01",
+  "slug": "joy",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "기쁨",
+  "en": "Joy",
+  "spec": "specs/doctor/expressions/E01_joy.md",
+  "image": "images/doctor/E01_joy.png",
+  "original_match": "턴어라운드 정면 \"활짝 웃음\"",
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, hearty laughing expression, thick eyebrows raised in arches, eyes closed in happy ^ ^ arcs behind the teal glasses, mouth open wide in a big toothy grin, head tilted back slightly, one hand on hip, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "하하하! 아주 훌륭하군!",
+   "역시 내 이론대로야!"
+  ]
+ },
+ {
+  "id": "E02",
+  "slug": "sadness",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "슬픔",
+  "en": "Sadness",
+  "spec": "specs/doctor/expressions/E02_sadness.md",
+  "image": "images/doctor/E02_sadness.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, quiet sad expression, thick eyebrows slanted up in the middle, small eyes looking down behind the glasses, mouth closed and turned down, shoulders slumped, head bowed, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "이럴 수가… 내 가설이…",
+   "흐음, 오늘은 운이 없었군."
+  ]
+ },
+ {
+  "id": "E03",
+  "slug": "anger",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "분노",
+  "en": "Anger",
+  "spec": "specs/doctor/expressions/E03_anger.md",
+  "image": "images/doctor/E03_anger.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, stern serious anger, thick eyebrows sharply angled down into a deep V, glasses lenses flashing white hiding the eyes, mouth pressed tight, chin tucked, pushing up the glasses with one finger, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "그건 과학에 대한 모독이네.",
+   "실험실 규칙을 어겼군."
+  ]
+ },
+ {
+  "id": "E04",
+  "slug": "surprise",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "놀람",
+  "en": "Surprise",
+  "spec": "specs/doctor/expressions/E04_surprise.md",
+  "image": "images/doctor/E04_surprise.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, surprised expression, thick eyebrows shot up high, round open eyes behind glasses slipping down the nose, round O mouth, head pulled back, hands spread, exclamation mark, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "오호? 이건 처음 보는 데이터군!",
+   "뭐라고? 그게 가능하단 말인가?"
+  ]
+ },
+ {
+  "id": "E05",
+  "slug": "fear",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "두려움",
+  "en": "Fear",
+  "spec": "specs/doctor/expressions/E05_fear.md",
+  "image": "images/doctor/E05_fear.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, frightened expression, thick eyebrows raised and trembling, wide eyes with tiny pupils behind crooked glasses, mouth open showing clenched teeth, pale, leaning back, hands raised defensively, trembling lines, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "자, 잠깐! 그건 폭발할 수도 있네!",
+   "으음… 나도 그건 좀 무섭군."
+  ]
+ },
+ {
+  "id": "E06",
+  "slug": "disgust",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "혐오",
+  "en": "Disgust",
+  "spec": "specs/doctor/expressions/E06_disgust.md",
+  "image": "images/doctor/E06_disgust.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, mild disgust, one thick eyebrow scrunched, squinting eyes behind glasses looking away, one side of the mouth pulled down, head turned and leaning back, hand pinching nose, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "으음, 이 데이터는 엉망이군.",
+   "그 냄새는… 실패작이로군."
+  ]
+ },
+ {
+  "id": "E07",
+  "slug": "explaining",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "설명",
+  "en": "Explaining",
+  "spec": "specs/doctor/expressions/E07_explaining.md",
+  "image": "images/doctor/E07_explaining.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, confident lecturing expression, one thick eyebrow raised intellectually, clear eyes behind glasses looking at the viewer, mouth open mid-explanation with a confident smile, upright posture, index finger raised, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "자, 이 원리를 설명해 주지.",
+   "핵심은 바로 여기에 있네!"
+  ]
+ },
+ {
+  "id": "E08",
+  "slug": "guiding",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "안내",
+  "en": "Guiding",
+  "spec": "specs/doctor/expressions/E08_guiding.md",
+  "image": "images/doctor/E08_guiding.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, showman host expression, confident raised eyebrows, friendly eyes behind glasses, big smile, body turned, arm swept wide pointing to the side like a game show host, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "자, 다음 도전자를 소개하지!",
+   "이쪽 점수판을 보게나!"
+  ]
+ },
+ {
+  "id": "E09",
+  "slug": "thinking",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "생각",
+  "en": "Thinking",
+  "spec": "specs/doctor/expressions/E09_thinking.md",
+  "image": "images/doctor/E09_thinking.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, deep thinking expression, one thick eyebrow raised and one lowered, narrowed eyes looking up diagonally behind glasses, lips pursed to one side, head tilted, hand stroking chin, small question mark, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "흐음… 가설을 다시 세워 봐야겠군.",
+   "이 변수가 문제일지도 모르겠어."
+  ]
+ },
+ {
+  "id": "E10",
+  "slug": "confirming",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "확인",
+  "en": "Confirming",
+  "spec": "specs/doctor/expressions/E10_confirming.md",
+  "image": "images/doctor/E10_confirming.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, approving referee expression, confident thick eyebrows, wink behind glasses, half smile, slight nod, thumbs up, check mark effect, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "정답! 합격이네!",
+   "계산대로군. 완벽해."
+  ]
+ },
+ {
+  "id": "E11",
+  "slug": "apologizing",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "사과",
+  "en": "Apologizing",
+  "spec": "specs/doctor/expressions/E11_apologizing.md",
+  "image": "images/doctor/E11_apologizing.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, awkward apologetic expression, worried slanted thick eyebrows, eyes lowered behind glasses, awkward smile, head bowed, scratching the back of the head, small sweat drop, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "하하… 내 계산 착오였네.",
+   "미안하네, 조수가 맞았어."
+  ]
+ },
+ {
+  "id": "E12",
+  "slug": "cheering",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "응원",
+  "en": "Cheering",
+  "spec": "specs/doctor/expressions/E12_cheering.md",
+  "image": "images/doctor/E12_cheering.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, energetic cheering expression, determined raised thick eyebrows, sparkling eyes behind glasses, mouth wide open in an encouraging shout, leaning forward, fist raised high, sparkles, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "자네라면 할 수 있네!",
+   "포기하지 말게, 실험은 계속된다!"
+  ]
+ },
+ {
+  "id": "E13",
+  "slug": "neutral",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "기본(중립)",
+  "en": "Neutral",
+  "spec": "specs/doctor/expressions/E13_neutral.md",
+  "image": "images/doctor/E13_neutral.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, neutral default expression, relaxed thick eyebrows, small calm open eyes behind teal glasses looking at viewer, confident closed smile, facing forward, one hand in lab coat pocket, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "반갑네, 내가 박사일세.",
+   "오늘도 연구를 시작해 볼까."
+  ]
+ },
+ {
+  "id": "E14",
+  "slug": "sheepish",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "머쓱함",
+  "en": "Sheepish",
+  "spec": "specs/doctor/expressions/E14_sheepish.md",
+  "image": "images/doctor/E14_sheepish.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, sheepish chuckle, slightly worried thick eyebrows, smiling eyes glancing away behind glasses, awkward grin, light blush, scratching the back of the head, small sweat drop, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "하하, 그렇게까지 칭찬할 건 없네.",
+   "어흠, 잠깐 착각했을 뿐일세."
+  ]
+ },
+ {
+  "id": "E15",
+  "slug": "flustered",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "당황",
+  "en": "Flustered",
+  "spec": "specs/doctor/expressions/E15_flustered.md",
+  "image": "images/doctor/E15_flustered.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, flustered expression, wavering raised thick eyebrows, wide eyes with glasses slipping down, wavy mouth, flushed face, hands waving, sweat drops, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "어, 어흠! 그건 말이지…!",
+   "잠깐, 그 자료가 어디 갔지?!"
+  ]
+ },
+ {
+  "id": "E16",
+  "slug": "proud",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "뿌듯함",
+  "en": "Proud",
+  "spec": "specs/doctor/expressions/E16_proud.md",
+  "image": "images/doctor/E16_proud.png",
+  "original_match": "원본 \"보라 불꽃 포즈\"",
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, triumphant proud expression, thick eyebrows raised, eyes closed in happy arcs behind glasses, mouth wide open in a triumphant laugh, arms spread wide, purple flames rising from both palms, purple orbs floating around, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "보아라, 이것이 과학의 힘이다!",
+   "하하하! 내 천재성에 감탄하게!"
+  ]
+ },
+ {
+  "id": "E17",
+  "slug": "sleepy",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "졸림",
+  "en": "Sleepy",
+  "spec": "specs/doctor/expressions/E17_sleepy.md",
+  "image": "images/doctor/E17_sleepy.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, sleepy expression, droopy thick eyebrows, half-closed eyes, glasses pushed up onto the forehead while rubbing one eye, yawning mouth, head nodding, Zzz floating, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "후암… 밤샘 연구는 무리였나.",
+   "잠깐 눈만 붙이겠네…"
+  ]
+ },
+ {
+  "id": "E18",
+  "slug": "sulking",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "삐짐",
+  "en": "Sulking",
+  "spec": "specs/doctor/expressions/E18_sulking.md",
+  "image": "images/doctor/E18_sulking.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, grumpy sulking pout, slightly lowered thick eyebrows, eyes glancing sideways behind glasses, lips pushed out in a pout, head turned away, arms crossed, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "흥, 내 의견은 안 듣겠다는 거로군.",
+   "…그럼 자네들끼리 해 보게."
+  ]
+ },
+ {
+  "id": "E19",
+  "slug": "sparkle_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "반짝눈(감동·기대)",
+  "en": "Sparkling Eyes",
+  "spec": "specs/doctor/expressions/E19_sparkle_eyes.md",
+  "image": "images/doctor/E19_sparkle_eyes.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, comic sparkling eyes, big star sparkles filling the glasses lenses, thick eyebrows raised high, mouth open in awe, rosy cheeks, leaning forward, fists clenched in excitement, sparkles around, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "오오… 이 얼마나 아름다운 결과인가!",
+   "새로운 발견일세!!"
+  ]
+ },
+ {
+  "id": "E20",
+  "slug": "sweat_drop",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "식은땀",
+  "en": "Big Sweat Drop",
+  "spec": "specs/doctor/expressions/E20_sweat_drop.md",
+  "image": "images/doctor/E20_sweat_drop.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, comic awkward expression, drooping thick eyebrows, small dot eyes behind glasses, flat mouth, one big anime sweat drop on the side of the head, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "…그건 내 전공이 아닐세.",
+   "어흠… 다음 질문."
+  ]
+ },
+ {
+  "id": "E21",
+  "slug": "waterfall_tears",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "울먹(폭포 눈물)",
+  "en": "Waterfall Tears",
+  "spec": "specs/doctor/expressions/E21_waterfall_tears.md",
+  "image": "images/doctor/E21_waterfall_tears.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, comic crying, strongly slanted thick eyebrows, eyes squeezed shut, waterfall cartoon tears streaming from under the glasses, wide crying mouth, head tilted back, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "내 연구 데이터가아아…!",
+   "흐어엉, 이건 너무하네…!"
+  ]
+ },
+ {
+  "id": "E22",
+  "slug": "puffed_angry",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "뿔남",
+  "en": "Comic Anger",
+  "spec": "specs/doctor/expressions/E22_puffed_angry.md",
+  "image": "images/doctor/E22_puffed_angry.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, comic cute anger, V-shaped thick eyebrows, eyes as > < shapes, cheeks puffed out, red face, fists waving, spiky hair bristling even more, anime anger mark and steam puffs, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "이 녀석들! 실험실에서 뛰지 말라니까!",
+   "끄으응, 화났네!"
+  ]
+ },
+ {
+  "id": "E23",
+  "slug": "blank_dot_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "멍(점 눈)",
+  "en": "Blank Dot Eyes",
+  "spec": "specs/doctor/expressions/E23_blank_dot_eyes.md",
+  "image": "images/doctor/E23_blank_dot_eyes.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, comic blank expression, glasses lenses blank white with reflection hiding the eyes, flat thick eyebrows, tiny flat mouth, frozen deadpan, three dots above head, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "…….",
+   "…그게 무슨 소린가?"
+  ]
+ },
+ {
+  "id": "E24",
+  "slug": "shock",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "충격",
+  "en": "Shock",
+  "spec": "specs/doctor/expressions/E24_shock.md",
+  "image": "images/doctor/E24_shock.png",
+  "original_match": null,
+  "prompt_en": "the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, comic shock, thick eyebrows shot up, blank white circle eyes, small crack on one glasses lens, jaw dropped wide open, vertical gloom lines on upper face, hands raised beside face, lightning effect behind, chibi upper body portrait from waist up, facing viewer, centered, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, no glasses, round glasses, thin eyebrows, beard, mustache, bald, different hair color, missing white streak, realistic proportions, extra fingers, deformed hands",
+  "lines": [
+   "뭐, 뭐라고오?!",
+   "실험실이… 날아갔다고?!"
+  ]
+ }
+]
