@@ -8,7 +8,7 @@ expression_ko: 슬픔
 expression_en: Sadness
 spec_file: specs/jupanbot/expressions/E02_sadness.md
 image_file: images/jupanbot/E02_sadness.png
-image_status: placeholder   # placeholder → generated → approved
+image_status: vector-v1   # vector-v1 → generated → approved
 core_ref: specs/jupanbot/00_character_core.md
 reference_images: [refs/original/jupanbot_ref_genspark_v0.png]
 version: 2.0
@@ -16,7 +16,7 @@ version: 2.0
 
 # 주판봇 · E02 · 슬픔 (Sadness)
 
-> 이 명세서는 **`images/jupanbot/E02_sadness.png`** 한 장에만 대응합니다. 지금 이미지 자리에는 임시 그림(Genspark 초안)이 들어 있습니다.
+> 이 명세서는 **`images/jupanbot/E02_sadness.png`** 한 장에만 대응합니다. 지금 이미지는 벡터 그림 v1입니다(원본 SVG: ahnboat_lab_explainer/packs/character/jupanbot_vector/).
 
 ## 1. 감정 의도
 풀이 죽고 속상한 상태.

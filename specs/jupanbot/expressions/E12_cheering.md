@@ -8,7 +8,7 @@ expression_ko: 응원
 expression_en: Cheering
 spec_file: specs/jupanbot/expressions/E12_cheering.md
 image_file: images/jupanbot/E12_cheering.png
-image_status: placeholder   # placeholder → generated → approved
+image_status: vector-v1   # vector-v1 → generated → approved
 core_ref: specs/jupanbot/00_character_core.md
 reference_images: [refs/original/jupanbot_ref_genspark_v0.png]
 version: 2.0
@@ -16,7 +16,7 @@ version: 2.0
 
 # 주판봇 · E12 · 응원 (Cheering)
 
-> 이 명세서는 **`images/jupanbot/E12_cheering.png`** 한 장에만 대응합니다. 지금 이미지 자리에는 임시 그림(Genspark 초안)이 들어 있습니다.
+> 이 명세서는 **`images/jupanbot/E12_cheering.png`** 한 장에만 대응합니다. 지금 이미지는 벡터 그림 v1입니다(원본 SVG: ahnboat_lab_explainer/packs/character/jupanbot_vector/).
 
 ## 1. 감정 의도
 힘차게 응원하는 상태.
