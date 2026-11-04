@@ -1,7 +1,7 @@
 # Handoff: 초파리 연구실 · 캐릭터 표정 라이브러리 (Expression Library)
 
 ## Overview
-「초파리 연구실」 세계관 캐릭터 4명(하루/세나, 박사, MONEY-ROBO, 초파리)의 **표정 이미지 96장**(4 × 24)을 둘러보는 갤러리 웹페이지입니다. 이미지마다 1:1로 연결된 **표정 명세서(MD)**와 **생성 프롬프트**도 함께 볼 수 있습니다.
+「초파리 연구실」 세계관 캐릭터 4명(하루/세나, 박사, 주판봇, 초파리)의 **표정 이미지 96장**(4 × 24)을 둘러보는 갤러리 웹페이지입니다. 이미지마다 1:1로 연결된 **표정 명세서(MD)**와 **생성 프롬프트**도 함께 볼 수 있습니다.
 
 쓰는 사람과 목적:
 - 콘텐츠 제작자: 장면에 맞는 표정을 ID(E01~E24)로 찾아 씁니다.
@@ -48,7 +48,7 @@
 - **Character chips (왼쪽, 4개):**
   - pill 모양: radius 999px, 테두리 `1px --line`, 배경 `--panel`, 패딩 `6px 14px 6px 6px`, 500 weight
   - 안쪽 왼쪽에 30×30 원형 썸네일: `images/{key}/E13_neutral.png`, `object-fit:cover`, `image-rendering:pixelated`
-  - 라벨: 하루 / 박사 / MONEY-ROBO / 초파리
+  - 라벨: 하루 / 박사 / 주판봇 / 초파리
   - 선택 상태: 배경 `--fg`, 글자 `#fff`, 테두리 `--fg`
 - **Filters (오른쪽, segmented):**
   - 컨테이너: 배경 `--panel`, 테두리 `1px --line`, radius 999px, 패딩 3px, gap 4px
@@ -125,7 +125,7 @@
 
 ## State Management
 ```ts
-type CharKey = 'haru' | 'doctor' | 'money_robo' | 'fruitfly';
+type CharKey = 'haru' | 'doctor' | 'jupanbot' | 'fruitfly';
 type Category = 'basic' | 'assistant' | 'subtle' | 'comic';
 state = {
   cur: CharKey,                    // localStorage 'lib_char', 기본값 'haru'
@@ -155,7 +155,7 @@ state = {
 |---|---|---|---|
 | haru | 하루 | 예명 세나 · 조수 | 실제로 일을 다 하는 연구원. 꼼꼼한 실험과 기록, 점수 기록 담당. 분홍+남색 투톤 장발, 정수리 번 2개, 라벤더 후드 + 흰 랩코트. |
 | doctor | 박사 | Professor · 해설·심판·사회자 | 자신만만한 치비 과학자. 이론과 큰소리로 판단한다. 숯색 뾰족 머리 + 흰 줄, 굵은 눈썹, 청록 안경, 흰 가운 + 검은 조끼. 시그니처는 보라 불꽃. |
-| money_robo | MONEY-ROBO | 머니로보 · 라이벌 B "확신" | 돈과 숫자를 사랑하는 떠다니는 로봇. "데이터가 그렇게 말하고 있어요!" 표정은 검은 스크린의 금빛 픽셀로만 표현. |
+| jupanbot | 주판봇 | AbaBot · 라이벌 B "확신" | 주판을 든 상자형 레트로 컴퓨터 로봇. 숫자를 믿는 확신파. "데이터가 그렇게 말하고 있어요!" 표정은 초록 화면 속 민트 픽셀로만 표현. |
 | fruitfly | 초파리 | 초파리 연구원 · 라이벌 A "의심" | 작지만 날카로운 연구원. 호기심과 생물학적 직관으로 판단한다. "정말 그럴까?" 빨간 겹눈, 남색 헬멧과 케이블, 흰 가운. |
 
 권장: 이 메타는 `specs/{key}/00_character_core.md`의 설정 블록이나 별도 `characters.json`으로 옮겨 주세요.
@@ -192,12 +192,12 @@ backdrop:rgba(20,18,22,.55);
 ## Assets
 | 경로 (원본 저장소 기준) | 내용 | 비고 |
 |---|---|---|
-| `images/{haru,doctor,money_robo,fruitfly}/E01_joy.png … E24_shock.png` | 표정 이미지 96장, PNG, 약 330~410px 정사각형 | 번들에는 미포함. 원본 프로젝트에서 같은 경로로 복사 |
+| `images/{haru,doctor,jupanbot,fruitfly}/E01_joy.png … E24_shock.png` | 표정 이미지 96장, PNG, 약 330~410px 정사각형 | 번들에는 미포함. 원본 프로젝트에서 같은 경로로 복사 |
 | `images/_sheets/*.png` | 칸별로 자르기 전 생성 시트 14장 | 참고용 |
 | `refs/original/*.png` | 원본 캐릭터 시트 7장 | 생성할 때 참조 이미지로 씀 |
-| `refs/Money-Robo_캐릭터설정.md` | 세계관·캐릭터 설정서 | |
+| `specs/jupanbot/00_character_core.md` | 세계관·캐릭터 설정서 | |
 
-- 출처: MONEY-ROBO 9장과 초파리 6장은 원본 시트를 잘라 낸 것이고, 나머지 81장은 AI로 생성(gpt-image-2)했습니다.
+- 출처: 주판봇 9장과 초파리 6장은 원본 시트를 잘라 낸 것이고, 나머지 81장은 AI로 생성(gpt-image-2)했습니다.
 - 아이콘과 일러스트는 따로 쓰지 않았습니다. 웹폰트는 Google Fonts입니다.
 
 ## Files

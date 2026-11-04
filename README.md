@@ -12,7 +12,7 @@
 |---|---|---|---|
 | `haru` | **하루** | 예명 **세나** · 조수 (실험 진행·기록) | 6 → 24 |
 | `doctor` | **박사** | Professor · 해설·심판·사회자 | 2 → 24 |
-| `money_robo` | **MONEY-ROBO** | 머니로보 · 라이벌 B "확신" | 9 → 24 |
+| `jupanbot` | **주판봇** | 주판봇 · 라이벌 B "확신" | 9 → 24 |
 | `fruitfly` | **초파리** | 초파리 연구원 · 라이벌 A "의심" | 6 → 24 |
 
 > 하루와 세나는 같은 인물입니다. 기본 호칭은 "하루"이고, 방송·공연처럼 예명을 쓰는 맥락에서만 "세나"라고 부릅니다. 외형과 표정 세트는 같습니다.
@@ -26,7 +26,7 @@
 ├─ images/
 │  ├─ haru/        E01_joy.png … E24_shock.png
 │  ├─ doctor/      …
-│  ├─ money_robo/  …
+│  ├─ jupanbot/  …
 │  ├─ fruitfly/    …
 │  └─ _sheets/     # 생성 원본 시트 (칸별로 자르기 전)
 ├─ specs/
@@ -37,7 +37,7 @@
 │     ├─ expressions.json      # 자동화용 (프롬프트·네거티브·대사 포함)
 │     └─ expressions/E01_joy.md … E24_shock.md
 └─ refs/
-   ├─ Money-Robo_캐릭터설정.md   # 세계관·캐릭터 설정서
+   ├─ specs/jupanbot/00_character_core.md   # 세계관·캐릭터 설정서
    └─ original/                 # 원본 캐릭터 시트 7장
 ```
 
@@ -47,7 +47,7 @@
 specs/{캐릭터}/expressions/{ID}_{slug}.md   ↔   images/{캐릭터}/{ID}_{slug}.png
 ```
 
-예: `specs/money_robo/expressions/E19_sparkle_eyes.md` ↔ `images/money_robo/E19_sparkle_eyes.png`
+예: `specs/jupanbot/expressions/E19_sparkle_eyes.md` ↔ `images/jupanbot/E19_sparkle_eyes.png`
 
 각 명세 MD의 맨 위 설정 블록에 `image_file`, `image_status`, `original_match`가 들어 있습니다.
 
@@ -63,7 +63,7 @@ specs/{캐릭터}/expressions/{ID}_{slug}.md   ↔   images/{캐릭터}/{ID}_{sl
 ## 명세 MD 구성
 
 1. 감정 의도 · 2. 사용 상황 · 3. 원본 대응
-4. 부위별 지시 (캐릭터마다 항목이 다름. 예: MONEY-ROBO는 스크린 픽셀, 초파리는 겹눈 눈꺼풀)
+4. 부위별 지시 (캐릭터마다 항목이 다름. 예: 주판봇은 스크린 픽셀, 초파리는 겹눈 눈꺼풀)
 5. 고정 항목 · 6. 대사 예시
 7. **완성형 생성 프롬프트 (EN)**: 그대로 붙여 넣어 쓰면 됩니다
 8. 네거티브 프롬프트 · 9. 금지 사항 · 10. 검수 체크리스트
@@ -78,7 +78,7 @@ specs/{캐릭터}/expressions/{ID}_{slug}.md   ↔   images/{캐릭터}/{ID}_{sl
 
 | 구분 | 내용 |
 |---|---|
-| 원본 칸에서 잘라 냄 | MONEY-ROBO 9장 (`money_robo_expressions_9.png`), 초파리 6장 (`fruitfly_sprites_6.png`). 갤러리에 "원본"으로 표시 |
+| 원본 칸에서 잘라 냄 | 주판봇 9장 (`jupanbot_ref_genspark_v0.png`), 초파리 6장 (`fruitfly_sprites_6.png`). 갤러리에 "원본"으로 표시 |
 | 신규 생성 | 나머지 81장. 원본 시트를 참조 이미지로 넣고 6칸 시트로 생성한 뒤 칸별로 잘라 냄 (`images/_sheets/`) |
 
 ## GitHub에 올리기

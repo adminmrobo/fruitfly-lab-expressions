@@ -1,13 +1,13 @@
 # 「초파리 연구실」 캐릭터 표정 명세 — 전체 인덱스
 
-모든 캐릭터는 **같은 포맷, 같은 표정 ID 체계(E01~E24)**를 씁니다. 그래서 "전원 E04(놀람)"처럼 캐릭터를 바꿔 가며 바로 불러올 수 있습니다. 명세는 이전 프로젝트의 원본 캐릭터 시트와 `refs/Money-Robo_캐릭터설정.md`를 기준으로 작성했습니다.
+모든 캐릭터는 **같은 포맷, 같은 표정 ID 체계(E01~E24)**를 씁니다. 그래서 "전원 E04(놀람)"처럼 캐릭터를 바꿔 가며 바로 불러올 수 있습니다. 명세는 이전 프로젝트의 원본 캐릭터 시트와 `specs/jupanbot/00_character_core.md`를 기준으로 작성했습니다.
 
 ## 캐릭터 목록
 | 키 | 캐릭터 | 별칭 | 원본 표정 수 → 신규 | 원본 참조 이미지 | 기본 구도 |
 |---|---|---|---|---|---|
 | [`haru`](haru/README.md) | 하루 (조수) | 세나 (예명) | 6 → 24 (4배) | `haru_sheet.png`, `haru_expressions_6.png` | 가슴 위 바스트업 |
 | [`doctor`](doctor/README.md) | 박사 | — | 2 → 24 (12배) | `doctor_sheet.png` | 허리 위 치비 상반신 |
-| [`money_robo`](money_robo/README.md) | MONEY-ROBO | 머니로보 | 9 → 24 (2.7배) | `money_robo_expressions_9.png`, `money_robo_turnaround.png` | 전신 (떠 있음) |
+| [`jupanbot`](jupanbot/README.md) | 주판봇 | AbaBot | 새로 24 (2026-11 Money-Robo 대체) | `jupanbot_ref_genspark_v0.png` | 전신 (무한궤도) |
 | [`fruitfly`](fruitfly/README.md) | 초파리 | 초파리 연구원 | 6 → 24 (4배) | `fruitfly_sprites_6.png` | 전신 스프라이트 |
 
 원본 이미지 위치: `refs/original/`. 공통 화풍은 **16비트 SNES 시대 픽셀 아트**입니다.
@@ -56,7 +56,7 @@ specs/{캐릭터키}/expressions/{ID}_{slug}.md   ↔   images/{캐릭터키}/{I
 |---|---|
 | 하루 | 파란 눈 · 눈썹 · 입 · 홍조. 번·남색 줄·후드·랩코트는 고정 |
 | 박사 | **굵은 검은 눈썹** · 안경 너머 눈(^ ^ 기본) · 렌즈 반사 · 보라 불꽃 |
-| MONEY-ROBO | **검은 스크린 안의 금빛 픽셀 눈·입**만 · 분홍 볼/하늘색 눈물 픽셀 · 빨간 경보 빛 · 금화 |
+| 주판봇 | **초록 화면 안의 민트 픽셀 눈·입**만 · 분홍 볼 픽셀 · 빨간 경보 화면 · 주판알 |
 | 초파리 | **빨간 겹눈 위의 눈꺼풀·하이라이트** · 입 · 케이블·날개 움직임 · 소품(돋보기·클립보드·커피) |
 
 ## 사용 순서
