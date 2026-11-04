@@ -5,7 +5,7 @@ alias: 초파리 연구원
 version: 1.1
 status: confirmed   # 원본 스프라이트·설정서 기준으로 확정
 reference_images: [refs/original/fruitfly_sprites_6.png, refs/original/keyart_rivals.png]
-source_doc: refs/Money-Robo_캐릭터설정.md
+source_doc: specs/jupanbot/00_character_core.md
 ---
 
 # 초파리 · 캐릭터 코어 명세
@@ -16,7 +16,7 @@ source_doc: refs/Money-Robo_캐릭터설정.md
 | 호칭 | **초파리** (초파리 연구원, EN: the Fruit Fly) |
 | 한 줄 소개 | 작지만 날카로운 연구원 |
 | 판단 기준 | 호기심과 생물학적 직관 |
-| 역할 | 라이벌 A — "의심하는 쪽". Money-Robo와 매 장면 경쟁 |
+| 역할 | 라이벌 A — "의심하는 쪽". 주판봇과 매 장면 경쟁 |
 | 말버릇 (권장) | **"정말 그럴까?"** |
 | 강점 | 이상치·착각을 잘 잡아냄 |
 | 약점 | 너무 신중해서 결정이 느림 |
