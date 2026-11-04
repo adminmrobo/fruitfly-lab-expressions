@@ -8,7 +8,7 @@ expression_ko: 식은땀
 expression_en: Big Sweat Drop
 spec_file: specs/jupanbot/expressions/E20_sweat_drop.md
 image_file: images/jupanbot/E20_sweat_drop.png
-image_status: placeholder   # placeholder → generated → approved
+image_status: vector-v1   # vector-v1 → generated → approved
 core_ref: specs/jupanbot/00_character_core.md
 reference_images: [refs/original/jupanbot_ref_genspark_v0.png]
 version: 2.0
@@ -16,7 +16,7 @@ version: 2.0
 
 # 주판봇 · E20 · 식은땀 (Big Sweat Drop)
 
-> 이 명세서는 **`images/jupanbot/E20_sweat_drop.png`** 한 장에만 대응합니다. 지금 이미지 자리에는 임시 그림(Genspark 초안)이 들어 있습니다.
+> 이 명세서는 **`images/jupanbot/E20_sweat_drop.png`** 한 장에만 대응합니다. 지금 이미지는 벡터 그림 v1입니다(원본 SVG: ahnboat_lab_explainer/packs/character/jupanbot_vector/).
 
 ## 1. 감정 의도
 곤란해서 식은땀이 나는 상태.
