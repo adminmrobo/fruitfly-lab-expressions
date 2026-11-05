@@ -8,7 +8,7 @@ expression_ko: 안내
 expression_en: Guiding
 spec_file: specs/jupanbot/expressions/E08_guiding.md
 image_file: images/jupanbot/E08_guiding.png
-image_status: vector-v1   # vector-v1 → generated → approved
+image_status: genspark-v2   # vector-v1 → gpt2-v2 / genspark-v2(임시) → approved
 core_ref: specs/jupanbot/00_character_core.md
 reference_images: [refs/original/jupanbot_ref_genspark_v0.png]
 version: 2.0
@@ -16,7 +16,7 @@ version: 2.0
 
 # 주판봇 · E08 · 안내 (Guiding)
 
-> 이 명세서는 **`images/jupanbot/E08_guiding.png`** 한 장에만 대응합니다. 지금 이미지는 벡터 그림 v1입니다(원본 SVG: ahnboat_lab_explainer/packs/character/jupanbot_vector/).
+> 이 명세서는 **`images/jupanbot/E08_guiding.png`** 한 장에만 대응합니다. 지금 이미지는 Genspark 픽셀 그림 v2(임시)입니다. gpt2판이 나오면 같은 파일명으로 교체합니다.
 
 ## 1. 감정 의도
 다음으로 안내하는 상태.
@@ -44,7 +44,7 @@ version: 2.0
 ## 6. 생성 프롬프트 (EN) — Genspark에 그대로 붙여 넣기
 참조 이미지 `refs/original/jupanbot_ref_genspark_v0.png`를 함께 넣으세요.
 ```text
-JUPANBOT (AbaBot), a cute retro computer robot mascot, flat vector cartoon illustration, clean bold outlines, flat colors with very light soft shading. Boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs. Signature prop: a small traditional wooden abacus with red-brown beads and a horizontal divider beam, one bead above and four below on each rod. Limited palette: beige, dark green, mint green, wood brown, red-brown, gray. Friendly guiding face, one mint pixel eye winking and a smile, body turned slightly, one arm stretched out pointing to the right with the abacus tucked under the other arm, a simple yellow arrow pointing right. Full body, centered, facing the viewer, same framing as the reference image, plain flat white background, no text, no letters, no numbers, no words, same character as the reference image, identical design and colors.
+JUPANBOT (AbaBot), a cute retro computer robot mascot, detailed 16-bit SNES-era pixel art, crisp pixels, dithering shading, thick dark brown outlines. Boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs. Signature prop: a small traditional wooden abacus with red-brown beads and a horizontal divider beam, one bead above and four below on each rod. Limited palette: beige, dark green, mint green, wood brown, red-brown, gray. Friendly guiding face, one mint pixel eye winking and a smile, body turned slightly, one arm stretched out pointing to the right with the abacus tucked under the other arm, a simple yellow arrow pointing right. Full body, centered, facing the viewer, same framing as the reference image, plain flat white background, no text, no letters, no numbers, no words, same character as the reference image, identical design and colors.
 ```
 
 ## 7. 네거티브 프롬프트 (EN)

@@ -8,7 +8,7 @@ expression_ko: 분노
 expression_en: Anger
 spec_file: specs/jupanbot/expressions/E03_anger.md
 image_file: images/jupanbot/E03_anger.png
-image_status: vector-v1   # vector-v1 → generated → approved
+image_status: gpt2-v2   # vector-v1 → gpt2-v2 / genspark-v2(임시) → approved
 core_ref: specs/jupanbot/00_character_core.md
 reference_images: [refs/original/jupanbot_ref_genspark_v0.png]
 version: 2.0
@@ -16,7 +16,7 @@ version: 2.0
 
 # 주판봇 · E03 · 분노 (Anger)
 
-> 이 명세서는 **`images/jupanbot/E03_anger.png`** 한 장에만 대응합니다. 지금 이미지는 벡터 그림 v1입니다(원본 SVG: ahnboat_lab_explainer/packs/character/jupanbot_vector/).
+> 이 명세서는 **`images/jupanbot/E03_anger.png`** 한 장에만 대응합니다. 지금 이미지는 gpt2로 만든 기본 9종(공식)입니다.
 
 ## 1. 감정 의도
 화가 나서 단호해진 상태.
@@ -44,7 +44,7 @@ version: 2.0
 ## 6. 생성 프롬프트 (EN) — Genspark에 그대로 붙여 넣기
 참조 이미지 `refs/original/jupanbot_ref_genspark_v0.png`를 함께 넣으세요.
 ```text
-JUPANBOT (AbaBot), a cute retro computer robot mascot, flat vector cartoon illustration, clean bold outlines, flat colors with very light soft shading. Boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs. Signature prop: a small traditional wooden abacus with red-brown beads and a horizontal divider beam, one bead above and four below on each rod. Limited palette: beige, dark green, mint green, wood brown, red-brown, gray. Angry face, the whole screen turns red alarm color with sharp slanted pixel eyes and a tight flat pixel mouth, leaning forward, gripping the abacus tightly, small red anger marks beside the body. Full body, centered, facing the viewer, same framing as the reference image, plain flat white background, no text, no letters, no numbers, no words, same character as the reference image, identical design and colors.
+JUPANBOT (AbaBot), a cute retro computer robot mascot, detailed 16-bit SNES-era pixel art, crisp pixels, dithering shading, thick dark brown outlines. Boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs. Signature prop: a small traditional wooden abacus with red-brown beads and a horizontal divider beam, one bead above and four below on each rod. Limited palette: beige, dark green, mint green, wood brown, red-brown, gray. Angry face, the whole screen turns red alarm color with sharp slanted pixel eyes and a tight flat pixel mouth, leaning forward, gripping the abacus tightly, small red anger marks beside the body. Full body, centered, facing the viewer, same framing as the reference image, plain flat white background, no text, no letters, no numbers, no words, same character as the reference image, identical design and colors.
 ```
 
 ## 7. 네거티브 프롬프트 (EN)
