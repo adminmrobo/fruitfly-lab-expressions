@@ -34,3 +34,18 @@
 | E22 | 코믹 과장 | 뿔남 | Puffed Angry | [E22_puffed_angry.md](expressions/E22_puffed_angry.md) | `images/jupanbot/E22_puffed_angry.png` | genspark-v2 |
 | E23 | 코믹 과장 | 멍 | Blank Dot Eyes | [E23_blank_dot_eyes.md](expressions/E23_blank_dot_eyes.md) | `images/jupanbot/E23_blank_dot_eyes.png` | genspark-v2 |
 | E24 | 코믹 과장 | 충격 | Shock | [E24_shock.md](expressions/E24_shock.md) | `images/jupanbot/E24_shock.png` | gpt2-v2 |
+
+## 그림을 새로 그릴 때 쓰는 기준 그림 (2026-11-06)
+
+주판봇이 들어가는 표지·장면 그림을 새로 그릴 때는 **이 저장소의 그림을 기준**으로 삼는다.
+
+| 기준 | 파일 |
+|---|---|
+| 주판봇 생김새 (기본 표정) | `images/jupanbot/E13_neutral.png` |
+| 주판봇 표정 24종 | `images/jupanbot/E01~E24` — 기본 9종(E13·E01·E03·E02·E04·E09·E16·E15·E24)이 공식 |
+| 네 캐릭터 키 비율·그림체 | `images/_sheets/lab4_lineup_gpt2_labeled.png` (박사 1.00 · 조수 0.90 · 주판봇 0.72 · 초파리 0.41) |
+| 네 캐릭터 8방향 (옆·뒷모습) | `images/_sheets/lab4_turnaround8.png` |
+| 박사·조수 하루·초파리 연구원 표정 | `images/_sheets/doctor_A.png`, `haru_A.png`, `fly_A.png` |
+
+- 주판봇: 베이지 상자형 CRT 머리, 큰 짙은 초록 화면에 민트 픽셀 눈, 주판알 하나 달린 안테나, 따로 된 베이지 몸통, 회색 마디 팔, 무한궤도 두 개, 나무 주판.
+- 쓰지 않는 것: 흰 둥근 머리, 노란 눈, 떠 있는 로봇, 금화 (옛 회사 캐릭터의 특징).
