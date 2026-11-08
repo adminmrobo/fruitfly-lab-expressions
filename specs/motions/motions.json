@@ -1,9 +1,9 @@
 {
  "library": "motion",
  "pack": "fight",
- "version": "1.0",
+ "version": "1.1",
  "date": "2026-11-08",
- "source": "Genspark 생성 시트 20장 (프롬프트: specs/motions/PROMPTS.md)",
+ "source": "Genspark 생성 시트 (1.0: 20장, 1.1: 8장 — D2·D5·D6 다시 그림, D9·D10·A8·A9·A10 추가). 프롬프트: specs/motions/PROMPTS.md, PROMPTS_v1.1.md",
  "frame_format": "투명 배경 WebP(무손실), 시트마다 같은 크기 상자, 발 기준선 공통",
  "characters": {
   "doctor": {
@@ -33,6 +33,7 @@
  },
  "sheets": [
   {
+   "since": "1.0",
    "id": "D1",
    "who": "doctor",
    "key": "doc_fight_d1",
@@ -75,21 +76,22 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle stance, 4 frames: fighting-game ready stance, fists up, gentle breathing bob, coat hem sways slightly. Row 2: walk forward, 4 frames: walk cycle toward the right, arms swinging. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.1",
    "id": "D2",
    "who": "doctor",
    "key": "doc_fight_d2",
    "title": "기본 B · 점프·돌진",
-   "facing": "left",
+   "facing": "right",
    "grid": [
     2,
     4
    ],
    "n": 8,
    "frame_size": [
-    210,
-    331
+    266,
+    306
    ],
-   "ground_y": 295,
+   "ground_y": 269,
    "ref_frame": 8,
    "seg": {
     "jump": [
@@ -101,8 +103,8 @@
      8
     ]
    },
-   "regen": "박사가 왼쪽을 봄 (기준: 오른쪽)",
-   "use": "행동 축 '점프'·'돌진'",
+   "regen": null,
+   "use": "왼쪽을 보고 그려져 임시 반전 중",
    "sheet": "images/_sheets/motion/D2_doc.png",
    "frames": [
     "images/motions/doctor/D2_f01.webp",
@@ -114,9 +116,10 @@
     "images/motions/doctor/D2_f07.webp",
     "images/motions/doctor/D2_f08.webp"
    ],
-   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: jump, 4 frames: crouch, rise with knees tucked, peak, land. Row 2: dash, 4 frames: lean forward low, rush forward, coat tails flying back, stop. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror; keep the white hair streak on the same side as in the attached reference. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: jump, 4 frames: crouch, rise with knees tucked, peak, land. Row 2: dash, 4 frames: lean forward low, rush toward the RIGHT, coat tails flying back to the left, stop. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "D3",
    "who": "doctor",
    "key": "doc_fight_d3",
@@ -163,6 +166,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: jab, 4 frames: quick straight punch forward and back. Row 2: guard 2 frames + hit 2 frames, 4 frames: frames 1-2 arms crossed blocking; frames 3-4 knocked back, eyes shut, glasses tilted. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "D4",
    "who": "doctor",
    "key": "doc_fight_d4",
@@ -205,21 +209,22 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: victory, 4 frames: fist pump, then arms crossed proudly, small purple flame flickering on one hand. Row 2: knocked out, 4 frames: stagger, kneel, sit down dizzy, lie down. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.1",
    "id": "D5",
    "who": "doctor",
    "key": "doc_fight_d5",
    "title": "필살기 · 특이값 분해 참",
-   "facing": "left",
+   "facing": "right",
    "grid": [
     2,
     4
    ],
    "n": 8,
    "frame_size": [
-    218,
-    288
+    283,
+    287
    ],
-   "ground_y": 281,
+   "ground_y": 272,
    "ref_frame": 8,
    "seg": {
     "svd_chop": [
@@ -227,8 +232,8 @@
      8
     ]
    },
-   "regen": "박사가 왼쪽을 봄 (기준: 오른쪽)",
-   "use": "필살기 '특이값 분해 참' (4장 SVD)",
+   "regen": null,
+   "use": "왼쪽을 보고 그려져 임시 반전 중",
    "sheet": "images/_sheets/motion/D5_doc.png",
    "frames": [
     "images/motions/doctor/D5_f01.webp",
@@ -240,24 +245,25 @@
     "images/motions/doctor/D5_f07.webp",
     "images/motions/doctor/D5_f08.webp"
    ],
-   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. special: singular value chop, 8 frames, read left to right then top to bottom: gather purple flame in the right hand, raise the hand high, step in, karate chop straight down with the open hand, follow-through, hold the pose, recover; the purple flame grows on the hand only. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror; keep the white hair streak on the same side as in the attached reference. Grid 4 columns x 2 rows, aspect ratio 16:9. special: singular value chop, 8 frames, read left to right then top to bottom: gather purple flame in the right hand, raise the hand high, step in toward the RIGHT, karate chop straight down with the open hand in front of the body on the RIGHT side, follow-through, hold the pose, recover; the purple flame grows on the hand only. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.1",
    "id": "D6",
    "who": "doctor",
    "key": "doc_fight_d6",
    "title": "필살기 · 브로드캐스트 웨이브",
-   "facing": "left",
+   "facing": "right",
    "grid": [
     2,
     4
    ],
    "n": 8,
    "frame_size": [
-    235,
-    312
+    295,
+    318
    ],
-   "ground_y": 307,
+   "ground_y": 301,
    "ref_frame": 1,
    "seg": {
     "broadcast_wave": [
@@ -265,8 +271,8 @@
      8
     ]
    },
-   "regen": "박사가 왼쪽을 봄 (기준: 오른쪽)",
-   "use": "필살기 '브로드캐스트 웨이브' (3장 브로드캐스트)",
+   "regen": null,
+   "use": "왼쪽을 보고 그려져 임시 반전 중",
    "sheet": "images/_sheets/motion/D6_doc.png",
    "frames": [
     "images/motions/doctor/D6_f01.webp",
@@ -278,9 +284,10 @@
     "images/motions/doctor/D6_f07.webp",
     "images/motions/doctor/D6_f08.webp"
    ],
-   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. special: broadcast wave, 8 frames, read left to right then top to bottom: plant feet wide, pull both hands back to the hip, thrust both open palms forward, hold the push while leaning in, slowly return; purple flame glows on both palms only. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror; keep the white hair streak on the same side as in the attached reference. Grid 4 columns x 2 rows, aspect ratio 16:9. special: broadcast wave, 8 frames, read left to right then top to bottom: plant feet wide, pull both hands back to the hip on the LEFT, thrust both open palms forward to the RIGHT, hold the push while leaning to the RIGHT, slowly return; purple flame glows on both palms only. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "D7",
    "who": "doctor",
    "key": "doc_fight_d7",
@@ -319,6 +326,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. special: backpropagation counter, 8 frames, read left to right then top to bottom: take a hit pose, slide backward, spin around once, reverse the momentum, deliver a rising palm strike upward, land in a ready stance. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "D8",
    "who": "doctor",
    "key": "doc_fight_d8",
@@ -375,6 +383,93 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, facing right in side view (3/4 toward the viewer). Grid 3 columns x 2 rows, aspect ratio 3:2. costumes, 6 frames, read left to right then top to bottom: columns = three outfits on the SAME character in the same idle stance: column 1 default lab outfit; column 2 'battle outfit' = lab coat sleeves rolled up, purple headband, purple fingerless gloves, purple sash belt, black training shoes; column 3 'cyber outfit' = lab coat with thin glowing cyan circuit lines, cyan lens glow on the glasses, silver shoulder plates, cyan-soled boots. Row 1 idle stance, row 2 the same three outfits in the jump peak pose. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.1",
+   "id": "D9",
+   "who": "doctor",
+   "key": "doc_fight_d9",
+   "title": "전투복 · 돌진·필살기",
+   "facing": "right",
+   "grid": [
+    2,
+    4
+   ],
+   "n": 8,
+   "frame_size": [
+    252,
+    320
+   ],
+   "ground_y": 294,
+   "ref_frame": 4,
+   "seg": {
+    "dash": [
+     1,
+     4
+    ],
+    "svd_chop": [
+     5,
+     8
+    ]
+   },
+   "regen": null,
+   "use": "새 시트 (복장 축 '전투복'의 돌진·필살기)",
+   "sheet": "images/_sheets/motion/D9_doc.png",
+   "frames": [
+    "images/motions/doctor/D9_f01.webp",
+    "images/motions/doctor/D9_f02.webp",
+    "images/motions/doctor/D9_f03.webp",
+    "images/motions/doctor/D9_f04.webp",
+    "images/motions/doctor/D9_f05.webp",
+    "images/motions/doctor/D9_f06.webp",
+    "images/motions/doctor/D9_f07.webp",
+    "images/motions/doctor/D9_f08.webp"
+   ],
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, wearing the battle outfit: lab coat sleeves rolled up, purple headband, purple fingerless gloves, purple sash belt, black training shoes, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror; keep the white hair streak on the same side as in the attached reference. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: dash, 4 frames: lean forward low, rush toward the RIGHT, coat tails flying back, stop. Row 2: special chop, 4 key frames: raise the open hand with a purple flame, step in, chop straight down on the RIGHT side, hold. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+  },
+  {
+   "since": "1.1",
+   "id": "D10",
+   "who": "doctor",
+   "key": "doc_fight_d10",
+   "title": "사이버 · 돌진·필살기",
+   "facing": "right",
+   "grid": [
+    2,
+    4
+   ],
+   "n": 8,
+   "frame_size": [
+    272,
+    326
+   ],
+   "ground_y": 296,
+   "ref_frame": 4,
+   "seg": {
+    "dash": [
+     1,
+     4
+    ],
+    "svd_chop": [
+     5,
+     8
+    ]
+   },
+   "regen": null,
+   "use": "새 시트 (복장 축 '사이버'의 돌진·필살기)",
+   "sheet": "images/_sheets/motion/D10_doc.png",
+   "frames": [
+    "images/motions/doctor/D10_f01.webp",
+    "images/motions/doctor/D10_f02.webp",
+    "images/motions/doctor/D10_f03.webp",
+    "images/motions/doctor/D10_f04.webp",
+    "images/motions/doctor/D10_f05.webp",
+    "images/motions/doctor/D10_f06.webp",
+    "images/motions/doctor/D10_f07.webp",
+    "images/motions/doctor/D10_f08.webp"
+   ],
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, dark trousers, brown shoes, wearing the cyber outfit: lab coat with thin glowing cyan circuit lines, cyan lens glow on the glasses, silver shoulder plates, cyan-soled boots, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror; keep the white hair streak on the same side as in the attached reference. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: dash, 4 frames: lean forward low, rush toward the RIGHT, coat tails flying back, stop. Row 2: special chop, 4 key frames: raise the open hand with a purple flame, step in, chop straight down on the RIGHT side, hold. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+  },
+  {
+   "since": "1.0",
    "id": "A1",
    "who": "haru",
    "key": "asst_fight_a1",
@@ -417,6 +512,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle stance, 4 frames: fighting-game ready stance, fists up, light bounce on toes, hair buns bob. Row 2: walk forward, 4 frames: walk cycle toward the left, arms swinging. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "A2",
    "who": "haru",
    "key": "asst_fight_a2",
@@ -459,6 +555,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: jump, 4 frames: crouch, rise with knees tucked, peak, land. Row 2: dash, 4 frames: lean forward low, rush forward, hair and coat flying back, stop. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "A3",
    "who": "haru",
    "key": "asst_fight_a3",
@@ -505,6 +602,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: jab, 4 frames: quick straight punch forward and back. Row 2: guard 2 frames + hit 2 frames, 4 frames: frames 1-2 arms crossed blocking; frames 3-4 knocked back, eyes shut. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "A4",
    "who": "haru",
    "key": "asst_fight_a4",
@@ -547,6 +645,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: victory, 4 frames: jump with a V sign, then hold up a clipboard proudly with a smile. Row 2: knocked out, 4 frames: stagger, kneel, sit down dizzy, lie down. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "A5",
    "who": "haru",
    "key": "asst_fight_a5",
@@ -585,6 +684,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. special: one-hot barrage, 8 frames, read left to right then top to bottom: step in, rapid alternating straight punches (left, right, left, right), the final punch fully extended, hold, recover; one fist at a time is forward. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "A6",
    "who": "haru",
    "key": "asst_fight_a6",
@@ -623,6 +723,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 4 columns x 2 rows, aspect ratio 16:9. special: gradient descent kick, 8 frames, read left to right then top to bottom: run up, jump high, tuck, extend one leg into a diagonal flying kick going downward, keep descending along a slope, land on one knee, stand up. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "A7",
    "who": "haru",
    "key": "asst_fight_a7",
@@ -679,6 +780,132 @@
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, facing left in side view (3/4 toward the viewer). Grid 3 columns x 2 rows, aspect ratio 3:2. costumes, 6 frames, read left to right then top to bottom: columns = three outfits on the SAME character in the same idle stance: column 1 default lab outfit; column 2 'battle outfit' = lab coat sleeves rolled up, pink headband, pink fingerless gloves, pink sash belt, sport sneakers; column 3 'cyber outfit' = lab coat with thin glowing cyan circuit lines, cyan visor-style hair clips, silver knee pads, cyan-soled boots. Row 1 idle stance, row 2 the same three outfits in the jump peak pose. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.1",
+   "id": "A8",
+   "who": "haru",
+   "key": "asst_fight_a8",
+   "title": "전투복 · 돌진·필살기",
+   "facing": "left",
+   "grid": [
+    2,
+    4
+   ],
+   "n": 8,
+   "frame_size": [
+    299,
+    303
+   ],
+   "ground_y": 277,
+   "ref_frame": 4,
+   "seg": {
+    "dash": [
+     1,
+     4
+    ],
+    "onehot_barrage": [
+     5,
+     8
+    ]
+   },
+   "regen": null,
+   "use": "새 시트 (복장 축 '전투복'의 돌진·필살기)",
+   "sheet": "images/_sheets/motion/A8_asst.png",
+   "frames": [
+    "images/motions/haru/A8_f01.webp",
+    "images/motions/haru/A8_f02.webp",
+    "images/motions/haru/A8_f03.webp",
+    "images/motions/haru/A8_f04.webp",
+    "images/motions/haru/A8_f05.webp",
+    "images/motions/haru/A8_f06.webp",
+    "images/motions/haru/A8_f07.webp",
+    "images/motions/haru/A8_f08.webp"
+   ],
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, wearing the battle outfit: lab coat sleeves rolled up, pink headband, pink fingerless gloves, pink sash belt, sport sneakers, side view (3/4 toward the viewer). IMPORTANT: the character faces LEFT in every frame (attacks reach to the LEFT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: dash, 4 frames: lean forward low, rush toward the LEFT, hair and coat flying back, stop. Row 2: one-hot barrage, 4 key frames: step in, left straight punch, right straight punch, final punch fully extended to the LEFT. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+  },
+  {
+   "since": "1.1",
+   "id": "A9",
+   "who": "haru",
+   "key": "asst_fight_a9",
+   "title": "사이버 · 돌진·필살기",
+   "facing": "left",
+   "grid": [
+    2,
+    4
+   ],
+   "n": 8,
+   "frame_size": [
+    233,
+    298
+   ],
+   "ground_y": 256,
+   "ref_frame": 4,
+   "seg": {
+    "dash": [
+     1,
+     4
+    ],
+    "onehot_barrage": [
+     5,
+     8
+    ]
+   },
+   "regen": null,
+   "use": "새 시트 (복장 축 '사이버'의 돌진·필살기)",
+   "sheet": "images/_sheets/motion/A9_asst.png",
+   "frames": [
+    "images/motions/haru/A9_f01.webp",
+    "images/motions/haru/A9_f02.webp",
+    "images/motions/haru/A9_f03.webp",
+    "images/motions/haru/A9_f04.webp",
+    "images/motions/haru/A9_f05.webp",
+    "images/motions/haru/A9_f06.webp",
+    "images/motions/haru/A9_f07.webp",
+    "images/motions/haru/A9_f08.webp"
+   ],
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, wearing the cyber outfit: lab coat with thin glowing cyan circuit lines, cyan visor-style hair clips, silver knee pads, cyan-soled boots, side view (3/4 toward the viewer). IMPORTANT: the character faces LEFT in every frame (attacks reach to the LEFT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: dash, 4 frames: lean forward low, rush toward the LEFT, hair and coat flying back, stop. Row 2: one-hot barrage, 4 key frames: step in, left straight punch, right straight punch, final punch fully extended to the LEFT. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+  },
+  {
+   "since": "1.1",
+   "id": "A10",
+   "who": "haru",
+   "key": "asst_fight_a10",
+   "title": "필살기 · 역전파 카운터",
+   "facing": "left",
+   "grid": [
+    2,
+    4
+   ],
+   "n": 8,
+   "frame_size": [
+    268,
+    297
+   ],
+   "ground_y": 274,
+   "ref_frame": 8,
+   "seg": {
+    "backprop_counter": [
+     1,
+     8
+    ]
+   },
+   "regen": null,
+   "use": "새 시트 (콤보 기술 '역전파 카운터')",
+   "sheet": "images/_sheets/motion/A10_asst.png",
+   "frames": [
+    "images/motions/haru/A10_f01.webp",
+    "images/motions/haru/A10_f02.webp",
+    "images/motions/haru/A10_f03.webp",
+    "images/motions/haru/A10_f04.webp",
+    "images/motions/haru/A10_f05.webp",
+    "images/motions/haru/A10_f06.webp",
+    "images/motions/haru/A10_f07.webp",
+    "images/motions/haru/A10_f08.webp"
+   ],
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, blue jeans, white sneakers, side view (3/4 toward the viewer). IMPORTANT: the character faces LEFT in every frame (attacks reach to the LEFT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. special: backpropagation counter, 8 frames, read left to right then top to bottom: take a hit pose leaning back, slide backward to the RIGHT, spin around once, reverse the momentum, deliver a rising palm strike upward toward the LEFT, land in a ready stance facing LEFT. Same face, same proportions, same colors in every frame; only the pose changes. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+  },
+  {
+   "since": "1.0",
    "id": "F1",
    "who": "fruitfly",
    "key": "fly_fight_f1",
@@ -721,6 +948,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, white lab coat over a black vest, black gloves, transparent wings, facing the viewer, front view. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle, 4 frames: standing referee pose, wings fluttering slightly, holding a small blank white flag. Row 2: round start, 4 frames: raise one arm high, then swing it down sharply to signal the start. Same face, same proportions, same colors in every frame; only the pose changes. Six limbs total (two arms, four legs) stay visible and consistent. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "F2",
    "who": "fruitfly",
    "key": "fly_fight_f2",
@@ -763,6 +991,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, white lab coat over a black vest, black gloves, transparent wings, facing the viewer, front view. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: point to the left fighter, 4 frames: turn and point firmly to the viewer's left with the arm extended, flag up. Row 2: point to the right fighter, 4 frames: turn and point firmly to the viewer's right with the arm extended, flag up. Same face, same proportions, same colors in every frame; only the pose changes. Six limbs total (two arms, four legs) stay visible and consistent. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "F3",
    "who": "fruitfly",
    "key": "fly_fight_f3",
@@ -805,6 +1034,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, white lab coat over a black vest, black gloves, transparent wings, facing the viewer, front view. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: draw, 4 frames: cross both arms in an X, then shake head. Row 2: suspicious check, 4 frames: lean forward, hand on chin, squint, then nod. Same face, same proportions, same colors in every frame; only the pose changes. Six limbs total (two arms, four legs) stay visible and consistent. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "R1",
    "who": "jupanbot",
    "key": "robo_fight_r1",
@@ -847,6 +1077,7 @@
    "prompt_en": "Pixel art sprite sheet of one original character: boxy beige retro CRT-monitor robot (about 70% of the doctor's height), dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, holding a wooden abacus, facing the viewer, 3/4 front view. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle, 4 frames: rolling slightly back and forth on the treads, antenna bead bobbing. Row 2: counting, 4 frames: flicking abacus beads quickly with both hands, screen eyes looking down at the abacus. Same face, same proportions, same colors in every frame; only the pose changes. No round white head, no yellow eyes, no ball antenna, no chest lights, no floating, no gold coins. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
+   "since": "1.0",
    "id": "R2",
    "who": "jupanbot",
    "key": "robo_fight_r2",
