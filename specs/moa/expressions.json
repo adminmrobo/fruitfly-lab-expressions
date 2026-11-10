@@ -224,7 +224,7 @@
   "en": "Neutral",
   "spec": "specs/moa/expressions/E13_neutral.md",
   "image": "images/moa/E13_neutral.png",
-  "image_status": "pending",
+  "image_status": "generated",
   "original_match": "사용자 일러스트 (화분을 든 미소)",
   "prompt_en": "Moa, a gentle cheerful anime girl maid intern in a research lab, long ash-beige hair reaching the waist with soft wavy ends and neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan with ribbed cuffs, white frilled apron with ruffled shoulder straps, no glasses, neutral default expression, relaxed eyebrows, calm open amber eyes looking at the viewer, closed mouth with a very faint smile, facing forward, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, black hair, pink hair, ponytail, missing headband, glasses, suit jacket, different eye color, different outfit, extra fingers, deformed hands",

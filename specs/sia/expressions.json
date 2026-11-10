@@ -224,7 +224,7 @@
   "en": "Neutral",
   "spec": "specs/sia/expressions/E13_neutral.md",
   "image": "images/sia/E13_neutral.png",
-  "image_status": "pending",
+  "image_status": "generated",
   "original_match": "사용자 일러스트 01_Working_Typing (무표정 타이핑)",
   "prompt_en": "Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses, neutral default expression, relaxed eyebrows, calm open gray eyes looking at the viewer, closed mouth with a very faint smile, facing forward, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, headdress, maid headband, hair ornament, glasses, colored hair, blonde hair, brown hair, short hair, different eye color, different outfit, extra fingers, deformed hands",

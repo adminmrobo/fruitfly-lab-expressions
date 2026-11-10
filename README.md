@@ -14,12 +14,13 @@
 | `doctor` | **박사** | Professor · 해설·심판·사회자 | 2 → 24 |
 | `jupanbot` | **주판봇** | 주판봇 · 라이벌 B "확신" | 9 → 24 |
 | `fruitfly` | **초파리** | 초파리 연구원 · 라이벌 A "의심" | 6 → 24 |
-| `sia` | **시아** (No.005) | 메이드 인턴 · 심판·방청객 | 명세 24 · 이미지 생성 예정 |
-| `moa` | **모아** (No.006) | 메이드 인턴 · 방청객·심판 · 정장 의상 | 명세 24 · 이미지 생성 예정 |
+| `sia` | **시아** (No.005) | 메이드 인턴 · 심판·방청객 | 명세 24 · 이미지 1 (E13) |
+| `moa` | **모아** (No.006) | 메이드 인턴 · 방청객·심판 · 정장 의상 | 명세 24 · 이미지 1 (E13) |
 | `x1`·`x2`·`x3` | **미공개** (No.007~009) | 실루엣 슬롯 · 버튼을 눌러야 보임 | 명세 24씩 · 이미지 생성 예정 |
 
 ### 새 식구 (2026-11-11)
 - 시아·모아는 하루와 **같은 표정 24종·같은 명세 구성**, 동작은 박사·조수와 **같은 배열**(시아 S1~S15 = 박사 자리·오른쪽, 모아 M1~M16 = 조수 자리·왼쪽, 심판 3장·방청객 2장 포함, 모아 정장 M16).
+- 기본형(2026-11-11 생성): 설정 시트 `refs/original/sia_sheet.png`·`moa_sheet.png`, 8방향 `images/_sheets/interns_turnaround8.png`, 여섯 식구 단체 `images/_sheets/lab6_lineup.png`(주판봇 정본판).
 - 미공개 X1~X3는 앞으로 들어올 식구의 자리입니다. 갤러리·동작 페이지·식구 명부에서 **🔒 버튼**을 눌러야 보입니다.
 - 기본형 생성 순서·프롬프트: [`specs/interns/PROMPTS_base.md`](specs/interns/PROMPTS_base.md) · 동작: [`specs/motions/PROMPTS_interns.md`](specs/motions/PROMPTS_interns.md) · 미공개 규칙: [`specs/spares/README.md`](specs/spares/README.md)
 
@@ -51,7 +52,7 @@
 
 ## 동작·의상 라이브러리 (motion v1.1, 2026-11-08)
 
-표정과 별도로, 네 캐릭터의 **전신 동작 시트 25장(프레임 196장)**을 더했습니다. 갤러리: [`motions.html`](motions.html) · 명세: [`specs/motions/README.md`](specs/motions/README.md)
+표정과 별도로, 여섯 캐릭터의 **전신 동작 시트 27장(프레임 212장)**을 더했습니다(시아 S1·모아 M1 포함). 갤러리: [`motions.html`](motions.html) · 명세: [`specs/motions/README.md`](specs/motions/README.md)
 
 | 캐릭터 | 시트 | 동작 |
 |---|---|---|

@@ -21,7 +21,7 @@
 | E10 | 업무 | 확인 | Confirming | — | [E10_confirming.md](expressions/E10_confirming.md) | `images/moa/E10_confirming.png` | pending |
 | E11 | 업무 | 사과 | Apologizing | — | [E11_apologizing.md](expressions/E11_apologizing.md) | `images/moa/E11_apologizing.png` | pending |
 | E12 | 업무 | 응원 | Cheering | — | [E12_cheering.md](expressions/E12_cheering.md) | `images/moa/E12_cheering.png` | pending |
-| E13 | 미묘한 감정 | 기본(중립) | Neutral | ● | [E13_neutral.md](expressions/E13_neutral.md) | `images/moa/E13_neutral.png` | pending |
+| E13 | 미묘한 감정 | 기본(중립) | Neutral | ● | [E13_neutral.md](expressions/E13_neutral.md) | `images/moa/E13_neutral.png` | generated |
 | E14 | 미묘한 감정 | 머쓱함 | Sheepish | — | [E14_sheepish.md](expressions/E14_sheepish.md) | `images/moa/E14_sheepish.png` | pending |
 | E15 | 미묘한 감정 | 당황 | Flustered | — | [E15_flustered.md](expressions/E15_flustered.md) | `images/moa/E15_flustered.png` | pending |
 | E16 | 미묘한 감정 | 뿌듯함 | Proud | ● | [E16_proud.md](expressions/E16_proud.md) | `images/moa/E16_proud.png` | pending |

@@ -7,7 +7,7 @@ expression_ko: 기본(중립)
 expression_en: Neutral
 spec_file: specs/moa/expressions/E13_neutral.md
 image_file: images/moa/E13_neutral.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/moa/00_character_core.md
 reference_images: [refs/original/moa_sheet.png, images/moa/E13_neutral.png]
 original_match: "사용자 일러스트 (화분을 든 미소)"

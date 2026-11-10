@@ -1151,11 +1151,9 @@
     "images/motions/jupanbot/R2_f08.webp"
    ],
    "prompt_en": "Pixel art sprite sheet of one original character: boxy beige retro CRT-monitor robot (about 70% of the doctor's height), dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, holding a wooden abacus, facing the viewer, 3/4 front view. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: cheer, 4 frames: raise the abacus high, screen shows happy pixel eyes, small hop on treads. Row 2: disappointed, 4 frames: lower the abacus, screen shows flat pixel eyes, body tilts forward. Same face, same proportions, same colors in every frame; only the pose changes. No round white head, no yellow eyes, no ball antenna, no chest lights, no floating, no gold coins. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
-  }
- ],
- "planned": [
+  },
   {
-   "since": "planned",
+   "since": "1.2",
    "id": "S1",
    "who": "sia",
    "key": "sia_fight_s1",
@@ -1178,12 +1176,72 @@
    },
    "mirrors": "D1",
    "use": "행동 축 '서기', 대전 대기",
-   "status": "pending",
-   "hidden": false,
    "sheet": "images/_sheets/motion/S1_sia.png",
-   "frames_dir": "images/motions/sia/",
-   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl maid intern (big head, about 2.5 heads tall, slightly shorter than the assistant), long straight jet-black hair to the waist with side-swept bangs, gray eyes, small silver earrings, no headdress, charcoal-black long-sleeved maid dress with white lace cuffs, large gray bow at the collar, long white frilled apron tied with a big bow at the back, white socks, black flat shoes, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle stance, 4 frames: fighting-game ready stance, fists up, gentle breathing bob, apron hem sways slightly. Row 2: walk forward, 4 frames: walk cycle toward the right, arms swinging. Same face, same proportions, same colors in every frame; only the pose changes. Keep the side-swept bangs parted on the same side in every frame. No headdress. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl maid intern (big head, about 2.5 heads tall, slightly shorter than the assistant), long straight jet-black hair to the waist with side-swept bangs, gray eyes, small silver earrings, no headdress, charcoal-black long-sleeved maid dress with white lace cuffs, large gray bow at the collar, long white frilled apron tied with a big bow at the back, white socks, black flat shoes, side view (3/4 toward the viewer). IMPORTANT: the character faces RIGHT in every frame (looking toward the right edge of the image, the attacking hand and leg reach to the RIGHT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle stance, 4 frames: fighting-game ready stance, fists up, gentle breathing bob, apron hem sways slightly. Row 2: walk forward, 4 frames: walk cycle toward the right, arms swinging. Same face, same proportions, same colors in every frame; only the pose changes. Keep the side-swept bangs parted on the same side in every frame. No headdress. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "frame_size": [
+    182,
+    280
+   ],
+   "ground_y": 272,
+   "ref_frame": 1,
+   "frames": [
+    "images/motions/sia/S1_f01.webp",
+    "images/motions/sia/S1_f02.webp",
+    "images/motions/sia/S1_f03.webp",
+    "images/motions/sia/S1_f04.webp",
+    "images/motions/sia/S1_f05.webp",
+    "images/motions/sia/S1_f06.webp",
+    "images/motions/sia/S1_f07.webp",
+    "images/motions/sia/S1_f08.webp"
+   ],
+   "regen": "대기 줄(1~4) 프레임 차이가 작음"
   },
+  {
+   "since": "1.2",
+   "id": "M1",
+   "who": "moa",
+   "key": "moa_fight_m1",
+   "title": "기본 A · 서기·걷기",
+   "facing": "left",
+   "grid": [
+    2,
+    4
+   ],
+   "n": 8,
+   "seg": {
+    "idle": [
+     1,
+     4
+    ],
+    "walk": [
+     5,
+     8
+    ]
+   },
+   "mirrors": "A1",
+   "use": "행동 축 '서기', 대전 대기",
+   "sheet": "images/_sheets/motion/M1_moa.png",
+   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl maid intern (big head, about 2.5 heads tall, the smallest of the human characters), long ash-beige hair to the waist with wavy ends, white frilled maid headband, amber-brown eyes, camel knit cardigan over a white shirt with a red and navy plaid bow tie, white frilled apron, black skirt, white socks, brown loafers, side view (3/4 toward the viewer). IMPORTANT: the character faces LEFT in every frame (attacks reach to the LEFT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle stance, 4 frames: fighting-game ready stance, fists up, light bounce on toes, long hair sways. Row 2: walk forward, 4 frames: walk cycle toward the left, arms swinging. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white headband and the ribbon over the left ear on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "frame_size": [
+    182,
+    280
+   ],
+   "ground_y": 272,
+   "ref_frame": 1,
+   "frames": [
+    "images/motions/moa/M1_f01.webp",
+    "images/motions/moa/M1_f02.webp",
+    "images/motions/moa/M1_f03.webp",
+    "images/motions/moa/M1_f04.webp",
+    "images/motions/moa/M1_f05.webp",
+    "images/motions/moa/M1_f06.webp",
+    "images/motions/moa/M1_f07.webp",
+    "images/motions/moa/M1_f08.webp"
+   ],
+   "regen": "대기 줄(1~4) 프레임 차이가 작음 · 3번 칸 발밑 흰 얼룩은 잘라 내며 지움"
+  }
+ ],
+ "planned": [
   {
    "since": "planned",
    "id": "S2",
@@ -1611,36 +1669,6 @@
    "sheet": "images/_sheets/motion/S15_sia.png",
    "frames_dir": "images/motions/sia/",
    "prompt_en": "Pixel art sprite sheet of one original character: chibi girl maid intern (big head, about 2.5 heads tall, slightly shorter than the assistant), long straight jet-black hair to the waist with side-swept bangs, gray eyes, small silver earrings, no headdress, charcoal-black long-sleeved maid dress with white lace cuffs, large gray bow at the collar, long white frilled apron tied with a big bow at the back, white socks, black flat shoes, facing the viewer, front view. Grid 4 columns x 2 rows, aspect ratio 16:9. Audience props: a short glowing light stick in one hand, worn over the maid outfit. Row 1: cheer, 4 frames: raise the light stick high and wave it, happy open mouth, small jump. Row 2: disappointed, 4 frames: lower the light stick, shoulders drop, head down, small sigh. Same face, same proportions, same colors in every frame; only the pose changes. Keep the side-swept bangs parted on the same side in every frame. No headdress. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
-  },
-  {
-   "since": "planned",
-   "id": "M1",
-   "who": "moa",
-   "key": "moa_fight_m1",
-   "title": "기본 A · 서기·걷기",
-   "facing": "left",
-   "grid": [
-    2,
-    4
-   ],
-   "n": 8,
-   "seg": {
-    "idle": [
-     1,
-     4
-    ],
-    "walk": [
-     5,
-     8
-    ]
-   },
-   "mirrors": "A1",
-   "use": "행동 축 '서기', 대전 대기",
-   "status": "pending",
-   "hidden": false,
-   "sheet": "images/_sheets/motion/M1_moa.png",
-   "frames_dir": "images/motions/moa/",
-   "prompt_en": "Pixel art sprite sheet of one original character: chibi girl maid intern (big head, about 2.5 heads tall, the smallest of the human characters), long ash-beige hair to the waist with wavy ends, white frilled maid headband, amber-brown eyes, camel knit cardigan over a white shirt with a red and navy plaid bow tie, white frilled apron, black skirt, white socks, brown loafers, side view (3/4 toward the viewer). IMPORTANT: the character faces LEFT in every frame (attacks reach to the LEFT). Do not mirror. Grid 4 columns x 2 rows, aspect ratio 16:9. Row 1: idle stance, 4 frames: fighting-game ready stance, fists up, light bounce on toes, long hair sways. Row 2: walk forward, 4 frames: walk cycle toward the left, arms swinging. Same face, same proportions, same colors in every frame; only the pose changes. Keep the white headband and the ribbon over the left ear on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no extra visual effects beyond what is described, no motion lines, no speed lines."
   },
   {
    "since": "planned",
