@@ -52,6 +52,22 @@ h3::after{content:"";flex:1;height:1px;background:var(--line)}
 .card .cap{padding:9px 11px;display:flex;justify-content:space-between;align-items:baseline;gap:6px}
 .card .ko{font-weight:500}
 .card .id{font-family:var(--mono);font-size:11px;color:var(--mute)}
+.noimg{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:100%;aspect-ratio:1;background:repeating-linear-gradient(45deg,#f3f1ec 0 10px,#ebe8e2 10px 20px);color:var(--mute);font-family:var(--mono);font-size:12px}
+.noimg b{font-family:"IBM Plex Sans KR",sans-serif;font-size:14px;color:var(--fg)}
+.noimg.small{width:30px;height:30px;border-radius:50%;font-family:"IBM Plex Sans KR",sans-serif;font-weight:700;font-size:13px;background:#e8e4dc;color:var(--fg)}
+.noimg.secret{background:radial-gradient(circle at 50% 42%,#2e2b4a,#1b1a2e 72%)}
+.noimg.secret i{position:relative;width:38%;height:22%;display:block}
+.noimg.secret i::before,.noimg.secret i::after{content:"";position:absolute;top:20%;width:18%;aspect-ratio:1;border-radius:50%;background:#fff;box-shadow:0 0 0 2px rgba(233,112,154,.0)}
+.noimg.secret i::before{left:14%}.noimg.secret i::after{right:14%}
+.charhead .noimg{width:160px;height:160px;border-radius:12px;border:1px solid var(--line)}
+.dlg .pic .noimg{max-width:300px;border-radius:10px}
+.chip .new{font-family:var(--mono);font-size:10px;color:var(--accent);background:var(--accent-soft);padding:0 5px;border-radius:4px}
+.chip.on .new{background:#fff}
+.chip.lock{padding:6px 14px;border-style:dashed;color:var(--mute)}
+.chip.secret{background:#1b1a2e;color:#e6e2f5;border-color:#1b1a2e}.chip.secret.on{outline:2px solid var(--accent)}
+.rno{font-family:var(--mono);font-size:13px;color:var(--mute);font-weight:500;margin-right:8px;vertical-align:middle}
+.badge.todo{color:var(--mute);background:#eeebe5}
+@media (max-width:760px){.charhead .noimg{width:96px;height:96px}}
 .badge{font-family:var(--mono);font-size:10px;color:var(--accent);background:var(--accent-soft);padding:1px 6px;border-radius:4px;margin-left:4px}
 
 dialog{border:0;border-radius:14px;padding:0;max-width:980px;width:calc(100% - 40px);max-height:calc(100vh - 40px);box-shadow:0 30px 80px rgba(0,0,0,.3)}
@@ -83,8 +99,8 @@ footer{max-width:1360px;margin:0 auto;padding:0 32px 40px;color:var(--mute);font
 <header class="top">
   <div class="eyebrow">Fruit Fly Lab · Expression Library v1.1</div>
   <h1>초파리 연구실 캐릭터 표정 라이브러리</h1>
-  <p class="lede">캐릭터 4명 × 공통 표정 24종. 모든 이미지는 같은 ID(E01~E24)의 명세 MD와 1:1로 연결되며, 명세에는 바로 쓸 수 있는 생성 프롬프트가 들어 있습니다. 카드를 누르면 명세와 프롬프트를 볼 수 있습니다.</p>
-  <div class="stats"><div><b>4</b>캐릭터</div><div><b>24</b>표정 / 캐릭터</div><div><b>96</b>이미지 · 명세</div><div><b><a href="motions.html" style="text-decoration:underline">196</a></b><a href="motions.html">동작 프레임 →</a></div></div>
+  <p class="lede">캐릭터 4명 × 공통 표정 24종에 새 식구 <b>시아·모아</b>(No.005·006)가 같은 24종 명세로 들어왔습니다(이미지는 생성 예정). 미공개 식구 3명(No.007~009)은 버튼을 눌러야 보입니다. 모든 이미지는 같은 ID(E01~E24)의 명세 MD와 1:1로 연결되며, 명세에는 바로 쓸 수 있는 생성 프롬프트가 들어 있습니다. 카드를 누르면 명세와 프롬프트를 볼 수 있습니다.</p>
+  <div class="stats"><div><b>4+2</b>캐릭터 (+ 미공개 3)</div><div><b>24</b>표정 / 캐릭터</div><div><b>96</b>이미지 · <b style="display:inline;font-size:inherit">216</b> 명세</div><div><b><a href="motions.html" style="text-decoration:underline">196</a></b><a href="motions.html">동작 프레임 →</a></div></div>
 </header>
 
 <nav class="bar"><div class="in">
@@ -104,11 +120,22 @@ const CHARS = {
   haru:{name:'하루',alias:'예명 세나 · 조수',desc:'실제로 일을 다 하는 연구원. 꼼꼼한 실험과 기록, 점수 기록 담당. 분홍+남색 투톤 장발, 정수리 번 2개, 라벤더 후드 + 흰 랩코트.'},
   doctor:{name:'박사',alias:'Professor · 해설·심판·사회자',desc:'자신만만한 치비 과학자. 이론과 큰소리로 판단한다. 숯색 뾰족 머리 + 흰 줄, 굵은 눈썹, 청록 안경, 흰 가운 + 검은 조끼. 시그니처는 보라 불꽃.'},
   jupanbot:{name:'주판봇',alias:'AbaBot · 라이벌 B "확신"',desc:'주판을 든 상자형 레트로 컴퓨터 로봇. 숫자를 믿는 확신파. "데이터가 그렇게 말하고 있어요!" 화면 색(초록·빨강·파랑·호박색)과 픽셀 효과, 주판 동작으로 감정을 크게 보여 줌.'},
-  fruitfly:{name:'초파리',alias:'초파리 연구원 · 라이벌 A "의심"',desc:'작지만 날카로운 연구원. 호기심과 생물학적 직관으로 판단한다. "정말 그럴까?" 빨간 겹눈, 남색 헬멧과 케이블, 흰 가운.'}
+  fruitfly:{name:'초파리',alias:'초파리 연구원 · 라이벌 A "의심"',desc:'작지만 날카로운 연구원. 호기심과 생물학적 직관으로 판단한다. "정말 그럴까?" 빨간 겹눈, 남색 헬멧과 케이블, 흰 가운.'},
+  sia:{no:5,name:'시아',alias:'Sia · 메이드 인턴 · 심판·방청객',desc:'조용하고 꼼꼼한 메이드 인턴. 판을 끝까지 지켜보는 눈이라 심판을 자주 맡지만, 집중이 끊기면 하품하다 책상에서 잠든다. 흑발 생머리(머리 장식 없음), 회색 눈, 은색 귀걸이, 검은 메이드 원피스 + 회색 리본 + 흰 앞치마.',isNew:true},
+  moa:{no:6,name:'모아',alias:'Moa · 메이드 인턴 · 방청객·심판',desc:'상냥한 메이드 인턴. 화분을 돌보고 차를 내리며, 기록을 모아 두는 담당. 응원할 때 목소리가 제일 크다. 애쉬 베이지 장발, 흰 프릴 머리띠, 호박색 눈, 카멜 카디건 + 체크 리본 + 흰 앞치마. 정장 의상(포니테일)이 따로 있다.',isNew:true},
+  x1:{no:7,name:'미공개 X1',alias:'No.007 · 리본 실루엣',desc:'아직 정체를 밝히지 않은 새 식구. 긴 사이드 포니테일과 분홍 리본만 보인다.',hidden:true},
+  x2:{no:8,name:'미공개 X2',alias:'No.008 · 모자 실루엣',desc:'아직 정체를 밝히지 않은 새 식구. 둥근 베레모와 안경의 청록 반사만 보인다.',hidden:true},
+  x3:{no:9,name:'미공개 X3',alias:'No.009 · 꼬마 실루엣',desc:'아직 정체를 밝히지 않은 아주 작은 새 식구. 고양이 귀 후드와 노란 방울만 보인다.',hidden:true}
 };
+let showHidden = false;
+function noimg(img){ const k = img.dataset.k || ''; const s = document.createElement('span');
+  s.className = 'noimg' + (/^x/.test(k) ? ' secret' : '') + (img.dataset.small ? ' small' : '');
+  s.innerHTML = /^x/.test(k) ? '<i></i>' : (img.dataset.small ? esc((CHARS[k]||{}).name||'?').slice(0,1) : '<b>제작 예정</b><small>pending</small>');
+  img.replaceWith(s); }
 const CAT = {all:'전체',basic:'기본 감정',assistant:'업무',subtle:'미묘한 감정',comic:'코믹 과장'};
 const cache = {};
 let cur = localStorage.getItem('lib_char') || 'haru';
+if(!CHARS[cur] || CHARS[cur].hidden) cur = 'haru';
 let filt = localStorage.getItem('lib_filter') || 'all';
 let list = [], idx = 0;
 
@@ -121,9 +148,11 @@ async function load(k){
 }
 
 function drawNav(){
-  $('#chars').innerHTML = Object.entries(CHARS).map(([k,c]) =>
-    `<button class="chip ${k===cur?'on':''}" data-k="${k}"><img src="images/${k}/E13_neutral.png" alt="">${c.name}</button>`).join('');
-  $('#chars').querySelectorAll('button').forEach(b => b.onclick = () => { cur=b.dataset.k; localStorage.setItem('lib_char',cur); render(); });
+  $('#chars').innerHTML = Object.entries(CHARS).filter(([k,c]) => !c.hidden || showHidden).map(([k,c]) =>
+    `<button class="chip ${k===cur?'on':''}${c.hidden?' secret':''}" data-k="${k}"><img src="images/${k}/E13_neutral.png" alt="" data-k="${k}" data-small="1" onerror="noimg(this)">${c.name}${c.isNew?'<span class="new">NEW</span>':''}</button>`).join('')
+    + `<button class="chip lock" id="lock" aria-expanded="${showHidden}">${showHidden ? '미공개 식구 숨기기' : '🔒 미공개 식구 보기 (3)'}</button>`;
+  $('#chars').querySelectorAll('button[data-k]').forEach(b => b.onclick = () => { cur=b.dataset.k; if(!CHARS[cur].hidden) localStorage.setItem('lib_char',cur); render(); });
+  $('#lock').onclick = () => { showHidden = !showHidden; if(!showHidden && CHARS[cur].hidden) cur = 'haru'; render(); };
   $('#filters').innerHTML = Object.entries(CAT).map(([k,v]) => `<button class="${k===filt?'on':''}" data-k="${k}">${v}</button>`).join('');
   $('#filters').querySelectorAll('button').forEach(b => b.onclick = () => { filt=b.dataset.k; localStorage.setItem('lib_filter',filt); render(); });
 }
@@ -136,8 +165,8 @@ async function render(){
   const groups = {};
   list.forEach(d => (groups[d.category] = groups[d.category] || []).push(d));
   let html = `<section class="charhead" data-screen-label="${c.name}">
-    <img src="images/${cur}/E13_neutral.png" alt="${esc(c.name)}">
-    <div><h2>${esc(c.name)}</h2><div class="alias">${esc(c.alias)}</div><p>${esc(c.desc)}</p></div>
+    <img src="images/${cur}/E13_neutral.png" alt="${esc(c.name)}" data-k="${cur}" onerror="noimg(this)">
+    <div><h2>${c.no?`<span class="rno">No.${String(c.no).padStart(3,'0')}</span>`:''}${esc(c.name)}</h2><div class="alias">${esc(c.alias)}</div><p>${esc(c.desc)}</p></div>
     <div class="links">
       <a href="specs/${cur}/00_character_core.md">00_character_core.md</a>
       <a href="specs/${cur}/README.md">README.md (표정 목록)</a>
@@ -147,8 +176,8 @@ async function render(){
     if(!groups[k]) continue;
     html += `<h3>${CAT[k]}</h3><div class="grid">` + groups[k].map(d => {
       const i = list.indexOf(d);
-      return `<button class="card" data-i="${i}"><img loading="lazy" src="${d.image}" alt="${esc(d.ko)}">
-        <div class="cap"><span class="ko">${esc(d.ko)}</span><span class="id">${d.id}${d.original_match?'<span class="badge">원본</span>':''}</span></div></button>`;
+      return `<button class="card" data-i="${i}"><img loading="lazy" src="${d.image}" alt="${esc(d.ko)}" data-k="${cur}" onerror="noimg(this)">
+        <div class="cap"><span class="ko">${esc(d.ko)}</span><span class="id">${d.id}${d.original_match?'<span class="badge">원본</span>':''}${d.image_status==='pending'?'<span class="badge todo">예정</span>':''}</span></div></button>`;
     }).join('') + `</div>`;
   }
   $('#main').innerHTML = html;
@@ -160,13 +189,14 @@ function openDlg(i){
   const d = list[idx];
   const lines = (d.lines || [d.line_haru, d.line_sena]).filter(Boolean);
   $('#dlgBody').innerHTML = `
-    <div class="pic"><img src="${d.image}" alt="${esc(d.ko)}"></div>
+    <div class="pic"><img src="${d.image}" alt="${esc(d.ko)}" data-k="${cur}" onerror="noimg(this)"></div>
     <div class="info">
       <h4>${esc(d.ko)} <span style="color:var(--mute);font-weight:400;font-size:16px">${esc(d.en)}</span></h4>
       <div class="meta">${CHARS[cur].name} · ${d.id} · ${esc(d.category_ko)}</div>
       <dl>
         <dt>이미지</dt><dd><a href="${d.image}">${d.image}</a></dd>
         <dt>명세</dt><dd><a href="${d.spec}">${d.spec}</a></dd>
+        <dt>상태</dt><dd>${d.image_status==='pending'?'이미지 생성 전 — 아래 프롬프트로 생성':'생성됨'}</dd>
         <dt>원본 대응</dt><dd>${esc(d.original_match || '신규 표정')}</dd>
         ${lines.length ? `<dt>대사 예시</dt><dd>${lines.map(l=>'“'+esc(l)+'”').join('<br>')}</dd>` : ''}
       </dl>

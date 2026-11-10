@@ -1,0 +1,410 @@
+[
+ {
+  "id": "E01",
+  "slug": "joy",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "기쁨",
+  "en": "Joy",
+  "spec": "specs/x1/expressions/E01_joy.md",
+  "image": "images/x1/E01_joy.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes curved into happy upside-down U shapes, small open white smile line, pink blush brighter, head tilted, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(빙글)"
+  ]
+ },
+ {
+  "id": "E02",
+  "slug": "sadness",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "슬픔",
+  "en": "Sadness",
+  "spec": "specs/x1/expressions/E02_sadness.md",
+  "image": "images/x1/E02_sadness.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes drooping downward, one small blue tear drop, tiny downturned white mouth line, head lowered, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(…훌쩍)"
+  ]
+ },
+ {
+  "id": "E03",
+  "slug": "anger",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "분노",
+  "en": "Anger",
+  "spec": "specs/x1/expressions/E03_anger.md",
+  "image": "images/x1/E03_anger.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes turned into sharp slanted white lines, flat tight white mouth line, arms crossed, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(부들부들)"
+  ]
+ },
+ {
+  "id": "E04",
+  "slug": "surprise",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "놀람",
+  "en": "Surprise",
+  "spec": "specs/x1/expressions/E04_surprise.md",
+  "image": "images/x1/E04_surprise.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes enlarged into big round white circles, tiny round o mouth, one exclamation mark, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(!)"
+  ]
+ },
+ {
+  "id": "E05",
+  "slug": "fear",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "두려움",
+  "en": "Fear",
+  "spec": "specs/x1/expressions/E05_fear.md",
+  "image": "images/x1/E05_fear.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, small trembling dot eyes glancing sideways, wavy white mouth line, blue shade on the upper face, trembling lines, hands near the mouth, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(덜덜)"
+  ]
+ },
+ {
+  "id": "E06",
+  "slug": "disgust",
+  "category": "basic",
+  "category_ko": "기본 감정",
+  "ko": "혐오",
+  "en": "Disgust",
+  "spec": "specs/x1/expressions/E06_disgust.md",
+  "image": "images/x1/E06_disgust.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes squeezed into flat lines looking away, wavy white mouth line, head turned away, palm raised to block, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(휙)"
+  ]
+ },
+ {
+  "id": "E07",
+  "slug": "explaining",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "설명",
+  "en": "Explaining",
+  "spec": "specs/x1/expressions/E07_explaining.md",
+  "image": "images/x1/E07_explaining.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, calm round dot eyes, small open white mouth mid-speech, index finger raised, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(…)"
+  ]
+ },
+ {
+  "id": "E08",
+  "slug": "guiding",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "안내",
+  "en": "Guiding",
+  "spec": "specs/x1/expressions/E08_guiding.md",
+  "image": "images/x1/E08_guiding.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, soft round dot eyes, tiny white smile line, head tilted, open palm gesturing to the side, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(이쪽)"
+  ]
+ },
+ {
+  "id": "E09",
+  "slug": "thinking",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "생각",
+  "en": "Thinking",
+  "spec": "specs/x1/expressions/E09_thinking.md",
+  "image": "images/x1/E09_thinking.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes looking up diagonally, tiny dot mouth, index finger on chin, small question mark bubble, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(?)"
+  ]
+ },
+ {
+  "id": "E10",
+  "slug": "confirming",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "확인",
+  "en": "Confirming",
+  "spec": "specs/x1/expressions/E10_confirming.md",
+  "image": "images/x1/E10_confirming.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, one dot eye and one wink line, small white smile line, thumbs up, one small sparkle, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(찡긋)"
+  ]
+ },
+ {
+  "id": "E11",
+  "slug": "apologizing",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "사과",
+  "en": "Apologizing",
+  "spec": "specs/x1/expressions/E11_apologizing.md",
+  "image": "images/x1/E11_apologizing.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes drooping, tiny downturned mouth line, head bowed, hands together, small sweat drop, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(꾸벅)"
+  ]
+ },
+ {
+  "id": "E12",
+  "slug": "cheering",
+  "category": "assistant",
+  "category_ko": "업무",
+  "ko": "응원",
+  "en": "Cheering",
+  "spec": "specs/x1/expressions/E12_cheering.md",
+  "image": "images/x1/E12_cheering.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, determined round dot eyes with a tiny shine, short firm white mouth line, one fist raised, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(불끈)"
+  ]
+ },
+ {
+  "id": "E13",
+  "slug": "neutral",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "기본(중립)",
+  "en": "Neutral",
+  "spec": "specs/x1/expressions/E13_neutral.md",
+  "image": "images/x1/E13_neutral.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, neutral calm round white dot eyes looking at the viewer, no mouth, facing forward, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(……)"
+  ]
+ },
+ {
+  "id": "E14",
+  "slug": "sheepish",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "머쓱함",
+  "en": "Sheepish",
+  "spec": "specs/x1/expressions/E14_sheepish.md",
+  "image": "images/x1/E14_sheepish.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes glancing away, awkward wavy smile line, brighter blush, scratching cheek with one finger, small sweat drop, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(긁적)"
+  ]
+ },
+ {
+  "id": "E15",
+  "slug": "flustered",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "당황",
+  "en": "Flustered",
+  "spec": "specs/x1/expressions/E15_flustered.md",
+  "image": "images/x1/E15_flustered.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes turned into small spirals, wavy mouth line, extra blush, hands waving in front, sweat drops, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(허둥)"
+  ]
+ },
+ {
+  "id": "E16",
+  "slug": "proud",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "뿌듯함",
+  "en": "Proud",
+  "spec": "specs/x1/expressions/E16_proud.md",
+  "image": "images/x1/E16_proud.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes closed into smug curved lines, small satisfied smile line, chin lifted, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(으쓱)"
+  ]
+ },
+ {
+  "id": "E17",
+  "slug": "sleepy",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "졸림",
+  "en": "Sleepy",
+  "spec": "specs/x1/expressions/E17_sleepy.md",
+  "image": "images/x1/E17_sleepy.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes turned into half-closed flat lines, small open o mouth, a small snot bubble, head tilted, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(쿨…)"
+  ]
+ },
+ {
+  "id": "E18",
+  "slug": "sulking",
+  "category": "subtle",
+  "category_ko": "미묘한 감정",
+  "ko": "삐짐",
+  "en": "Sulking",
+  "spec": "specs/x1/expressions/E18_sulking.md",
+  "image": "images/x1/E18_sulking.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes narrowed and glancing sideways, pouting short mouth line, cheeks puffed, arms crossed, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(흥)"
+  ]
+ },
+ {
+  "id": "E19",
+  "slug": "sparkle_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "반짝눈(감동·기대)",
+  "en": "Sparkling Eyes",
+  "spec": "specs/x1/expressions/E19_sparkle_eyes.md",
+  "image": "images/x1/E19_sparkle_eyes.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes replaced by four-pointed white star sparkles, open happy mouth line, golden sparkles around, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(반짝)"
+  ]
+ },
+ {
+  "id": "E20",
+  "slug": "sweat_drop",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "식은땀",
+  "en": "Big Sweat Drop",
+  "spec": "specs/x1/expressions/E20_sweat_drop.md",
+  "image": "images/x1/E20_sweat_drop.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, tiny blank dot eyes, flat mouth line, one large sweat drop on the side of the head, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(삐질)"
+  ]
+ },
+ {
+  "id": "E21",
+  "slug": "waterfall_tears",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "울먹(폭포 눈물)",
+  "en": "Waterfall Tears",
+  "spec": "specs/x1/expressions/E21_waterfall_tears.md",
+  "image": "images/x1/E21_waterfall_tears.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes squeezed shut as > < lines, wide open crying mouth line, two thick blue streams of cartoon tears, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(주르륵)"
+  ]
+ },
+ {
+  "id": "E22",
+  "slug": "puffed_angry",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "뿔남",
+  "en": "Comic Anger",
+  "spec": "specs/x1/expressions/E22_puffed_angry.md",
+  "image": "images/x1/E22_puffed_angry.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes squeezed into > < shapes, cheeks puffed, anger vein mark and steam puffs above the head, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(뿌우)"
+  ]
+ },
+ {
+  "id": "E23",
+  "slug": "blank_dot_eyes",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "멍(점 눈)",
+  "en": "Blank Dot Eyes",
+  "spec": "specs/x1/expressions/E23_blank_dot_eyes.md",
+  "image": "images/x1/E23_blank_dot_eyes.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, eyes reduced to the tiniest single-pixel dots, no mouth, three dots floating above the head, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(…….)"
+  ]
+ },
+ {
+  "id": "E24",
+  "slug": "shock",
+  "category": "comic",
+  "category_ko": "코믹 과장",
+  "ko": "충격",
+  "en": "Shock",
+  "spec": "specs/x1/expressions/E24_shock.md",
+  "image": "images/x1/E24_shock.png",
+  "image_status": "pending",
+  "original_match": null,
+  "prompt_en": "a mysterious unrevealed character drawn as a cute solid silhouette, whole body filled with one flat very dark navy-black color (#1B1A2E) with a thin dithered purple rim light (#4B4470) only on the outer edge, two round plain white dot eyes with a tiny highlight, no pupils, no teeth, no grin, two small pink blush pixels on the cheeks, wearing a lab coat whose shape is visible only as silhouette, friendly and cute, not scary, chibi girl silhouette, long side ponytail tied with a big bow, the bow is the only colored part: bright pink (#E9709A), skirt hem visible under the lab coat, dot eyes turned into hollow white rings, jagged open mouth line, blue shade over the upper face, large sweat drop, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+  "negative_en": "scary, horror, villain, menacing smile, sharp teeth, bald head, realistic human proportions, glowing red eyes, full color clothing, visible face details, detailed eyes with irises, text, letters, question mark symbol, watermark, multiple characters",
+  "lines": [
+   "(헉!)"
+  ]
+ }
+]
