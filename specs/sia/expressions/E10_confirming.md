@@ -7,7 +7,7 @@ expression_ko: 확인
 expression_en: Confirming
 spec_file: specs/sia/expressions/E10_confirming.md
 image_file: images/sia/E10_confirming.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "사용자 일러스트 01_Working_Typing (집중)"

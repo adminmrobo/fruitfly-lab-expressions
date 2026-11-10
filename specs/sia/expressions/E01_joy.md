@@ -7,7 +7,7 @@ expression_ko: 기쁨
 expression_en: Joy
 spec_file: specs/sia/expressions/E01_joy.md
 image_file: images/sia/E01_joy.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "없음 (신규 표정)"

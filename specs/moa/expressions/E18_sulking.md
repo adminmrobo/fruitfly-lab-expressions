@@ -7,7 +7,7 @@ expression_ko: 삐짐
 expression_en: Sulking
 spec_file: specs/moa/expressions/E18_sulking.md
 image_file: images/moa/E18_sulking.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/moa/00_character_core.md
 reference_images: [refs/original/moa_sheet.png, images/moa/E13_neutral.png]
 original_match: "없음 (신규 표정)"

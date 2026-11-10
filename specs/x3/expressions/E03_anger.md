@@ -7,7 +7,7 @@ expression_ko: 분노
 expression_en: Anger
 spec_file: specs/x3/expressions/E03_anger.md
 image_file: images/x3/E03_anger.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/x3/00_character_core.md
 reference_images: [images/_sheets/spares_sheet.png, images/x3/E13_neutral.png]
 original_match: "없음 (신규 표정)"

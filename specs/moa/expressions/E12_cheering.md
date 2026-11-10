@@ -7,7 +7,7 @@ expression_ko: 응원
 expression_en: Cheering
 spec_file: specs/moa/expressions/E12_cheering.md
 image_file: images/moa/E12_cheering.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/moa/00_character_core.md
 reference_images: [refs/original/moa_sheet.png, images/moa/E13_neutral.png]
 original_match: "없음 (신규 표정)"

@@ -7,7 +7,7 @@ expression_ko: 슬픔
 expression_en: Sadness
 spec_file: specs/x1/expressions/E02_sadness.md
 image_file: images/x1/E02_sadness.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/x1/00_character_core.md
 reference_images: [images/_sheets/spares_sheet.png, images/x1/E13_neutral.png]
 original_match: "없음 (신규 표정)"

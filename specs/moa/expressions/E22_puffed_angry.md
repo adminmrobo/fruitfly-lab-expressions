@@ -7,7 +7,7 @@ expression_ko: 뿔남
 expression_en: Comic Anger
 spec_file: specs/moa/expressions/E22_puffed_angry.md
 image_file: images/moa/E22_puffed_angry.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/moa/00_character_core.md
 reference_images: [refs/original/moa_sheet.png, images/moa/E13_neutral.png]
 original_match: "없음 (신규 표정)"

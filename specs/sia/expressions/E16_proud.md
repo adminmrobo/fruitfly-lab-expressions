@@ -7,7 +7,7 @@ expression_ko: 뿌듯함
 expression_en: Proud
 spec_file: specs/sia/expressions/E16_proud.md
 image_file: images/sia/E16_proud.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "없음 (신규 표정)"

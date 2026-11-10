@@ -7,7 +7,7 @@ expression_ko: 생각
 expression_en: Thinking
 spec_file: specs/x1/expressions/E09_thinking.md
 image_file: images/x1/E09_thinking.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/x1/00_character_core.md
 reference_images: [images/_sheets/spares_sheet.png, images/x1/E13_neutral.png]
 original_match: "없음 (신규 표정)"

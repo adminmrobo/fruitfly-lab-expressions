@@ -7,7 +7,7 @@ expression_ko: 졸림
 expression_en: Sleepy
 spec_file: specs/sia/expressions/E17_sleepy.md
 image_file: images/sia/E17_sleepy.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "사용자 일러스트 05_Yawning (하품) · 06_Sleeping (엎드려 잠)"

@@ -51,6 +51,7 @@ NEGATIVE_EN: "scary, horror, villain, menacing smile, sharp teeth, bald head, re
 
 ## 5. 규칙
 1. 슬롯마다 다른 식구와 같은 **표정 24종(E01~E24)** 명세를 둡니다: `specs/x1/`, `specs/x2/`, `specs/x3/`. 실루엣이라 흰 점 눈·입선·이펙트만 바뀝니다.
-2. 동작은 방청객 시트 1장씩(X1_crowd·X2_crowd·X3_crowd)만 둡니다. 대전 동작은 정체가 공개된 뒤 만듭니다.
-3. 갤러리(`index.html`·`motions.html`)와 식구 명부에서는 **버튼을 눌러야** 보입니다.
-4. 공개할 때 슬롯 번호를 캐릭터 키로 바꾸고(예: X1 → `xxx`), 이 파일의 해당 행을 "공개됨"으로 고칩니다.
+2. 지금 그림은 9종씩(E13·E01·E03·E02·E04·E09·E16·E15·E24, 원본 `images/_sheets/spare_x*_faces.png`) — 나머지 15종은 명세만 있습니다.
+3. 동작은 방청객 시트 1장씩(X1_crowd·X2_crowd·X3_crowd)만 둡니다. 대전 동작은 정체가 공개된 뒤 만듭니다.
+4. 갤러리(`index.html`·`motions.html`)와 식구 명부에서는 **버튼을 눌러야** 보입니다.
+5. 공개할 때 슬롯 번호를 캐릭터 키로 바꾸고(예: X1 → `xxx`), 이 파일의 해당 행을 "공개됨"으로 고칩니다.

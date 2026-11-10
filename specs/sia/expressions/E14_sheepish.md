@@ -7,7 +7,7 @@ expression_ko: 머쓱함
 expression_en: Sheepish
 spec_file: specs/sia/expressions/E14_sheepish.md
 image_file: images/sia/E14_sheepish.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "없음 (신규 표정)"

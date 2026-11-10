@@ -7,7 +7,7 @@ expression_ko: 당황
 expression_en: Flustered
 spec_file: specs/x3/expressions/E15_flustered.md
 image_file: images/x3/E15_flustered.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/x3/00_character_core.md
 reference_images: [images/_sheets/spares_sheet.png, images/x3/E13_neutral.png]
 original_match: "없음 (신규 표정)"

@@ -7,7 +7,7 @@ expression_ko: 안내
 expression_en: Guiding
 spec_file: specs/sia/expressions/E08_guiding.md
 image_file: images/sia/E08_guiding.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "사용자 일러스트 03_Desk_Cleaning (정리하며 건넴)"

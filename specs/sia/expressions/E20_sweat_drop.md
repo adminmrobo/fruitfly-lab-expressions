@@ -7,7 +7,7 @@ expression_ko: 식은땀
 expression_en: Big Sweat Drop
 spec_file: specs/sia/expressions/E20_sweat_drop.md
 image_file: images/sia/E20_sweat_drop.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "없음 (신규 표정)"

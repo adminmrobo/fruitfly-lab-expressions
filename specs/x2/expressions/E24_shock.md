@@ -7,7 +7,7 @@ expression_ko: 충격
 expression_en: Shock
 spec_file: specs/x2/expressions/E24_shock.md
 image_file: images/x2/E24_shock.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/x2/00_character_core.md
 reference_images: [images/_sheets/spares_sheet.png, images/x2/E13_neutral.png]
 original_match: "없음 (신규 표정)"
