@@ -32,6 +32,8 @@
 ```
 .
 ├─ index.html                  # 갤러리 (GitHub Pages 진입점)
+├─ characters3d.html           # 3D 캐릭터 설정 화면
+├─ chars3d/lab3d.js            # 3D 모델 모듈 (+ tools/ 렌더러)
 ├─ README.md
 ├─ images/
 │  ├─ haru/        E01_joy.png … E24_shock.png
@@ -68,6 +70,20 @@ images/motions/{캐릭터}/{시트}_fNN.webp    투명 배경 프레임
 specs/motions/motions.json                시트·구간·보는 쪽·기준 프레임·프롬프트
 specs/motions/PROMPTS.md, PROMPTS_v1.1.md  캐릭터별 생성 프롬프트
 ```
+
+## 3D 캐릭터 설정 (lab3d v1.0, 2026-11-12)
+
+전원(박사·하루·초파리·주판봇·시아·모아·모아 정장·미공개 X1~X3)을 **같은 축척의 3D 모델**로 세웠습니다. 3D 공장 같은 화면에 2D 정본과 어긋나지 않게 넣기 위한 것입니다.
+설정 화면: [`characters3d.html`](characters3d.html) · 설정서: [`specs/3d/README.md`](specs/3d/README.md)
+
+| 항목 | 내용 |
+|---|---|
+| 모델 | `chars3d/lab3d.js` — three.js 모듈. `createLab3D(THREE).build('doctor', {unit: 1.75})` 로 다른 3D 페이지에서 그대로 씀 |
+| 이미지 벡터 | 캐릭터마다 8방향 × 2높이(눈높이 8° · 공장 시점 32°) + 포즈 8종 + 표정 3종 = 27장, 모두 270장 (`images/3d/`) |
+| 시트 | `images/3d/_sheets/{slug}_3d_sheet.png`, 전원 라인업 `lab10_lineup_3d_e08.png`·`_e32.png` |
+| 목록·설정값 | `specs/3d/views.json` (그림 한 장 = 한 줄), `specs/3d/characters3d.json` (키·팔레트·3D 고정값) |
+| 다시 만들기 | `python3 chars3d/tools/render_views.py` |
+| 2D 픽셀 턴어라운드 | 설정서 4절의 프롬프트 + 3D 시트를 참조 이미지로 |
 
 ## 1:1 연결 규칙
 

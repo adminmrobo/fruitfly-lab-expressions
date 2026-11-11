@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>lab3d 렌더러 (이미지 벡터 생성용)</title>
+<style>html,body{margin:0;background:transparent}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"}}</script>
+</head><body>
+<!-- render_views.py 가 이 페이지를 열고 window.renderView(...)를 불러 PNG를 받는다. 사람이 열 필요는 없다. -->
+<script type="module">
+import * as THREE from 'three';
+import { createLab3D } from '../lab3d.js';
+const SIZE = 512;
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(SIZE, SIZE); renderer.setClearColor(0x000000, 0);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+scene.add(new THREE.HemisphereLight('#ffffff', '#8a8494', 1.6));
+const key = new THREE.DirectionalLight('#ffffff', 2.2); scene.add(key); scene.add(key.target);
+const cam = new THREE.OrthographicCamera(-.62, .62, .62, -.62, .01, 50);
+const lab = createLab3D(THREE, { outline: true });
+let cur = null;
+window.lab = lab;
+// frame: 화면 한 변이 담는 높이(박사 키 = 1.0). 모든 캐릭터를 같은 축척으로 찍어 키 비교가 되게 한다.
+window.renderView = (k, { expr = 'E13', pose = null, variant, yaw = 0, elev = 8, frame = 1.24, t = 0, prop = true, cy = null } = {}) => {
+  if (cur) { scene.remove(cur); lab.dispose(cur); }
+  cur = lab.build(k, { expr, pose, variant, prop });
+  cur.rotation.y = yaw * Math.PI / 180;
+  if (t) cur.userData.update(t);
+  scene.add(cur);
+  const half = frame / 2;
+  if (cy == null) { const h = lab.ROSTER.find(r => r.key === k).h; cy = frame < 1 ? h * (k === 'jupanbot' ? .62 : .74) : .5; }
+  cam.left = -half; cam.right = half; cam.top = half; cam.bottom = -half; cam.updateProjectionMatrix();
+  const e = elev * Math.PI / 180, dist = 10;
+  cam.position.set(0, cy + Math.sin(e) * dist, Math.cos(e) * dist);
+  cam.lookAt(0, cy, 0);
+  // 빛은 카메라를 따라 왼쪽 위 앞에서 — 모든 방향이 같은 조명으로 보이게
+  key.position.set(-3, cy + 6, 6); key.target.position.set(0, cy, 0);
+  renderer.render(scene, cam);
+  return renderer.domElement.toDataURL('image/png');
+};
+window.ready = true;
+</script></body></html>

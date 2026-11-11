@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>초파리 연구실 · 3D 캐릭터 설정 화면</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+<style>
+:root{--bg:#f4f2ee;--panel:#fff;--fg:#1d1b20;--mute:#77727b;--line:#e2ded8;--accent:oklch(0.62 0.15 30);--accent-soft:oklch(0.95 0.03 30);--mono:"JetBrains Mono",ui-monospace,monospace}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:"IBM Plex Sans KR",system-ui,sans-serif;font-size:15px;line-height:1.5}
+a{color:inherit}
+header,main,footer{max-width:1360px;margin:0 auto;padding:0 32px}
+header{padding-top:40px;padding-bottom:14px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--mute);text-transform:uppercase}
+h1{font-size:32px;margin:8px 0;letter-spacing:-.01em}
+.lede{color:var(--mute);max-width:820px;margin:0;text-wrap:pretty}
+.links{font-size:14px;margin-top:10px}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in oklab,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav .in{max-width:1360px;margin:0 auto;padding:10px 32px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+nav button{border:1px solid var(--line);background:var(--panel);font:inherit;padding:6px 14px;border-radius:999px;cursor:pointer;color:var(--fg)}
+nav button[aria-pressed=true]{background:var(--fg);color:#fff;border-color:var(--fg)}
+nav button.lock{margin-left:auto;border-style:dashed}
+nav button.secret[aria-pressed=false]{background:#2a2840;color:#d9d4f4;border-color:#2a2840}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:20px;padding:20px 0}
+.stagewrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+#stage{position:relative;height:min(64vh,620px);min-height:380px;background:linear-gradient(#ecebf0,#dcd9de)}
+#stage canvas{display:block;width:100%;height:100%}
+#stage.pixel canvas{image-rendering:pixelated}
+#err{display:none;position:absolute;inset:0;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--mute)}
+.hud{position:absolute;left:12px;top:10px;font-family:var(--mono);font-size:12px;color:#55505a;background:rgba(255,255,255,.75);padding:4px 8px;border-radius:6px;pointer-events:none}
+.tools{display:flex;flex-direction:column;gap:10px;padding:12px 14px;border-top:1px solid var(--line)}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.row > b{font-size:12px;font-family:var(--mono);color:var(--mute);font-weight:600;min-width:62px}
+.seg button{border:1px solid var(--line);background:#faf9f7;font:inherit;font-size:13px;padding:4px 10px;border-radius:7px;cursor:pointer;color:var(--fg)}
+.seg button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);font-weight:600}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.card h2{margin:0;font-size:24px}.card .sub{color:var(--mute);font-size:14px;margin-top:2px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px;margin:12px 0}
+.kv dt{color:var(--mute)}.kv dd{margin:0}
+.pal{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 12px}
+.sw{display:flex;align-items:center;gap:6px;font-size:12px;border:1px solid var(--line);border-radius:6px;padding:2px 8px 2px 3px;background:#faf9f7}
+.sw i{width:18px;height:18px;border-radius:4px;border:1px solid rgba(0,0,0,.15);display:block}
+.sw code{font-family:var(--mono);font-size:11px;color:var(--mute)}
+.card h3,.sec h3{font-size:12px;font-family:var(--mono);color:var(--mute);letter-spacing:.06em;text-transform:uppercase;margin:14px 0 6px}
+.card ul{margin:0;padding-left:18px;font-size:13.5px}.card li{margin:2px 0}
+.card .lk{display:flex;flex-direction:column;gap:5px;font-family:var(--mono);font-size:12px;margin-top:10px}
+.card .lk a{color:var(--mute);text-decoration:none;border:1px solid var(--line);padding:5px 9px;border-radius:6px;background:#faf9f7}
+.card .lk a:hover{color:var(--fg)}
+.sec{padding:8px 0 40px}
+.sec h3{display:flex;gap:10px;align-items:center;font-size:13px;margin:22px 0 10px}.sec h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.vec{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}
+.vec.faces{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.vec figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer}
+.vec img{width:100%;aspect-ratio:1;display:block;object-fit:contain;background:#f1f0f2}
+.vec figcaption{font-size:12px;padding:4px 7px;display:flex;justify-content:space-between;gap:4px}
+.vec figcaption code{font-family:var(--mono);font-size:10.5px;color:var(--mute)}
+.note{font-size:13px;color:var(--mute)}
+footer{color:var(--mute);font-size:13px;padding-bottom:40px}
+@media (max-width:980px){.layout{grid-template-columns:1fr}.vec{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:760px){header,main,footer,nav .in{padding-left:16px;padding-right:16px}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">Fruit Fly Lab · 3D Character Settings v1.0</div>
+  <h1>3D 캐릭터 설정 화면</h1>
+  <p class="lede">연구실 식구 6명(모아 정장 포함)과 미공개 3명을 같은 축척의 3D 모델로 세웠습니다. 끌어서 돌려 보고, 8방향·2가지 높이(눈높이 / 공장 시점)·포즈 8종·표정 3종을 바꿔 볼 수 있습니다. 아래 <b>이미지 벡터</b>는 같은 모델을 정해진 각도로 찍은 그림이며, 3D 공장(시멘트 World) 같은 화면에 그대로 들어갑니다.</p>
+  <p class="links"><a href="index.html">← 표정 라이브러리</a> · <a href="motions.html">동작·의상 라이브러리</a> · <a href="specs/3d/README.md">3D 설정서</a> · <a href="specs/3d/characters3d.json">characters3d.json</a> · <a href="specs/3d/views.json">views.json</a> · <a href="https://adminmrobo.github.io/smart_factory_world/cement/">시멘트 공장 World →</a></p>
+</header>
+<nav aria-label="캐릭터 고르기"><div class="in" id="tabs"></div></nav>
+<main>
+  <div class="layout">
+    <div class="stagewrap">
+      <div id="stage"><div class="hud" id="hud">-</div><div id="err">3D 화면을 불러오지 못했습니다. 인터넷 연결(three.js)과 WebGL 지원을 확인해 주세요.<br>아래 이미지 벡터는 그대로 볼 수 있습니다.</div></div>
+      <div class="tools">
+        <div class="row"><b>방향</b><div class="seg" id="dirs"></div></div>
+        <div class="row"><b>높이</b><div class="seg" id="elevs"></div><b style="margin-left:12px">표정</b><div class="seg" id="exprs"></div></div>
+        <div class="row"><b>포즈</b><div class="seg" id="poses"></div></div>
+        <div class="row"><b>보기</b><div class="seg" id="views"></div><div class="seg" id="flags"></div></div>
+      </div>
+    </div>
+    <aside class="card" id="info"></aside>
+  </div>
+  <section class="sec" id="vectors"></section>
+</main>
+<footer>모델: <code>chars3d/lab3d.js</code> (three.js 0.170, 저폴리 툰). 이미지 벡터는 <code>chars3d/tools/render_views.py</code>로 다시 만들 수 있습니다. 캐릭터 이름·설정 © 안상선 — 그림·모델은 저작권자의 허락 없이 쓸 수 없습니다.</footer>
+
+<script type="module">
+const $ = id => document.getElementById(id);
+const [SPEC, VIEWS] = await Promise.all([fetch('specs/3d/characters3d.json').then(r => r.json()), fetch('specs/3d/views.json').then(r => r.json()).catch(() => ({ views: [] }))]);
+const ENTRIES = [];  // 탭 = 캐릭터(+모아 정장)
+SPEC.characters.forEach(c => (c.variants || [null]).forEach(v => ENTRIES.push({ c, v, id: c.key + (v && v !== 'maid' ? '_' + v : ''), label: c.ko + (v === 'suit' ? ' · 정장' : '') })));
+const S = { id: 'doctor', dir: 1, elev: 'e08', expr: 'E13', pose: 'idle', view: 'one', outline: true, pixel: false, spin: false, showHidden: false };
+const ent = () => ENTRIES.find(e => e.id === S.id);
+
+// ---------- 탭 ----------
+function drawTabs() {
+  const t = $('tabs'); t.innerHTML = '';
+  ENTRIES.filter(e => !e.c.hidden || S.showHidden).forEach(e => {
+    const b = document.createElement('button'); b.textContent = (e.c.no ? 'No.' + e.c.no + ' ' : '') + e.label;
+    if (e.c.hidden) b.className = 'secret';
+    b.setAttribute('aria-pressed', String(e.id === S.id)); b.onclick = () => { S.id = e.id; S.pose = e.c.default_pose === 'hold' ? 'hold' : 'idle'; refresh(true); };
+    t.appendChild(b);
+  });
+  const lk = document.createElement('button'); lk.className = 'lock'; lk.setAttribute('aria-expanded', String(S.showHidden));
+  lk.textContent = S.showHidden ? '미공개 식구 숨기기' : '🔒 미공개 식구 보기 (3)';
+  lk.onclick = () => { S.showHidden = !S.showHidden; if (!S.showHidden && ent().c.hidden) S.id = 'doctor'; refresh(true); };
+  t.appendChild(lk);
+}
+function seg(host, items, cur, on) {
+  const h = $(host); h.innerHTML = '';
+  items.forEach(([k, label, title]) => { const b = document.createElement('button'); b.textContent = label; if (title) b.title = title; b.setAttribute('aria-pressed', String(k === cur)); b.onclick = () => on(k); h.appendChild(b); });
+}
+function drawTools() {
+  seg('dirs', SPEC.directions.map((d, i) => [i, d.ko, d.id + ' · ' + d.yaw + '°']), S.dir, k => { S.dir = k; S.spin = false; snapCam(); drawTools(); });
+  seg('elevs', SPEC.elevations.map(e => [e.id, e.ko, e.deg + '° · ' + e.use]), S.elev, k => { S.elev = k; snapCam(); drawTools(); });
+  seg('exprs', Object.entries(SPEC.expressions).map(([k, v]) => [k, v, k]), S.expr, k => { S.expr = k; rebuild(); drawTools(); });
+  seg('poses', Object.entries(SPEC.poses).map(([k, v]) => [k, v]), S.pose, k => { S.pose = k; three?.setPose(k); drawTools(); });
+  seg('views', [['one', '한 명'], ['lineup', '전원 라인업'], ['factory', '공장 축척']], S.view, k => { S.view = k; rebuild(); snapCam(); drawTools(); });
+  seg('flags', [['spin', '자동 회전' + (S.spin ? ' ●' : '')], ['outline', '외곽선' + (S.outline ? ' ●' : '')], ['pixel', '도트 모드' + (S.pixel ? ' ●' : '')]], null, k => {
+    if (k === 'spin') S.spin = !S.spin; if (k === 'outline') { S.outline = !S.outline; three?.relab(); rebuild(); } if (k === 'pixel') { S.pixel = !S.pixel; three?.resize(); }
+    drawTools();
+  });
+}
+
+// ---------- 설정 카드 ----------
+function drawInfo() {
+  const { c, v } = ent();
+  const pal = Object.entries(c.palette).map(([k, hex]) => `<span class="sw"><i style="background:${hex}"></i>${k} <code>${hex}</code></span>`).join('');
+  const ids = (v === 'suit' ? c.suit : c.identity_3d).map(x => `<li>${x}</li>`).join('');
+  const props = Object.entries(c.props || {}).map(([k, x]) => `<li><code>${k}</code> — ${x}</li>`).join('') || '<li>없음</li>';
+  const f = c.factory || {};
+  const sheet = 'images/3d/_sheets/' + ent().id + '_3d_sheet.png';
+  $('info').innerHTML = `<div class="eyebrow">${c.no ? 'No.' + c.no + ' · ' : ''}${c.key}${v ? ' · ' + v : ''}</div>
+    <h2>${c.ko}${v === 'suit' ? ' (정장)' : ''}</h2><div class="sub">${c.en || ''}${c.hidden ? ' · 공개 전 실루엣' : ''}</div>
+    <dl class="kv"><dt>키</dt><dd>박사 대비 ${c.height.toFixed(2)}</dd><dt>외곽선</dt><dd><code>${c.outline}</code></dd>
+    <dt>기본 포즈</dt><dd>${SPEC.poses[c.default_pose]}</dd><dt>공장 역할</dt><dd>${f.role || '-'}${f.zone ? ' · <code>' + f.zone + '</code>' : ''}</dd></dl>
+    <h3>팔레트</h3><div class="pal">${pal}</div>
+    <h3>3D 고정값</h3><ul>${ids}</ul>
+    <h3>소품</h3><ul>${props}</ul>
+    <div class="lk"><a href="specs/${c.key}/00_character_core.md">2D 정본 명세 · 00_character_core.md</a><a href="${sheet}">3D 설정 시트 PNG</a><a href="images/3d/_sheets/lab10_lineup_3d_e32.png">전원 라인업 (공장 시점)</a></div>`;
+}
+
+// ---------- 이미지 벡터 ----------
+function drawVectors() {
+  const { c, v } = ent(); const vv = v || '';
+  const rows = VIEWS.views.filter(r => r.key === c.key && (r.variant || '') === (vv === 'maid' ? 'maid' : vv) );
+  const fig = (r, cap) => `<figure data-dir="${r.dir}" data-elev="${r.elev}" data-pose="${r.pose}" data-expr="${r.expr}"><img loading="lazy" src="${r.file}" alt="${c.ko} ${cap}"><figcaption>${cap}<code>${r.file.split('/').pop().replace('.webp', '')}</code></figcaption></figure>`;
+  const dirKo = id => (SPEC.directions.find(d => d.id === id) || {}).ko || id;
+  let html = `<h3>이미지 벡터 · ${c.ko}${v === 'suit' ? ' 정장' : ''} (${rows.length}장)</h3><p class="note">512×512 투명 WebP. 모든 캐릭터가 같은 축척·같은 발 기준선이라 나란히 놓아도 키가 맞습니다. 그림을 누르면 위 3D 화면이 그 각도·포즈로 바뀝니다. 목록 전체는 <a href="specs/3d/views.json">views.json</a>.</p>`;
+  SPEC.elevations.forEach(e => {
+    const rs = rows.filter(r => r.kind === 'turn' && r.elev === e.deg);
+    html += `<h3>8방향 · ${e.ko} ${e.deg}°</h3><div class="vec">${rs.map(r => fig(r, dirKo(r.dir))).join('')}</div>`;
+  });
+  html += `<h3>포즈 8종 · 오른앞 25°</h3><div class="vec">${rows.filter(r => r.kind === 'pose').map(r => fig(r, SPEC.poses[r.pose])).join('')}</div>`;
+  html += `<h3>표정 3종 · 얼굴 확대</h3><div class="vec faces">${rows.filter(r => r.kind === 'face').map(r => fig(r, SPEC.expressions[r.expr])).join('')}</div>`;
+  if (!rows.length) html += '<p class="note">아직 렌더된 이미지가 없습니다.</p>';
+  $('vectors').innerHTML = html;
+  $('vectors').querySelectorAll('figure').forEach(fg => fg.onclick = () => {
+    const d = fg.dataset; const di = SPEC.directions.findIndex(x => x.id === d.dir);
+    S.dir = di >= 0 ? di : 1; S.elev = 'e' + String(d.elev).padStart(2, '0'); S.pose = d.pose; S.expr = d.expr; S.view = 'one'; S.spin = false;
+    rebuild(); snapCam(); drawTools(); window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+// ---------- 3D ----------
+let three = null;
+try { three = await initThree(); } catch (e) { console.error(e); $('err').style.display = 'flex'; $('hud').style.display = 'none'; }
+function rebuild() { three?.rebuild(); }
+function snapCam() { three?.snap(); }
+function refresh(rb) { drawTabs(); drawTools(); drawInfo(); drawVectors(); if (rb) { rebuild(); snapCam(); } }
+
+async function initThree() {
+  const THREE = await import('three');
+  const { OrbitControls } = await import('three/addons/controls/OrbitControls.js');
+  const { createLab3D } = await import('./chars3d/lab3d.js');
+  const host = $('stage');
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  host.appendChild(renderer.domElement);
+  const scene = new THREE.Scene(); scene.background = new THREE.Color('#e6e4e9');
+  scene.add(new THREE.HemisphereLight('#ffffff', '#8a8494', 1.5));
+  const sun = new THREE.DirectionalLight('#fff8ec', 2.1); sun.position.set(-3, 7, 5); sun.castShadow = true; sun.shadow.bias = -.0005;
+  sun.shadow.mapSize.set(1024, 1024); Object.assign(sun.shadow.camera, { left: -8, right: 8, top: 8, bottom: -8 }); scene.add(sun);
+  const cam = new THREE.OrthographicCamera(-1, 1, 1, -1, .01, 200);
+  const controls = new OrbitControls(cam, renderer.domElement); controls.enableDamping = true; controls.enablePan = true;
+  controls.addEventListener('start', () => { if (S.spin) { S.spin = false; drawTools(); } });
+  const floor = new THREE.Group(); scene.add(floor);
+  let lab = createLab3D(THREE, { outline: S.outline, shadow: true });
+  const actors = []; let zoomH = 1.5, minHalfW = 0, center = new THREE.Vector3(0, .5, 0);
+
+  function makeFloor() {
+    floor.clear();
+    if (S.view === 'factory') {
+      const g = new THREE.Mesh(new THREE.PlaneGeometry(14, 10), new THREE.MeshStandardMaterial({ color: '#b9bcb6', roughness: .9 }));
+      g.rotation.x = -Math.PI / 2; g.receiveShadow = true; floor.add(g);
+      const grid = new THREE.GridHelper(14, 14, '#8d918b', '#a3a7a1'); grid.position.y = .002; floor.add(grid);
+      // 공장 소품(축척 비교용): 옛 사람 기둥 · 기계 상자 · 원통
+      const M = c => new THREE.MeshStandardMaterial({ color: c, roughness: .75 });
+      const box = new THREE.Mesh(new THREE.BoxGeometry(2.4, 1.6, 1.6), M('#6e7c86')); box.position.set(-3.6, .8, -2.2); box.castShadow = box.receiveShadow = true; floor.add(box);
+      const cyl = new THREE.Mesh(new THREE.CylinderGeometry(.9, .9, 4, 24), M('#9a6a4c')); cyl.rotation.z = Math.PI / 2; cyl.position.set(2.6, 1.2, -2.6); cyl.castShadow = true; floor.add(cyl);
+      const old = new THREE.Group(); old.position.set(-1.8, 0, 1.6); floor.add(old);
+      const o1 = new THREE.Mesh(new THREE.CylinderGeometry(.24, .3, .85, 14), M('#f4f4f4')); o1.position.y = .85; old.add(o1);
+      const o2 = new THREE.Mesh(new THREE.SphereGeometry(.24, 14, 12), M('#f1d9c2')); o2.position.y = 1.52; old.add(o2);
+      const base = new THREE.Mesh(new THREE.CylinderGeometry(.35, .35, .4, 16), M('#9fa4a0')); base.position.y = .2; old.add(base);
+    } else {
+      const d = new THREE.Mesh(new THREE.CircleGeometry(S.view === 'lineup' ? 7 : 1.1, 48), new THREE.MeshStandardMaterial({ color: '#d4d1d8', roughness: 1 }));
+      d.rotation.x = -Math.PI / 2; d.receiveShadow = true; floor.add(d);
+    }
+  }
+  function build() {
+    actors.forEach(a => { scene.remove(a); lab.dispose(a); }); actors.length = 0;
+    makeFloor();
+    const opts = e => ({ variant: e.v || undefined, expr: S.expr, pose: S.pose === 'idle' && e.c.default_pose === 'hold' ? 'hold' : S.pose });
+    if (S.view === 'lineup') {
+      const list = ENTRIES.filter(e => !e.c.hidden || S.showHidden);
+      list.forEach((e, i) => { const m = lab.build(e.c.key, opts(e)); m.position.x = (i - (list.length - 1) / 2) * 1.0; scene.add(m); actors.push(m); });
+      zoomH = 2.4; minHalfW = list.length * .5 + .3; center.set(0, .55, 0);
+    } else if (S.view === 'factory') {
+      const unit = 1.75;   // smart_factory_world 와 같은 배율
+      const list = ENTRIES.filter(e => !e.c.hidden || S.showHidden);
+      const sel = ent();
+      const m = lab.build(sel.c.key, { ...opts(sel), unit }); m.position.set(0, .4, 1.6);
+      const ped = new THREE.Mesh(new THREE.CylinderGeometry(.5, .5, .4, 20), new THREE.MeshStandardMaterial({ color: '#9fa4a0' })); ped.position.set(0, .2, 1.6); ped.receiveShadow = true; floor.add(ped);
+      scene.add(m); actors.push(m);
+      list.filter(e => e !== sel).slice(0, 6).forEach((e, i) => { const a = lab.build(e.c.key, { ...opts(e), unit }); a.position.set(1.5 + i * 1.15, 0, .4 + (i % 2) * 1.0); a.rotation.y = -.5; scene.add(a); actors.push(a); });
+      zoomH = 5.6; minHalfW = 0; center.set(1.4, 1.1, 0);
+    } else {
+      const e = ent(); const m = lab.build(e.c.key, opts(e)); scene.add(m); actors.push(m);
+      zoomH = 1.42; minHalfW = 0; center.set(0, e.c.height * .5, 0);
+    }
+    $('hud').textContent = `${ent().label} · ${SPEC.poses[S.pose]} · ${SPEC.expressions[S.expr]}` + (S.view === 'factory' ? ' · 공장 축척 ×1.75 (회색 기둥 = 예전 사람 표시)' : '');
+  }
+  function snap() {
+    const e = SPEC.elevations.find(x => x.id === S.elev).deg * Math.PI / 180;
+    let yaw = (S.view === 'factory' ? -45 : SPEC.directions[S.dir].yaw) * Math.PI / 180;
+    if (S.view === 'lineup') { actors.forEach(a => { a.rotation.y = yaw; }); yaw = 0; }   // 라인업은 각자 같은 방향으로 돌고 카메라는 정면
+    // 방향 버튼은 모델 대신 카메라를 돌린다 — 모델 yaw만큼 돌린 것과 같은 그림
+    const dist = 20;
+    cam.position.set(center.x - Math.sin(yaw) * Math.cos(e) * dist, center.y + Math.sin(e) * dist, center.z + Math.cos(yaw) * Math.cos(e) * dist);
+    controls.target.copy(center); cam.zoom = 1; controls.update(); resize();
+  }
+  function resize() {
+    const w = host.clientWidth, h = host.clientHeight;
+    renderer.setPixelRatio(S.pixel ? .3 : Math.min(devicePixelRatio || 1, 2));
+    host.classList.toggle('pixel', S.pixel);
+    renderer.setSize(w, h);
+    const a = w / h; let hh = zoomH / 2; if (hh * a < minHalfW) hh = minHalfW / a;
+    cam.left = -hh * a; cam.right = hh * a; cam.top = hh; cam.bottom = -hh; cam.updateProjectionMatrix();
+  }
+  addEventListener('resize', resize);
+  const clock = new THREE.Clock();
+  renderer.setAnimationLoop(() => {
+    const t = clock.getElapsedTime(), dt = clock.getDelta();
+    actors.forEach(a => a.userData.update(t));
+    if (S.spin) { const v = cam.position.clone().sub(controls.target); v.applyAxisAngle(new THREE.Vector3(0, 1, 0), .006); cam.position.copy(controls.target).add(v); }
+    controls.update(); renderer.render(scene, cam);
+  });
+  build(); snap();
+  return {
+    rebuild: build, snap, resize,
+    setPose(p) { actors.forEach(a => { const c = SPEC.characters.find(x => x.key === a.userData.key); a.userData.setPose(p === 'idle' && c.default_pose === 'hold' ? 'hold' : p); }); $('hud').textContent = `${ent().label} · ${SPEC.poses[p]} · ${SPEC.expressions[S.expr]}`; },
+    relab() { lab = createLab3D(THREE, { outline: !S.outline ? false : true, shadow: true }); },
+  };
+}
+refresh(false);
+</script>
+</body>
+</html>
