@@ -56,4 +56,4 @@ NEGATIVE_BASE_EN: "blurry, smooth vector art, 3D render, photorealistic, anti-al
 2. 생성할 때는 `haru_sheet.png`와 `haru_expressions_6.png`를 레퍼런스로 함께 넣습니다.
 3. 데포르메 표정(E19~E24)도 번·남색 줄·후드·랩코트 실루엣은 유지합니다.
 4. `E13_neutral`을 가장 먼저 생성해 승인받고, 이후 2차 레퍼런스로 씁니다.
-5. 헤어 벡터(H01~H19, `specs/hair/`)를 지정한 그림만 예외 — 번 2개 대신 그 머리 모양, 남색 줄과 바보털은 유지.
+5. 헤어 벡터(H01~H19, `specs/hair/`)를 지정한 그림은 그 머리 모양을 따른다 — 번 2개는 남겨도 되고(업스타일 H14~H19는 제외), 남색 줄과 바보털은 유지.
