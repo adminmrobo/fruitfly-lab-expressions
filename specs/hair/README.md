@@ -79,4 +79,4 @@ images/hair/{캐릭터}/H##_{slug}_back.png              3/4 뒤
 ```
 
 H00은 기존 `images/{캐릭터}/E13_neutral.png`를 앞 그림으로 씁니다. 그림이 들어오면 `hair.json`의 `status`를 `approved`로 바꿉니다.
-현재 상태: 명세·프롬프트 완료, 그림 대기(60종 × 앞·뒤).
+현재 상태: 2026-11-12 Genspark 시트 21장 → 120장(60종 × 앞·뒤) 잘라 넣음, 모두 generated(검수 후 approved).

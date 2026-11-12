@@ -149,7 +149,7 @@ git push -u origin main
 여성 캐릭터 **하루·시아·모아**에게만 적용하는 네 번째 축입니다(미공개 X1~X3 제외). 스타일 20종 = H00 정본 + H01~H19(하프 업·포니테일·땋기·트위스트·업스타일·액세서리), 캐릭터마다 앞·뒤 3/4 그림 한 쌍.
 - 갤러리: `hair.html` · 명세: `specs/hair/README.md` · 설정값: `specs/hair/hair.json` · 프롬프트: `specs/hair/PROMPTS.md` (캐릭터당 시트 7장)
 - H를 정하지 않으면 H00(정본). 표정·동작·3D는 H00 기준 그대로입니다.
-- 현재 상태: 명세·프롬프트 완료, 그림 대기.
+- 현재 상태: Genspark 시트 21장(`images/_sheets/hair/`)을 잘라 120장(`images/hair/{캐릭터}/H##_{slug}_front|back.png`, 512×512 투명) 반영. 상태 generated, 검수 후 approved.
 
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.

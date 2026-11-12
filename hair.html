@@ -35,7 +35,7 @@ footer{color:var(--mute);font-size:13px;padding-bottom:40px}
 </header>
 <nav id="tabs" aria-label="캐릭터 고르기"></nav>
 <main><div class="rules" id="rules"></div><div class="grid" id="grid"></div></main>
-<footer>그림이 들어오기 전까지 카드에는 '그림 대기'가 표시됩니다. 시트 프롬프트는 카드 아래 버튼으로 복사할 수 있습니다. 캐릭터 DB(엑셀)는 <code>db/</code> 폴더에 판마다 쌓입니다.</footer>
+<footer>시트 프롬프트는 카드 아래 버튼으로 복사할 수 있습니다. 캐릭터 DB(엑셀)는 <code>db/</code> 폴더에 판마다 쌓입니다.</footer>
 <script>
 const G={};let cur="haru",grp="전체";
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -48,7 +48,7 @@ function render(){
   document.getElementById("rules").innerHTML=`<b>${esc(c.ko)} — 유지할 것:</b> ${esc(c.keep)}<ul>${c.rules.map(r=>`<li>${esc(r).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")}</li>`).join("")}</ul>`;
   document.getElementById("grid").innerHTML=D.styles.filter(s=>grp==="전체"||s.group===grp).map(s=>{
     const p=s.per[cur], sh=D.sheets.find(x=>x.who===cur&&x.ids.includes(s.id));
-    const front=s.id==="H00"?`images/${cur}/E13_neutral.png`:p.front;
+    const front=p.front;
     return `<article class="card"><div class="pics">${pic(front,"앞")}${pic(p.back,"뒤")}</div><div class="body">
       <div class="id">${s.id} · ${esc(s.slug)}</div><h3>${esc(s.ko)} <span style="font-weight:400;color:var(--mute);font-size:13px">${esc(s.en)}</span></h3>
       <div><span class="badge">${esc(s.group)}</span><span class="badge">${esc(s.use)}</span>${s.source!=="-"?`<span class="badge">출처 ${esc(s.source)}</span>`:""}<span class="badge ${p.status==="approved"?"ok":""}">${esc(p.status)}</span></div>
