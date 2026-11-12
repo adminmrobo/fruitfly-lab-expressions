@@ -1,0 +1,984 @@
+{
+ "vector": "hair",
+ "version": "1.0",
+ "date": "2026-11-12",
+ "applies_to": [
+  "haru",
+  "sia",
+  "moa"
+ ],
+ "note": "여성 캐릭터(하루·시아·모아) 전용 헤어 어레인지 벡터. 미공개 X1~X3는 C9 예고 규칙에 따라 제외.",
+ "image_format": "512×512 투명 PNG, 가슴 위 바스트업, 표정 E13 기준. front = 3/4 앞, back = 3/4 뒤",
+ "characters": {
+  "haru": {
+   "ko": "하루",
+   "keep": "분홍 + 남색 줄 투톤(앞머리 가운데 굵은 남색 줄, 뒷머리 가운데 남색 줄), 작은 바보털, 파란 눈, 라벤더 후드 + 흰 랩코트",
+   "rules": [
+    "번 2개는 H00에서만 — 다른 H에서는 번 대신 그 머리 모양을 따른다(H17·H19는 번 1개).",
+    "묶거나 땋은 머리에서도 **남색 줄이 꼬리·땋은 가닥 안으로 이어져** 보여야 한다.",
+    "바보털은 모든 H에서 유지한다.",
+    "머리끈·리본은 남색 또는 라벤더."
+   ],
+   "accessories_en": "navy and lavender hair ties or ribbons"
+  },
+  "sia": {
+   "ko": "시아",
+   "keep": "흑발, 옆으로 넘긴 앞머리 + 얼굴 옆 가는 두 가닥, 회색 눈, 은 귀걸이, 검정 메이드 원피스 + 회색 큰 리본",
+   "rules": [
+    "모아와 구별: **흰 프릴·메이드 머리띠는 어떤 H에서도 금지**.",
+    "장식이 필요한 H(H05·H12·H13)는 회색·숯색만 — H12는 머리띠 대신 **작은 회색 집게핀**.",
+    "업스타일(H14~H19)에서는 은 귀걸이가 보이게.",
+    "앞머리 가르마 방향은 모든 칸에서 같은 쪽."
+   ],
+   "accessories_en": "plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband"
+  },
+  "moa": {
+   "ko": "모아",
+   "keep": "애쉬 베이지 머리, 가지런한 앞머리, 흰 프릴 머리띠 + 왼쪽 흰 리본, 호박 눈, 카디건 + 체크 리본 타이",
+   "rules": [
+    "**흰 프릴 머리띠는 모든 H에서 유지**(메이드 차림일 때). 정장(M16) 차림일 때만 없음.",
+    "H02 로우 포니테일은 정장 머리와 같게 **분홍 곱창**으로 묶는다.",
+    "머리끈·리본은 분홍 또는 흰색.",
+    "기본 명세의 '포니테일 금지'는 H를 지정하지 않은 그림에만 적용한다."
+   ],
+   "accessories_en": "pink scrunchies or pink and white ribbons"
+  }
+ },
+ "styles": [
+  {
+   "id": "H00",
+   "slug": "canon",
+   "group": "풀어 내림",
+   "ko": "정본 (기본 머리)",
+   "en": "Canon hair",
+   "source": "-",
+   "use": "모든 표정·동작의 기본",
+   "desc_en": "the character's canon hairstyle exactly as in the reference sheet",
+   "per": {
+    "haru": {
+     "hair_en": "long straight pink hair to the waist with two round messy hair buns on top of the head",
+     "front": "images/hair/haru/H00_canon_front.png",
+     "back": "images/hair/haru/H00_canon_back.png",
+     "status": "generated"
+    },
+    "sia": {
+     "hair_en": "long straight jet-black hair reaching the waist, no headdress",
+     "front": "images/hair/sia/H00_canon_front.png",
+     "back": "images/hair/sia/H00_canon_back.png",
+     "status": "generated"
+    },
+    "moa": {
+     "hair_en": "long ash-beige hair reaching the waist with soft wavy ends",
+     "front": "images/hair/moa/H00_canon_front.png",
+     "back": "images/hair/moa/H00_canon_back.png",
+     "status": "generated"
+    }
+   }
+  },
+  {
+   "id": "H01",
+   "slug": "half_up_curls",
+   "group": "하프 업",
+   "ko": "하프 업 컬",
+   "en": "Half-Up Curls",
+   "source": "실사 1",
+   "use": "인터뷰·대담",
+   "desc_en": "half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls",
+   "per": {
+    "haru": {
+     "hair_en": "half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls",
+     "front": "images/hair/haru/H01_half_up_curls_front.png",
+     "back": "images/hair/haru/H01_half_up_curls_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls",
+     "front": "images/hair/sia/H01_half_up_curls_front.png",
+     "back": "images/hair/sia/H01_half_up_curls_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls",
+     "front": "images/hair/moa/H01_half_up_curls_front.png",
+     "back": "images/hair/moa/H01_half_up_curls_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H02",
+   "slug": "low_ponytail",
+   "group": "포니테일",
+   "ko": "로우 포니테일",
+   "en": "Low Ponytail",
+   "source": "실사 2",
+   "use": "발표·정장 장면",
+   "desc_en": "low ponytail tied at the nape, a few loose face-framing strands",
+   "per": {
+    "haru": {
+     "hair_en": "low ponytail tied at the nape, a few loose face-framing strands, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H02_low_ponytail_front.png",
+     "back": "images/hair/haru/H02_low_ponytail_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "low ponytail tied at the nape, a few loose face-framing strands, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H02_low_ponytail_front.png",
+     "back": "images/hair/sia/H02_low_ponytail_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "low ponytail at the nape tied with a pink scrunchie, a few loose face-framing strands (same as her suit hairstyle)",
+     "front": "images/hair/moa/H02_low_ponytail_front.png",
+     "back": "images/hair/moa/H02_low_ponytail_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H03",
+   "slug": "wavy_ponytail",
+   "group": "포니테일",
+   "ko": "포니 × 웨이브",
+   "en": "Wavy Ponytail",
+   "source": "실사 11",
+   "use": "실험·활동적인 장면",
+   "desc_en": "mid-height ponytail with big soft waves in the tail",
+   "per": {
+    "haru": {
+     "hair_en": "mid-height ponytail with big soft waves in the tail, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H03_wavy_ponytail_front.png",
+     "back": "images/hair/haru/H03_wavy_ponytail_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "mid-height ponytail with big soft waves in the tail, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H03_wavy_ponytail_front.png",
+     "back": "images/hair/sia/H03_wavy_ponytail_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "mid-height ponytail with big soft waves in the tail, using pink scrunchies or pink and white ribbons",
+     "front": "images/hair/moa/H03_wavy_ponytail_front.png",
+     "back": "images/hair/moa/H03_wavy_ponytail_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H04",
+   "slug": "side_ponytail",
+   "group": "포니테일",
+   "ko": "사이드 포니테일",
+   "en": "Side Ponytail",
+   "source": "애니 5",
+   "use": "장난스러운 장면",
+   "desc_en": "single side ponytail tied above one ear, tail falling over the shoulder",
+   "per": {
+    "haru": {
+     "hair_en": "single side ponytail tied above one ear, tail falling over the shoulder, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H04_side_ponytail_front.png",
+     "back": "images/hair/haru/H04_side_ponytail_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "single side ponytail tied above one ear, tail falling over the shoulder, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H04_side_ponytail_front.png",
+     "back": "images/hair/sia/H04_side_ponytail_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "single side ponytail tied above one ear, tail falling over the shoulder, using pink scrunchies or pink and white ribbons",
+     "front": "images/hair/moa/H04_side_ponytail_front.png",
+     "back": "images/hair/moa/H04_side_ponytail_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H05",
+   "slug": "high_twin_tails",
+   "group": "포니테일",
+   "ko": "하이 트윈 포니테일",
+   "en": "High Twin Ponytails",
+   "source": "애니 1",
+   "use": "대전·응원",
+   "desc_en": "high twin ponytails on both sides of the head, long tails",
+   "per": {
+    "haru": {
+     "hair_en": "high twin ponytails on both sides of the head, long tails, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H05_high_twin_tails_front.png",
+     "back": "images/hair/haru/H05_high_twin_tails_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "high twin ponytails on both sides of the head, long tails, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H05_high_twin_tails_front.png",
+     "back": "images/hair/sia/H05_high_twin_tails_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "high twin ponytails on both sides of the head, long tails, using pink scrunchies or pink and white ribbons",
+     "front": "images/hair/moa/H05_high_twin_tails_front.png",
+     "back": "images/hair/moa/H05_high_twin_tails_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H06",
+   "slug": "loose_side_twist",
+   "group": "땋기·트위스트",
+   "ko": "루즈 사이드 트위스트",
+   "en": "Loose Side Twist",
+   "source": "실사 3",
+   "use": "차분한 대화",
+   "desc_en": "loose two-strand twist gathered to one side and falling over the shoulder",
+   "per": {
+    "haru": {
+     "hair_en": "loose two-strand twist gathered to one side and falling over the shoulder",
+     "front": "images/hair/haru/H06_loose_side_twist_front.png",
+     "back": "images/hair/haru/H06_loose_side_twist_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "loose two-strand twist gathered to one side and falling over the shoulder",
+     "front": "images/hair/sia/H06_loose_side_twist_front.png",
+     "back": "images/hair/sia/H06_loose_side_twist_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "loose two-strand twist gathered to one side and falling over the shoulder",
+     "front": "images/hair/moa/H06_loose_side_twist_front.png",
+     "back": "images/hair/moa/H06_loose_side_twist_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H07",
+   "slug": "side_rope_braid",
+   "group": "땋기·트위스트",
+   "ko": "사이드 로프 브레이드",
+   "en": "Side Rope Braid",
+   "source": "실사 12 · 애니 2",
+   "use": "기록·정리 장면",
+   "desc_en": "one thick braid starting near the ear and falling over the shoulder to the chest",
+   "per": {
+    "haru": {
+     "hair_en": "one thick braid starting near the ear and falling over the shoulder to the chest",
+     "front": "images/hair/haru/H07_side_rope_braid_front.png",
+     "back": "images/hair/haru/H07_side_rope_braid_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "one thick braid starting near the ear and falling over the shoulder to the chest",
+     "front": "images/hair/sia/H07_side_rope_braid_front.png",
+     "back": "images/hair/sia/H07_side_rope_braid_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "one thick braid starting near the ear and falling over the shoulder to the chest",
+     "front": "images/hair/moa/H07_side_rope_braid_front.png",
+     "back": "images/hair/moa/H07_side_rope_braid_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H08",
+   "slug": "twin_braids",
+   "group": "땋기·트위스트",
+   "ko": "트윈 브레이드",
+   "en": "Twin Braids",
+   "source": "애니 7",
+   "use": "MT·소풍",
+   "desc_en": "two low braids, one on each side, falling in front of the shoulders",
+   "per": {
+    "haru": {
+     "hair_en": "two low braids, one on each side, falling in front of the shoulders, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H08_twin_braids_front.png",
+     "back": "images/hair/haru/H08_twin_braids_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "two low braids, one on each side, falling in front of the shoulders, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H08_twin_braids_front.png",
+     "back": "images/hair/sia/H08_twin_braids_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "two low braids, one on each side, falling in front of the shoulders, using pink scrunchies or pink and white ribbons",
+     "front": "images/hair/moa/H08_twin_braids_front.png",
+     "back": "images/hair/moa/H08_twin_braids_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H09",
+   "slug": "braided_half_up",
+   "group": "하프 업",
+   "ko": "하프 업 브레이드",
+   "en": "Braided Half-Up",
+   "source": "실사 5 · 애니 4",
+   "use": "행사·축하",
+   "desc_en": "thin braids running along both sides of the head like a crown and joined at the back, the rest left down",
+   "per": {
+    "haru": {
+     "hair_en": "thin braids running along both sides of the head like a crown and joined at the back, the rest left down",
+     "front": "images/hair/haru/H09_braided_half_up_front.png",
+     "back": "images/hair/haru/H09_braided_half_up_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "thin braids running along both sides of the head like a crown and joined at the back, the rest left down",
+     "front": "images/hair/sia/H09_braided_half_up_front.png",
+     "back": "images/hair/sia/H09_braided_half_up_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "thin braids running along both sides of the head like a crown and joined at the back, the rest left down",
+     "front": "images/hair/moa/H09_braided_half_up_front.png",
+     "back": "images/hair/moa/H09_braided_half_up_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H10",
+   "slug": "medium_waves",
+   "group": "풀어 내림",
+   "ko": "미디엄 웨이브",
+   "en": "Medium Waves",
+   "source": "실사 4",
+   "use": "휴식·라운지",
+   "desc_en": "hair worn down with soft medium waves all the way to the ends",
+   "per": {
+    "haru": {
+     "hair_en": "hair worn down with soft medium waves all the way to the ends",
+     "front": "images/hair/haru/H10_medium_waves_front.png",
+     "back": "images/hair/haru/H10_medium_waves_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "hair worn down with subtle soft waves (still clearly jet-black and long)",
+     "front": "images/hair/sia/H10_medium_waves_front.png",
+     "back": "images/hair/sia/H10_medium_waves_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "hair worn down with soft medium waves all the way to the ends",
+     "front": "images/hair/moa/H10_medium_waves_front.png",
+     "back": "images/hair/moa/H10_medium_waves_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H11",
+   "slug": "loose_flowing",
+   "group": "풀어 내림",
+   "ko": "루즈 & 플로잉",
+   "en": "Loose & Flowing",
+   "source": "애니 6",
+   "use": "바람·야외 장면",
+   "desc_en": "all hair let down, long and flowing, no ties",
+   "per": {
+    "haru": {
+     "hair_en": "all hair let down, long and flowing, no ties, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H11_loose_flowing_front.png",
+     "back": "images/hair/haru/H11_loose_flowing_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "all hair let down, long and flowing, no ties, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H11_loose_flowing_front.png",
+     "back": "images/hair/sia/H11_loose_flowing_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "all hair let down, long and flowing, no ties, using pink scrunchies or pink and white ribbons",
+     "front": "images/hair/moa/H11_loose_flowing_front.png",
+     "back": "images/hair/moa/H11_loose_flowing_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H12",
+   "slug": "top_accessory",
+   "group": "액세서리",
+   "ko": "탑 액세서리",
+   "en": "Top Accessory",
+   "source": "실사 6",
+   "use": "행사·사진",
+   "desc_en": "hair worn down with a hair accessory on top of the head",
+   "per": {
+    "haru": {
+     "hair_en": "hair worn down with a lavender headband with a small navy bow on top",
+     "front": "images/hair/haru/H12_top_accessory_front.png",
+     "back": "images/hair/haru/H12_top_accessory_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "hair worn down with one small soft-gray hair clip on the side of the crown (no headband)",
+     "front": "images/hair/sia/H12_top_accessory_front.png",
+     "back": "images/hair/sia/H12_top_accessory_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "hair worn down; the white frilled maid headband with a larger pink ribbon added on top",
+     "front": "images/hair/moa/H12_top_accessory_front.png",
+     "back": "images/hair/moa/H12_top_accessory_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H13",
+   "slug": "ribbon_half_up",
+   "group": "하프 업",
+   "ko": "리본 하프 업",
+   "en": "Ribbon Half-Up",
+   "source": "실사 9",
+   "use": "축하·발표회",
+   "desc_en": "half-up style tied at the back with a long ribbon whose ends hang down",
+   "per": {
+    "haru": {
+     "hair_en": "half-up style tied at the back with a long ribbon whose ends hang down, using navy and lavender hair ties or ribbons",
+     "front": "images/hair/haru/H13_ribbon_half_up_front.png",
+     "back": "images/hair/haru/H13_ribbon_half_up_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "half-up style tied at the back with a long ribbon whose ends hang down, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband",
+     "front": "images/hair/sia/H13_ribbon_half_up_front.png",
+     "back": "images/hair/sia/H13_ribbon_half_up_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "half-up style tied at the back with a long ribbon whose ends hang down, using pink scrunchies or pink and white ribbons",
+     "front": "images/hair/moa/H13_ribbon_half_up_front.png",
+     "back": "images/hair/moa/H13_ribbon_half_up_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H14",
+   "slug": "french_twist",
+   "group": "업스타일",
+   "ko": "프렌치 트위스트",
+   "en": "French Twist",
+   "source": "실사 7",
+   "use": "격식 있는 자리",
+   "desc_en": "elegant vertical French twist updo at the back of the head, neat and smooth",
+   "per": {
+    "haru": {
+     "hair_en": "elegant vertical French twist updo at the back of the head, neat and smooth",
+     "front": "images/hair/haru/H14_french_twist_front.png",
+     "back": "images/hair/haru/H14_french_twist_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "elegant vertical French twist updo at the back of the head, neat and smooth",
+     "front": "images/hair/sia/H14_french_twist_front.png",
+     "back": "images/hair/sia/H14_french_twist_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "elegant vertical French twist updo at the back of the head, neat and smooth",
+     "front": "images/hair/moa/H14_french_twist_front.png",
+     "back": "images/hair/moa/H14_french_twist_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H15",
+   "slug": "tucked_updo",
+   "group": "업스타일",
+   "ko": "쿠루린파 업",
+   "en": "Tucked Updo",
+   "source": "실사 8",
+   "use": "실험실 작업",
+   "desc_en": "low loose updo made by flipping and tucking the hair inward at the nape",
+   "per": {
+    "haru": {
+     "hair_en": "low loose updo made by flipping and tucking the hair inward at the nape",
+     "front": "images/hair/haru/H15_tucked_updo_front.png",
+     "back": "images/hair/haru/H15_tucked_updo_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "low loose updo made by flipping and tucking the hair inward at the nape",
+     "front": "images/hair/sia/H15_tucked_updo_front.png",
+     "back": "images/hair/sia/H15_tucked_updo_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "low loose updo made by flipping and tucking the hair inward at the nape",
+     "front": "images/hair/moa/H15_tucked_updo_front.png",
+     "back": "images/hair/moa/H15_tucked_updo_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H16",
+   "slug": "side_chignon",
+   "group": "업스타일",
+   "ko": "사이드 시뇽",
+   "en": "Side Chignon",
+   "source": "실사 10",
+   "use": "공식 행사",
+   "desc_en": "low chignon bun placed at one side of the nape",
+   "per": {
+    "haru": {
+     "hair_en": "low chignon bun placed at one side of the nape",
+     "front": "images/hair/haru/H16_side_chignon_front.png",
+     "back": "images/hair/haru/H16_side_chignon_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "low chignon bun placed at one side of the nape",
+     "front": "images/hair/sia/H16_side_chignon_front.png",
+     "back": "images/hair/sia/H16_side_chignon_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "low chignon bun placed at one side of the nape",
+     "front": "images/hair/moa/H16_side_chignon_front.png",
+     "back": "images/hair/moa/H16_side_chignon_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H17",
+   "slug": "full_bun",
+   "group": "업스타일",
+   "ko": "풀 번",
+   "en": "Full Bun",
+   "source": "애니 3",
+   "use": "운동·체력단련실",
+   "desc_en": "all hair gathered into one round bun high on the back of the head",
+   "per": {
+    "haru": {
+     "hair_en": "one round bun high on the back of the head (a single bun instead of her usual two), navy streak wrapping into the bun",
+     "front": "images/hair/haru/H17_full_bun_front.png",
+     "back": "images/hair/haru/H17_full_bun_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "all hair gathered into one round bun high on the back of the head",
+     "front": "images/hair/sia/H17_full_bun_front.png",
+     "back": "images/hair/sia/H17_full_bun_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "all hair gathered into one round bun high on the back of the head",
+     "front": "images/hair/moa/H17_full_bun_front.png",
+     "back": "images/hair/moa/H17_full_bun_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H18",
+   "slug": "top_knot",
+   "group": "업스타일",
+   "ko": "탑 노트",
+   "en": "Top Knot",
+   "source": "애니 8",
+   "use": "밤샘·바쁜 장면",
+   "desc_en": "messy high top knot on the crown with loose spiky ends",
+   "per": {
+    "haru": {
+     "hair_en": "messy high top knot on the crown with loose spiky ends",
+     "front": "images/hair/haru/H18_top_knot_front.png",
+     "back": "images/hair/haru/H18_top_knot_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "messy high top knot on the crown with loose spiky ends",
+     "front": "images/hair/sia/H18_top_knot_front.png",
+     "back": "images/hair/sia/H18_top_knot_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "messy high top knot on the crown with loose spiky ends",
+     "front": "images/hair/moa/H18_top_knot_front.png",
+     "back": "images/hair/moa/H18_top_knot_back.png",
+     "status": "pending"
+    }
+   }
+  },
+  {
+   "id": "H19",
+   "slug": "braided_bun",
+   "group": "업스타일",
+   "ko": "브레이디드 번",
+   "en": "Braided Bun",
+   "source": "애니 9",
+   "use": "행사·의상 교체",
+   "desc_en": "braid wrapped around the head into a bun at the back, crown-braid look",
+   "per": {
+    "haru": {
+     "hair_en": "braid wrapped around the head into a bun at the back, crown-braid look",
+     "front": "images/hair/haru/H19_braided_bun_front.png",
+     "back": "images/hair/haru/H19_braided_bun_back.png",
+     "status": "pending"
+    },
+    "sia": {
+     "hair_en": "braid wrapped around the head into a bun at the back, crown-braid look",
+     "front": "images/hair/sia/H19_braided_bun_front.png",
+     "back": "images/hair/sia/H19_braided_bun_back.png",
+     "status": "pending"
+    },
+    "moa": {
+     "hair_en": "braid wrapped around the head into a bun at the back, crown-braid look",
+     "front": "images/hair/moa/H19_braided_bun_front.png",
+     "back": "images/hair/moa/H19_braided_bun_back.png",
+     "status": "pending"
+    }
+   }
+  }
+ ],
+ "sheets": [
+  {
+   "sheet": "haru_hair_1",
+   "who": "haru",
+   "ids": [
+    "H00",
+    "H01",
+    "H02"
+   ],
+   "file": "images/_sheets/hair/haru_hair_1.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) long straight pink hair to the waist with two round messy hair buns on top of the head; (2) half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls; (3) low ponytail tied at the nape, a few loose face-framing strands, using navy and lavender hair ties or ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "haru_hair_2",
+   "who": "haru",
+   "ids": [
+    "H03",
+    "H04",
+    "H05"
+   ],
+   "file": "images/_sheets/hair/haru_hair_2.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) mid-height ponytail with big soft waves in the tail, using navy and lavender hair ties or ribbons; (2) single side ponytail tied above one ear, tail falling over the shoulder, using navy and lavender hair ties or ribbons; (3) high twin ponytails on both sides of the head, long tails, using navy and lavender hair ties or ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "haru_hair_3",
+   "who": "haru",
+   "ids": [
+    "H06",
+    "H07",
+    "H08"
+   ],
+   "file": "images/_sheets/hair/haru_hair_3.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) loose two-strand twist gathered to one side and falling over the shoulder; (2) one thick braid starting near the ear and falling over the shoulder to the chest; (3) two low braids, one on each side, falling in front of the shoulders, using navy and lavender hair ties or ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "haru_hair_4",
+   "who": "haru",
+   "ids": [
+    "H09",
+    "H10",
+    "H11"
+   ],
+   "file": "images/_sheets/hair/haru_hair_4.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) thin braids running along both sides of the head like a crown and joined at the back, the rest left down; (2) hair worn down with soft medium waves all the way to the ends; (3) all hair let down, long and flowing, no ties, using navy and lavender hair ties or ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "haru_hair_5",
+   "who": "haru",
+   "ids": [
+    "H12",
+    "H13",
+    "H14"
+   ],
+   "file": "images/_sheets/hair/haru_hair_5.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) hair worn down with a lavender headband with a small navy bow on top; (2) half-up style tied at the back with a long ribbon whose ends hang down, using navy and lavender hair ties or ribbons; (3) elegant vertical French twist updo at the back of the head, neat and smooth. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "haru_hair_6",
+   "who": "haru",
+   "ids": [
+    "H15",
+    "H16",
+    "H17"
+   ],
+   "file": "images/_sheets/hair/haru_hair_6.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) low loose updo made by flipping and tucking the hair inward at the nape; (2) low chignon bun placed at one side of the nape; (3) one round bun high on the back of the head (a single bun instead of her usual two), navy streak wrapping into the bun. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "haru_hair_7",
+   "who": "haru",
+   "ids": [
+    "H18",
+    "H19"
+   ],
+   "file": "images/_sheets/hair/haru_hair_7.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x2 hairstyle reference sheet of ONE character: Haru, a cute anime girl lab assistant, pink hair with navy blue streaks (a thick navy streak down the center of the bangs and a navy streak down the center of the back hair), a small ahoge, big bright blue eyes, light peach skin, lavender hoodie with white drawstrings over a white t-shirt, under an open white lab coat. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) messy high top knot on the crown with loose spiky ends; (2) braid wrapped around the head into a bun at the back, crown-braid look. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color",
+   "refs": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_1",
+   "who": "sia",
+   "ids": [
+    "H00",
+    "H01",
+    "H02"
+   ],
+   "file": "images/_sheets/hair/sia_hair_1.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) long straight jet-black hair reaching the waist, no headdress; (2) half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls; (3) low ponytail tied at the nape, a few loose face-framing strands, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_2",
+   "who": "sia",
+   "ids": [
+    "H03",
+    "H04",
+    "H05"
+   ],
+   "file": "images/_sheets/hair/sia_hair_2.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) mid-height ponytail with big soft waves in the tail, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband; (2) single side ponytail tied above one ear, tail falling over the shoulder, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband; (3) high twin ponytails on both sides of the head, long tails, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_3",
+   "who": "sia",
+   "ids": [
+    "H06",
+    "H07",
+    "H08"
+   ],
+   "file": "images/_sheets/hair/sia_hair_3.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) loose two-strand twist gathered to one side and falling over the shoulder; (2) one thick braid starting near the ear and falling over the shoulder to the chest; (3) two low braids, one on each side, falling in front of the shoulders, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_4",
+   "who": "sia",
+   "ids": [
+    "H09",
+    "H10",
+    "H11"
+   ],
+   "file": "images/_sheets/hair/sia_hair_4.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) thin braids running along both sides of the head like a crown and joined at the back, the rest left down; (2) hair worn down with subtle soft waves (still clearly jet-black and long); (3) all hair let down, long and flowing, no ties, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_5",
+   "who": "sia",
+   "ids": [
+    "H12",
+    "H13",
+    "H14"
+   ],
+   "file": "images/_sheets/hair/sia_hair_5.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) hair worn down with one small soft-gray hair clip on the side of the crown (no headband); (2) half-up style tied at the back with a long ribbon whose ends hang down, using plain charcoal or soft gray hair ties, a small gray hair clip, or a soft gray ribbon matching her collar bow — never white frills, never a maid headband; (3) elegant vertical French twist updo at the back of the head, neat and smooth. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_6",
+   "who": "sia",
+   "ids": [
+    "H15",
+    "H16",
+    "H17"
+   ],
+   "file": "images/_sheets/hair/sia_hair_6.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) low loose updo made by flipping and tucking the hair inward at the nape; (2) low chignon bun placed at one side of the nape; (3) all hair gathered into one round bun high on the back of the head. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "sia_hair_7",
+   "who": "sia",
+   "ids": [
+    "H18",
+    "H19"
+   ],
+   "file": "images/_sheets/hair/sia_hair_7.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x2 hairstyle reference sheet of ONE character: Sia, a calm anime girl maid intern, jet-black hair with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with white lace cuffs, white high collar with a large soft gray bow, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) messy high top knot on the crown with loose spiky ends; (2) braid wrapped around the head into a bun at the back, crown-braid look. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, maid headband, white frills",
+   "refs": [
+    "refs/original/sia_sheet.png",
+    "images/sia/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_1",
+   "who": "moa",
+   "ids": [
+    "H00",
+    "H01",
+    "H02"
+   ],
+   "file": "images/_sheets/hair/moa_hair_1.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) long ash-beige hair reaching the waist with soft wavy ends; (2) half-up style: the top section gathered at the back of the head, the rest left down in soft loose curls; (3) low ponytail at the nape tied with a pink scrunchie, a few loose face-framing strands (same as her suit hairstyle). Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_2",
+   "who": "moa",
+   "ids": [
+    "H03",
+    "H04",
+    "H05"
+   ],
+   "file": "images/_sheets/hair/moa_hair_2.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) mid-height ponytail with big soft waves in the tail, using pink scrunchies or pink and white ribbons; (2) single side ponytail tied above one ear, tail falling over the shoulder, using pink scrunchies or pink and white ribbons; (3) high twin ponytails on both sides of the head, long tails, using pink scrunchies or pink and white ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_3",
+   "who": "moa",
+   "ids": [
+    "H06",
+    "H07",
+    "H08"
+   ],
+   "file": "images/_sheets/hair/moa_hair_3.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) loose two-strand twist gathered to one side and falling over the shoulder; (2) one thick braid starting near the ear and falling over the shoulder to the chest; (3) two low braids, one on each side, falling in front of the shoulders, using pink scrunchies or pink and white ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_4",
+   "who": "moa",
+   "ids": [
+    "H09",
+    "H10",
+    "H11"
+   ],
+   "file": "images/_sheets/hair/moa_hair_4.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) thin braids running along both sides of the head like a crown and joined at the back, the rest left down; (2) hair worn down with soft medium waves all the way to the ends; (3) all hair let down, long and flowing, no ties, using pink scrunchies or pink and white ribbons. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_5",
+   "who": "moa",
+   "ids": [
+    "H12",
+    "H13",
+    "H14"
+   ],
+   "file": "images/_sheets/hair/moa_hair_5.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) hair worn down; the white frilled maid headband with a larger pink ribbon added on top; (2) half-up style tied at the back with a long ribbon whose ends hang down, using pink scrunchies or pink and white ribbons; (3) elegant vertical French twist updo at the back of the head, neat and smooth. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_6",
+   "who": "moa",
+   "ids": [
+    "H15",
+    "H16",
+    "H17"
+   ],
+   "file": "images/_sheets/hair/moa_hair_6.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x3 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) low loose updo made by flipping and tucking the hair inward at the nape; (2) low chignon bun placed at one side of the nape; (3) all hair gathered into one round bun high on the back of the head. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  },
+  {
+   "sheet": "moa_hair_7",
+   "who": "moa",
+   "ids": [
+    "H18",
+    "H19"
+   ],
+   "file": "images/_sheets/hair/moa_hair_7.png",
+   "prompt_en": "detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words. A 2x2 hairstyle reference sheet of ONE character: Moa, a gentle cheerful anime girl maid intern, ash-beige hair with neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan, white frilled apron, no glasses. Top row: chest-up bust shots in three-quarter front view. Bottom row: the SAME hairstyles seen from behind in three-quarter rear view so the arrangement is clear. Columns from left to right: (1) messy high top knot on the crown with loose spiky ends; (2) braid wrapped around the head into a bun at the back, crown-braid look. Same face, same eye color, same hair color, same outfit and same size in every cell; only the hairstyle changes. Plain light gray background in every cell, even spacing, no borders, no text.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, labels, multiple different characters, different face in each cell, changed eye color, changed hair color, missing headband",
+   "refs": [
+    "refs/original/moa_sheet.png",
+    "images/moa/E13_neutral.png"
+   ]
+  }
+ ]
+}
