@@ -11,3 +11,4 @@
 | v1.0 | 2026-11-11 | [fruitfly_character_db_v1.0_2026-11-11.xlsx](fruitfly_character_db_v1.0_2026-11-11.xlsx) | 첫판: characters · expressions(216) · motion_sheets(59) · motion_segments(127) · usage · 코드표 |
 | v1.1 | 2026-11-12 | [fruitfly_character_db_v1.1_2026-11-12.xlsx](fruitfly_character_db_v1.1_2026-11-12.xlsx) | 헤어 어레인지 벡터 추가: hair_styles(20) · hair_vector(60, 하루·시아·모아) · hair_sheets(21) / 3D 다각도 views_3d(270) 추가 / characters에 헤어·3D 집계 열 / 코드표에 헤어 ID / 안내 탭에 버전 기록 |
 | v1.2 | 2026-11-12 | [fruitfly_character_db_v1.2_2026-11-12.xlsx](fruitfly_character_db_v1.2_2026-11-12.xlsx) | 헤어 그림 120장 반영 — hair_vector 60행의 image_status를 generated로 |
+| v1.3 | 2026-11-14 | [fruitfly_character_db_v1.3_2026-11-14.xlsx](fruitfly_character_db_v1.3_2026-11-14.xlsx) | 공장(제조업 특화) 복장·동작 벡터 추가: factory_wear(8) · factory_poses(16) · factory_vector(144, 여섯 식구, planned) · factory_sheets(18) |

@@ -1,0 +1,1270 @@
+{
+ "vector": "factory",
+ "version": "1.0",
+ "date": "2026-11-14",
+ "applies_to": [
+  "doctor",
+  "haru",
+  "fruitfly",
+  "jupanbot",
+  "sia",
+  "moa"
+ ],
+ "note": "공장(제조업 특화) 복장·동작 벡터. 복장 U00~U07 × 동작 P01~P16(키 포즈). 미공개 X1~X3는 C9 예고 규칙에 따라 제외.",
+ "image_format": "셀별로 잘라 투명 PNG 512×768(전신, 발 기준선 공통). wear = 3/4 앞 서기, pose = 키 포즈 1장",
+ "wear": [
+  {
+   "id": "U00",
+   "slug": "canon",
+   "ko": "정본 (연구실 복장)",
+   "en": "Canon lab outfit",
+   "use": "연구실·설명 장면 기본",
+   "outfit_en": "canon"
+  },
+  {
+   "id": "U01",
+   "slug": "shopfloor",
+   "ko": "현장 근무복",
+   "en": "Shop-floor workwear",
+   "use": "③ 배터리 생산 라인·일반 현장",
+   "outfit_en": "navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps"
+  },
+  {
+   "id": "U02",
+   "slug": "cleanroom",
+   "ko": "클린룸 방진복",
+   "en": "Cleanroom suit",
+   "use": "④ 태양광 셀·반도체·드라이룸",
+   "outfit_en": "a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible"
+  },
+  {
+   "id": "U03",
+   "slug": "heat",
+   "ko": "고온 공정 보호구",
+   "en": "Heat-protection gear",
+   "use": "소성로·킬른(이웃 시멘트 공장)·용해",
+   "outfit_en": "a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots"
+  },
+  {
+   "id": "U04",
+   "slug": "maintenance",
+   "ko": "설비 정비복",
+   "en": "Maintenance coveralls",
+   "use": "설비 정비·로봇 티칭",
+   "outfit_en": "gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes"
+  },
+  {
+   "id": "U05",
+   "slug": "inspection",
+   "ko": "품질 검사복",
+   "en": "Quality-inspection wear",
+   "use": "시제품 테스트 랩실·출하 검사",
+   "outfit_en": "a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes"
+  },
+  {
+   "id": "U06",
+   "slug": "supervisor",
+   "ko": "생산 관리자",
+   "en": "Production supervisor",
+   "use": "교대 인계·관리도 회의·판정 승인",
+   "outfit_en": "a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes"
+  },
+  {
+   "id": "U07",
+   "slug": "foodhygiene",
+   "ko": "식품 위생복",
+   "en": "Food-hygiene wear",
+   "use": "생선 통조림 라인·식품 공장",
+   "outfit_en": "a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves"
+  }
+ ],
+ "poses": [
+  {
+   "id": "P01",
+   "slug": "tbm",
+   "ko": "작업 전 안전 구호 (TBM)",
+   "en": "Toolbox-meeting safety call",
+   "wear": "U01",
+   "pose_en": "standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim"
+  },
+  {
+   "id": "P02",
+   "slug": "point_call",
+   "ko": "지적 확인",
+   "en": "Point-and-call check",
+   "wear": "U01",
+   "pose_en": "pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused"
+  },
+  {
+   "id": "P03",
+   "slug": "caliper",
+   "ko": "캘리퍼스 계측",
+   "en": "Measuring with calipers",
+   "wear": "U05",
+   "pose_en": "holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers"
+  },
+  {
+   "id": "P04",
+   "slug": "magnifier",
+   "ko": "확대경 외관 검사",
+   "en": "Visual inspection with magnifier",
+   "wear": "U05",
+   "pose_en": "leaning forward and holding a round magnifying glass over a small flat part held in the other hand"
+  },
+  {
+   "id": "P05",
+   "slug": "mes_tablet",
+   "ko": "태블릿 생산 기록 입력",
+   "en": "Entering production data on tablet",
+   "wear": "U06",
+   "pose_en": "holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text"
+  },
+  {
+   "id": "P06",
+   "slug": "estop",
+   "ko": "비상정지 버튼 누르기",
+   "en": "Pressing the emergency stop",
+   "wear": "U01",
+   "pose_en": "pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression"
+  },
+  {
+   "id": "P07",
+   "slug": "wrench",
+   "ko": "렌치 설비 정비",
+   "en": "Wrench maintenance",
+   "wear": "U04",
+   "pose_en": "kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands"
+  },
+  {
+   "id": "P08",
+   "slug": "carry_box",
+   "ko": "부품 상자 운반",
+   "en": "Carrying a parts box",
+   "wear": "U01",
+   "pose_en": "carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent"
+  },
+  {
+   "id": "P09",
+   "slug": "handover",
+   "ko": "교대 인계",
+   "en": "Shift handover",
+   "wear": "U01",
+   "pose_en": "holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head"
+  },
+  {
+   "id": "P10",
+   "slug": "spc_chart",
+   "ko": "관리도 가리키기",
+   "en": "Pointing at a control chart",
+   "wear": "U06",
+   "pose_en": "pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers"
+  },
+  {
+   "id": "P11",
+   "slug": "teach_pendant",
+   "ko": "로봇 티칭 펜던트 조작",
+   "en": "Operating a robot teach pendant",
+   "wear": "U04",
+   "pose_en": "holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move"
+  },
+  {
+   "id": "P12",
+   "slug": "air_shower",
+   "ko": "에어샤워 통과",
+   "en": "Air-shower entry",
+   "wear": "U02",
+   "pose_en": "standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit"
+  },
+  {
+   "id": "P13",
+   "slug": "ir_thermometer",
+   "ko": "적외선 온도 측정",
+   "en": "Infrared temperature check",
+   "wear": "U03",
+   "pose_en": "aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat"
+  },
+  {
+   "id": "P14",
+   "slug": "reject_tag",
+   "ko": "불량 빨간 태그 붙이기",
+   "en": "Attaching a red reject tag",
+   "wear": "U05",
+   "pose_en": "tying a blank red tag with a string onto a small part held in the other hand, serious face"
+  },
+  {
+   "id": "P15",
+   "slug": "approve",
+   "ko": "합격 승인",
+   "en": "Approval sign-off",
+   "wear": "U06",
+   "pose_en": "giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling"
+  },
+  {
+   "id": "P16",
+   "slug": "hand_hygiene",
+   "ko": "손 위생 점검",
+   "en": "Hand-hygiene check",
+   "wear": "U07",
+   "pose_en": "rubbing both gloved hands together in front of the chest as if sanitizing, standing straight"
+  }
+ ],
+ "characters": {
+  "doctor": {
+   "ko": "박사",
+   "keep": "청록 안경, 흰 줄 있는 검은 뾰족 머리, 뒤 작은 포니테일, 2.5등신",
+   "rules": [
+    "흰 머리 줄은 모든 칸에서 같은 쪽. 좌우 반전 금지.",
+    "안전모·후드 아래로 흰 머리 줄이 조금 보이게.",
+    "U05·U06에서는 안경 위에 보안경을 겹쳐 쓰지 않고 안경을 보안경 겸용으로 그린다."
+   ],
+   "adapt_en": "He keeps his thin teal rectangular glasses (they double as safety glasses) and a bit of the white hair streak shows under any hat or hood."
+  },
+  "haru": {
+   "ko": "하루",
+   "keep": "분홍 + 남색 줄 투톤, 파란 눈, 바보털, 2.5등신(박사보다 조금 작게)",
+   "rules": [
+    "라인(U01·U03·U04·U06)에서는 긴 머리를 반드시 묶는다 — 헤어 벡터 H17 풀 번(남색 곱창).",
+    "U02·U05·U07은 머리를 모두 후드·캡 안에 넣는다. 앞머리 끝 남색 줄만 살짝.",
+    "번 2개는 U00에서만."
+   ],
+   "adapt_en": "Her long pink hair with the navy streak is tied up into a single full bun with a navy scrunchie (safety rule near machines); under hoods and caps all hair is tucked in and only a hint of the navy streak in the bangs shows."
+  },
+  "fruitfly": {
+   "ko": "초파리",
+   "keep": "검은 몸, 큰 빨간 겹눈, 금줄 파란 헬멧과 분홍·파랑 케이블, 투명 날개, 팔 2 + 다리 4, 박사의 40% 크기",
+   "rules": [
+    "팔다리 6개가 모든 칸에서 보여야 한다.",
+    "U01·U03·U06의 안전모는 파란 헬멧 위에 겹쳐 쓰지 않는다 — 파란 헬멧에 노란 반사띠를 두르는 것으로 대신한다.",
+    "U02 방진복은 날개를 감싸는 투명 날개 덮개가 달린 맞춤 방진복. 날개 모양은 비쳐 보인다.",
+    "작은 몸에 맞는 작은 소품(작은 상자·작은 캘리퍼스)."
+   ],
+   "adapt_en": "Six limbs (two arms, four legs) stay visible. Instead of a separate hard hat, his blue helmet gets a yellow reflective band; the cleanroom suit has clear wing covers so the wing shapes still show; all props are sized to his small body."
+  },
+  "jupanbot": {
+   "ko": "주판봇",
+   "keep": "베이지 CRT 모니터 몸, 짙은 초록 화면 얼굴과 민트 픽셀 눈·입, 붉은 갈색 주판알 안테나, 회색 마디 팔, 무한궤도 2개, 박사의 70% 크기",
+   "rules": [
+    "로봇이라 옷 대신 '장착물'로 그린다: 안전모는 모니터 위, 조끼는 몸통 앞판, 방진복은 투명 비닐 커버.",
+    "주판은 동작 칸에서 궤도 옆 고리에 걸어 두고, U00·P15에서만 손에 든다.",
+    "금지: 둥근 흰 머리, 노란 눈, 공 모양 안테나, 가슴 불빛, 떠 있기, 금화.",
+    "안테나 주판알은 모든 칸에서 보이게(후드·캡에 구멍)."
+   ],
+   "adapt_en": "He is a robot, so the outfit is worn as attachments: the hard hat sits on top of the monitor with a hole for the antenna bead, vests and aprons hang on the front panel, the cleanroom suit is a clear plastic cover; the wooden abacus hangs from a hook beside the treads unless he is holding it."
+  },
+  "sia": {
+   "ko": "시아",
+   "keep": "흑발 옆으로 넘긴 앞머리, 회색 눈, 은 귀걸이, 머리띠 없음, 2.5등신",
+   "rules": [
+    "라인에서는 긴 흑발을 낮게 묶는다 — 헤어 벡터 H02 로우 포니테일(숯색 끈), 후드·캡 안에서는 모두 넣는다.",
+    "메이드 원피스는 공장 복장으로 완전히 바꾼다. 회색 큰 리본만 U00·U06의 셔츠 깃에 작게 남긴다.",
+    "앞머리 가르마는 모든 칸에서 같은 쪽.",
+    "흰 프릴·메이드 머리띠 금지."
+   ],
+   "adapt_en": "Her long jet-black hair is tied in a low ponytail with a charcoal tie (or fully tucked under hoods and caps); the maid dress is fully replaced by the workwear; only a small gray bow may remain at a shirt collar; no white frills, no headband."
+  },
+  "moa": {
+   "ko": "모아",
+   "keep": "애쉬 베이지 머리, 가지런한 앞머리, 호박 눈, 가장 작은 사람 캐릭터",
+   "rules": [
+    "공장 복장(U01~U07)에서는 흰 프릴 머리띠를 벗는다(안전). 머리는 헤어 벡터 H02 로우 포니테일(분홍 곱창), 후드·캡 안에서는 모두 넣는다.",
+    "체크 리본 타이는 U06 셔츠 깃에만 작게.",
+    "왼쪽 흰 리본도 공장 복장에서는 없음."
+   ],
+   "adapt_en": "In factory outfits she takes off the white frilled headband and ribbon (safety); her ash-beige hair is tied in a low ponytail with a pink scrunchie or fully tucked under hoods and caps; her red-and-navy plaid bow tie may show only at the supervisor shirt collar."
+  }
+ },
+ "files": {
+  "doctor": {
+   "wear": {
+    "U00": {
+     "file": "images/factory/doctor/U00_canon.png",
+     "status": "planned"
+    },
+    "U01": {
+     "file": "images/factory/doctor/U01_shopfloor.png",
+     "status": "planned"
+    },
+    "U02": {
+     "file": "images/factory/doctor/U02_cleanroom.png",
+     "status": "planned"
+    },
+    "U03": {
+     "file": "images/factory/doctor/U03_heat.png",
+     "status": "planned"
+    },
+    "U04": {
+     "file": "images/factory/doctor/U04_maintenance.png",
+     "status": "planned"
+    },
+    "U05": {
+     "file": "images/factory/doctor/U05_inspection.png",
+     "status": "planned"
+    },
+    "U06": {
+     "file": "images/factory/doctor/U06_supervisor.png",
+     "status": "planned"
+    },
+    "U07": {
+     "file": "images/factory/doctor/U07_foodhygiene.png",
+     "status": "planned"
+    }
+   },
+   "pose": {
+    "P01": {
+     "file": "images/factory/doctor/P01_tbm.png",
+     "status": "planned"
+    },
+    "P02": {
+     "file": "images/factory/doctor/P02_point_call.png",
+     "status": "planned"
+    },
+    "P03": {
+     "file": "images/factory/doctor/P03_caliper.png",
+     "status": "planned"
+    },
+    "P04": {
+     "file": "images/factory/doctor/P04_magnifier.png",
+     "status": "planned"
+    },
+    "P05": {
+     "file": "images/factory/doctor/P05_mes_tablet.png",
+     "status": "planned"
+    },
+    "P06": {
+     "file": "images/factory/doctor/P06_estop.png",
+     "status": "planned"
+    },
+    "P07": {
+     "file": "images/factory/doctor/P07_wrench.png",
+     "status": "planned"
+    },
+    "P08": {
+     "file": "images/factory/doctor/P08_carry_box.png",
+     "status": "planned"
+    },
+    "P09": {
+     "file": "images/factory/doctor/P09_handover.png",
+     "status": "planned"
+    },
+    "P10": {
+     "file": "images/factory/doctor/P10_spc_chart.png",
+     "status": "planned"
+    },
+    "P11": {
+     "file": "images/factory/doctor/P11_teach_pendant.png",
+     "status": "planned"
+    },
+    "P12": {
+     "file": "images/factory/doctor/P12_air_shower.png",
+     "status": "planned"
+    },
+    "P13": {
+     "file": "images/factory/doctor/P13_ir_thermometer.png",
+     "status": "planned"
+    },
+    "P14": {
+     "file": "images/factory/doctor/P14_reject_tag.png",
+     "status": "planned"
+    },
+    "P15": {
+     "file": "images/factory/doctor/P15_approve.png",
+     "status": "planned"
+    },
+    "P16": {
+     "file": "images/factory/doctor/P16_hand_hygiene.png",
+     "status": "planned"
+    }
+   }
+  },
+  "haru": {
+   "wear": {
+    "U00": {
+     "file": "images/factory/haru/U00_canon.png",
+     "status": "planned"
+    },
+    "U01": {
+     "file": "images/factory/haru/U01_shopfloor.png",
+     "status": "planned"
+    },
+    "U02": {
+     "file": "images/factory/haru/U02_cleanroom.png",
+     "status": "planned"
+    },
+    "U03": {
+     "file": "images/factory/haru/U03_heat.png",
+     "status": "planned"
+    },
+    "U04": {
+     "file": "images/factory/haru/U04_maintenance.png",
+     "status": "planned"
+    },
+    "U05": {
+     "file": "images/factory/haru/U05_inspection.png",
+     "status": "planned"
+    },
+    "U06": {
+     "file": "images/factory/haru/U06_supervisor.png",
+     "status": "planned"
+    },
+    "U07": {
+     "file": "images/factory/haru/U07_foodhygiene.png",
+     "status": "planned"
+    }
+   },
+   "pose": {
+    "P01": {
+     "file": "images/factory/haru/P01_tbm.png",
+     "status": "planned"
+    },
+    "P02": {
+     "file": "images/factory/haru/P02_point_call.png",
+     "status": "planned"
+    },
+    "P03": {
+     "file": "images/factory/haru/P03_caliper.png",
+     "status": "planned"
+    },
+    "P04": {
+     "file": "images/factory/haru/P04_magnifier.png",
+     "status": "planned"
+    },
+    "P05": {
+     "file": "images/factory/haru/P05_mes_tablet.png",
+     "status": "planned"
+    },
+    "P06": {
+     "file": "images/factory/haru/P06_estop.png",
+     "status": "planned"
+    },
+    "P07": {
+     "file": "images/factory/haru/P07_wrench.png",
+     "status": "planned"
+    },
+    "P08": {
+     "file": "images/factory/haru/P08_carry_box.png",
+     "status": "planned"
+    },
+    "P09": {
+     "file": "images/factory/haru/P09_handover.png",
+     "status": "planned"
+    },
+    "P10": {
+     "file": "images/factory/haru/P10_spc_chart.png",
+     "status": "planned"
+    },
+    "P11": {
+     "file": "images/factory/haru/P11_teach_pendant.png",
+     "status": "planned"
+    },
+    "P12": {
+     "file": "images/factory/haru/P12_air_shower.png",
+     "status": "planned"
+    },
+    "P13": {
+     "file": "images/factory/haru/P13_ir_thermometer.png",
+     "status": "planned"
+    },
+    "P14": {
+     "file": "images/factory/haru/P14_reject_tag.png",
+     "status": "planned"
+    },
+    "P15": {
+     "file": "images/factory/haru/P15_approve.png",
+     "status": "planned"
+    },
+    "P16": {
+     "file": "images/factory/haru/P16_hand_hygiene.png",
+     "status": "planned"
+    }
+   }
+  },
+  "fruitfly": {
+   "wear": {
+    "U00": {
+     "file": "images/factory/fruitfly/U00_canon.png",
+     "status": "planned"
+    },
+    "U01": {
+     "file": "images/factory/fruitfly/U01_shopfloor.png",
+     "status": "planned"
+    },
+    "U02": {
+     "file": "images/factory/fruitfly/U02_cleanroom.png",
+     "status": "planned"
+    },
+    "U03": {
+     "file": "images/factory/fruitfly/U03_heat.png",
+     "status": "planned"
+    },
+    "U04": {
+     "file": "images/factory/fruitfly/U04_maintenance.png",
+     "status": "planned"
+    },
+    "U05": {
+     "file": "images/factory/fruitfly/U05_inspection.png",
+     "status": "planned"
+    },
+    "U06": {
+     "file": "images/factory/fruitfly/U06_supervisor.png",
+     "status": "planned"
+    },
+    "U07": {
+     "file": "images/factory/fruitfly/U07_foodhygiene.png",
+     "status": "planned"
+    }
+   },
+   "pose": {
+    "P01": {
+     "file": "images/factory/fruitfly/P01_tbm.png",
+     "status": "planned"
+    },
+    "P02": {
+     "file": "images/factory/fruitfly/P02_point_call.png",
+     "status": "planned"
+    },
+    "P03": {
+     "file": "images/factory/fruitfly/P03_caliper.png",
+     "status": "planned"
+    },
+    "P04": {
+     "file": "images/factory/fruitfly/P04_magnifier.png",
+     "status": "planned"
+    },
+    "P05": {
+     "file": "images/factory/fruitfly/P05_mes_tablet.png",
+     "status": "planned"
+    },
+    "P06": {
+     "file": "images/factory/fruitfly/P06_estop.png",
+     "status": "planned"
+    },
+    "P07": {
+     "file": "images/factory/fruitfly/P07_wrench.png",
+     "status": "planned"
+    },
+    "P08": {
+     "file": "images/factory/fruitfly/P08_carry_box.png",
+     "status": "planned"
+    },
+    "P09": {
+     "file": "images/factory/fruitfly/P09_handover.png",
+     "status": "planned"
+    },
+    "P10": {
+     "file": "images/factory/fruitfly/P10_spc_chart.png",
+     "status": "planned"
+    },
+    "P11": {
+     "file": "images/factory/fruitfly/P11_teach_pendant.png",
+     "status": "planned"
+    },
+    "P12": {
+     "file": "images/factory/fruitfly/P12_air_shower.png",
+     "status": "planned"
+    },
+    "P13": {
+     "file": "images/factory/fruitfly/P13_ir_thermometer.png",
+     "status": "planned"
+    },
+    "P14": {
+     "file": "images/factory/fruitfly/P14_reject_tag.png",
+     "status": "planned"
+    },
+    "P15": {
+     "file": "images/factory/fruitfly/P15_approve.png",
+     "status": "planned"
+    },
+    "P16": {
+     "file": "images/factory/fruitfly/P16_hand_hygiene.png",
+     "status": "planned"
+    }
+   }
+  },
+  "jupanbot": {
+   "wear": {
+    "U00": {
+     "file": "images/factory/jupanbot/U00_canon.png",
+     "status": "planned"
+    },
+    "U01": {
+     "file": "images/factory/jupanbot/U01_shopfloor.png",
+     "status": "planned"
+    },
+    "U02": {
+     "file": "images/factory/jupanbot/U02_cleanroom.png",
+     "status": "planned"
+    },
+    "U03": {
+     "file": "images/factory/jupanbot/U03_heat.png",
+     "status": "planned"
+    },
+    "U04": {
+     "file": "images/factory/jupanbot/U04_maintenance.png",
+     "status": "planned"
+    },
+    "U05": {
+     "file": "images/factory/jupanbot/U05_inspection.png",
+     "status": "planned"
+    },
+    "U06": {
+     "file": "images/factory/jupanbot/U06_supervisor.png",
+     "status": "planned"
+    },
+    "U07": {
+     "file": "images/factory/jupanbot/U07_foodhygiene.png",
+     "status": "planned"
+    }
+   },
+   "pose": {
+    "P01": {
+     "file": "images/factory/jupanbot/P01_tbm.png",
+     "status": "planned"
+    },
+    "P02": {
+     "file": "images/factory/jupanbot/P02_point_call.png",
+     "status": "planned"
+    },
+    "P03": {
+     "file": "images/factory/jupanbot/P03_caliper.png",
+     "status": "planned"
+    },
+    "P04": {
+     "file": "images/factory/jupanbot/P04_magnifier.png",
+     "status": "planned"
+    },
+    "P05": {
+     "file": "images/factory/jupanbot/P05_mes_tablet.png",
+     "status": "planned"
+    },
+    "P06": {
+     "file": "images/factory/jupanbot/P06_estop.png",
+     "status": "planned"
+    },
+    "P07": {
+     "file": "images/factory/jupanbot/P07_wrench.png",
+     "status": "planned"
+    },
+    "P08": {
+     "file": "images/factory/jupanbot/P08_carry_box.png",
+     "status": "planned"
+    },
+    "P09": {
+     "file": "images/factory/jupanbot/P09_handover.png",
+     "status": "planned"
+    },
+    "P10": {
+     "file": "images/factory/jupanbot/P10_spc_chart.png",
+     "status": "planned"
+    },
+    "P11": {
+     "file": "images/factory/jupanbot/P11_teach_pendant.png",
+     "status": "planned"
+    },
+    "P12": {
+     "file": "images/factory/jupanbot/P12_air_shower.png",
+     "status": "planned"
+    },
+    "P13": {
+     "file": "images/factory/jupanbot/P13_ir_thermometer.png",
+     "status": "planned"
+    },
+    "P14": {
+     "file": "images/factory/jupanbot/P14_reject_tag.png",
+     "status": "planned"
+    },
+    "P15": {
+     "file": "images/factory/jupanbot/P15_approve.png",
+     "status": "planned"
+    },
+    "P16": {
+     "file": "images/factory/jupanbot/P16_hand_hygiene.png",
+     "status": "planned"
+    }
+   }
+  },
+  "sia": {
+   "wear": {
+    "U00": {
+     "file": "images/factory/sia/U00_canon.png",
+     "status": "planned"
+    },
+    "U01": {
+     "file": "images/factory/sia/U01_shopfloor.png",
+     "status": "planned"
+    },
+    "U02": {
+     "file": "images/factory/sia/U02_cleanroom.png",
+     "status": "planned"
+    },
+    "U03": {
+     "file": "images/factory/sia/U03_heat.png",
+     "status": "planned"
+    },
+    "U04": {
+     "file": "images/factory/sia/U04_maintenance.png",
+     "status": "planned"
+    },
+    "U05": {
+     "file": "images/factory/sia/U05_inspection.png",
+     "status": "planned"
+    },
+    "U06": {
+     "file": "images/factory/sia/U06_supervisor.png",
+     "status": "planned"
+    },
+    "U07": {
+     "file": "images/factory/sia/U07_foodhygiene.png",
+     "status": "planned"
+    }
+   },
+   "pose": {
+    "P01": {
+     "file": "images/factory/sia/P01_tbm.png",
+     "status": "planned"
+    },
+    "P02": {
+     "file": "images/factory/sia/P02_point_call.png",
+     "status": "planned"
+    },
+    "P03": {
+     "file": "images/factory/sia/P03_caliper.png",
+     "status": "planned"
+    },
+    "P04": {
+     "file": "images/factory/sia/P04_magnifier.png",
+     "status": "planned"
+    },
+    "P05": {
+     "file": "images/factory/sia/P05_mes_tablet.png",
+     "status": "planned"
+    },
+    "P06": {
+     "file": "images/factory/sia/P06_estop.png",
+     "status": "planned"
+    },
+    "P07": {
+     "file": "images/factory/sia/P07_wrench.png",
+     "status": "planned"
+    },
+    "P08": {
+     "file": "images/factory/sia/P08_carry_box.png",
+     "status": "planned"
+    },
+    "P09": {
+     "file": "images/factory/sia/P09_handover.png",
+     "status": "planned"
+    },
+    "P10": {
+     "file": "images/factory/sia/P10_spc_chart.png",
+     "status": "planned"
+    },
+    "P11": {
+     "file": "images/factory/sia/P11_teach_pendant.png",
+     "status": "planned"
+    },
+    "P12": {
+     "file": "images/factory/sia/P12_air_shower.png",
+     "status": "planned"
+    },
+    "P13": {
+     "file": "images/factory/sia/P13_ir_thermometer.png",
+     "status": "planned"
+    },
+    "P14": {
+     "file": "images/factory/sia/P14_reject_tag.png",
+     "status": "planned"
+    },
+    "P15": {
+     "file": "images/factory/sia/P15_approve.png",
+     "status": "planned"
+    },
+    "P16": {
+     "file": "images/factory/sia/P16_hand_hygiene.png",
+     "status": "planned"
+    }
+   }
+  },
+  "moa": {
+   "wear": {
+    "U00": {
+     "file": "images/factory/moa/U00_canon.png",
+     "status": "planned"
+    },
+    "U01": {
+     "file": "images/factory/moa/U01_shopfloor.png",
+     "status": "planned"
+    },
+    "U02": {
+     "file": "images/factory/moa/U02_cleanroom.png",
+     "status": "planned"
+    },
+    "U03": {
+     "file": "images/factory/moa/U03_heat.png",
+     "status": "planned"
+    },
+    "U04": {
+     "file": "images/factory/moa/U04_maintenance.png",
+     "status": "planned"
+    },
+    "U05": {
+     "file": "images/factory/moa/U05_inspection.png",
+     "status": "planned"
+    },
+    "U06": {
+     "file": "images/factory/moa/U06_supervisor.png",
+     "status": "planned"
+    },
+    "U07": {
+     "file": "images/factory/moa/U07_foodhygiene.png",
+     "status": "planned"
+    }
+   },
+   "pose": {
+    "P01": {
+     "file": "images/factory/moa/P01_tbm.png",
+     "status": "planned"
+    },
+    "P02": {
+     "file": "images/factory/moa/P02_point_call.png",
+     "status": "planned"
+    },
+    "P03": {
+     "file": "images/factory/moa/P03_caliper.png",
+     "status": "planned"
+    },
+    "P04": {
+     "file": "images/factory/moa/P04_magnifier.png",
+     "status": "planned"
+    },
+    "P05": {
+     "file": "images/factory/moa/P05_mes_tablet.png",
+     "status": "planned"
+    },
+    "P06": {
+     "file": "images/factory/moa/P06_estop.png",
+     "status": "planned"
+    },
+    "P07": {
+     "file": "images/factory/moa/P07_wrench.png",
+     "status": "planned"
+    },
+    "P08": {
+     "file": "images/factory/moa/P08_carry_box.png",
+     "status": "planned"
+    },
+    "P09": {
+     "file": "images/factory/moa/P09_handover.png",
+     "status": "planned"
+    },
+    "P10": {
+     "file": "images/factory/moa/P10_spc_chart.png",
+     "status": "planned"
+    },
+    "P11": {
+     "file": "images/factory/moa/P11_teach_pendant.png",
+     "status": "planned"
+    },
+    "P12": {
+     "file": "images/factory/moa/P12_air_shower.png",
+     "status": "planned"
+    },
+    "P13": {
+     "file": "images/factory/moa/P13_ir_thermometer.png",
+     "status": "planned"
+    },
+    "P14": {
+     "file": "images/factory/moa/P14_reject_tag.png",
+     "status": "planned"
+    },
+    "P15": {
+     "file": "images/factory/moa/P15_approve.png",
+     "status": "planned"
+    },
+    "P16": {
+     "file": "images/factory/moa/P16_hand_hygiene.png",
+     "status": "planned"
+    }
+   }
+  }
+ },
+ "sheets": [
+  {
+   "sheet": "doctor_factory_wear",
+   "who": "doctor",
+   "ids": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "file": "images/_sheets/factory/doctor_factory_wear.png",
+   "prompt_en": "Pixel art outfit reference sheet of ONE original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back. He keeps his thin teal rectangular glasses (they double as safety glasses) and a bit of the white hair streak shows under any hat or hood. Grid 4 columns x 2 rows, aspect ratio 16:9, the same character standing in the same calm neutral pose and same 3/4 front view in all 8 cells; only the outfit changes. Cells from left to right, top row then bottom row: (1) the canon outfit exactly as in the reference: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back; (2) navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps; (3) a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible; (4) a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots; (5) gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes; (6) a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes; (7) a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes; (8) a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Same face, same proportions, same eye color and same hair color in every cell. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/doctor/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "doctor_factory_pose_1",
+   "who": "doctor",
+   "ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+   ],
+   "file": "images/_sheets/factory/doctor_factory_pose_1.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back. He keeps his thin teal rectangular glasses (they double as safety glasses) and a bit of the white hair streak shows under any hat or hood. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim; (2) outfit U01, pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused; (3) outfit U05, holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers; (4) outfit U05, leaning forward and holding a round magnifying glass over a small flat part held in the other hand; (5) outfit U06, holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text; (6) outfit U01, pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression; (7) outfit U04, kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands; (8) outfit U01, carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/doctor/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "doctor_factory_pose_2",
+   "who": "doctor",
+   "ids": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16"
+   ],
+   "file": "images/_sheets/factory/doctor_factory_pose_2.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi scientist (big head, about 2.5 heads tall), thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back. He keeps his thin teal rectangular glasses (they double as safety glasses) and a bit of the white hair streak shows under any hat or hood. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Outfit U02: a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible. Outfit U03: a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U07: a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head; (2) outfit U06, pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers; (3) outfit U04, holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move; (4) outfit U02, standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit; (5) outfit U03, aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat; (6) outfit U05, tying a blank red tag with a string onto a small part held in the other hand, serious face; (7) outfit U06, giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling; (8) outfit U07, rubbing both gloved hands together in front of the chest as if sanitizing, standing straight. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the white hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/doctor/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "haru_factory_wear",
+   "who": "haru",
+   "ids": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "file": "images/_sheets/factory/haru_factory_wear.png",
+   "prompt_en": "Pixel art outfit reference sheet of ONE original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), pink hair with a navy streak, a small ahoge, big blue eyes, light peach skin. Her long pink hair with the navy streak is tied up into a single full bun with a navy scrunchie (safety rule near machines); under hoods and caps all hair is tucked in and only a hint of the navy streak in the bangs shows. Grid 4 columns x 2 rows, aspect ratio 16:9, the same character standing in the same calm neutral pose and same 3/4 front view in all 8 cells; only the outfit changes. Cells from left to right, top row then bottom row: (1) the canon outfit exactly as in the reference: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), pink hair with a navy streak, a small ahoge, big blue eyes, light peach skin; (2) navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps; (3) a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible; (4) a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots; (5) gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes; (6) a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes; (7) a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes; (8) a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Same face, same proportions, same eye color and same hair color in every cell. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/haru/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "haru_factory_pose_1",
+   "who": "haru",
+   "ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+   ],
+   "file": "images/_sheets/factory/haru_factory_pose_1.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), pink hair with a navy streak, a small ahoge, big blue eyes, light peach skin. Her long pink hair with the navy streak is tied up into a single full bun with a navy scrunchie (safety rule near machines); under hoods and caps all hair is tucked in and only a hint of the navy streak in the bangs shows. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim; (2) outfit U01, pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused; (3) outfit U05, holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers; (4) outfit U05, leaning forward and holding a round magnifying glass over a small flat part held in the other hand; (5) outfit U06, holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text; (6) outfit U01, pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression; (7) outfit U04, kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands; (8) outfit U01, carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/haru/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "haru_factory_pose_2",
+   "who": "haru",
+   "ids": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16"
+   ],
+   "file": "images/_sheets/factory/haru_factory_pose_2.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi girl researcher (big head, about 2.5 heads tall, slightly shorter than the doctor), pink hair with a navy streak, a small ahoge, big blue eyes, light peach skin. Her long pink hair with the navy streak is tied up into a single full bun with a navy scrunchie (safety rule near machines); under hoods and caps all hair is tucked in and only a hint of the navy streak in the bangs shows. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Outfit U02: a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible. Outfit U03: a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U07: a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head; (2) outfit U06, pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers; (3) outfit U04, holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move; (4) outfit U02, standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit; (5) outfit U03, aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat; (6) outfit U05, tying a blank red tag with a string onto a small part held in the other hand, serious face; (7) outfit U06, giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling; (8) outfit U07, rubbing both gloved hands together in front of the chest as if sanitizing, standing straight. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the navy hair streak on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/haru/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "fruitfly_factory_wear",
+   "who": "fruitfly",
+   "ids": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "file": "images/_sheets/factory/fruitfly_factory_wear.png",
+   "prompt_en": "Pixel art outfit reference sheet of ONE original character: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, transparent wings, two arms and four legs, black gloves. Six limbs (two arms, four legs) stay visible. Instead of a separate hard hat, his blue helmet gets a yellow reflective band; the cleanroom suit has clear wing covers so the wing shapes still show; all props are sized to his small body. Grid 4 columns x 2 rows, aspect ratio 16:9, the same character standing in the same calm neutral pose and same 3/4 front view in all 8 cells; only the outfit changes. Cells from left to right, top row then bottom row: (1) the canon outfit exactly as in the reference: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, transparent wings, two arms and four legs, black gloves; (2) navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps; (3) a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible; (4) a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots; (5) gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes; (6) a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes; (7) a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes; (8) a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Same face, same proportions, same eye color and same hair color in every cell. Six limbs total (two arms, four legs) stay visible and consistent. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/fruitfly/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "fruitfly_factory_pose_1",
+   "who": "fruitfly",
+   "ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+   ],
+   "file": "images/_sheets/factory/fruitfly_factory_pose_1.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, transparent wings, two arms and four legs, black gloves. Six limbs (two arms, four legs) stay visible. Instead of a separate hard hat, his blue helmet gets a yellow reflective band; the cleanroom suit has clear wing covers so the wing shapes still show; all props are sized to his small body. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim; (2) outfit U01, pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused; (3) outfit U05, holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers; (4) outfit U05, leaning forward and holding a round magnifying glass over a small flat part held in the other hand; (5) outfit U06, holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text; (6) outfit U01, pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression; (7) outfit U04, kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands; (8) outfit U01, carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Six limbs total (two arms, four legs) stay visible and consistent. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/fruitfly/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "fruitfly_factory_pose_2",
+   "who": "fruitfly",
+   "ids": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16"
+   ],
+   "file": "images/_sheets/factory/fruitfly_factory_pose_2.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: anthropomorphic fruit fly researcher, small (about 40% of the doctor's height), black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables at the back, transparent wings, two arms and four legs, black gloves. Six limbs (two arms, four legs) stay visible. Instead of a separate hard hat, his blue helmet gets a yellow reflective band; the cleanroom suit has clear wing covers so the wing shapes still show; all props are sized to his small body. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Outfit U02: a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible. Outfit U03: a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U07: a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head; (2) outfit U06, pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers; (3) outfit U04, holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move; (4) outfit U02, standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit; (5) outfit U03, aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat; (6) outfit U05, tying a blank red tag with a string onto a small part held in the other hand, serious face; (7) outfit U06, giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling; (8) outfit U07, rubbing both gloved hands together in front of the chest as if sanitizing, standing straight. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Six limbs total (two arms, four legs) stay visible and consistent. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/fruitfly/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "jupanbot_factory_wear",
+   "who": "jupanbot",
+   "ids": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "file": "images/_sheets/factory/jupanbot_factory_wear.png",
+   "prompt_en": "Pixel art outfit reference sheet of ONE original character: boxy beige retro CRT-monitor robot (about 70% of the doctor's height), dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads. He is a robot, so the outfit is worn as attachments: the hard hat sits on top of the monitor with a hole for the antenna bead, vests and aprons hang on the front panel, the cleanroom suit is a clear plastic cover; the wooden abacus hangs from a hook beside the treads unless he is holding it. Grid 4 columns x 2 rows, aspect ratio 16:9, the same character standing in the same calm neutral pose and same 3/4 front view in all 8 cells; only the outfit changes. Cells from left to right, top row then bottom row: (1) the canon outfit exactly as in the reference: boxy beige retro CRT-monitor robot (about 70% of the doctor's height), dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads; (2) navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps; (3) a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible; (4) a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots; (5) gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes; (6) a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes; (7) a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes; (8) a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Same face, same proportions, same eye color and same hair color in every cell. No round white head, no yellow eyes, no ball antenna, no chest lights, no floating, no gold coins. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/jupanbot/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "jupanbot_factory_pose_1",
+   "who": "jupanbot",
+   "ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+   ],
+   "file": "images/_sheets/factory/jupanbot_factory_pose_1.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: boxy beige retro CRT-monitor robot (about 70% of the doctor's height), dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads. He is a robot, so the outfit is worn as attachments: the hard hat sits on top of the monitor with a hole for the antenna bead, vests and aprons hang on the front panel, the cleanroom suit is a clear plastic cover; the wooden abacus hangs from a hook beside the treads unless he is holding it. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim; (2) outfit U01, pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused; (3) outfit U05, holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers; (4) outfit U05, leaning forward and holding a round magnifying glass over a small flat part held in the other hand; (5) outfit U06, holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text; (6) outfit U01, pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression; (7) outfit U04, kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands; (8) outfit U01, carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. No round white head, no yellow eyes, no ball antenna, no chest lights, no floating, no gold coins. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/jupanbot/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "jupanbot_factory_pose_2",
+   "who": "jupanbot",
+   "ids": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16"
+   ],
+   "file": "images/_sheets/factory/jupanbot_factory_pose_2.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: boxy beige retro CRT-monitor robot (about 70% of the doctor's height), dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads. He is a robot, so the outfit is worn as attachments: the hard hat sits on top of the monitor with a hole for the antenna bead, vests and aprons hang on the front panel, the cleanroom suit is a clear plastic cover; the wooden abacus hangs from a hook beside the treads unless he is holding it. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Outfit U02: a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible. Outfit U03: a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U07: a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head; (2) outfit U06, pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers; (3) outfit U04, holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move; (4) outfit U02, standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit; (5) outfit U03, aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat; (6) outfit U05, tying a blank red tag with a string onto a small part held in the other hand, serious face; (7) outfit U06, giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling; (8) outfit U07, rubbing both gloved hands together in front of the chest as if sanitizing, standing straight. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. No round white head, no yellow eyes, no ball antenna, no chest lights, no floating, no gold coins. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/jupanbot/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "sia_factory_wear",
+   "who": "sia",
+   "ids": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "file": "images/_sheets/factory/sia_factory_wear.png",
+   "prompt_en": "Pixel art outfit reference sheet of ONE original character: chibi girl intern (big head, about 2.5 heads tall, slightly shorter than the assistant), jet-black hair with side-swept bangs, gray eyes, small silver earrings. Her long jet-black hair is tied in a low ponytail with a charcoal tie (or fully tucked under hoods and caps); the maid dress is fully replaced by the workwear; only a small gray bow may remain at a shirt collar; no white frills, no headband. Grid 4 columns x 2 rows, aspect ratio 16:9, the same character standing in the same calm neutral pose and same 3/4 front view in all 8 cells; only the outfit changes. Cells from left to right, top row then bottom row: (1) the canon outfit exactly as in the reference: chibi girl intern (big head, about 2.5 heads tall, slightly shorter than the assistant), jet-black hair with side-swept bangs, gray eyes, small silver earrings; (2) navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps; (3) a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible; (4) a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots; (5) gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes; (6) a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes; (7) a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes; (8) a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Same face, same proportions, same eye color and same hair color in every cell. Keep the side-swept bangs parted on the same side in every frame. No headdress. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/sia/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "sia_factory_pose_1",
+   "who": "sia",
+   "ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+   ],
+   "file": "images/_sheets/factory/sia_factory_pose_1.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi girl intern (big head, about 2.5 heads tall, slightly shorter than the assistant), jet-black hair with side-swept bangs, gray eyes, small silver earrings. Her long jet-black hair is tied in a low ponytail with a charcoal tie (or fully tucked under hoods and caps); the maid dress is fully replaced by the workwear; only a small gray bow may remain at a shirt collar; no white frills, no headband. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim; (2) outfit U01, pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused; (3) outfit U05, holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers; (4) outfit U05, leaning forward and holding a round magnifying glass over a small flat part held in the other hand; (5) outfit U06, holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text; (6) outfit U01, pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression; (7) outfit U04, kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands; (8) outfit U01, carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the side-swept bangs parted on the same side in every frame. No headdress. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/sia/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "sia_factory_pose_2",
+   "who": "sia",
+   "ids": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16"
+   ],
+   "file": "images/_sheets/factory/sia_factory_pose_2.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi girl intern (big head, about 2.5 heads tall, slightly shorter than the assistant), jet-black hair with side-swept bangs, gray eyes, small silver earrings. Her long jet-black hair is tied in a low ponytail with a charcoal tie (or fully tucked under hoods and caps); the maid dress is fully replaced by the workwear; only a small gray bow may remain at a shirt collar; no white frills, no headband. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Outfit U02: a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible. Outfit U03: a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U07: a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head; (2) outfit U06, pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers; (3) outfit U04, holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move; (4) outfit U02, standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit; (5) outfit U03, aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat; (6) outfit U05, tying a blank red tag with a string onto a small part held in the other hand, serious face; (7) outfit U06, giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling; (8) outfit U07, rubbing both gloved hands together in front of the chest as if sanitizing, standing straight. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the side-swept bangs parted on the same side in every frame. No headdress. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/sia/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "moa_factory_wear",
+   "who": "moa",
+   "ids": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "file": "images/_sheets/factory/moa_factory_wear.png",
+   "prompt_en": "Pixel art outfit reference sheet of ONE original character: chibi girl intern (big head, about 2.5 heads tall, the smallest of the human characters), ash-beige hair with neat straight bangs, amber-brown eyes. In factory outfits she takes off the white frilled headband and ribbon (safety); her ash-beige hair is tied in a low ponytail with a pink scrunchie or fully tucked under hoods and caps; her red-and-navy plaid bow tie may show only at the supervisor shirt collar. Grid 4 columns x 2 rows, aspect ratio 16:9, the same character standing in the same calm neutral pose and same 3/4 front view in all 8 cells; only the outfit changes. Cells from left to right, top row then bottom row: (1) the canon outfit exactly as in the reference: chibi girl intern (big head, about 2.5 heads tall, the smallest of the human characters), ash-beige hair with neat straight bangs, amber-brown eyes; (2) navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps; (3) a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible; (4) a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots; (5) gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes; (6) a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes; (7) a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes; (8) a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Same face, same proportions, same eye color and same hair color in every cell. Keep the white headband and the ribbon over the left ear on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/moa/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "moa_factory_pose_1",
+   "who": "moa",
+   "ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+   ],
+   "file": "images/_sheets/factory/moa_factory_pose_1.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi girl intern (big head, about 2.5 heads tall, the smallest of the human characters), ash-beige hair with neat straight bangs, amber-brown eyes. In factory outfits she takes off the white frilled headband and ribbon (safety); her ash-beige hair is tied in a low ponytail with a pink scrunchie or fully tucked under hoods and caps; her red-and-navy plaid bow tie may show only at the supervisor shirt collar. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, standing straight, right fist raised beside the face, mouth open as if calling out a safety chant, left hand on the hard hat brim; (2) outfit U01, pointing firmly forward with the right index finger at an imaginary gauge at eye level, left hand at the waist, eyes focused; (3) outfit U05, holding a pair of silver vernier calipers with both hands, measuring a small rectangular part, eyes looking closely at the calipers; (4) outfit U05, leaning forward and holding a round magnifying glass over a small flat part held in the other hand; (5) outfit U06, holding a tablet in the left hand and tapping its blank screen with the right index finger, the screen shows only simple colored bars and no text; (6) outfit U01, pressing a large red mushroom-shaped emergency stop button on a small yellow box with the palm, other arm held out to the side, alert expression; (7) outfit U04, kneeling on one knee and turning a big wrench on a bolt of a small gray machine block with both hands; (8) outfit U01, carrying a plain cardboard parts box with both arms in front of the chest, walking forward, knees slightly bent. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the white headband and the ribbon over the left ear on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/moa/E13_neutral.png",
+    "refs/original/"
+   ]
+  },
+  {
+   "sheet": "moa_factory_pose_2",
+   "who": "moa",
+   "ids": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16"
+   ],
+   "file": "images/_sheets/factory/moa_factory_pose_2.png",
+   "prompt_en": "Pixel art pose sheet of ONE original character: chibi girl intern (big head, about 2.5 heads tall, the smallest of the human characters), ash-beige hair with neat straight bangs, amber-brown eyes. In factory outfits she takes off the white frilled headband and ribbon (safety); her ash-beige hair is tied in a low ponytail with a pink scrunchie or fully tucked under hoods and caps; her red-and-navy plaid bow tie may show only at the supervisor shirt collar. Outfit U01: navy blue work jacket and work trousers with silver reflective stripes on the arms and legs, a bright yellow hard hat with a chin strap, clear safety glasses, gray work gloves, black safety shoes with toe caps. Outfit U06: a white hard hat, a fluorescent orange high-visibility safety vest over a light blue collared shirt, dark trousers, a small handheld radio clipped at the chest, safety shoes. Outfit U04: gray one-piece coveralls with many pockets, a tool belt holding a wrench and a screwdriver, a dark gray work cap, knee pads, work gloves, safety shoes. Outfit U02: a white full-body cleanroom bunny suit with an attached hood that hides all hair, a white face mask, clear goggles, light blue nitrile gloves, white shoe covers; only the eyes and a little of the face are visible. Outfit U03: a silver aluminized heat-resistant jacket and trousers, a hard hat with a flip-up clear face shield, thick tan heat-resistant gauntlet gloves, heavy safety boots. Outfit U05: a short white inspection coat, a light blue hairnet cap that covers all hair, clear safety glasses, purple nitrile gloves, white anti-static shoes. Outfit U07: a white hygiene cap that fully covers the hair, a white long-sleeved smock, a light blue waterproof apron, a white face mask, white rubber boots, light blue rubber gloves. Grid 4 columns x 2 rows, aspect ratio 16:9, one key pose per cell, full body, 3/4 view. Cells from left to right, top row then bottom row: (1) outfit U01, holding out a clipboard with blank paper forward with both hands as if handing it to the next shift, slight bow of the head; (2) outfit U06, pointing with a short pointer stick at a small whiteboard that shows a simple zigzag line between two dashed horizontal lines, no numbers; (3) outfit U04, holding a chunky gray teach pendant controller with both hands, thumbs on its buttons, looking up as if watching a robot arm move; (4) outfit U02, standing with both arms raised slightly and spread, turning the body as if being blown by an air shower, a few tiny white air puff marks around the suit; (5) outfit U03, aiming a handheld pistol-shaped infrared thermometer forward with the right hand, face shield down, left hand raised to shield from heat; (6) outfit U05, tying a blank red tag with a string onto a small part held in the other hand, serious face; (7) outfit U06, giving a confident thumbs-up with the right hand while holding a clipboard with a big green check mark in the left hand, smiling; (8) outfit U07, rubbing both gloved hands together in front of the chest as if sanitizing, standing straight. Same face, same proportions, same eye color and same hair color in every cell; only the pose and the workwear change as listed. Keep the white headband and the ribbon over the left ear on the same side in every frame. Never mirror the character. 16-bit RPG pixel art sprite sheet, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, full body, same character scale and same ground line in every frame, every frame inside its own equal grid cell with empty margin, nothing crossing cell borders, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no numbers, no labels, no logo, no watermark, no company names on clothing, no extra visual effects beyond what is described, no motion lines, no speed lines.",
+   "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, mirrored character, text, letters, numbers, watermark, labels, brand logos, company names, multiple different characters, different face in each cell, changed eye color, changed hair color, missing limbs, extra limbs, bare hands near machines, loose long hair near machines",
+   "refs": [
+    "images/moa/E13_neutral.png",
+    "refs/original/"
+   ]
+  }
+ ]
+}

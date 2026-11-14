@@ -151,6 +151,12 @@ git push -u origin main
 - H를 정하지 않으면 H00(정본). 표정·동작·3D는 H00 기준 그대로입니다.
 - 현재 상태: Genspark 시트 21장(`images/_sheets/hair/`)을 잘라 120장(`images/hair/{캐릭터}/H##_{slug}_front|back.png`, 512×512 투명) 반영. 상태 generated, 검수 후 approved.
 
+## 공장(제조업 특화) 복장·동작 벡터 (factory v1.0, 2026-11-14)
+제조업 현장 장면을 위한 다섯 번째 축입니다. 복장 8종(U00 정본 + U01 현장 근무복 · U02 클린룸 방진복 · U03 고온 공정 보호구 · U04 설비 정비복 · U05 품질 검사복 · U06 생산 관리자 · U07 식품 위생복)과 동작 16종(P01 안전 구호 ~ P16 손 위생 점검, 키 포즈)을 여섯 식구(박사·하루·초파리·주판봇·시아·모아)에게 적용합니다. 미공개 X1~X3 제외.
+- 갤러리: `factory.html` · 명세: `specs/factory/README.md` · 설정값: `specs/factory/factory.json` · 프롬프트: `specs/factory/PROMPTS.md` (캐릭터당 시트 3장, 모두 18장)
+- U를 정하지 않으면 U00(정본). 기계 가까이에서는 긴 머리를 묶거나(헤어 H02·H17) 캡 안에 넣습니다.
+- 현재 상태: planned (Genspark 시트 대기)
+
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.
 
