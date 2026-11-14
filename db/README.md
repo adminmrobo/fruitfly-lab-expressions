@@ -13,3 +13,4 @@
 | v1.2 | 2026-11-12 | [fruitfly_character_db_v1.2_2026-11-12.xlsx](fruitfly_character_db_v1.2_2026-11-12.xlsx) | 헤어 그림 120장 반영 — hair_vector 60행의 image_status를 generated로 |
 | v1.3 | 2026-11-14 | [fruitfly_character_db_v1.3_2026-11-14.xlsx](fruitfly_character_db_v1.3_2026-11-14.xlsx) | 공장(제조업 특화) 복장·동작 벡터 추가: factory_wear(8) · factory_poses(16) · factory_vector(144, 여섯 식구, planned) · factory_sheets(18) |
 | v1.4 | 2026-11-14 | [fruitfly_character_db_v1.4_2026-11-14.xlsx](fruitfly_character_db_v1.4_2026-11-14.xlsx) | 공장 벡터 그림 144장 반영 — factory_vector 144행의 image_status를 generated로 |
+| v1.5 | 2026-11-14 | [fruitfly_character_db_v1.5_2026-11-14.xlsx](fruitfly_character_db_v1.5_2026-11-14.xlsx) | 공장 벡터 144장 승인(approved) · 사용 이력: 배터리 AI 공장 시리즈 5개 페이지(①②③④·랩실)의 3D 공장 캐릭터 |
