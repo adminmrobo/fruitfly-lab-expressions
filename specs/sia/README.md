@@ -33,9 +33,9 @@
 | E22 | 코믹 과장 | 뿔남 | Comic Anger | — | [E22_puffed_angry.md](expressions/E22_puffed_angry.md) | `images/sia/E22_puffed_angry.png` | generated |
 | E23 | 코믹 과장 | 멍(점 눈) | Blank Dot Eyes | — | [E23_blank_dot_eyes.md](expressions/E23_blank_dot_eyes.md) | `images/sia/E23_blank_dot_eyes.png` | generated |
 | E24 | 코믹 과장 | 충격 | Shock | — | [E24_shock.md](expressions/E24_shock.md) | `images/sia/E24_shock.png` | generated |
-| E25 | 확장 · 코믹 | 데헷 | Teehee | — | [E25_teehee.md](expressions/E25_teehee.md) | `images/sia/E25_teehee.png` | generated |
-| E25 | 확장 · 변형 | 데헷 (수줍게) | Teehee - Shy | — | [E25_teehee_shy.md](expressions/E25_teehee_shy.md) | `images/sia/E25_teehee_shy.png` | generated |
-| E25 | 확장 · 변형 | 데헷 (장난스럽게) | Teehee - Playful | — | [E25_teehee_playful.md](expressions/E25_teehee_playful.md) | `images/sia/E25_teehee_playful.png` | generated |
+| E25 | 확장 · 코믹 | 데헷 | Teehee | — | [E25_teehee.md](expressions/E25_teehee.md) | `images/sia/E25_teehee.png` | approved |
+| E25 | 확장 · 변형 | 데헷 (수줍게) | Teehee - Shy | — | [E25_teehee_shy.md](expressions/E25_teehee_shy.md) | `images/sia/E25_teehee_shy.png` | approved |
+| E25 | 확장 · 변형 | 데헷 (장난스럽게) | Teehee - Playful | — | [E25_teehee_playful.md](expressions/E25_teehee_playful.md) | `images/sia/E25_teehee_playful.png` | approved |
 
 ● = 사용자 제공 일러스트에 이미 있는 장면. 그 그림을 디자인 참고로 함께 넣습니다(화풍은 픽셀 아트로).
 

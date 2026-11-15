@@ -41,9 +41,9 @@ E01~E24는 모든 캐릭터가 같이 쓰는 **공통 세트**이고, `E25` 이�
 ## 파일
 | 캐릭터 | 명세 | 이미지 | 상태 |
 |---|---|---|---|
-| 하루 | [`specs/haru/expressions/E25_teehee.md`](../haru/expressions/E25_teehee.md) | `images/haru/E25_teehee.png` | generated |
-| 시아 | [`specs/sia/expressions/E25_teehee.md`](../sia/expressions/E25_teehee.md) | `images/sia/E25_teehee.png` | generated |
-| 모아 | [`specs/moa/expressions/E25_teehee.md`](../moa/expressions/E25_teehee.md) | `images/moa/E25_teehee.png` | generated |
+| 하루 | [`specs/haru/expressions/E25_teehee.md`](../haru/expressions/E25_teehee.md) | `images/haru/E25_teehee.png` | approved |
+| 시아 | [`specs/sia/expressions/E25_teehee.md`](../sia/expressions/E25_teehee.md) | `images/sia/E25_teehee.png` | approved |
+| 모아 | [`specs/moa/expressions/E25_teehee.md`](../moa/expressions/E25_teehee.md) | `images/moa/E25_teehee.png` | approved |
 
 ## 변형 (shy · playful, 2026-11-15)
 기본 1장에 더해 캐릭터마다 변형 2장을 둡니다. 파일 `images/{캐릭터}/E25_teehee_shy.png` · `E25_teehee_playful.png`, 명세는 같은 이름의 MD.

@@ -7,7 +7,7 @@ expression_ko: 데헷
 expression_en: Teehee (Tehe-pero)
 spec_file: specs/sia/expressions/E25_teehee.md
 image_file: images/sia/E25_teehee.png
-image_status: generated   # pending → generated → approved
+image_status: approved   # pending → generated → approved
 core_ref: specs/sia/00_character_core.md
 reference_images: [refs/original/sia_sheet.png, images/sia/E13_neutral.png]
 original_match: "없음 (신규 표정)"

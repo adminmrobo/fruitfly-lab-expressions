@@ -16,3 +16,4 @@
 | v1.5 | 2026-11-14 | [fruitfly_character_db_v1.5_2026-11-14.xlsx](fruitfly_character_db_v1.5_2026-11-14.xlsx) | 공장 벡터 144장 승인(approved) · 사용 이력: 배터리 AI 공장 시리즈 5개 페이지(①②③④·랩실)의 3D 공장 캐릭터 |
 | v1.6 | 2026-11-15 | [fruitfly_character_db_v1.6_2026-11-15.xlsx](fruitfly_character_db_v1.6_2026-11-15.xlsx) | 확장 표정 E25 데헷(teehee) 추가 — expressions에 하루·시아·모아 3행(pending), 안내 탭 버전 기록 |
 | v1.7 | 2026-11-15 | [fruitfly_character_db_v1.7_2026-11-15.xlsx](fruitfly_character_db_v1.7_2026-11-15.xlsx) | E25 데헷 그림 9장 반영 — 기본 3행 generated, 변형 shy·playful 6행 추가 |
+| v1.8 | 2026-11-15 | [fruitfly_character_db_v1.8_2026-11-15.xlsx](fruitfly_character_db_v1.8_2026-11-15.xlsx) | E25 데헷 9장(하루·시아·모아 × 기본·shy·playful) 승인(approved) |

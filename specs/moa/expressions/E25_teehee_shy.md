@@ -7,7 +7,7 @@ expression_ko: 데헷 (수줍게)
 expression_en: Teehee - Shy
 spec_file: specs/moa/expressions/E25_teehee_shy.md
 image_file: images/moa/E25_teehee_shy.png
-image_status: generated   # pending → generated → approved
+image_status: approved   # pending → generated → approved
 core_ref: specs/moa/00_character_core.md
 reference_images: [refs/original/moa_sheet.png, images/moa/E13_neutral.png]
 original_match: "없음 (신규 표정)"

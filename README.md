@@ -162,7 +162,7 @@ git push -u origin main
 - 정의: `specs/extensions/E25_teehee.md` · Genspark 지침: `specs/extensions/PROMPTS_E25_teehee.md`
 - 명세: `specs/{haru,sia,moa}/expressions/E25_teehee.md` ↔ 그림 `images/{haru,sia,moa}/E25_teehee.png`
 - 변형: 캐릭터마다 shy(수줍게)·playful(장난스럽게) 2장 추가 → `images/{캐릭터}/E25_teehee_shy.png`·`E25_teehee_playful.png`
-- 현재 상태: 그림 9장(3명 × 기본·shy·playful) 반영, generated (2026-11-15). 갤러리 '코믹 과장' 묶음에 나옵니다.
+- 현재 상태: 그림 9장(3명 × 기본·shy·playful) 반영, **승인(approved, 2026-11-15)**. 갤러리 '코믹 과장' 묶음에 나옵니다.
 
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.

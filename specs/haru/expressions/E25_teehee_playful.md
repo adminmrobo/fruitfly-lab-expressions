@@ -8,7 +8,7 @@ expression_ko: 데헷 (장난스럽게)
 expression_en: Teehee - Playful
 spec_file: specs/haru/expressions/E25_teehee_playful.md
 image_file: images/haru/E25_teehee_playful.png
-image_status: generated   # pending → generated → approved
+image_status: approved   # pending → generated → approved
 core_ref: specs/haru/00_character_core.md
 reference_images: [refs/original/haru_sheet.png, refs/original/haru_expressions_6.png]
 original_match: "없음 (신규 표정)"
