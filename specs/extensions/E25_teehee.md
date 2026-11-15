@@ -41,6 +41,15 @@ E01~E24는 모든 캐릭터가 같이 쓰는 **공통 세트**이고, `E25` 이�
 ## 파일
 | 캐릭터 | 명세 | 이미지 | 상태 |
 |---|---|---|---|
-| 하루 | [`specs/haru/expressions/E25_teehee.md`](../haru/expressions/E25_teehee.md) | `images/haru/E25_teehee.png` | pending |
-| 시아 | [`specs/sia/expressions/E25_teehee.md`](../sia/expressions/E25_teehee.md) | `images/sia/E25_teehee.png` | pending |
-| 모아 | [`specs/moa/expressions/E25_teehee.md`](../moa/expressions/E25_teehee.md) | `images/moa/E25_teehee.png` | pending |
+| 하루 | [`specs/haru/expressions/E25_teehee.md`](../haru/expressions/E25_teehee.md) | `images/haru/E25_teehee.png` | generated |
+| 시아 | [`specs/sia/expressions/E25_teehee.md`](../sia/expressions/E25_teehee.md) | `images/sia/E25_teehee.png` | generated |
+| 모아 | [`specs/moa/expressions/E25_teehee.md`](../moa/expressions/E25_teehee.md) | `images/moa/E25_teehee.png` | generated |
+
+## 변형 (shy · playful, 2026-11-15)
+기본 1장에 더해 캐릭터마다 변형 2장을 둡니다. 파일 `images/{캐릭터}/E25_teehee_shy.png` · `E25_teehee_playful.png`, 명세는 같은 이름의 MD.
+
+| 캐릭터 | shy (수줍게) | playful (장난스럽게) |
+|---|---|---|
+| 하루 | 한 손으로 뒷머리를 긁고 다른 손은 가슴 앞에 가볍게 | 두 손 모두 V사인을 얼굴 양옆에 |
+| 시아 | 손끝으로 입가를 살짝 가림 | 한 손 V사인을 윙크한 눈 옆에 |
+| 모아 | 두 검지 끝을 가슴 앞에서 꼼지락 맞댐 | 두 검지로 양 볼을 콕 |

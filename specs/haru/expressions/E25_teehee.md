@@ -8,7 +8,7 @@ expression_ko: 데헷
 expression_en: Teehee (Tehe-pero)
 spec_file: specs/haru/expressions/E25_teehee.md
 image_file: images/haru/E25_teehee.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/haru/00_character_core.md
 reference_images: [refs/original/haru_sheet.png, refs/original/haru_expressions_6.png]
 original_match: "없음 (신규 표정)"
@@ -42,6 +42,8 @@ extension: true   # E01~E24 공통 세트 밖의 확장 표정 (하루·시아·
 | 만화 이펙트 | 작은 반짝이 2개 |
 
 > 밈 원형에 가장 가까운 V사인 버전.
+
+> **변형 2장** (같은 E25, 손 동작·분위기만 다름): [`E25_teehee_shy.md`](E25_teehee_shy.md) 수줍게 · [`E25_teehee_playful.md`](E25_teehee_playful.md) 장난스럽게
 
 ## 5. 고정 항목 (변경 금지)
 `00_character_core.md` 2절의 **아이덴티티 고정값**(분홍+남색 투톤 장발, 정수리 양쪽 번, 앞머리 가운데 남색 줄, 파란 눈, 라벤더 후드, 흰 랩코트, 픽셀 아트 화풍)을 그대로 따릅니다. 이 표정에서 바꿀 수 있는 것은 **4절의 항목뿐**입니다.

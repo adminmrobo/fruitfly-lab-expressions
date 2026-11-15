@@ -7,7 +7,7 @@ expression_ko: 데헷
 expression_en: Teehee (Tehe-pero)
 spec_file: specs/moa/expressions/E25_teehee.md
 image_file: images/moa/E25_teehee.png
-image_status: pending   # pending → generated → approved
+image_status: generated   # pending → generated → approved
 core_ref: specs/moa/00_character_core.md
 reference_images: [refs/original/moa_sheet.png, images/moa/E13_neutral.png]
 original_match: "없음 (신규 표정)"
@@ -41,6 +41,8 @@ extension: true   # E01~E24 공통 세트 밖의 확장 표정 (하루·시아·
 | 만화 이펙트 | 머리 위 작은 '콩' 충격 별 1개(글자 없이 모양만) |
 
 > 덜렁이 성격에 맞춰 주먹 '콩'. 윙크·혀끝·고개 기울임은 공통.
+
+> **변형 2장** (같은 E25, 손 동작·분위기만 다름): [`E25_teehee_shy.md`](E25_teehee_shy.md) 수줍게 · [`E25_teehee_playful.md`](E25_teehee_playful.md) 장난스럽게
 
 ## 5. 고정 항목 (변경 금지)
 `00_character_core.md` 2절의 **아이덴티티 고정값**(애쉬 베이지 긴 머리(끝 웨이브), 흰 프릴 메이드 머리띠 + 귀 위 흰 리본, 호박색 눈, 빨강·남색 체크 리본 타이, 카멜 니트 카디건, 흰 프릴 앞치마, 픽셀 아트 화풍)을 그대로 따릅니다. 이 표정에서 바꿀 수 있는 것은 **4절의 항목뿐**입니다.
