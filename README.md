@@ -157,6 +157,12 @@ git push -u origin main
 - U를 정하지 않으면 U00(정본). 기계 가까이에서는 긴 머리를 묶거나(헤어 H02·H17) 캡 안에 넣습니다.
 - 현재 상태: Genspark 시트 18장을 잘라 144장 반영, **승인(approved, 2026-11-14)**, 자르기 `specs/factory/cut_sheets.py`. 검수 메모는 명세 README 5절.
 
+## 확장 표정 E25 데헷 (2026-11-15)
+하루·시아·모아에게만 주는 확장 표정입니다. 윙크 + 혀끝 + 고개 기울임이 공통이고, 손 동작은 성격에 맞춰 하루 V사인 · 시아 볼 콕 · 모아 주먹 '콩'.
+- 정의: `specs/extensions/E25_teehee.md` · Genspark 지침: `specs/extensions/PROMPTS_E25_teehee.md`
+- 명세: `specs/{haru,sia,moa}/expressions/E25_teehee.md` ↔ 그림 `images/{haru,sia,moa}/E25_teehee.png`
+- 현재 상태: 명세·프롬프트 완료, 그림 생성 전(pending). 갤러리의 '코믹 과장' 묶음에 '예정' 표시로 나옵니다.
+
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.
 

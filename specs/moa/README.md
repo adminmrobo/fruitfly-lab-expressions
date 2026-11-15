@@ -33,5 +33,9 @@
 | E22 | 코믹 과장 | 뿔남 | Comic Anger | — | [E22_puffed_angry.md](expressions/E22_puffed_angry.md) | `images/moa/E22_puffed_angry.png` | generated |
 | E23 | 코믹 과장 | 멍(점 눈) | Blank Dot Eyes | — | [E23_blank_dot_eyes.md](expressions/E23_blank_dot_eyes.md) | `images/moa/E23_blank_dot_eyes.png` | generated |
 | E24 | 코믹 과장 | 충격 | Shock | — | [E24_shock.md](expressions/E24_shock.md) | `images/moa/E24_shock.png` | generated |
+| E25 | 확장 · 코믹 | 데헷 | Teehee | — | [E25_teehee.md](expressions/E25_teehee.md) | `images/moa/E25_teehee.png` | pending |
 
 ● = 사용자 제공 일러스트에 이미 있는 장면. 그 그림을 디자인 참고로 함께 넣습니다(화풍은 픽셀 아트로).
+
+
+> **E25 데헷** (2026-11-15 추가)은 E01~E24 공통 세트 밖의 확장 표정입니다. 하루·시아·모아만 가집니다. 생성 지침: [`../extensions/PROMPTS_E25_teehee.md`](../extensions/PROMPTS_E25_teehee.md)

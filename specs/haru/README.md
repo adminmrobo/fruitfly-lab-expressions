@@ -32,6 +32,7 @@
 | E22 | 코믹 과장 | 뿔남 | Comic Anger | — | [E22_puffed_angry.md](expressions/E22_puffed_angry.md) | `images/haru/E22_puffed_angry.png` | generated |
 | E23 | 코믹 과장 | 멍(점 눈) | Blank Dot Eyes | — | [E23_blank_dot_eyes.md](expressions/E23_blank_dot_eyes.md) | `images/haru/E23_blank_dot_eyes.png` | generated |
 | E24 | 코믹 과장 | 충격 | Shock | ● | [E24_shock.md](expressions/E24_shock.md) | `images/haru/E24_shock.png` | generated |
+| E25 | 확장 · 코믹 | 데헷 | Teehee | — | [E25_teehee.md](expressions/E25_teehee.md) | `images/haru/E25_teehee.png` | pending |
 
 ● = 원본 시트에 이미 있는 표정. 이 표정은 원본 칸을 1순위 레퍼런스로 씁니다.
 
@@ -39,3 +40,6 @@
 1. 표정 명세의 **7절 완성형 프롬프트**를 그대로 복사합니다.
 2. 원본 참조 이미지(+ 승인된 `E13_neutral.png`)를 레퍼런스로 함께 넣어 생성합니다.
 3. 결과물은 명세의 `image_file` 경로에 저장하고 `image_status`를 업데이트합니다.
+
+
+> **E25 데헷** (2026-11-15 추가)은 E01~E24 공통 세트 밖의 확장 표정입니다. 하루·시아·모아만 가집니다. 생성 지침: [`../extensions/PROMPTS_E25_teehee.md`](../extensions/PROMPTS_E25_teehee.md)
