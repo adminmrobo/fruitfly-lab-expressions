@@ -58,6 +58,7 @@ specs/{캐릭터키}/expressions/{ID}_{slug}.md   ↔   images/{캐릭터키}/{I
 | ID | slug | 표정 | 대상 | 정의 |
 |---|---|---|---|---|
 | E25 | teehee | 데헷 (윙크·혀끝·고개 기울임) | 하루·시아·모아 | [`extensions/E25_teehee.md`](extensions/E25_teehee.md) |
+| E26 | hmph | 흥 (볼 빵빵 뾰로통) | 하루·시아·모아 | [`extensions/E26_hmph.md`](extensions/E26_hmph.md) · 그림 대기 |
 
 E01~E24 공통 세트는 그대로 두고, 일부 캐릭터만 갖는 표정을 E25부터 이어 붙입니다.
 
