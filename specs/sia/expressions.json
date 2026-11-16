@@ -493,5 +493,46 @@
       "정리는 다 했어요. …아마도. 데헷."
     ],
     "variant_of": "teehee"
+  },
+  {
+    "id": "E26",
+    "category": "comic",
+    "category_ko": "코믹 과장",
+    "original_match": null,
+    "extension": true,
+    "image_status": "generated",
+    "slug": "hmph",
+    "ko": "흥 (볼 빵빵)",
+    "en": "Hmph (puffed-cheek pout)",
+    "spec": "specs/sia/expressions/E26_hmph.md",
+    "image": "images/sia/E26_hmph.png",
+    "prompt_en": "Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses, quiet hmph pouting expression, chin tucked slightly down, half-lidded calm gray eyes glancing sideways at the viewer with a cool sulky look, cheeks only slightly puffed, lips pressed into a tiny pursed pout, faint pink blush, one hand lightly holding the edge of her apron, no extra effects, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+    "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, headdress, maid headband, hair ornament, glasses, colored hair, blonde hair, brown hair, short hair, different eye color, different outfit, extra fingers, deformed hands, both eyes closed, wide open mouth, shouting, teeth showing, fangs, tears streaming, crossed arms, anger vein mark, deep red face, crying, copy of an existing anime character, different art style, smooth anime cel shading",
+    "lines": [
+      "…흥.",
+      "…모르는 척할 거예요."
+    ],
+    "variants": [
+      "hmph_walkaway"
+    ]
+  },
+  {
+    "id": "E26",
+    "category": "comic",
+    "category_ko": "코믹 과장",
+    "original_match": null,
+    "extension": true,
+    "image_status": "generated",
+    "slug": "hmph_walkaway",
+    "ko": "흥 (돌아서 걷기)",
+    "en": "Hmph - Walk Away",
+    "spec": "specs/sia/expressions/E26_hmph_walkaway.md",
+    "image": "images/sia/E26_hmph_walkaway.png",
+    "prompt_en": "Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses, chibi full body, about 2.5 heads tall, walking away to the left side with the body turned three-quarters away, glancing back over the shoulder with half-lidded eyes and a small puffed-cheek pout, chin raised slightly, both arms straight down at her sides, long black hair and apron bow swaying, 16-bit RPG pixel art sprite, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, single character, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no logo, no watermark, no motion lines, same face, proportions and colors as the reference sprite, never mirror the character",
+    "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, headdress, maid headband, hair ornament, glasses, colored hair, blonde hair, brown hair, short hair, different eye color, different outfit, extra fingers, deformed hands, both eyes closed, wide open mouth, shouting, teeth showing, fangs, tears streaming, crossed arms, anger vein mark, deep red face, crying, copy of an existing anime character, different art style, smooth anime cel shading, bust-up portrait, cropped body, front view only, running, jumping",
+    "lines": [
+      "…흥."
+    ],
+    "variant_of": "hmph"
   }
 ]

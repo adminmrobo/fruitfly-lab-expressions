@@ -469,5 +469,46 @@
       "에헷, 세나의 실수는 비밀이에요♪"
     ],
     "variant_of": "teehee"
+  },
+  {
+    "id": "E26",
+    "category": "comic",
+    "category_ko": "코믹 과장",
+    "original_match": null,
+    "extension": true,
+    "image_status": "generated",
+    "slug": "hmph",
+    "ko": "흥 (볼 빵빵)",
+    "en": "Hmph (puffed-cheek pout)",
+    "spec": "specs/haru/expressions/E26_hmph.md",
+    "image": "images/haru/E26_hmph.png",
+    "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, cute hmph pouting expression, both cheeks puffed out round like a small balloon, lips pressed together into a tiny pursed pout, eyebrows knitted with the inner ends slightly raised in a sulky frown, soft pink blush across the cheeks, big glossy blue eyes looking up at the viewer from slightly below, both small fists clenched together in front of her chest, shoulders raised a little, one tiny round puff of steam above the head, bust-up portrait from chest up, facing viewer, centered, same framing as the reference expression sheet, detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, no readable text, no letters, no words, plain flat light gray background, same character as the reference image, identical design and colors",
+    "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands, both eyes closed, wide open mouth, shouting, teeth showing, fangs, tears streaming, crossed arms, anger vein mark, deep red face, crying, copy of an existing anime character, different art style, smooth anime cel shading",
+    "lines": [
+      "흥! 저도 할 수 있거든요!",
+      "…흥, 이번엔 안 알려 줄 거예요."
+    ],
+    "variants": [
+      "hmph_walkaway"
+    ]
+  },
+  {
+    "id": "E26",
+    "category": "comic",
+    "category_ko": "코믹 과장",
+    "original_match": null,
+    "extension": true,
+    "image_status": "generated",
+    "slug": "hmph_walkaway",
+    "ko": "흥 (돌아서 걷기)",
+    "en": "Hmph - Walk Away",
+    "spec": "specs/haru/expressions/E26_hmph_walkaway.md",
+    "image": "images/haru/E26_hmph_walkaway.png",
+    "prompt_en": "Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, chibi full body, about 2.5 heads tall, walking away to the left side with the body turned three-quarters away, glancing back over the shoulder at the viewer with a puffed-cheek hmph pout, one fist clenched at her side, the other arm swinging, hair buns and long pink hair swaying, lab coat hem flaring slightly, 16-bit RPG pixel art sprite, crisp pixels, no anti-aliasing blur, bold dark outline (#1d1a22), 2-3 step cel shading with a tiny highlight, single character, flat solid plain medium gray background (#9e9e9e) with no gradient, no floor, no shadow, no scenery, no text, no letters, no logo, no watermark, no motion lines, same face, proportions and colors as the reference sprite, never mirror the character",
+    "negative_en": "blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, multiple characters, glasses, short hair, different hair color, missing hair buns, missing navy streak, different eye color, different outfit, extra fingers, deformed hands, both eyes closed, wide open mouth, shouting, teeth showing, fangs, tears streaming, crossed arms, anger vein mark, deep red face, crying, copy of an existing anime character, different art style, smooth anime cel shading, bust-up portrait, cropped body, front view only, running, jumping",
+    "lines": [
+      "흥! 저도 할 수 있거든요!"
+    ],
+    "variant_of": "hmph"
   }
 ]

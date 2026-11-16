@@ -6,7 +6,7 @@ expression_ko: 흥 (볼 빵빵 뾰로통)
 expression_en: Hmph (puffed-cheek pout)
 characters: [haru, sia, moa]
 added: 2026-11-16
-version: 0.1
+version: 0.2
 ---
 
 # E26 · 흥 (Hmph, puffed-cheek pout) — 확장 표정 공통 정의
@@ -51,8 +51,10 @@ E25 데헷에 이어 여성 캐릭터 세 명만 갖는 두 번째 확장 표정
 ## 파일
 | 캐릭터 | 이미지 | 상태 |
 |---|---|---|
-| 하루 | `images/haru/E26_hmph.png` · `E26_hmph_walkaway.png` | pending |
-| 시아 | `images/sia/E26_hmph.png` · `E26_hmph_walkaway.png` | pending |
-| 모아 | `images/moa/E26_hmph.png` · `E26_hmph_walkaway.png` | pending |
+| 하루 | [`haru/E26_hmph.md`](../haru/expressions/E26_hmph.md) · `images/haru/E26_hmph.png` · `E26_hmph_walkaway.png` | generated |
+| 시아 | [`sia/E26_hmph.md`](../sia/expressions/E26_hmph.md) · `images/sia/E26_hmph.png` · `E26_hmph_walkaway.png` | generated |
+| 모아 | [`moa/E26_hmph.md`](../moa/expressions/E26_hmph.md) · `images/moa/E26_hmph.png` · `E26_hmph_walkaway.png` | generated |
+
+그림 반영 2026-11-17 (사용자 Genspark 생성, 6장). 생성 메모: 원본 시트·E13을 참조했고 시아·모아 기본형은 E18도 참조. 하루 E18과 걷기 프레임 3장은 첨부되지 않아, 걷기형은 원본 시트와 글 지시로만 그림. 하루 기본형은 두 주먹으로 후드 끈을 쥔 모양.
 
 Genspark 프롬프트: [`PROMPTS_E26_hmph.md`](PROMPTS_E26_hmph.md)

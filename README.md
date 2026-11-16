@@ -164,9 +164,10 @@ git push -u origin main
 - 변형: 캐릭터마다 shy(수줍게)·playful(장난스럽게) 2장 추가 → `images/{캐릭터}/E25_teehee_shy.png`·`E25_teehee_playful.png`
 - 현재 상태: 그림 9장(3명 × 기본·shy·playful) 반영, **승인(approved, 2026-11-15)**. 갤러리 '코믹 과장' 묶음에 나옵니다.
 
-## 확장 표정 E26 흥 (2026-11-16, 그림 대기)
+## 확장 표정 E26 흥 (2026-11-16 정의 · 2026-11-17 그림 6장 반영)
 - 정의: `specs/extensions/E26_hmph.md` · Genspark 지침: `specs/extensions/PROMPTS_E26_hmph.md`
 - 대상 하루·시아·모아, 기본 1장 + 변형 walkaway(돌아서 걷기, 치비 전신) 1장씩. 참고 캡처는 표정 요소만 글로 옮기고 첨부하지 않음.
+- 명세: `specs/{haru,sia,moa}/expressions/E26_hmph.md`·`E26_hmph_walkaway.md` ↔ 그림 `images/{캐릭터}/E26_hmph.png`(1024×1024)·`E26_hmph_walkaway.png`(832×1248) · 상태 generated
 
 ## 시리즈 장면 그림 (scenes v1.0, 2026-11-16)
 해설 시리즈의 표지·만화 컷·카드 썸네일처럼 식구들이 함께 나오는 장면 그림을 모으는 여섯 번째 축입니다. 첫 묶음은 **최적화 첫걸음**("혹시… 미분 좋아하세요?") 6장입니다 — 표지 2장, 프롤로그 3컷(하루·시아·모아), ahnboat.xyz 카드 썸네일 1장.

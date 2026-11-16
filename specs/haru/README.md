@@ -35,6 +35,8 @@
 | E25 | 확장 · 코믹 | 데헷 | Teehee | — | [E25_teehee.md](expressions/E25_teehee.md) | `images/haru/E25_teehee.png` | approved |
 | E25 | 확장 · 변형 | 데헷 (수줍게) | Teehee - Shy | — | [E25_teehee_shy.md](expressions/E25_teehee_shy.md) | `images/haru/E25_teehee_shy.png` | approved |
 | E25 | 확장 · 변형 | 데헷 (장난스럽게) | Teehee - Playful | — | [E25_teehee_playful.md](expressions/E25_teehee_playful.md) | `images/haru/E25_teehee_playful.png` | approved |
+| E26 | 확장 · 코믹 | 흥 (볼 빵빵) | Hmph | — | [E26_hmph.md](expressions/E26_hmph.md) | `images/haru/E26_hmph.png` | generated |
+| E26 | 확장 · 변형 | 흥 (돌아서 걷기, 전신) | Hmph - Walk Away | — | [E26_hmph_walkaway.md](expressions/E26_hmph_walkaway.md) | `images/haru/E26_hmph_walkaway.png` | generated |
 
 ● = 원본 시트에 이미 있는 표정. 이 표정은 원본 칸을 1순위 레퍼런스로 씁니다.
 
@@ -45,3 +47,5 @@
 
 
 > **E25 데헷** (2026-11-15 추가)은 E01~E24 공통 세트 밖의 확장 표정입니다. 하루·시아·모아만 가집니다. 생성 지침: [`../extensions/PROMPTS_E25_teehee.md`](../extensions/PROMPTS_E25_teehee.md)
+
+> **E26 흥** (2026-11-16 추가, 2026-11-17 그림 반영)도 확장 표정입니다. 기본(가슴 위, 1:1)과 돌아서 걷기(치비 전신, 2:3) 2장. 생성 지침: [`../extensions/PROMPTS_E26_hmph.md`](../extensions/PROMPTS_E26_hmph.md)

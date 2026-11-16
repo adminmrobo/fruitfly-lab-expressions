@@ -18,3 +18,4 @@
 | v1.7 | 2026-11-15 | [fruitfly_character_db_v1.7_2026-11-15.xlsx](fruitfly_character_db_v1.7_2026-11-15.xlsx) | E25 데헷 그림 9장 반영 — 기본 3행 generated, 변형 shy·playful 6행 추가 |
 | v1.8 | 2026-11-15 | [fruitfly_character_db_v1.8_2026-11-15.xlsx](fruitfly_character_db_v1.8_2026-11-15.xlsx) | E25 데헷 9장(하루·시아·모아 × 기본·shy·playful) 승인(approved) |
 | v1.9 | 2026-11-16 | [fruitfly_character_db_v1.9_2026-11-16.xlsx](fruitfly_character_db_v1.9_2026-11-16.xlsx) | 시리즈 장면 그림 scene_art 추가 — 최적화 첫걸음 6장(표지 2·프롤로그 3·카드 썸네일 1, approved) · 사용 이력: optimization_3d_map first_step ①② 와 ahnboat.xyz 카드 |
+| v1.10 | 2026-11-17 | [fruitfly_character_db_v1.10_2026-11-17.xlsx](fruitfly_character_db_v1.10_2026-11-17.xlsx) | 확장 표정 E26 흥(hmph) 추가 — 하루·시아·모아 × 기본·돌아서 걷기 6행 (generated) |
