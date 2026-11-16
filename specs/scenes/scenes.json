@@ -1,0 +1,141 @@
+{
+ "version": "1.0",
+ "date": "2026-11-16",
+ "series": "optimization_first_step",
+ "series_title": "최적화 첫걸음 — 혹시… 미분 좋아하세요?",
+ "repo": "adminmrobo/optimization_3d_map",
+ "rule": "말풍선은 그림에서 비워 두고 대사는 HTML 글자로 얹는다. 패러디는 말투만 빌리고 다른 작품의 인물·의상은 쓰지 않는다.",
+ "items": [
+  {
+   "id": "fs_cover_01",
+   "role": "cover",
+   "title": "최적화 첫걸음 ① 표지",
+   "page": "first_step_1.html",
+   "characters": [
+    "haru",
+    "sia",
+    "moa"
+   ],
+   "expression_ref": "haru E01 / sia E08 / moa E12",
+   "scene": "칠판의 언덕 곡선과 꼭대기의 수평 접선, 양옆 빈 말풍선",
+   "dialogue_overlay": "혹시… / 미분 좋아하세요?",
+   "size": [
+    1920,
+    1080
+   ],
+   "image_file": "images/scenes/optimization_first_step/fs_cover_01.webp",
+   "sheet_file": "images/_sheets/scenes/optimization_first_step/fs_cover_01.png",
+   "generator": "Genspark",
+   "prompt": "specs/scenes/PROMPTS_optimization_first_step.md",
+   "image_status": "approved"
+  },
+  {
+   "id": "fs_cover_02",
+   "role": "cover",
+   "title": "최적화 첫걸음 ② 표지",
+   "page": "first_step_2.html",
+   "characters": [
+    "doctor",
+    "moa",
+    "fruitfly",
+    "jupanbot"
+   ],
+   "expression_ref": "doctor E09 / moa E19 / fruitfly E07 / jupanbot E01",
+   "scene": "실험대 위 작은 공장 모형, 동전 흐름, 두 곡선이 만나는 빛나는 점",
+   "dialogue_overlay": "얼마만큼 만들까요?",
+   "size": [
+    1920,
+    1080
+   ],
+   "image_file": "images/scenes/optimization_first_step/fs_cover_02.webp",
+   "sheet_file": "images/_sheets/scenes/optimization_first_step/fs_cover_02.png",
+   "generator": "Genspark",
+   "prompt": "specs/scenes/PROMPTS_optimization_first_step.md",
+   "image_status": "approved"
+  },
+  {
+   "id": "fs_prologue_1",
+   "role": "panel",
+   "title": "프롤로그 1컷 — 하루",
+   "page": "first_step_1.html#prologue",
+   "characters": [
+    "haru"
+   ],
+   "expression_ref": "haru E01",
+   "scene": "상반신, 양옆 빈 말풍선(만화 컷)",
+   "dialogue_overlay": "혹시… / 미분 좋아하세요?",
+   "size": [
+    1200,
+    900
+   ],
+   "image_file": "images/scenes/optimization_first_step/fs_prologue_1.webp",
+   "sheet_file": "images/_sheets/scenes/optimization_first_step/fs_prologue_1.png",
+   "generator": "Genspark",
+   "prompt": "specs/scenes/PROMPTS_optimization_first_step.md",
+   "image_status": "approved"
+  },
+  {
+   "id": "fs_prologue_2",
+   "role": "panel",
+   "title": "프롤로그 2컷 — 시아",
+   "page": "first_step_1.html#prologue",
+   "characters": [
+    "sia"
+   ],
+   "expression_ref": "sia E09",
+   "scene": "상반신, 손가락 하나, 양옆 빈 말풍선",
+   "dialogue_overlay": "그럼… / 미분은 언제부터 있었어요?",
+   "size": [
+    1200,
+    900
+   ],
+   "image_file": "images/scenes/optimization_first_step/fs_prologue_2.webp",
+   "sheet_file": "images/_sheets/scenes/optimization_first_step/fs_prologue_2.png",
+   "generator": "Genspark",
+   "prompt": "specs/scenes/PROMPTS_optimization_first_step.md",
+   "image_status": "approved"
+  },
+  {
+   "id": "fs_prologue_3",
+   "role": "panel",
+   "title": "프롤로그 3컷 — 모아",
+   "page": "first_step_1.html#prologue",
+   "characters": [
+    "moa"
+   ],
+   "expression_ref": "moa E19",
+   "scene": "노트를 안고 반짝이는 눈, 양옆 빈 말풍선",
+   "dialogue_overlay": "그걸로… / 뭘 할 수 있어요?",
+   "size": [
+    1200,
+    900
+   ],
+   "image_file": "images/scenes/optimization_first_step/fs_prologue_3.webp",
+   "sheet_file": "images/_sheets/scenes/optimization_first_step/fs_prologue_3.png",
+   "generator": "Genspark",
+   "prompt": "specs/scenes/PROMPTS_optimization_first_step.md",
+   "image_status": "approved"
+  },
+  {
+   "id": "fs_thumb",
+   "role": "card",
+   "title": "ahnboat.xyz SPECIAL 카드 썸네일",
+   "page": "ahnboat.xyz",
+   "characters": [
+    "haru"
+   ],
+   "expression_ref": "haru E01",
+   "scene": "곡선 꼭대기에 자를 대는 하루, 연보라 배경",
+   "dialogue_overlay": "",
+   "size": [
+    800,
+    800
+   ],
+   "image_file": "images/scenes/optimization_first_step/fs_thumb.webp",
+   "sheet_file": "images/_sheets/scenes/optimization_first_step/fs_thumb.png",
+   "generator": "Genspark",
+   "prompt": "specs/scenes/PROMPTS_optimization_first_step.md",
+   "image_status": "approved"
+  }
+ ]
+}

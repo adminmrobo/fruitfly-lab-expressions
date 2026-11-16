@@ -164,6 +164,13 @@ git push -u origin main
 - 변형: 캐릭터마다 shy(수줍게)·playful(장난스럽게) 2장 추가 → `images/{캐릭터}/E25_teehee_shy.png`·`E25_teehee_playful.png`
 - 현재 상태: 그림 9장(3명 × 기본·shy·playful) 반영, **승인(approved, 2026-11-15)**. 갤러리 '코믹 과장' 묶음에 나옵니다.
 
+## 시리즈 장면 그림 (scenes v1.0, 2026-11-16)
+해설 시리즈의 표지·만화 컷·카드 썸네일처럼 식구들이 함께 나오는 장면 그림을 모으는 여섯 번째 축입니다. 첫 묶음은 **최적화 첫걸음**("혹시… 미분 좋아하세요?") 6장입니다 — 표지 2장, 프롤로그 3컷(하루·시아·모아), ahnboat.xyz 카드 썸네일 1장.
+- 그림: `images/scenes/optimization_first_step/fs_*.webp` · 생성 원본: `images/_sheets/scenes/optimization_first_step/fs_*.png`
+- 명세: `specs/scenes/README.md` · 목록: `specs/scenes/scenes.json` · 프롬프트: `specs/scenes/PROMPTS_optimization_first_step.md`
+- 말풍선은 그림에서 비워 두고 대사는 페이지에서 글자로 얹습니다. 패러디는 말투만 빌리고 다른 작품의 인물·의상은 쓰지 않습니다.
+- 현재 상태: 6장 **승인(approved, 2026-11-16)**, 사용처 optimization_3d_map `first_step_1.html`·`first_step_2.html`.
+
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.
 
