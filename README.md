@@ -166,6 +166,7 @@ git push -u origin main
 
 ## 시리즈 장면 그림 (scenes v1.0, 2026-11-16)
 해설 시리즈의 표지·만화 컷·카드 썸네일처럼 식구들이 함께 나오는 장면 그림을 모으는 여섯 번째 축입니다. 첫 묶음은 **최적화 첫걸음**("혹시… 미분 좋아하세요?") 6장입니다 — 표지 2장, 프롤로그 3컷(하루·시아·모아), ahnboat.xyz 카드 썸네일 1장.
+- 갤러리 페이지: [scenes.html](https://adminmrobo.github.io/fruitfly-lab-expressions/scenes.html) (표정 라이브러리 첫 화면의 "시리즈 장면 그림 →"에서 들어감)
 - 그림: `images/scenes/optimization_first_step/fs_*.webp` · 생성 원본: `images/_sheets/scenes/optimization_first_step/fs_*.png`
 - 명세: `specs/scenes/README.md` · 목록: `specs/scenes/scenes.json` · 프롬프트: `specs/scenes/PROMPTS_optimization_first_step.md`
 - 말풍선은 그림에서 비워 두고 대사는 페이지에서 글자로 얹습니다. 패러디는 말투만 빌리고 다른 작품의 인물·의상은 쓰지 않습니다.
