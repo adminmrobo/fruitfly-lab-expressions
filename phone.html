@@ -27,27 +27,28 @@ details{font-size:13px}details pre{white-space:pre-wrap;word-break:break-word;ba
 footer{color:var(--mute);font-size:13px;padding-bottom:40px}
 @media (max-width:760px){header,main,footer,nav{padding-left:16px;padding-right:16px}h1{font-size:26px}}
 </style></head><body>
-<header><div class="eyebrow">Fruit Fly Lab · Phone Wallpaper Selfie Vector v1.0</div>
+<header><div class="eyebrow">Fruit Fly Lab · Phone Wallpaper Selfie Vector v1.1</div>
 <h1>폰 배경 셀카 3컷</h1>
-<p class="lede"><b>하루·시아·모아</b>의 세로 폰 배경(9:16)입니다. 만세 → 옆모습 놀람 → 셀카 브이 클로즈업의 3컷을 캐릭터마다 <b>픽셀판·벡터판</b> 두 장으로 둡니다. 맨 위 12%는 잠금화면 시계 자리로 비우고, 대사는 그림에 넣지 않습니다.</p>
+<p class="lede"><b>하루·시아·모아</b>의 세로 폰 배경(9:16)입니다. 만세 → 옆모습 놀람 → 셀카 브이 클로즈업의 3컷을 캐릭터마다 <b>픽셀판·벡터판</b> 두 장으로 두고, 벡터판에는 장비 옵션(헤드셋·마스크·안전모)을 더합니다. 맨 위 12%는 잠금화면 시계 자리로 비우고, 대사는 그림에 넣지 않습니다.</p>
 <p class="links"><a href="index.html">← 표정 라이브러리</a> · <a href="motions.html">동작·의상</a> · <a href="hair.html">헤어</a> · <a href="factory.html">공장 복장·동작</a> · <a href="scenes.html">장면 그림</a> · <a href="specs/phone/README.md">명세 README</a> · <a href="specs/phone/PROMPTS.md">생성 프롬프트</a> · <a href="specs/phone/phone.json">phone.json</a></p>
 </header>
 <nav id="tabs" aria-label="캐릭터 고르기"></nav>
 <main><div class="rules" id="rules"></div><div class="grid" id="grid"></div></main>
 <footer>그림이 아직 없으면 컷 배치도가 대신 보입니다. 캐릭터 DB(엑셀)는 <code>db/</code> 폴더에 판마다 쌓입니다.</footer>
 <script>
-const G={};let cur="all";
+const G={};let cur="all",gear="all";
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function todo(c){const p=c.panels_ko;return `<div class="todo"><div class="clock">시계 자리</div><div class="row"><div>P1<br>${esc(p[0].split(" — ")[0])}</div><div>P2<br>${esc(p[1].split(" — ")[0])}</div></div><div>P3<br>${esc(p[2].split(" — ")[0])}<br>· 그림 대기 ·</div></div>`;}
 function render(){
   const D=G.d, keys=Object.keys(D.characters);
-  document.getElementById("tabs").innerHTML=[["all","전체"],...keys.map(k=>[k,D.characters[k].ko])].map(([k,n])=>`<button data-k="${k}" aria-pressed="${k===cur}">${esc(n)}</button>`).join("");
-  document.getElementById("rules").innerHTML=`<b>컷 구성</b><ol>${D.layout.map(l=>`<li>${esc(l.panel)} · ${esc(l.pos)} — ${esc(l.beat)}</li>`).join("")}</ol><div style="margin-top:6px;color:var(--mute)">${esc(D.source)}</div>`;
-  document.getElementById("grid").innerHTML=D.items.filter(it=>cur==="all"||it.who===cur).map((it,i)=>{
+  document.getElementById("tabs").innerHTML=[["all","전체"],...keys.map(k=>[k,D.characters[k].ko])].map(([k,n])=>`<button data-k="${k}" aria-pressed="${k===cur}">${esc(n)}</button>`).join("")+
+    `<span style="width:1px;height:22px;background:var(--line);margin:0 4px"></span>`+[["all","장비 전체"],...D.gear.map(g=>[g.id,g.id+" "+g.ko])].map(([k,n])=>`<button data-g="${k}" aria-pressed="${k===gear}">${esc(n)}</button>`).join("");
+  document.getElementById("rules").innerHTML=`<b>컷 구성</b><ol>${D.layout.map(l=>`<li>${esc(l.panel)} · ${esc(l.pos)} — ${esc(l.beat)}</li>`).join("")}</ol><b>장비 옵션 (벡터판)</b><ol>${D.gear.map(g=>`<li>${esc(g.id)} ${esc(g.ko)} — ${esc(g.rule_ko)}</li>`).join("")}</ol><div style="margin-top:6px;color:var(--mute)">${esc(D.source)}</div>`;
+  document.getElementById("grid").innerHTML=D.items.filter(it=>(cur==="all"||it.who===cur)&&(gear==="all"||it.gear===gear)).map((it,i)=>{
     const c=D.characters[it.who], st=D.styles.find(s=>s.id===it.style), idx=D.items.indexOf(it);
     return `<article class="card"><div class="phone ${it.style}" data-i="${idx}"><img src="${it.file}" alt="${esc(c.ko)} ${esc(st.ko)}" loading="lazy" onerror="this.parentNode.innerHTML=window.todoHTML(${idx})"></div><div class="body">
-      <div class="id">${esc(it.id)} · ${esc(it.who)}</div><h3>${esc(c.ko)} · ${esc(st.ko)} <span style="font-weight:400;color:var(--mute);font-size:13px">${esc(c.mood)}</span></h3>
-      <div><span class="badge">${esc(st.en)}</span><span class="badge ${it.status==="approved"?"ok":""}">${esc(it.status)}</span></div>
+      <div class="id">${esc(it.id)} · ${esc(it.who)}</div><h3>${esc(c.ko)} · ${esc(st.ko)}${it.gear!=="G0"?" · "+esc(D.gear.find(g=>g.id===it.gear).ko):""} <span style="font-weight:400;color:var(--mute);font-size:13px">${esc(c.mood)}</span></h3>
+      <div><span class="badge">${esc(st.en)}</span><span class="badge">${esc(it.gear)} ${esc(D.gear.find(g=>g.id===it.gear).ko)}</span><span class="badge ${it.status==="approved"?"ok":""}">${esc(it.status)}</span></div>
       <div style="font-size:13px">${c.panels_ko.map((p,j)=>`P${j+1} ${esc(p)} <span style="color:var(--mute)">「${esc(c.lines[j])}」</span>`).join("<br>")}</div>
       <details><summary>프롬프트 · 첨부 ${it.attach.length}장</summary><pre>첨부: ${esc(it.attach.join(", "))}</pre><pre>${esc(it.prompt_en)}</pre><pre>Negative: ${esc(it.negative_en)}</pre></details>
       <button class="copy" data-c="${idx}">프롬프트 복사</button>
@@ -57,6 +58,7 @@ window.todoHTML=i=>todo(G.d.characters[G.d.items[i].who]);
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.k){cur=b.dataset.k;render();}
+  else if(b.dataset.g){gear=b.dataset.g;render();}
   else if(b.dataset.c){const it=G.d.items[+b.dataset.c];navigator.clipboard&&navigator.clipboard.writeText(it.prompt_en+"\n\nNegative: "+it.negative_en).then(()=>{b.textContent="복사했습니다";setTimeout(()=>b.textContent="프롬프트 복사",1400);});}
 });
 fetch("specs/phone/phone.json").then(r=>r.json()).then(d=>{G.d=d;const q=new URLSearchParams(location.search).get("c");if(q&&d.characters[q])cur=q;render();});

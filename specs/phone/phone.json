@@ -1,6 +1,6 @@
 {
  "vector": "phone",
- "version": "1.0",
+ "version": "1.1",
  "date": "2026-11-19",
  "applies_to": [
   "haru",
@@ -8,7 +8,7 @@
   "moa"
  ],
  "note": "여성 캐릭터(하루·시아·모아) 전용 '폰 배경 셀카 3컷' 벡터. 미공개 X1~X3는 C9 예고 규칙에 따라 제외.",
- "source": "사용자가 준 참고 이미지 1장(2026-11-19)의 컷 구성·연출(만세 → 옆모습 놀람 → 셀카 브이)만 빌림. 그 그림의 캐릭터·머리 모양·의상·소품은 쓰지 않고, 참고 이미지는 생성 도구에 첨부하지 않으며 저장소에도 넣지 않음.",
+ "source": "사용자가 준 참고 이미지 1장(2026-11-19)의 컷 구성·연출(만세 → 옆모습 놀람 → 셀카 브이)만 빌림. 그 그림의 캐릭터·머리 모양·의상(트윈테일·청록 머리·넥타이·민소매)은 쓰지 않고(헤드셋은 일반 디자인이면 허용), 참고 이미지는 생성 도구에 첨부하지 않으며 저장소에도 넣지 않음.",
  "image_format": "1080×1920(9:16) PNG, 세로 폰 배경. 맨 위 12%는 잠금화면 시계 자리로 비움. 생성 후 컷 3개를 따로 잘라 PH1_p1~p3로 저장",
  "layout": [
   {
@@ -39,6 +39,45 @@
    "ko": "벡터판",
    "en": "flat vector illustration",
    "note": "sia/moa_vector_base와 같은 화풍 — 큰 화면·SVG 따기용"
+  }
+ ],
+ "gear": [
+  {
+   "id": "G0",
+   "ko": "없음",
+   "slug": "none",
+   "applies_to": [
+    "pixel",
+    "vector"
+   ],
+   "rule_ko": "장비 없음 (정본 그대로)"
+  },
+  {
+   "id": "G1",
+   "ko": "헤드셋",
+   "slug": "headset",
+   "applies_to": [
+    "vector"
+   ],
+   "rule_ko": "얇은 머리띠 + 둥근 이어컵 + 작은 붐 마이크 (캐릭터 색), 세 컷 모두 착용"
+  },
+  {
+   "id": "G2",
+   "ko": "마스크",
+   "slug": "mask",
+   "applies_to": [
+    "vector"
+   ],
+   "rule_ko": "흰 주름 마스크, P1·P2는 코·입을 덮고 P3는 턱 아래로 내려 미소가 보이게"
+  },
+  {
+   "id": "G3",
+   "ko": "안전모",
+   "slug": "hardhat",
+   "applies_to": [
+    "vector"
+   ],
+   "rule_ko": "공장 벡터 U01과 같은 노란 안전모 + 턱끈, 세 컷 모두 착용"
   }
  ],
  "characters": {
@@ -92,6 +131,7 @@
   {
    "who": "haru",
    "style": "pixel",
+   "gear": "G0",
    "id": "PH1_pixel",
    "file": "images/phone/haru/PH1_selfie3_pixel.png",
    "panels": [
@@ -107,11 +147,12 @@
     "images/haru/E04_surprise.png"
    ],
    "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat. Panel 1 (upper left): Haru cheering with both arms raised high, eyes closed in happy upside-down U curves, wide open laughing mouth, soft pink blush, lab coat sleeves sliding down her arms, small burst lines and stars around her, pastel pink and lavender background with diagonal stripes. Panel 2 (upper right): Haru in side profile facing right, startled, eyes wide open, small open mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Haru's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big bright blue eyes with tiny pink heart-shaped highlights, soft pink blush, strands of pink and navy hair across the forehead, both hair buns visible at the top edge, pink hearts and white sparkles floating on a pastel pink and lavender halftone background. Style: detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
-   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, headset, headphones, microphone, necktie, sleeveless shirt, copy of an existing anime character, different art style, smooth vector art, anti-aliased painting, smooth anime cel shading, glasses, short hair, missing hair buns, missing navy streak, different eye color"
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, smooth vector art, anti-aliased painting, smooth anime cel shading, glasses, short hair, missing hair buns, missing navy streak, different eye color, headset, face mask, hard hat, helmet"
   },
   {
    "who": "haru",
    "style": "vector",
+   "gear": "G0",
    "id": "PH1_vector",
    "file": "images/phone/haru/PH1_selfie3_vector.png",
    "panels": [
@@ -125,11 +166,69 @@
     "images/haru/E19_sparkle_eyes.png"
    ],
    "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat. Panel 1 (upper left): Haru cheering with both arms raised high, eyes closed in happy upside-down U curves, wide open laughing mouth, soft pink blush, lab coat sleeves sliding down her arms, small burst lines and stars around her, pastel pink and lavender background with diagonal stripes. Panel 2 (upper right): Haru in side profile facing right, startled, eyes wide open, small open mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Haru's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big bright blue eyes with tiny pink heart-shaped highlights, soft pink blush, strands of pink and navy hair across the forehead, both hair buns visible at the top edge, pink hearts and white sparkles floating on a pastel pink and lavender halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
-   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, headset, headphones, microphone, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, glasses, short hair, missing hair buns, missing navy streak, different eye color"
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, glasses, short hair, missing hair buns, missing navy streak, different eye color, headset, face mask, hard hat, helmet"
+  },
+  {
+   "who": "haru",
+   "style": "vector",
+   "gear": "G1",
+   "id": "PH1_vector_G1",
+   "file": "images/phone/haru/PH1_selfie3_vector_G1_headset.png",
+   "panels": [
+    "images/phone/haru/PH1_p1_vector_G1_headset.png",
+    "images/phone/haru/PH1_p2_vector_G1_headset.png",
+    "images/phone/haru/PH1_p3_vector_G1_headset.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E19_sparkle_eyes.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat. She wears a simple over-ear headset in all three panels: a thin navy headband sitting between her two hair buns, round lavender ear cups and a small thin boom microphone at the left cheek. Panel 1 (upper left): Haru cheering with both arms raised high, eyes closed in happy upside-down U curves, wide open laughing mouth, soft pink blush, lab coat sleeves sliding down her arms, small burst lines and stars around her, pastel pink and lavender background with diagonal stripes. Panel 2 (upper right): Haru in side profile facing right, startled, eyes wide open, small open mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Haru's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big bright blue eyes with tiny pink heart-shaped highlights, soft pink blush, strands of pink and navy hair across the forehead, both hair buns visible at the top edge, pink hearts and white sparkles floating on a pastel pink and lavender halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, glasses, short hair, missing hair buns, missing navy streak, different eye color, face mask, hard hat, helmet, rectangular black and pink ear pieces"
+  },
+  {
+   "who": "haru",
+   "style": "vector",
+   "gear": "G2",
+   "id": "PH1_vector_G2",
+   "file": "images/phone/haru/PH1_selfie3_vector_G2_mask.png",
+   "panels": [
+    "images/phone/haru/PH1_p1_vector_G2_mask.png",
+    "images/phone/haru/PH1_p2_vector_G2_mask.png",
+    "images/phone/haru/PH1_p3_vector_G2_mask.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E19_sparkle_eyes.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat. She wears a plain white pleated face mask over her nose and mouth in panels 1 and 2, smiling eyes still readable; in panel 3 the mask is pulled down under her chin so the small cat-like smile shows. Panel 1 (upper left): Haru cheering with both arms raised high, eyes closed in happy upside-down U curves, wide open laughing mouth, soft pink blush, lab coat sleeves sliding down her arms, small burst lines and stars around her, pastel pink and lavender background with diagonal stripes. Panel 2 (upper right): Haru in side profile facing right, startled, eyes wide open, small open mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Haru's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big bright blue eyes with tiny pink heart-shaped highlights, soft pink blush, strands of pink and navy hair across the forehead, both hair buns visible at the top edge, pink hearts and white sparkles floating on a pastel pink and lavender halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, glasses, short hair, missing hair buns, missing navy streak, different eye color, headset, hard hat, helmet, gas mask, respirator"
+  },
+  {
+   "who": "haru",
+   "style": "vector",
+   "gear": "G3",
+   "id": "PH1_vector_G3",
+   "file": "images/phone/haru/PH1_selfie3_vector_G3_hardhat.png",
+   "panels": [
+    "images/phone/haru/PH1_p1_vector_G3_hardhat.png",
+    "images/phone/haru/PH1_p2_vector_G3_hardhat.png",
+    "images/phone/haru/PH1_p3_vector_G3_hardhat.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/haru_sheet.png",
+    "images/haru/E19_sparkle_eyes.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat. She wears a bright yellow safety hard hat with a chin strap in all three panels; her two hair buns are tucked under the hard hat, long pink hair with the navy streak flows out below it, the navy streak in the bangs still shows under the brim. Panel 1 (upper left): Haru cheering with both arms raised high, eyes closed in happy upside-down U curves, wide open laughing mouth, soft pink blush, lab coat sleeves sliding down her arms, small burst lines and stars around her, pastel pink and lavender background with diagonal stripes. Panel 2 (upper right): Haru in side profile facing right, startled, eyes wide open, small open mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Haru's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big bright blue eyes with tiny pink heart-shaped highlights, soft pink blush, strands of pink and navy hair across the forehead, both hair buns visible at the top edge, pink hearts and white sparkles floating on a pastel pink and lavender halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, glasses, short hair, missing navy streak, different eye color, headset, face mask, baseball cap, military helmet"
   },
   {
    "who": "sia",
    "style": "pixel",
+   "gear": "G0",
    "id": "PH1_pixel",
    "file": "images/phone/sia/PH1_selfie3_pixel.png",
    "panels": [
@@ -145,11 +244,12 @@
     "images/sia/E04_surprise.png"
    ],
    "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses. Panel 1 (upper left): Sia giving a small reserved cheer, one hand raised to shoulder height in a little wave, the other hand resting on her apron, eyes gently closed with a soft content smile, faint pink blush, only a few small sparkles, pale gray and soft pink background with diagonal stripes. Panel 2 (upper right): Sia in side profile facing right, mildly surprised, calm gray eyes opened a little wider than usual, lips slightly parted, faint pink blush, one small sparkle mark near her head, she has just noticed the phone camera, light dotted halftone background. Panel 3 (bottom, large): close-up selfie of Sia's face filling the panel, seen from a phone front camera slightly above, one hand making a single V-sign beside her cheek, small quiet closed-lip smile, half-lidded calm gray eyes with tiny faint pink heart-shaped highlights, faint pink blush, long straight black hair framing the face, one silver drop earring visible, only a few small hearts and white sparkles on a pale gray and soft pink halftone background. Style: detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
-   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, headset, headphones, microphone, necktie, sleeveless shirt, copy of an existing anime character, different art style, smooth vector art, anti-aliased painting, smooth anime cel shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color"
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, smooth vector art, anti-aliased painting, smooth anime cel shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color, headset, face mask, hard hat, helmet"
   },
   {
    "who": "sia",
    "style": "vector",
+   "gear": "G0",
    "id": "PH1_vector",
    "file": "images/phone/sia/PH1_selfie3_vector.png",
    "panels": [
@@ -163,11 +263,69 @@
     "refs/original/sia_sheet.png"
    ],
    "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses. Panel 1 (upper left): Sia giving a small reserved cheer, one hand raised to shoulder height in a little wave, the other hand resting on her apron, eyes gently closed with a soft content smile, faint pink blush, only a few small sparkles, pale gray and soft pink background with diagonal stripes. Panel 2 (upper right): Sia in side profile facing right, mildly surprised, calm gray eyes opened a little wider than usual, lips slightly parted, faint pink blush, one small sparkle mark near her head, she has just noticed the phone camera, light dotted halftone background. Panel 3 (bottom, large): close-up selfie of Sia's face filling the panel, seen from a phone front camera slightly above, one hand making a single V-sign beside her cheek, small quiet closed-lip smile, half-lidded calm gray eyes with tiny faint pink heart-shaped highlights, faint pink blush, long straight black hair framing the face, one silver drop earring visible, only a few small hearts and white sparkles on a pale gray and soft pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
-   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, headset, headphones, microphone, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color"
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color, headset, face mask, hard hat, helmet"
+  },
+  {
+   "who": "sia",
+   "style": "vector",
+   "gear": "G1",
+   "id": "PH1_vector_G1",
+   "file": "images/phone/sia/PH1_selfie3_vector_G1_headset.png",
+   "panels": [
+    "images/phone/sia/PH1_p1_vector_G1_headset.png",
+    "images/phone/sia/PH1_p2_vector_G1_headset.png",
+    "images/phone/sia/PH1_p3_vector_G1_headset.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/sia_vector_base.png",
+    "refs/original/sia_sheet.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses. She wears a simple over-ear headset in all three panels: a thin charcoal headband, round silver-gray ear cups and a small thin boom microphone at the left cheek; her long black hair falls over the headband. Panel 1 (upper left): Sia giving a small reserved cheer, one hand raised to shoulder height in a little wave, the other hand resting on her apron, eyes gently closed with a soft content smile, faint pink blush, only a few small sparkles, pale gray and soft pink background with diagonal stripes. Panel 2 (upper right): Sia in side profile facing right, mildly surprised, calm gray eyes opened a little wider than usual, lips slightly parted, faint pink blush, one small sparkle mark near her head, she has just noticed the phone camera, light dotted halftone background. Panel 3 (bottom, large): close-up selfie of Sia's face filling the panel, seen from a phone front camera slightly above, one hand making a single V-sign beside her cheek, small quiet closed-lip smile, half-lidded calm gray eyes with tiny faint pink heart-shaped highlights, faint pink blush, long straight black hair framing the face, one silver drop earring visible, only a few small hearts and white sparkles on a pale gray and soft pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color, face mask, hard hat, helmet, rectangular black and pink ear pieces"
+  },
+  {
+   "who": "sia",
+   "style": "vector",
+   "gear": "G2",
+   "id": "PH1_vector_G2",
+   "file": "images/phone/sia/PH1_selfie3_vector_G2_mask.png",
+   "panels": [
+    "images/phone/sia/PH1_p1_vector_G2_mask.png",
+    "images/phone/sia/PH1_p2_vector_G2_mask.png",
+    "images/phone/sia/PH1_p3_vector_G2_mask.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/sia_vector_base.png",
+    "refs/original/sia_sheet.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses. She wears a plain white pleated face mask over her nose and mouth in panels 1 and 2, calm half-lidded eyes still readable; in panel 3 the mask is pulled down under her chin so the small closed-lip smile shows. Panel 1 (upper left): Sia giving a small reserved cheer, one hand raised to shoulder height in a little wave, the other hand resting on her apron, eyes gently closed with a soft content smile, faint pink blush, only a few small sparkles, pale gray and soft pink background with diagonal stripes. Panel 2 (upper right): Sia in side profile facing right, mildly surprised, calm gray eyes opened a little wider than usual, lips slightly parted, faint pink blush, one small sparkle mark near her head, she has just noticed the phone camera, light dotted halftone background. Panel 3 (bottom, large): close-up selfie of Sia's face filling the panel, seen from a phone front camera slightly above, one hand making a single V-sign beside her cheek, small quiet closed-lip smile, half-lidded calm gray eyes with tiny faint pink heart-shaped highlights, faint pink blush, long straight black hair framing the face, one silver drop earring visible, only a few small hearts and white sparkles on a pale gray and soft pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color, headset, hard hat, helmet, gas mask, respirator"
+  },
+  {
+   "who": "sia",
+   "style": "vector",
+   "gear": "G3",
+   "id": "PH1_vector_G3",
+   "file": "images/phone/sia/PH1_selfie3_vector_G3_hardhat.png",
+   "panels": [
+    "images/phone/sia/PH1_p1_vector_G3_hardhat.png",
+    "images/phone/sia/PH1_p2_vector_G3_hardhat.png",
+    "images/phone/sia/PH1_p3_vector_G3_hardhat.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/sia_vector_base.png",
+    "refs/original/sia_sheet.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Sia, a calm anime girl maid intern in a research lab, long straight jet-black hair reaching the waist with side-swept bangs and two thin strands framing the face, calm gray eyes with slightly lowered lids, small silver drop earrings, light peach skin, long-sleeved charcoal-black maid dress with puffed shoulders and white lace cuffs, white high collar with a large soft gray bow, long white frilled apron, no headdress, no glasses. She wears a bright yellow safety hard hat with a chin strap in all three panels, long straight black hair flowing out below it, side-swept bangs under the brim, still no headband. Panel 1 (upper left): Sia giving a small reserved cheer, one hand raised to shoulder height in a little wave, the other hand resting on her apron, eyes gently closed with a soft content smile, faint pink blush, only a few small sparkles, pale gray and soft pink background with diagonal stripes. Panel 2 (upper right): Sia in side profile facing right, mildly surprised, calm gray eyes opened a little wider than usual, lips slightly parted, faint pink blush, one small sparkle mark near her head, she has just noticed the phone camera, light dotted halftone background. Panel 3 (bottom, large): close-up selfie of Sia's face filling the panel, seen from a phone front camera slightly above, one hand making a single V-sign beside her cheek, small quiet closed-lip smile, half-lidded calm gray eyes with tiny faint pink heart-shaped highlights, faint pink blush, long straight black hair framing the face, one silver drop earring visible, only a few small hearts and white sparkles on a pale gray and soft pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, headdress, maid headband, hair ornament, colored hair, blonde hair, brown hair, short hair, big open-mouth grin, different eye color, headset, face mask, baseball cap, military helmet"
   },
   {
    "who": "moa",
    "style": "pixel",
+   "gear": "G0",
    "id": "PH1_pixel",
    "file": "images/phone/moa/PH1_selfie3_pixel.png",
    "panels": [
@@ -183,11 +341,12 @@
     "images/moa/E04_surprise.png"
    ],
    "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Moa, a gentle cheerful anime girl maid intern in a research lab, long ash-beige hair reaching the waist with soft wavy ends and neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan with ribbed cuffs, white frilled apron with ruffled shoulder straps, no glasses. Panel 1 (upper left): Moa cheering with both arms raised, a small brown notebook held in one raised hand, eyes closed in happy curves, open smiling mouth, soft blush, small burst lines and stars, cream and camel background with pink diagonal stripes. Panel 2 (upper right): Moa in side profile facing right, surprised, round amber-brown eyes wide open, one hand lightly covering her mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Moa's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big round amber-brown eyes with tiny pink heart-shaped highlights, soft blush, white frilled maid headband visible, soft wavy ash-beige hair, pink hearts and white sparkles floating on a cream and pink halftone background. Style: detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
-   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, headset, headphones, microphone, necktie, sleeveless shirt, copy of an existing anime character, different art style, smooth vector art, anti-aliased painting, smooth anime cel shading, black hair, pink hair, ponytail, missing headband, suit jacket, different eye color"
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, smooth vector art, anti-aliased painting, smooth anime cel shading, black hair, pink hair, ponytail, missing headband, suit jacket, different eye color, headset, face mask, hard hat, helmet"
   },
   {
    "who": "moa",
    "style": "vector",
+   "gear": "G0",
    "id": "PH1_vector",
    "file": "images/phone/moa/PH1_selfie3_vector.png",
    "panels": [
@@ -201,7 +360,64 @@
     "refs/original/moa_sheet.png"
    ],
    "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Moa, a gentle cheerful anime girl maid intern in a research lab, long ash-beige hair reaching the waist with soft wavy ends and neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan with ribbed cuffs, white frilled apron with ruffled shoulder straps, no glasses. Panel 1 (upper left): Moa cheering with both arms raised, a small brown notebook held in one raised hand, eyes closed in happy curves, open smiling mouth, soft blush, small burst lines and stars, cream and camel background with pink diagonal stripes. Panel 2 (upper right): Moa in side profile facing right, surprised, round amber-brown eyes wide open, one hand lightly covering her mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Moa's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big round amber-brown eyes with tiny pink heart-shaped highlights, soft blush, white frilled maid headband visible, soft wavy ash-beige hair, pink hearts and white sparkles floating on a cream and pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
-   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, headset, headphones, microphone, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, black hair, pink hair, ponytail, missing headband, suit jacket, different eye color"
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, black hair, pink hair, ponytail, missing headband, suit jacket, different eye color, headset, face mask, hard hat, helmet"
+  },
+  {
+   "who": "moa",
+   "style": "vector",
+   "gear": "G1",
+   "id": "PH1_vector_G1",
+   "file": "images/phone/moa/PH1_selfie3_vector_G1_headset.png",
+   "panels": [
+    "images/phone/moa/PH1_p1_vector_G1_headset.png",
+    "images/phone/moa/PH1_p2_vector_G1_headset.png",
+    "images/phone/moa/PH1_p3_vector_G1_headset.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/moa_vector_base.png",
+    "refs/original/moa_sheet.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Moa, a gentle cheerful anime girl maid intern in a research lab, long ash-beige hair reaching the waist with soft wavy ends and neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan with ribbed cuffs, white frilled apron with ruffled shoulder straps, no glasses. She wears a simple over-ear headset in all three panels: a thin camel headband worn just behind her white frilled maid headband, round cream ear cups and a small thin boom microphone at the left cheek. Panel 1 (upper left): Moa cheering with both arms raised, a small brown notebook held in one raised hand, eyes closed in happy curves, open smiling mouth, soft blush, small burst lines and stars, cream and camel background with pink diagonal stripes. Panel 2 (upper right): Moa in side profile facing right, surprised, round amber-brown eyes wide open, one hand lightly covering her mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Moa's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big round amber-brown eyes with tiny pink heart-shaped highlights, soft blush, white frilled maid headband visible, soft wavy ash-beige hair, pink hearts and white sparkles floating on a cream and pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, black hair, pink hair, ponytail, missing headband, suit jacket, different eye color, face mask, hard hat, helmet, rectangular black and pink ear pieces"
+  },
+  {
+   "who": "moa",
+   "style": "vector",
+   "gear": "G2",
+   "id": "PH1_vector_G2",
+   "file": "images/phone/moa/PH1_selfie3_vector_G2_mask.png",
+   "panels": [
+    "images/phone/moa/PH1_p1_vector_G2_mask.png",
+    "images/phone/moa/PH1_p2_vector_G2_mask.png",
+    "images/phone/moa/PH1_p3_vector_G2_mask.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/moa_vector_base.png",
+    "refs/original/moa_sheet.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Moa, a gentle cheerful anime girl maid intern in a research lab, long ash-beige hair reaching the waist with soft wavy ends and neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan with ribbed cuffs, white frilled apron with ruffled shoulder straps, no glasses. She wears a plain white pleated face mask over her nose and mouth in panels 1 and 2, round amber-brown eyes smiling above it; in panel 3 the mask is pulled down under her chin so the small cat-like smile shows. Panel 1 (upper left): Moa cheering with both arms raised, a small brown notebook held in one raised hand, eyes closed in happy curves, open smiling mouth, soft blush, small burst lines and stars, cream and camel background with pink diagonal stripes. Panel 2 (upper right): Moa in side profile facing right, surprised, round amber-brown eyes wide open, one hand lightly covering her mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Moa's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big round amber-brown eyes with tiny pink heart-shaped highlights, soft blush, white frilled maid headband visible, soft wavy ash-beige hair, pink hearts and white sparkles floating on a cream and pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, black hair, pink hair, ponytail, missing headband, suit jacket, different eye color, headset, hard hat, helmet, gas mask, respirator"
+  },
+  {
+   "who": "moa",
+   "style": "vector",
+   "gear": "G3",
+   "id": "PH1_vector_G3",
+   "file": "images/phone/moa/PH1_selfie3_vector_G3_hardhat.png",
+   "panels": [
+    "images/phone/moa/PH1_p1_vector_G3_hardhat.png",
+    "images/phone/moa/PH1_p2_vector_G3_hardhat.png",
+    "images/phone/moa/PH1_p3_vector_G3_hardhat.png"
+   ],
+   "status": "planned",
+   "attach": [
+    "refs/original/moa_vector_base.png",
+    "refs/original/moa_sheet.png"
+   ],
+   "prompt_en": "Vertical 9:16 phone wallpaper, a three-panel comic page with thin white gutters and thin dark panel borders. The top 12 percent is an empty soft pastel band with no drawing, left free for the lock-screen clock. Below it, an upper row of two side-by-side panels of equal width taking about one third of the height, and one large bottom panel taking the rest. The same single character appears in all three panels. Character: Moa, a gentle cheerful anime girl maid intern in a research lab, long ash-beige hair reaching the waist with soft wavy ends and neat bangs, white frilled maid headband with a thin white ribbon over the left ear, big round amber-brown eyes, light peach skin with soft blush, white shirt with a red and navy plaid bow tie, camel knit cardigan with ribbed cuffs, white frilled apron with ruffled shoulder straps, no glasses. She wears a bright yellow safety hard hat with a chin strap in all three panels; the white frilled maid headband is taken off for safety, soft wavy ash-beige hair flows out below the hard hat, neat bangs under the brim. Panel 1 (upper left): Moa cheering with both arms raised, a small brown notebook held in one raised hand, eyes closed in happy curves, open smiling mouth, soft blush, small burst lines and stars, cream and camel background with pink diagonal stripes. Panel 2 (upper right): Moa in side profile facing right, surprised, round amber-brown eyes wide open, one hand lightly covering her mouth, pink blush, a small yellow surprise spark mark near her head, she has just noticed the phone camera, light dotted halftone background with outline stars. Panel 3 (bottom, large): close-up selfie of Moa's face filling the panel, seen from a phone front camera slightly above, head tilted a little, both hands making V-signs right under her chin, small closed cat-like smile shaped like a wide w, big round amber-brown eyes with tiny pink heart-shaped highlights, soft blush, white frilled maid headband visible, soft wavy ash-beige hair, pink hearts and white sparkles floating on a cream and pink halftone background. Style: clean flat vector anime illustration, crisp even-width dark outlines, flat fill colors with at most one soft shade tone per color, no gradients, no texture, no pixel art, shapes simple enough to trace into SVG, cheerful comedy mood. no readable text, no letters, no words, no speech bubbles, no logo, no watermark, same character as the reference image, identical face, hair and outfit colors",
+   "negative_en": "blurry, 3D render, photorealistic, inconsistent character, off-model, text, letters, speech bubble, watermark, logo, multiple different characters, extra fingers, deformed hands, more than two hands, twin tails, turquoise hair, teal hair, necktie, sleeveless shirt, copy of an existing anime character, different art style, pixel art, dithering, painterly texture, gradient shading, black hair, pink hair, ponytail, suit jacket, different eye color, headset, face mask, baseball cap, military helmet"
   }
  ]
 }

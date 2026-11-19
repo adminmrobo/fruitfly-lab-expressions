@@ -20,3 +20,4 @@
 | v1.9 | 2026-11-16 | [fruitfly_character_db_v1.9_2026-11-16.xlsx](fruitfly_character_db_v1.9_2026-11-16.xlsx) | 시리즈 장면 그림 scene_art 추가 — 최적화 첫걸음 6장(표지 2·프롤로그 3·카드 썸네일 1, approved) · 사용 이력: optimization_3d_map first_step ①② 와 ahnboat.xyz 카드 |
 | v1.10 | 2026-11-17 | [fruitfly_character_db_v1.10_2026-11-17.xlsx](fruitfly_character_db_v1.10_2026-11-17.xlsx) | 확장 표정 E26 흥(hmph) 추가 — 하루·시아·모아 × 기본·돌아서 걷기 6행 (generated) |
 | v1.11 | 2026-11-19 | [fruitfly_character_db_v1.11_2026-11-19.xlsx](fruitfly_character_db_v1.11_2026-11-19.xlsx) | 폰 배경 셀카 3컷 벡터 추가 — phone_vector 6행(하루·시아·모아 × 픽셀판·벡터판, planned) |
+| v1.12 | 2026-11-19 | [fruitfly_character_db_v1.12_2026-11-19.xlsx](fruitfly_character_db_v1.12_2026-11-19.xlsx) | 폰 배경 셀카에 장비 옵션 추가 — phone_vector에 장비 열, 벡터판 G1 헤드셋·G2 마스크·G3 안전모 9행(총 15행, planned) |
