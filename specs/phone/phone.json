@@ -1,6 +1,6 @@
 {
  "vector": "phone",
- "version": "1.3",
+ "version": "1.4",
  "date": "2026-11-19",
  "applies_to": [
   "haru",
@@ -140,7 +140,7 @@
     "images/phone/haru/PH1_p3_pixel.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "",
    "attach": [
     "refs/original/haru_sheet.png",
     "images/haru/E13_neutral.png",
@@ -162,7 +162,7 @@
     "images/phone/haru/PH1_p3_vector.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 필요(v1.3 삼각대 타이머 프롬프트로)",
    "attach": [
     "refs/original/haru_sheet.png",
     "images/haru/E19_sparkle_eyes.png"
@@ -182,7 +182,7 @@
     "images/phone/haru/PH1_p3_vector_G1_headset.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 필요(v1.3 삼각대 타이머 프롬프트로)",
    "attach": [
     "refs/original/haru_sheet.png",
     "images/haru/E19_sparkle_eyes.png"
@@ -202,7 +202,7 @@
     "images/phone/haru/PH1_p3_vector_G2_mask.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 필요(v1.3 삼각대 타이머 프롬프트로)",
    "attach": [
     "refs/original/haru_sheet.png",
     "images/haru/E19_sparkle_eyes.png"
@@ -344,7 +344,7 @@
     "images/phone/moa/PH1_p3_pixel.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "",
    "attach": [
     "refs/original/moa_sheet.png",
     "images/moa/E13_neutral.png",
@@ -386,7 +386,7 @@
     "images/phone/moa/PH1_p3_vector_G1_headset.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "팔은 정상(2개)이나 벡터판인데 픽셀풍으로 나옴 — 선택 재생성",
    "attach": [
     "refs/original/moa_vector_base.png",
     "refs/original/moa_sheet.png"
@@ -406,7 +406,7 @@
     "images/phone/moa/PH1_p3_vector_G2_mask.png"
    ],
    "status": "generated",
-   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 권장(v1.3: 삼각대 타이머 촬영으로 변경)",
+   "note": "P3 팔이 3~4개(양손 브이 + 셀카 팔) — 재생성 필요(v1.3 삼각대 타이머 프롬프트로)",
    "attach": [
     "refs/original/moa_vector_base.png",
     "refs/original/moa_sheet.png"
