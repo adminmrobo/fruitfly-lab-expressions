@@ -177,13 +177,13 @@ git push -u origin main
 - 말풍선은 그림에서 비워 두고 대사는 페이지에서 글자로 얹습니다. 패러디는 말투만 빌리고 다른 작품의 인물·의상은 쓰지 않습니다.
 - 현재 상태: 6장 **승인(approved, 2026-11-16)**, 사용처 optimization_3d_map `first_step_1.html`·`first_step_2.html`.
 
-## 폰 배경 셀카 3컷 (phone v1.1, 2026-11-19)
+## 폰 배경 셀카 3컷 (phone v1.2, 2026-11-19)
 여성 캐릭터 **하루·시아·모아**의 세로 폰 배경(9:16) 3컷 만화입니다 — P1 만세 → P2 옆모습 놀람 → P3 셀카 브이 클로즈업. 캐릭터마다 **픽셀판 1장 + 벡터판 4장**(장비 옵션 G0 없음·G1 헤드셋·G2 마스크·G3 안전모), 모두 15장.
 - 갤러리 페이지: [phone.html](https://adminmrobo.github.io/fruitfly-lab-expressions/phone.html)
 - 그림: `images/phone/{캐릭터}/PH1_selfie3_{pixel|vector}[_G#_장비].png` (컷별 잘라 낸 그림 `PH1_p1~p3_…`)
 - 명세: `specs/phone/README.md` · 설정값: `specs/phone/phone.json` · 프롬프트: `specs/phone/PROMPTS.md`
 - 맨 위 12%는 잠금화면 시계 자리로 비우고, 대사는 그림에 넣지 않습니다. 참고 이미지는 컷 구성만 빌리고 그 작품 캐릭터의 요소는 쓰지 않습니다. 헤드셋은 일반 디자인(둥근 이어컵)이면 허용, 안전모는 공장 벡터 U01과 같은 노란 안전모.
-- 현재 상태: 15장 **planned** (Genspark 생성 대기)
+- 현재 상태: 15장 **generated** (2026-11-19, 768×1360) + 컷 45장. 하루 픽셀판·모아 픽셀판·모아 벡터판 G1은 P3 손이 3개라 재생성 권장
 
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.

@@ -15,7 +15,7 @@ nav button{border:1px solid var(--line);background:var(--panel);font:inherit;pad
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding:20px 0 40px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
 .phone{aspect-ratio:9/16;background:#e9e7ef;position:relative;display:flex}
-.phone img{width:100%;height:100%;object-fit:contain}.phone.pixel img{image-rendering:pixelated}
+.phone img{width:100%;height:100%;object-fit:contain}
 .todo{flex:1;display:grid;grid-template-rows:12% 33% 1fr;gap:4px;padding:6px;background:#2a2b3a}
 .todo div{border:1px dashed #6d6a80;border-radius:4px;color:#c9c6d6;font-family:var(--mono);font-size:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px}
 .todo .row{display:grid;grid-template-columns:1fr 1fr;gap:4px;border:0;padding:0;align-items:stretch}
@@ -27,7 +27,7 @@ details{font-size:13px}details pre{white-space:pre-wrap;word-break:break-word;ba
 footer{color:var(--mute);font-size:13px;padding-bottom:40px}
 @media (max-width:760px){header,main,footer,nav{padding-left:16px;padding-right:16px}h1{font-size:26px}}
 </style></head><body>
-<header><div class="eyebrow">Fruit Fly Lab · Phone Wallpaper Selfie Vector v1.1</div>
+<header><div class="eyebrow">Fruit Fly Lab · Phone Wallpaper Selfie Vector v1.2</div>
 <h1>폰 배경 셀카 3컷</h1>
 <p class="lede"><b>하루·시아·모아</b>의 세로 폰 배경(9:16)입니다. 만세 → 옆모습 놀람 → 셀카 브이 클로즈업의 3컷을 캐릭터마다 <b>픽셀판·벡터판</b> 두 장으로 두고, 벡터판에는 장비 옵션(헤드셋·마스크·안전모)을 더합니다. 맨 위 12%는 잠금화면 시계 자리로 비우고, 대사는 그림에 넣지 않습니다.</p>
 <p class="links"><a href="index.html">← 표정 라이브러리</a> · <a href="motions.html">동작·의상</a> · <a href="hair.html">헤어</a> · <a href="factory.html">공장 복장·동작</a> · <a href="scenes.html">장면 그림</a> · <a href="specs/phone/README.md">명세 README</a> · <a href="specs/phone/PROMPTS.md">생성 프롬프트</a> · <a href="specs/phone/phone.json">phone.json</a></p>
@@ -48,7 +48,8 @@ function render(){
     const c=D.characters[it.who], st=D.styles.find(s=>s.id===it.style), idx=D.items.indexOf(it);
     return `<article class="card"><div class="phone ${it.style}" data-i="${idx}"><img src="${it.file}" alt="${esc(c.ko)} ${esc(st.ko)}" loading="lazy" onerror="this.parentNode.innerHTML=window.todoHTML(${idx})"></div><div class="body">
       <div class="id">${esc(it.id)} · ${esc(it.who)}</div><h3>${esc(c.ko)} · ${esc(st.ko)}${it.gear!=="G0"?" · "+esc(D.gear.find(g=>g.id===it.gear).ko):""} <span style="font-weight:400;color:var(--mute);font-size:13px">${esc(c.mood)}</span></h3>
-      <div><span class="badge">${esc(st.en)}</span><span class="badge">${esc(it.gear)} ${esc(D.gear.find(g=>g.id===it.gear).ko)}</span><span class="badge ${it.status==="approved"?"ok":""}">${esc(it.status)}</span></div>
+      <div><span class="badge">${esc(st.en)}</span><span class="badge">${esc(it.gear)} ${esc(D.gear.find(g=>g.id===it.gear).ko)}</span><span class="badge ${it.status==="approved"?"ok":""}">${esc(it.status)}</span>${it.note?`<span class="badge" style="border-color:#d9822b;color:#b0611a">재생성 권장</span>`:""}</div>${it.note?`<div style="font-size:12.5px;color:#b0611a">${esc(it.note)}</div>`:""}
+      <div style="font-size:12px;color:var(--mute)">컷: ${it.panels.map((p,j)=>`<a href="${p}">P${j+1}</a>`).join(" · ")}</div>
       <div style="font-size:13px">${c.panels_ko.map((p,j)=>`P${j+1} ${esc(p)} <span style="color:var(--mute)">「${esc(c.lines[j])}」</span>`).join("<br>")}</div>
       <details><summary>프롬프트 · 첨부 ${it.attach.length}장</summary><pre>첨부: ${esc(it.attach.join(", "))}</pre><pre>${esc(it.prompt_en)}</pre><pre>Negative: ${esc(it.negative_en)}</pre></details>
       <button class="copy" data-c="${idx}">프롬프트 복사</button>
