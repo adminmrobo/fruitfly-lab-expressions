@@ -185,6 +185,13 @@ git push -u origin main
 - 맨 위 12%는 잠금화면 시계 자리로 비우고, 대사는 그림에 넣지 않습니다. 참고 이미지는 컷 구성만 빌리고 그 작품 캐릭터의 요소는 쓰지 않습니다. 헤드셋은 일반 디자인(둥근 이어컵)이면 허용, 안전모는 공장 벡터 U01과 같은 노란 안전모.
 - 현재 상태: 15장 **generated** (2026-11-19, 768×1360) + 컷 45장. 2차 반영으로 남은 재생성은 4장(하루 G0·G1·G2, 모아 G2, P3 팔 3~4개) + 선택 1장(모아 G1, 벡터판인데 픽셀풍) — 하루·모아 P3는 v1.3부터 삼각대 타이머 촬영
 
+## 갤러리 가져오기 — 표정·포즈·설정 시트 (gallery_import v1.0, 2026-11-27)
+연구실 식구 갤러리([ahnboat_lab_gallery](https://adminmrobo.github.io/ahnboat_lab_gallery/))에서 이 라이브러리에 없는 그림을 골라 복사해 온 일곱 번째 축입니다. 표정 69장(`GX-E###`) · 포즈 26장(`GX-P###`) · 설정 시트 31장(`GX-S###`), 모두 126장. 3D 좌표용 자료(`GX-C###`)는 다음 묶음으로 추가 예정입니다.
+- 갤러리 페이지: [gallery_import.html](https://adminmrobo.github.io/fruitfly-lab-expressions/gallery_import.html)
+- 그림: `images/gallery_import/{expressions,poses,sheets}/*.webp` · 원본: `images/_sheets/gallery_import/…`
+- 명세: `specs/gallery_import/README.md` · 목록: `specs/gallery_import/gallery_import.json` (원래 저장소·경로·콘텐츠·생성일·프롬프트 포함)
+- 이미 있는 그림(같은 파일·크기나 배경만 다른 사본·같은 표정 ID)과 가져온 그림끼리의 중복은 빼고 가장 큰 원본만 남겼습니다.
+
 ## 캐릭터 DB (엑셀, `db/`)
 캐릭터·표정·동작·헤어·3D 벡터를 한 파일로 모은 DB입니다. 벡터가 바뀔 때마다 `db/fruitfly_character_db_v{판}_{날짜}.xlsx`를 **새 파일로 추가**하고, 이전 판은 지우지 않습니다. 판별 변경 내용은 `db/README.md`.
 

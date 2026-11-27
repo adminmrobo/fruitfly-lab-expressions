@@ -1,0 +1,3525 @@
+{
+ "title": "갤러리에서 가져온 표정·포즈·설정 시트",
+ "version": "1.0",
+ "date": "2026-11-27",
+ "source_gallery": "https://adminmrobo.github.io/ahnboat_lab_gallery/",
+ "categories": {
+  "expression": {
+   "ko": "표정",
+   "prefix": "GX-E"
+  },
+  "pose": {
+   "ko": "포즈",
+   "prefix": "GX-P"
+  },
+  "sheet": {
+   "ko": "설정 시트",
+   "prefix": "GX-S"
+  },
+  "coord3d": {
+   "ko": "3D 좌표",
+   "prefix": "GX-C",
+   "status": "예정"
+  }
+ },
+ "rule": "라이브러리에 이미 있는 그림(같은 파일·크기나 배경만 다른 사본·같은 표정 ID)과 가져온 그림끼리의 중복은 빼고, 겹치는 것 가운데 가장 큰 원본 하나만 남겼습니다.",
+ "counts": {
+  "expression": 69,
+  "pose": 26,
+  "sheet": 31
+ },
+ "items": [
+  {
+   "id": "GX-E001",
+   "category": "expression",
+   "characters": [
+    "doctor",
+    "haru"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E001.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E001.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "9ed3b68e0009",
+    "repo": "drawing_lab_04",
+    "branch": "main",
+    "path": "assets/img/p2_haru_expressions.webp",
+    "content_title": "구조 먼저 그리기 연구실 04 · 디테일 편 — 육각형 하나, 덩어리 몇 개",
+    "site": "https://adminmrobo.github.io/drawing_lab_04/",
+    "created": "2026-11-25",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading, natural adult proportions.\nMatch the attached reference images exactly (face, hair, colors, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described.\nExpression sheet of Haru (adult lab assistant, long straight pink hair with navy streaks and a thick navy streak down the center of the bangs, two round hair buns on top, small ahoge, big blue eyes), wearing lavender hoodie with white drawstrings over a white t-shirt, open white knee-length lab coat, six head-and-shoulders portraits, front view, in two rows of three, same size. Top row (mild): quiet joy (softly arched eyebrows, eyes narrowed), restrained anger (eyebrows raised at the outer ends, eyes narrowed), restrained sadness (eyebrows lowered at the outer ends, eyes wide open holding back tears). Bottom row (strong): excited joy (softly arched eyebrows, eyes wide open), explosive anger (eyebrows raised at the outer ends, eyes wide open), overflowing sadness (eyebrows lowered at the outer ends, eyes narrowed with tears).\nMouths closed or gently set in all six so that the eyebrows and eye openness carry the emotion. Same person, adult. Light from the upper left.\nPlain off-white studio background.\nNo text, no letters, no numbers, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E002",
+   "category": "expression",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E002.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E002.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "e175e200d9b1",
+    "repo": "learn-pandas-visually_korean",
+    "branch": "main",
+    "path": "assets/chars/asst_smile.png",
+    "content_title": "보면서 배우는 pandas",
+    "site": "https://adminmrobo.github.io/learn-pandas-visually_korean/",
+    "created": "2026-10-24",
+    "also_in": []
+   },
+   "prompt": "AI_image_classification 의 조수 그림, 같은 64×64 격자 초상",
+   "negative": "",
+   "prompt_is_summary": true,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E003",
+   "category": "expression",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E003.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E003.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "05143c20a35e",
+    "repo": "learn-python-by-doing",
+    "branch": "main",
+    "path": "docs/assets/chars/asst_smile.png",
+    "content_title": "쉽게 따라 해 보면서 배우는 파이썬",
+    "site": "",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": "AI_image_classification 의 조수 그림, 같은 64×64 격자 초상",
+   "negative": "",
+   "prompt_is_summary": true,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E004",
+   "category": "expression",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E004.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E004.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "3a53659d3b26",
+    "repo": "learn-pandas-visually_korean",
+    "branch": "main",
+    "path": "assets/chars/doc_smile.png",
+    "content_title": "보면서 배우는 pandas",
+    "site": "https://adminmrobo.github.io/learn-pandas-visually_korean/",
+    "created": "2026-10-24",
+    "also_in": []
+   },
+   "prompt": "AI_image_classification 의 박사 그림, 64×64 격자로 다시 찍은 512×512 초상",
+   "negative": "",
+   "prompt_is_summary": true,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E005",
+   "category": "expression",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E005.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E005.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "7299bad4f02a",
+    "repo": "learn-python-by-doing",
+    "branch": "main",
+    "path": "docs/assets/chars/doc_smile.png",
+    "content_title": "쉽게 따라 해 보면서 배우는 파이썬",
+    "site": "",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": "AI_image_classification 의 박사 그림, 64×64 격자로 다시 찍은 512×512 초상",
+   "negative": "",
+   "prompt_is_summary": true,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E006",
+   "category": "expression",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E006.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E006.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "0544cc840153",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/doc_front.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": "doc_front, doc_think, doc_judge, doc_magic, doc_scale",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E007",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E007.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E007.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "1c82a04d2e33",
+    "repo": "ML_00_Algorithm-family-build_00",
+    "branch": "main",
+    "path": "assets_src/robo_calc.png",
+    "content_title": "ML_00_Algorithm-family-build_00",
+    "site": "",
+    "created": "2026-10-19",
+    "also_in": [
+     "learn-python-by-doing/docs/assets/chars/robo_thinking.png"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E008",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E008.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E008.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "d9cc093b83b6",
+    "repo": "ML_00_Algorithm-family-build_00",
+    "branch": "main",
+    "path": "assets_src/robo_dq.png",
+    "content_title": "ML_00_Algorithm-family-build_00",
+    "site": "",
+    "created": "2026-10-19",
+    "also_in": [
+     "learn-python-by-doing/docs/assets/chars/robo_wrong.png"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E009",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E009.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E009.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "97fc366a4060",
+    "repo": "ML_00_Algorithm-family-build_00",
+    "branch": "main",
+    "path": "assets_src/robo_tux.png",
+    "content_title": "ML_00_Algorithm-family-build_00",
+    "site": "",
+    "created": "2026-10-19",
+    "also_in": [
+     "learn-python-by-doing/docs/assets/chars/robo_idle.png",
+     "learn-python-by-doing/docs/assets/chars/robo_confused.png",
+     "ML_00_Algorithm-family-build_01/assets/robo_smile.webp",
+     "neural_network_atlas/assets/img/chars/robo_wow.webp",
+     "neural_network_atlas/assets/img/chars/robo_smile.webp",
+     "neural_network_atlas/assets/img/chars/robo_sigh.webp",
+     "neural_network_atlas/assets/img/chars/robo_coin.webp",
+     "neural_network_atlas/assets/img/chars/robo_blush.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E010",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E010.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E010.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "19580620dd7a",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_robo_confused.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E011",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E011.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E011.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "c9301389b168",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_robo_idle.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E012",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E012.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E012.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "cccb8e8ef01d",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_robo_success.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E013",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E013.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E013.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "2386e679e627",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_robo_thinking.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E014",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E014.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E014.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "953d818d9f4e",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_robo_wrong.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E015",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E015.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E015.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "ec999842faf6",
+    "repo": "learn-python-by-doing",
+    "branch": "main",
+    "path": "docs/assets/chars/robo_success.png",
+    "content_title": "쉽게 따라 해 보면서 배우는 파이썬",
+    "site": "",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E016",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E016.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E016.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "729c31022dc1",
+    "repo": "micro_economics",
+    "branch": "main",
+    "path": "archive/assets/chars/robo.webp",
+    "content_title": "미시경제학 연구실 — 미시경제학 연구실 블로그",
+    "site": "https://adminmrobo.github.io/micro_economics/",
+    "created": "2026-11-21",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E017",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E017.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E017.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "c83311e51f08",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/robo_happy.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E018",
+   "category": "expression",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E018.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E018.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "e57bf13aa862",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/robo_meh.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E019",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E019.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E019.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "a576cd1b37e4",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_fly_cry.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E020",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E020.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E020.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "eb4af60e7f7b",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_fly_front.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E021",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E021.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E021.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "3c9645ccd2b0",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_fly_idea.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E022",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E022.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E022.webp",
+   "size": [
+    160,
+    160
+   ],
+   "source": {
+    "gallery_id": "a576790371d4",
+    "repo": "insurtech__case_classification_model_01",
+    "branch": "main",
+    "path": "assets/av_fly_side.webp",
+    "content_title": "인슈어테크 #1 · 분류 모델",
+    "site": "https://adminmrobo.github.io/insurtech__case_classification_model_01/",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E023",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E023.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E023.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "4b55710353b0",
+    "repo": "learn-pandas-visually_korean",
+    "branch": "main",
+    "path": "assets/chars/fly_point.png",
+    "content_title": "보면서 배우는 pandas",
+    "site": "https://adminmrobo.github.io/learn-pandas-visually_korean/",
+    "created": "2026-10-24",
+    "also_in": []
+   },
+   "prompt": "AI_image_classification 의 초파리 그림, 같은 64×64 격자 초상",
+   "negative": "",
+   "prompt_is_summary": true,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E024",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E024.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E024.png",
+   "size": [
+    512,
+    512
+   ],
+   "source": {
+    "gallery_id": "5d44088b0e15",
+    "repo": "learn-python-by-doing",
+    "branch": "main",
+    "path": "docs/assets/chars/fly_point.png",
+    "content_title": "쉽게 따라 해 보면서 배우는 파이썬",
+    "site": "",
+    "created": "2026-10-23",
+    "also_in": []
+   },
+   "prompt": "AI_image_classification 의 초파리 그림, 같은 64×64 격자 초상",
+   "negative": "",
+   "prompt_is_summary": true,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E025",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E025.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E025.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "7bbc8331e2dd",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/fly_arms.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E026",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E026.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E026.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "41caf912ed36",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/fly_coffee.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E027",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E027.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E027.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "a462a7957e4b",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/fly_cry.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E028",
+   "category": "expression",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E028.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E028.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "46ad7549521d",
+    "repo": "neural_network_atlas",
+    "branch": "main",
+    "path": "assets/img/chars/fly_magnify.webp",
+    "content_title": "신경망 구조 도감 · 초파리 로봇 대전",
+    "site": "https://adminmrobo.github.io/neural_network_atlas/",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E029",
+   "category": "expression",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E029.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E029.webp",
+   "size": [
+    128,
+    128
+   ],
+   "source": {
+    "gallery_id": "27fd0793da11",
+    "repo": "agentic_ai_crash_guide",
+    "branch": "main",
+    "path": "assets/avatar/sia_sad.webp",
+    "content_title": "AI 에이전트 공식 속성 가이드 — 하루봇을 만들며 배우는 13장",
+    "site": "https://adminmrobo.github.io/agentic_ai_crash_guide/",
+    "created": "2026-11-20",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E030",
+   "category": "expression",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E030.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E030.webp",
+   "size": [
+    128,
+    128
+   ],
+   "source": {
+    "gallery_id": "a539719ac17e",
+    "repo": "agentic_ai_crash_guide",
+    "branch": "main",
+    "path": "assets/avatar/sia_smile.webp",
+    "content_title": "AI 에이전트 공식 속성 가이드 — 하루봇을 만들며 배우는 13장",
+    "site": "https://adminmrobo.github.io/agentic_ai_crash_guide/",
+    "created": "2026-11-20",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E031",
+   "category": "expression",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E031.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E031.webp",
+   "size": [
+    1536,
+    1536
+   ],
+   "source": {
+    "gallery_id": "656513676ce0",
+    "repo": "discrete_topology_lab",
+    "branch": "main",
+    "path": "docs/img/e27_sia_src.webp",
+    "content_title": "이산위상 연구실 — 점 하나하나가 섬인 세상 · 오리엔테이션",
+    "site": "https://adminmrobo.github.io/discrete_topology_lab/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E032",
+   "category": "expression",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E032.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E032.webp",
+   "size": [
+    150,
+    150
+   ],
+   "source": {
+    "gallery_id": "b4a32b5bf16f",
+    "repo": "knn_svc_svm_lab",
+    "branch": "main",
+    "path": "assets/chars/sia_happy.webp",
+    "content_title": "거리로 가르는 분류 대회 — LDA·KNN·SVM·SVC·커널 · 거리로 가르는 분류 대회",
+    "site": "https://adminmrobo.github.io/knn_svc_svm_lab/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E033",
+   "category": "expression",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E033.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E033.webp",
+   "size": [
+    1536,
+    1536
+   ],
+   "source": {
+    "gallery_id": "844384aef73a",
+    "repo": "discrete_topology_lab",
+    "branch": "main",
+    "path": "docs/img/e27_moa_src.webp",
+    "content_title": "이산위상 연구실 — 점 하나하나가 섬인 세상 · 오리엔테이션",
+    "site": "https://adminmrobo.github.io/discrete_topology_lab/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E034",
+   "category": "expression",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E034.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E034.webp",
+   "size": [
+    150,
+    150
+   ],
+   "source": {
+    "gallery_id": "4335e3c6a76b",
+    "repo": "knn_svc_svm_lab",
+    "branch": "main",
+    "path": "assets/chars/moa_sad.webp",
+    "content_title": "거리로 가르는 분류 대회 — LDA·KNN·SVM·SVC·커널 · 거리로 가르는 분류 대회",
+    "site": "https://adminmrobo.github.io/knn_svc_svm_lab/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E035",
+   "category": "expression",
+   "characters": [
+    "x1"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E035.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E035.webp",
+   "size": [
+    240,
+    240
+   ],
+   "source": {
+    "gallery_id": "195748d19082",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x1_E05.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E036",
+   "category": "expression",
+   "characters": [
+    "x1"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E036.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E036.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "ffeaac5b7937",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x1_E05_f.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E037",
+   "category": "expression",
+   "characters": [
+    "x1"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E037.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E037.webp",
+   "size": [
+    240,
+    240
+   ],
+   "source": {
+    "gallery_id": "62f5675ec696",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x1_E07.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E038",
+   "category": "expression",
+   "characters": [
+    "x1"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E038.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E038.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "126dad27b783",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x1_E07_f.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E039",
+   "category": "expression",
+   "characters": [
+    "x1"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E039.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E039.webp",
+   "size": [
+    952,
+    192
+   ],
+   "source": {
+    "gallery_id": "393cf5c02602",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/motion_pack/webp/x1_crowd_x1a_192.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E040",
+   "category": "expression",
+   "characters": [
+    "x1"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E040.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E040.webp",
+   "size": [
+    150,
+    150
+   ],
+   "source": {
+    "gallery_id": "bd85eb5cd68b",
+    "repo": "knn_svc_svm_lab",
+    "branch": "main",
+    "path": "assets/chars/x1_sad.webp",
+    "content_title": "거리로 가르는 분류 대회 — LDA·KNN·SVM·SVC·커널 · 거리로 가르는 분류 대회",
+    "site": "https://adminmrobo.github.io/knn_svc_svm_lab/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E041",
+   "category": "expression",
+   "characters": [
+    "x2"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E041.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E041.webp",
+   "size": [
+    240,
+    240
+   ],
+   "source": {
+    "gallery_id": "93981951d1ae",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x2_E05.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E042",
+   "category": "expression",
+   "characters": [
+    "x2"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E042.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E042.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "701ea1ab94bf",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x2_E05_f.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E043",
+   "category": "expression",
+   "characters": [
+    "x2"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E043.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E043.webp",
+   "size": [
+    240,
+    240
+   ],
+   "source": {
+    "gallery_id": "f7321925a1c4",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x2_E07.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E044",
+   "category": "expression",
+   "characters": [
+    "x2"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E044.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E044.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "715d1801ca5c",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x2_E07_f.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E045",
+   "category": "expression",
+   "characters": [
+    "x2"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E045.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E045.webp",
+   "size": [
+    1192,
+    192
+   ],
+   "source": {
+    "gallery_id": "50f0e34d0ff6",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/motion_pack/webp/x2_crowd_x2a_192.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E046",
+   "category": "expression",
+   "characters": [
+    "x3"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E046.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E046.webp",
+   "size": [
+    240,
+    240
+   ],
+   "source": {
+    "gallery_id": "b848424a3631",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x3_E05.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E047",
+   "category": "expression",
+   "characters": [
+    "x3"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E047.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E047.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "d33490e28002",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x3_E05_f.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E048",
+   "category": "expression",
+   "characters": [
+    "x3"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E048.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E048.webp",
+   "size": [
+    240,
+    240
+   ],
+   "source": {
+    "gallery_id": "12d08916993d",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x3_E07.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E049",
+   "category": "expression",
+   "characters": [
+    "x3"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E049.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E049.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "faa0ef3c4172",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/expr/x3_E07_f.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E050",
+   "category": "expression",
+   "characters": [
+    "x3"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E050.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E050.webp",
+   "size": [
+    1368,
+    192
+   ],
+   "source": {
+    "gallery_id": "b1eaa4b2f005",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/motion_pack/webp/x3_crowd_x3a_192.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E051",
+   "category": "expression",
+   "characters": [
+    "x3"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E051.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E051.webp",
+   "size": [
+    150,
+    150
+   ],
+   "source": {
+    "gallery_id": "31c20d7fa239",
+    "repo": "knn_svc_svm_lab",
+    "branch": "main",
+    "path": "assets/chars/x3_shock.webp",
+    "content_title": "거리로 가르는 분류 대회 — LDA·KNN·SVM·SVC·커널 · 거리로 가르는 분류 대회",
+    "site": "https://adminmrobo.github.io/knn_svc_svm_lab/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E052",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E052.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E052.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "b6904d7d20e0",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e05.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e05.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E053",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E053.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E053.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "c3cedbd193b7",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e06.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e06.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E054",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E054.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E054.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "3da53a946488",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e07.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e07.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E055",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E055.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E055.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "cbaa006a7821",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e08.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E056",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E056.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E056.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "0122577ea9a0",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e09.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e09.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E057",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E057.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E057.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "376e7a13ecd8",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e10.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e10.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E058",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E058.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E058.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "f2f47ffd712e",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e11.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e11.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E059",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E059.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E059.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "5c88540fd64e",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e12.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e12.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E060",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E060.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E060.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "eba91b28ea7a",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e15.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e15.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E061",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E061.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E061.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "2664ed0e7054",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e16.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e16.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E062",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E062.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E062.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "6ff21124280c",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e18.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e17.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e14.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e13.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e04.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e03.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e02.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_192/robo_e01.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e18.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e17.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e14.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e13.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e04.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e03.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e02.webp",
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e01.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E063",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E063.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E063.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "fef239f673b2",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e19.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e19.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E064",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E064.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E064.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "41ce68da5743",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e20.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e20.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E065",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E065.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E065.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "f823701c6ce2",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e21.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e21.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E066",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E066.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E066.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "7c90770745fa",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e22.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e22.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E067",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E067.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E067.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "bb4561f40c60",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e23.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e23.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E068",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E068.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E068.webp",
+   "size": [
+    192,
+    192
+   ],
+   "source": {
+    "gallery_id": "a72bafc49394",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_192/robo_e24.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": [
+     "ahnboat_lab_explainer/packs/character/archive/money_robo/webp/robo_96/robo_e24.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-E069",
+   "category": "expression",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/expressions/GX-E069.webp",
+   "original_file": "images/_sheets/gallery_import/expressions/GX-E069.webp",
+   "size": [
+    96,
+    96
+   ],
+   "source": {
+    "gallery_id": "b6d170b6ca24",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/webp/robo_96/robo_e08.webp",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P001",
+   "category": "pose",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P001.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P001.webp",
+   "size": [
+    130,
+    347
+   ],
+   "source": {
+    "gallery_id": "7cabd93e8645",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/asst_check.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P002",
+   "category": "pose",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P002.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P002.webp",
+   "size": [
+    138,
+    286
+   ],
+   "source": {
+    "gallery_id": "c3583887fffd",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/asst_cheer.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P003",
+   "category": "pose",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P003.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P003.webp",
+   "size": [
+    121,
+    336
+   ],
+   "source": {
+    "gallery_id": "1ec1c540d3f9",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/asst_idea.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P004",
+   "category": "pose",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P004.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P004.webp",
+   "size": [
+    101,
+    291
+   ],
+   "source": {
+    "gallery_id": "a5af9f8c2aa5",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/asst_think.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P005",
+   "category": "pose",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P005.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P005.webp",
+   "size": [
+    130,
+    291
+   ],
+   "source": {
+    "gallery_id": "3d0c5d9e1cbd",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/asst_wave.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P006",
+   "category": "pose",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P006.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P006.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "f3e8248fb5ec",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/img/p2_haru_tee_poses_b.webp",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": [
+     "structure_first_drawing_lab_01/assets/img/p2_haru_tee_poses.webp"
+    ]
+   },
+   "prompt": "Same image. Change only: keep the t-shirt exactly the same in all four panels — same folds and the same hem height. Still no text.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P007",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P007.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P007.webp",
+   "size": [
+    211,
+    298
+   ],
+   "source": {
+    "gallery_id": "5b9c19942a48",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_data.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P008",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P008.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P008.webp",
+   "size": [
+    213,
+    293
+   ],
+   "source": {
+    "gallery_id": "d66cc854e7a2",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_flask.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P009",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P009.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P009.webp",
+   "size": [
+    244,
+    297
+   ],
+   "source": {
+    "gallery_id": "167602d1d8ee",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_ok.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P010",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P010.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P010.webp",
+   "size": [
+    283,
+    282
+   ],
+   "source": {
+    "gallery_id": "09088a7d6f50",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_rush.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P011",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P011.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P011.webp",
+   "size": [
+    258,
+    265
+   ],
+   "source": {
+    "gallery_id": "fa3c31b3b898",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_sleep.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P012",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P012.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P012.webp",
+   "size": [
+    161,
+    294
+   ],
+   "source": {
+    "gallery_id": "e871ed8c97a5",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_think.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P013",
+   "category": "pose",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P013.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P013.webp",
+   "size": [
+    179,
+    293
+   ],
+   "source": {
+    "gallery_id": "3dd6c5f69dea",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/doc_write.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P014",
+   "category": "pose",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P014.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P014.webp",
+   "size": [
+    256,
+    300
+   ],
+   "source": {
+    "gallery_id": "a2e43cfa777b",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/robo_alert.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": [
+     "ahn_boat_lab_town/assets/pose/robo_search.webp",
+     "ahn_boat_lab_town/assets/pose/robo_battery.webp"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P015",
+   "category": "pose",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P015.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P015.webp",
+   "size": [
+    273,
+    300
+   ],
+   "source": {
+    "gallery_id": "7107a406209f",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/robo_dance.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P016",
+   "category": "pose",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P016.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P016.webp",
+   "size": [
+    270,
+    300
+   ],
+   "source": {
+    "gallery_id": "56a12c89d8db",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/robo_delivery.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P017",
+   "category": "pose",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P017.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P017.webp",
+   "size": [
+    264,
+    300
+   ],
+   "source": {
+    "gallery_id": "1d67a46ad2ac",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/robo_lock.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P018",
+   "category": "pose",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P018.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P018.webp",
+   "size": [
+    310,
+    271
+   ],
+   "source": {
+    "gallery_id": "ac87771268d9",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/fly_analyze.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P019",
+   "category": "pose",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P019.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P019.webp",
+   "size": [
+    278,
+    253
+   ],
+   "source": {
+    "gallery_id": "91ffb1986a35",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/fly_hover.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P020",
+   "category": "pose",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P020.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P020.webp",
+   "size": [
+    284,
+    306
+   ],
+   "source": {
+    "gallery_id": "886107df9700",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/fly_idea.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P021",
+   "category": "pose",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P021.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P021.webp",
+   "size": [
+    290,
+    268
+   ],
+   "source": {
+    "gallery_id": "208c878cc912",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/fly_report.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-10-26",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P022",
+   "category": "pose",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P022.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P022.webp",
+   "size": [
+    165,
+    231
+   ],
+   "source": {
+    "gallery_id": "fceec8464433",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/moa_duster.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P023",
+   "category": "pose",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P023.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P023.webp",
+   "size": [
+    145,
+    245
+   ],
+   "source": {
+    "gallery_id": "486709f55773",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/moa_idle.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P024",
+   "category": "pose",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P024.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P024.webp",
+   "size": [
+    185,
+    242
+   ],
+   "source": {
+    "gallery_id": "d22e260cbc45",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/moa_shock.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P025",
+   "category": "pose",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P025.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P025.webp",
+   "size": [
+    113,
+    225
+   ],
+   "source": {
+    "gallery_id": "6ad1731ea7b1",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/moa_suit.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-P026",
+   "category": "pose",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/poses/GX-P026.webp",
+   "original_file": "images/_sheets/gallery_import/poses/GX-P026.webp",
+   "size": [
+    155,
+    242
+   ],
+   "source": {
+    "gallery_id": "86d1f0f162c3",
+    "repo": "ahn_boat_lab_town",
+    "branch": "main",
+    "path": "assets/pose/moa_tea.webp",
+    "content_title": "안보트 연구실 타운 (Ahn Lab Town)",
+    "site": "https://adminmrobo.github.io/ahn_boat_lab_town/",
+    "created": "2026-11-11",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S001",
+   "category": "sheet",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S001.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S001.png",
+   "size": [
+    1400,
+    1400
+   ],
+   "source": {
+    "gallery_id": "158a35fcdaff",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/setting_shots/k03_assistant_turnaround.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-02",
+    "also_in": [
+     "llm_applied_lab/genspark_refs/ref_k03_haru.jpg"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S002",
+   "category": "sheet",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S002.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S002.png",
+   "size": [
+    1500,
+    1500
+   ],
+   "source": {
+    "gallery_id": "38c2b8e7c7b3",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/setting_shots/k08_assistant_expressions_3x3.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S003",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S003.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S003.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "59ae5d147475",
+    "repo": "drawing_lab_03",
+    "branch": "main",
+    "path": "assets/img/d7_haru_sheet.webp",
+    "content_title": "구조 먼저 그리기 연구실 03 · 얼굴 편 — 같은 기준선, 다른 얼굴",
+    "site": "https://adminmrobo.github.io/drawing_lab_03/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading, natural adult proportions.\nMatch the attached reference images exactly (face, hair, colors, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described.\nExpression sheet: three front-view head-and-shoulders portraits of the same adult woman Haru (adult lab assistant, long straight pink hair with navy streaks and a thick navy streak down the center of the bangs, two round hair buns on top, small ahoge, big blue eyes), wearing lavender hoodie with white drawstrings over a white t-shirt, open white knee-length lab coat in a row, identical size and position.\n1) neutral face; 2) only the upper eyelids lowered to half, eyebrows unchanged — a sleepy, bored look; 3) upper eyelids lowered to half AND eyebrows raised at the outer ends with a small confident smile — a bold, self-assured look. The eye size and the eye positions are identical in all three; only the eyelids, eyebrows and mouth change. Light from the upper left.\nPlain off-white studio background.\nNo text, no letters, no numbers, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S004",
+   "category": "sheet",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S004.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S004.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "8ec5846e5c62",
+    "repo": "drawing_lab_04",
+    "branch": "main",
+    "path": "assets/img/p5_haru_sheet_b.webp",
+    "content_title": "구조 먼저 그리기 연구실 04 · 디테일 편 — 육각형 하나, 덩어리 몇 개",
+    "site": "https://adminmrobo.github.io/drawing_lab_04/",
+    "created": "2026-11-25",
+    "also_in": [
+     "drawing_lab_04/assets/img/p5_haru_sheet.webp"
+    ]
+   },
+   "prompt": "Same image, keep the same framing. Change only: in every head draw the nose in a detailed realistic way with nostrils and a shaded bridge; keep everything else simple. Still no text.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S005",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "haru",
+    "moa",
+    "sia"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S005.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S005.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "55a05d1613fb",
+    "repo": "drawing_lab_fun",
+    "branch": "main",
+    "path": "assets/img/p5_lab_reaction_sheet.webp",
+    "content_title": "구조 먼저 그리기 연구실 · 웃음 편 — 같은 구조, 웃기는 변형",
+    "site": "https://adminmrobo.github.io/drawing_lab_fun/",
+    "created": "2026-11-25",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9, a two-by-two sheet of reaction stickers.\nArt style: cute super-deformed comedy anime style, about 2.5 heads tall, clean bold lineart, flat cel colors with one soft shadow tone.\nMatch the attached reference images exactly (face, hair, colors, accessories), simplified into the SD style.\nAll characters are adults in their twenties (the Professor is an adult man in his thirties) drawn in a comedy SD style: adult personalities and adult outfits, not children; modest outfits exactly as described.\nFour SD reaction stickers on white, each with one exaggerated feature and at most one emotion symbol: top-left Haru (adult lab assistant, long straight pink hair with navy streaks and a thick navy streak down the center of the bangs, two round hair buns on top, small ahoge, big blue eyes), wearing lavender hoodie with white drawstrings over a white t-shirt, open white knee-length lab coat surprised with only the eyes huge; top-right Sia (adult maid intern, long straight jet-black hair, no headdress, gray eyes, small silver earrings), wearing charcoal-black long-sleeved maid dress, large gray bow at the collar, long white frilled apron deadpan with flat line eyes and a dot mouth; bottom-left Moa (adult maid intern, long ash-beige wavy hair, white frilled maid headband with a white ribbon over her LEFT ear, amber eyes), wearing camel knit cardigan over a white blouse, red and navy plaid bow tie, white frilled apron flustered with one big sweat drop beside her head; bottom-right the Professor (adult male scientist in his thirties, dark charcoal spiky hair with a white streak at the front, very thick black eyebrows, teal rectangular glasses), wearing white lab coat over a black vest, white shirt and black tie frozen stiff with his glasses floating slightly above his face.\nPlain white background.\nNo text, no letters, no numbers, no speech-bubble text, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character or real person.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S006",
+   "category": "sheet",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S006.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S006.png",
+   "size": [
+    512,
+    768
+   ],
+   "source": {
+    "gallery_id": "072d09114710",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/refs/haru_anime_base.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S007",
+   "category": "sheet",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S007.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S007.png",
+   "size": [
+    768,
+    682
+   ],
+   "source": {
+    "gallery_id": "af5260ef95a9",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/refs/haru_sheet.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S008",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S008.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S008.png",
+   "size": [
+    1248,
+    1872
+   ],
+   "source": {
+    "gallery_id": "67b6791f976a",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "docs/image_requests_retry2/refs/e6_2_retry_fixed.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": "Illustration, vertical 2:3.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading with a darker second shadow only in the deepest folds, natural adult proportions.\nMatch the attached reference images exactly (face, hair, colors, accessories). All characters are adults in their early twenties (the Professor is an adult man); modest outfits exactly as described.\nUpper body of Haru (adult lab assistant, long straight pink hair with navy streaks and a thick navy streak down the center of the bangs, two round hair buns on top, small ahoge, big blue eyes), wearing a plain white t-shirt and rolled-up jeans (no lab coat, no hoodie), arms crossed in front of her chest. The t-shirt folds are clearly pulled toward where the crossed arms press against the torso: diagonal tension folds from both shoulders to the forearms, gathered folds inside both bent elbows, and the fabric bunched slightly above the crossed arms.\nLight from the upper left.\nPlain off-white studio background.\nNo text, no letters, no numbers, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S009",
+   "category": "sheet",
+   "characters": [
+    "haru"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S009.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S009.png",
+   "size": [
+    600,
+    900
+   ],
+   "source": {
+    "gallery_id": "b2a194d6909e",
+    "repo": "structure_first_drawing_lab_02",
+    "branch": "main",
+    "path": "assets/refs/haru_anime_base.png",
+    "content_title": "구조 먼저 그리기 연구실 02 · 실천편 — 주름과 그림자를 직접 넣어 보기",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_02/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S010",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "fruitfly",
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S010.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S010.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "source": {
+    "gallery_id": "077ae7f18ef1",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/setting_shots/k12_size_lineup.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": []
+   },
+   "prompt": "JUPANBOT (AbaBot), a cute retro computer robot mascot, flat vector cartoon illustration, clean bold outlines, flat colors with very light soft shading. Boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs. Signature prop: a small traditional wooden abacus with red-brown beads and a horizontal divider beam, one bead above and four below on each rod. Limited palette: beige, dark green, mint green, wood brown, red-brown, gray. Size comparison lineup on a plain light background: the professor, the assistant, the fruit fly researcher and the robot standing side by side at their relative heights, the robot about knee-to-waist height of the professor. Plain flat background, no text, no letters, no numbers.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S011",
+   "category": "sheet",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S011.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S011.png",
+   "size": [
+    1400,
+    1400
+   ],
+   "source": {
+    "gallery_id": "0e008ddf364d",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/setting_shots/k02_professor_turnaround.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-02",
+    "also_in": [
+     "llm_applied_lab/genspark_refs/ref_k02_doctor.jpg"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S012",
+   "category": "sheet",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S012.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S012.png",
+   "size": [
+    1500,
+    1500
+   ],
+   "source": {
+    "gallery_id": "66f9a6581a9f",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/setting_shots/k07_professor_expressions_3x3.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S013",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "moa"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S013.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S013.webp",
+   "size": [
+    2048,
+    1152
+   ],
+   "source": {
+    "gallery_id": "132778db49b5",
+    "repo": "drawing_lab_01",
+    "branch": "main",
+    "path": "assets/img/d5_moa_six_part_sheet.webp",
+    "content_title": "그리기 연구실 01 · 기분 편 — 같은 얼굴, 다른 마음",
+    "site": "https://adminmrobo.github.io/drawing_lab_01/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading, natural adult proportions.\nMatch the attached reference images exactly (face, hair, colors, accessories). All characters are adults in their early twenties (the Professor is an adult man in his thirties, normal proportions, not chibi); modest outfits exactly as described.\nA 2x2 expression sheet of Moa (adult maid intern, long ash-beige wavy hair, white frilled maid headband with a white ribbon over her LEFT ear, amber eyes), wearing camel knit cardigan over a white blouse, red and navy plaid bow tie, white frilled apron, black skirt, upper body, same face identity in all four: top-left joyful (head tilted up, shoulders raised, hands clasped near the chest, warm light); top-right angry (leaning forward, shoulders raised, fists, light from above shadowing the eyes); bottom-left sad (head lowered, shoulders dropped, cool dim light); bottom-right surprised (shoulders jumping up, hands near the mouth, small pupils, hair slightly lifted, bright light). Thin white gaps between the four, no text.\nPlain off-white studio background or a bright clean lab interior.\nNo text, no letters, no numbers, no speech bubbles, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S014",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "moa"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S014.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S014.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "d3e01a1b7f9b",
+    "repo": "drawing_lab_03",
+    "branch": "main",
+    "path": "assets/img/d9_moa_turnaround.webp",
+    "content_title": "구조 먼저 그리기 연구실 03 · 얼굴 편 — 같은 기준선, 다른 얼굴",
+    "site": "https://adminmrobo.github.io/drawing_lab_03/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading, natural adult proportions.\nMatch the attached reference images exactly (face, hair, colors, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described.\nCharacter turnaround sheet of Moa (adult maid intern, long ash-beige wavy hair, white frilled maid headband with a white ribbon over her LEFT ear, amber eyes), wearing camel knit cardigan over a white blouse, red and navy plaid bow tie, white frilled apron, head and shoulders, three views in one row, same size: 1) front view; 2) three-quarter view turned toward the LEFT edge of the image; 3) strict side profile facing the LEFT edge of the image.\nOne faint gray horizontal guide line runs across the whole sheet at the height of the upper eyelids; the upper eyelids, nose bottoms and chins of all three faces sit at the same heights. The white ribbon is always over her LEFT ear (on the right side of the image in the front view). Light from the upper left.\nPlain off-white studio background.\nNo text, no letters, no numbers, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S015",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "sia"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S015.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S015.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "518e38d6d17b",
+    "repo": "drawing_lab_03",
+    "branch": "main",
+    "path": "assets/img/p5_sia_turnaround.webp",
+    "content_title": "구조 먼저 그리기 연구실 03 · 얼굴 편 — 같은 기준선, 다른 얼굴",
+    "site": "https://adminmrobo.github.io/drawing_lab_03/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading, natural adult proportions.\nMatch the attached reference images exactly (face, hair, colors, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described.\nCharacter turnaround sheet of Sia (adult maid intern, long straight jet-black hair, no headdress, gray eyes, small silver earrings), wearing charcoal-black long-sleeved maid dress, large gray bow at the collar, long white frilled apron, head and shoulders: front view, three-quarter view, side profile facing left, in one row, same size. The upper eyelids of all three faces sit on the same horizontal level (a faint gray guide line across the sheet is allowed), as well as the nose bottoms and chins.\nSame person in all three, adult. Light from the upper left.\nPlain off-white studio background.\nNo text, no letters, no numbers, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S016",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "moa"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S016.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S016.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "b271abfe02c9",
+    "repo": "drawing_lab_06",
+    "branch": "main",
+    "path": "assets/img/s7_4_sheet.webp",
+    "content_title": "구조 먼저 그리기 연구실 06 표정 편 — 감정 낱말보다 부품 먼저",
+    "site": "https://adminmrobo.github.io/drawing_lab_06/",
+    "created": "2026-11-27",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: high-quality anime illustration, clean confident lineart, two-tone cel shading, natural adult proportions.\nMatch the attached reference images exactly (face shape, hair, colors, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described.\nLayout: an expression sheet of 12 bust portraits of the same character in 3 rows of 4, identical framing, plain white background, thin light-gray borders.\nCharacter: Moa (adult intern in her twenties, long ash-beige wavy hair, EXACTLY ONE white frilled maid headband and ONE white ribbon over her LEFT ear (viewer's right side), amber eyes), wearing camel knit cardigan over a white blouse, red and navy plaid bow tie, white frilled apron. Expression: in reading order: neutral, gentle smile, joy, shy, surprise, startled affection, serious, anger, sadness, bittersweet, panic, sleepy; headband and left-ear ribbon identical in all twelve\nPlain off-white studio background, soft even front light.\nNo text, no letters, no numbers, no logos, no watermark, no speech bubbles, no revealing clothing, not childlike, no school uniform, not resembling any famous anime character.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S017",
+   "category": "sheet",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S017.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S017.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "ad06f83ee635",
+    "repo": "drawing_lab_fun",
+    "branch": "main",
+    "path": "assets/img/p5_lab_reaction_sheet_b.webp",
+    "content_title": "구조 먼저 그리기 연구실 · 웃음 편 — 같은 구조, 웃기는 변형",
+    "site": "https://adminmrobo.github.io/drawing_lab_fun/",
+    "created": "2026-11-25",
+    "also_in": []
+   },
+   "prompt": "(새 대화, 참고 그림 첨부하지 않음) Illustration, wide 16:9, a two-by-two sheet of funny reaction stickers of four lab members: a pink-haired assistant, a black-haired maid, a beige-haired maid and a scientist with glasses. Cute chibi comedy style. Adults. No text.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S018",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "moa"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S018.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S018.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "d4aa28e36c97",
+    "repo": "drawing_lab_fun_02",
+    "branch": "main",
+    "path": "assets/img/d6d_moa_sheet.webp",
+    "content_title": "구조 먼저 그리기 연구실 · 웃음 편 2 · 베리에이션 — 같은 캐릭터, 다른 그림",
+    "site": "https://adminmrobo.github.io/drawing_lab_fun_02/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: clean modern anime illustration, confident lineart, two-tone cel shading, natural adult proportions\nMatch the attached reference images exactly for identity (hair shape and color, eye color, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described. Only the drawing style changes between panels; the person stays the same.\nA clean character model sheet of Moa (adult maid intern, long ash-beige wavy hair, white frilled maid headband with a white ribbon over her LEFT ear, amber eyes), wearing camel knit cardigan over a white blouse, red and navy plaid bow tie, white frilled apron: front, side and back full-body views on the left; five small face expressions (neutral, smile, surprised, troubled, angry) on the upper right; close-ups of the frilled headband and the white ribbon over her LEFT ear on the lower right; small blank label boxes with no text.\nPlain white background.\nNo text, no letters, no numbers, no calligraphy, no seals or stamps, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any existing anime, comic or game character, do not imitate any specific artist or studio.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S019",
+   "category": "sheet",
+   "characters": [
+    "doctor",
+    "sia"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S019.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S019.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "d09a016023af",
+    "repo": "drawing_lab_fun_02",
+    "branch": "main",
+    "path": "assets/img/p6_sia_sheet.webp",
+    "content_title": "구조 먼저 그리기 연구실 · 웃음 편 2 · 베리에이션 — 같은 캐릭터, 다른 그림",
+    "site": "https://adminmrobo.github.io/drawing_lab_fun_02/",
+    "created": "2026-11-26",
+    "also_in": []
+   },
+   "prompt": "Illustration, wide 16:9.\nArt style: clean modern anime illustration, confident lineart, two-tone cel shading, natural adult proportions; layout: front, side and back full-body views on the left; five small face expressions (neutral, smile, surprised, troubled, angry) on the upper right; close-ups of her hair and silver earring on the lower right; small blank label boxes with no text in them\nMatch the attached reference images exactly for identity (hair shape and color, eye color, accessories). All characters are adults in their twenties (the Professor is an adult man in his thirties); modest outfits exactly as described. Only the drawing style changes between panels; the person stays the same.\nA clean character model sheet of Sia (adult maid intern, long straight jet-black hair, no headdress, gray eyes, small silver earrings), wearing charcoal-black long-sleeved maid dress, large gray bow at the collar, long white frilled apron.\nPlain white background behind the panels.\nNo text, no letters, no numbers, no calligraphy, no seals or stamps, no logos, no watermark, no revealing clothing, not childlike, no school uniform, not resembling any existing anime, comic or game character, do not imitate any specific artist or studio.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S020",
+   "category": "sheet",
+   "characters": [
+    "doctor"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S020.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S020.png",
+   "size": [
+    768,
+    683
+   ],
+   "source": {
+    "gallery_id": "8549d46abac7",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/refs/doctor_sheet.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S021",
+   "category": "sheet",
+   "characters": [
+    "jupanbot"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S021.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S021.png",
+   "size": [
+    768,
+    768
+   ],
+   "source": {
+    "gallery_id": "9457b4611d13",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/refs/jupanbot_ref_genspark_v0.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S022",
+   "category": "sheet",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S022.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S022.png",
+   "size": [
+    1400,
+    1400
+   ],
+   "source": {
+    "gallery_id": "08d96f71144d",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/setting_shots/k04_fly_turnaround.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-02",
+    "also_in": [
+     "llm_applied_lab/genspark_refs/ref_k04_fly.jpg"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S023",
+   "category": "sheet",
+   "characters": [
+    "fruitfly"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S023.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S023.png",
+   "size": [
+    1500,
+    1500
+   ],
+   "source": {
+    "gallery_id": "6b8c19f30736",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/setting_shots/k09_fly_expressions_3x3.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-02",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S024",
+   "category": "sheet",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S024.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S024.webp",
+   "size": [
+    1200,
+    675
+   ],
+   "source": {
+    "gallery_id": "7885c5bef2bc",
+    "repo": "drawing_lab_03",
+    "branch": "main",
+    "path": "assets/img/p5_sia_turnaround_b.webp",
+    "content_title": "구조 먼저 그리기 연구실 03 · 얼굴 편 — 같은 기준선, 다른 얼굴",
+    "site": "https://adminmrobo.github.io/drawing_lab_03/",
+    "created": "2026-11-24",
+    "also_in": []
+   },
+   "prompt": "Make three separate images in three NEW conversations (one each: front view / three-quarter view / side profile of Sia), with no mention of shared guide lines. Then place the three results side by side.",
+   "negative": "",
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S025",
+   "category": "sheet",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S025.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S025.png",
+   "size": [
+    768,
+    579
+   ],
+   "source": {
+    "gallery_id": "5b90e7c3acfb",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/refs/sia_sheet.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S026",
+   "category": "sheet",
+   "characters": [
+    "sia"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S026.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S026.png",
+   "size": [
+    600,
+    900
+   ],
+   "source": {
+    "gallery_id": "c7d5384af861",
+    "repo": "structure_first_drawing_lab_02",
+    "branch": "main",
+    "path": "assets/refs/sia_anime_base.png",
+    "content_title": "구조 먼저 그리기 연구실 02 · 실천편 — 주름과 그림자를 직접 넣어 보기",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_02/",
+    "created": "2026-11-24",
+    "also_in": [
+     "structure_first_drawing_lab_01/assets/refs/sia_anime_base.png"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S027",
+   "category": "sheet",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S027.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S027.png",
+   "size": [
+    768,
+    579
+   ],
+   "source": {
+    "gallery_id": "de2c7854a969",
+    "repo": "structure_first_drawing_lab_01",
+    "branch": "main",
+    "path": "assets/refs/moa_sheet.png",
+    "content_title": "구조 먼저 그리기 연구실 01 · 옷장 편 — 같은 원리, 다른 옷",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_01/",
+    "created": "2026-11-23",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S028",
+   "category": "sheet",
+   "characters": [
+    "moa"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S028.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S028.png",
+   "size": [
+    600,
+    900
+   ],
+   "source": {
+    "gallery_id": "4b4484f91bab",
+    "repo": "structure_first_drawing_lab_02",
+    "branch": "main",
+    "path": "assets/refs/moa_anime_base.png",
+    "content_title": "구조 먼저 그리기 연구실 02 · 실천편 — 주름과 그림자를 직접 넣어 보기",
+    "site": "https://adminmrobo.github.io/structure_first_drawing_lab_02/",
+    "created": "2026-11-24",
+    "also_in": [
+     "structure_first_drawing_lab_01/assets/refs/moa_anime_base.png"
+    ]
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S029",
+   "category": "sheet",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S029.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S029.png",
+   "size": [
+    1400,
+    1400
+   ],
+   "source": {
+    "gallery_id": "96c5c976658e",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/setting_shots/k05_moneyrobo_turnaround.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S030",
+   "category": "sheet",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S030.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S030.png",
+   "size": [
+    1500,
+    1500
+   ],
+   "source": {
+    "gallery_id": "fbb6184e7717",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/setting_shots/k06_moneyrobo_expressions_3x3.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  },
+  {
+   "id": "GX-S031",
+   "category": "sheet",
+   "characters": [
+    "money_robo"
+   ],
+   "image_file": "images/gallery_import/sheets/GX-S031.webp",
+   "original_file": "images/_sheets/gallery_import/sheets/GX-S031.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "source": {
+    "gallery_id": "c5bf8dad7bdd",
+    "repo": "ahnboat_lab_explainer",
+    "branch": "main",
+    "path": "packs/character/archive/money_robo/setting_shots/k11_moneyrobo_poses.png",
+    "content_title": "ahnboat_lab_explainer — 연구실 해설 대시보드 스킬과 팩",
+    "site": "",
+    "created": "2026-11-04",
+    "also_in": []
+   },
+   "prompt": null,
+   "negative": null,
+   "prompt_is_summary": false,
+   "prompt_from_sheet": false
+  }
+ ]
+}
