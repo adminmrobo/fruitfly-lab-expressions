@@ -177,13 +177,13 @@ git push -u origin main
 - 말풍선은 그림에서 비워 두고 대사는 페이지에서 글자로 얹습니다. 패러디는 말투만 빌리고 다른 작품의 인물·의상은 쓰지 않습니다.
 - 현재 상태: 6장 **승인(approved, 2026-11-16)**, 사용처 optimization_3d_map `first_step_1.html`·`first_step_2.html`.
 
-## 폰 배경 셀카 3컷 (phone v1.4, 2026-11-19)
+## 폰 배경 셀카 3컷 (phone v1.5, 2026-11-27)
 여성 캐릭터 **하루·시아·모아**의 세로 폰 배경(9:16) 3컷 만화입니다 — P1 만세 → P2 옆모습 놀람 → P3 셀카 브이 클로즈업. 캐릭터마다 **픽셀판 1장 + 벡터판 4장**(장비 옵션 G0 없음·G1 헤드셋·G2 마스크·G3 안전모), 모두 15장.
 - 갤러리 페이지: [phone.html](https://adminmrobo.github.io/fruitfly-lab-expressions/phone.html)
 - 그림: `images/phone/{캐릭터}/PH1_selfie3_{pixel|vector}[_G#_장비].png` (컷별 잘라 낸 그림 `PH1_p1~p3_…`)
 - 명세: `specs/phone/README.md` · 설정값: `specs/phone/phone.json` · 프롬프트: `specs/phone/PROMPTS.md`
 - 맨 위 12%는 잠금화면 시계 자리로 비우고, 대사는 그림에 넣지 않습니다. 참고 이미지는 컷 구성만 빌리고 그 작품 캐릭터의 요소는 쓰지 않습니다. 헤드셋은 일반 디자인(둥근 이어컵)이면 허용, 안전모는 공장 벡터 U01과 같은 노란 안전모.
-- 현재 상태: 15장 **generated** (2026-11-19, 768×1360) + 컷 45장. 남은 재생성은 5장(하루 G0·G1·G2, 모아 G2·G3, P3 팔 3~4개 — P3만 단독 생성해 끼워 넣기: `specs/phone/PROMPTS_p3_fix.md`) + 선택 1장(모아 G1, 벡터판인데 픽셀풍) — 하루·모아 P3는 v1.3부터 삼각대 타이머 촬영
+- 현재 상태: 15장 **generated** (2026-11-19, 768×1360) + 컷 45장. P3 팔 3~4개였던 5장(하루 G0·G1·G2, 모아 G2·G3)은 2026-11-27 P3만 단독 재생성해 고침(`specs/phone/PROMPTS_p3_fix.md`, 원본 `images/_sheets/phone/p3_regen/`); 남은 선택 재생성 1장(모아 G1, 벡터판인데 픽셀풍) — 하루·모아 P3는 v1.3부터 삼각대 타이머 촬영
 
 ## 갤러리 가져오기 — 표정·포즈·설정 시트 (gallery_import v1.0, 2026-11-27)
 연구실 식구 갤러리([ahnboat_lab_gallery](https://adminmrobo.github.io/ahnboat_lab_gallery/))에서 이 라이브러리에 없는 그림을 골라 복사해 온 일곱 번째 축입니다. 표정 69장(`GX-E###`) · 포즈 26장(`GX-P###`) · 설정 시트 31장(`GX-S###`), 모두 126장. 3D 좌표용 자료(`GX-C###`)는 다음 묶음으로 추가 예정입니다.

@@ -81,3 +81,5 @@ DB: `db/fruitfly_character_db_v1.12_2026-11-19.xlsx`의 `phone_vector` 탭 (15�
 - 프롬프트: [`PROMPTS_p3_fix.md`](PROMPTS_p3_fix.md) — 정수리~가슴 위 구도, 팔꿈치는 화면 밖, 두 소매는 아래 가장자리 가운데에서 곧게 올라옴, 옆·모서리로 뻗는 소매 없음
 - 끼워 넣기: `python3 specs/phone/tools/replace_p3.py <3컷 PNG> <새 P3 PNG>` (아래 칸 테두리 안쪽만 바꾸고 `PH1_p3_…` 컷도 함께 갱신)
 
+**반영 (2026-11-27, v1.5):** 5장의 P3를 단독으로 다시 받아(1200×1000) 아래 칸에 끼워 넣었습니다. 5장 모두 팔 2개로 정상입니다. 생성 원본은 `images/_sheets/phone/p3_regen/`에 있습니다. 남은 재생성은 모아 G1(선택, 벡터판인데 픽셀풍)뿐입니다.
+
